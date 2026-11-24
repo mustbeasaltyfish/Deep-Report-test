@@ -730,7 +730,7 @@ def search():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    from jina2 import JinaDenseRetriever
+    from jina_embeddings import JinaDenseRetriever
 
     os.makedirs(os.path.dirname(LOG_FILE) if os.path.dirname(LOG_FILE) else "logs", exist_ok=True)
     logger.add(LOG_FILE, rotation=LOG_ROTATION)

@@ -1,0 +1,19 @@
+{
+  "task_uid": "RP032",
+  "section_index": 0,
+  "image_slot": "img1",
+  "image_uid": "ec05e656b238dc2aebf5d2d22224372d",
+  "image_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_118119.png",
+  "equivalent_image_uids": [],
+  "clarification": "The headline calls 29% in 2017 and 27% in 2024 similar. This is a measure of stated belief in astrology, distinct from consultation frequency. The dash next to the Jewish row covers 2017 only; the 2024 column shows 18%.",
+  "verified_detail": "Explain the table's comparison of 29% versus 27% as broadly similar stated belief rather than a general rise, or identify the 2017-only missing Jewish estimate and distinguish it from the 2024 value.",
+  "rationale": "The section uses the 2024 Pew survey to contextualize media reports of rising interest. The first table is directly relevant. The caption omits the 2017-only scope of the missing-estimate note.",
+  "replacements_by_uid": {
+    "ec05e656b238dc2aebf5d2d22224372d": [
+      [
+        "No estimates for Jewish Americans are shown due to small sample size.",
+        "The 2017 Jewish estimate is suppressed because of the small sample; the 2024 estimate is 18%."
+      ]
+    ]
+  }
+}

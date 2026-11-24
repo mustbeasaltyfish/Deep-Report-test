@@ -1,0 +1,1276 @@
+[
+  {
+    "uid": "AL015",
+    "domain": "AI",
+    "arm": "A",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 8968,
+      "total_tokens": 9527,
+      "completion_tokens": 559,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 4
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.34288330716902143,
+    "report_image": 1.0,
+    "report_overall": 0.6714416535845107,
+    "report_image_count": 3,
+    "report_image_sections": 3,
+    "report_sections": 7,
+    "report_image_coverage": 0.42857142857142855,
+    "contexts": []
+  },
+  {
+    "uid": "AL015",
+    "domain": "AI",
+    "arm": "B",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 9208,
+      "total_tokens": 9864,
+      "completion_tokens": 656,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.2,
+      "found": 1,
+      "used": 5
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.37145473574045,
+    "report_image": 1.0,
+    "report_overall": 0.685727367870225,
+    "report_image_count": 3,
+    "report_image_sections": 3,
+    "report_sections": 7,
+    "report_image_coverage": 0.42857142857142855,
+    "contexts": []
+  },
+  {
+    "uid": "AL015",
+    "domain": "AI",
+    "arm": "C",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 9030,
+      "total_tokens": 9762,
+      "completion_tokens": 732,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.4,
+      "found": 2,
+      "used": 5
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.40002616431187865,
+    "report_image": 1.0,
+    "report_overall": 0.7000130821559394,
+    "report_image_count": 3,
+    "report_image_sections": 3,
+    "report_sections": 7,
+    "report_image_coverage": 0.42857142857142855,
+    "contexts": []
+  },
+  {
+    "uid": "AL015",
+    "domain": "AI",
+    "arm": "D",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 9270,
+      "total_tokens": 9954,
+      "completion_tokens": 684,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.4,
+      "found": 2,
+      "used": 5
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.40002616431187865,
+    "report_image": 1.0,
+    "report_overall": 0.7000130821559394,
+    "report_image_count": 3,
+    "report_image_sections": 3,
+    "report_sections": 7,
+    "report_image_coverage": 0.42857142857142855,
+    "contexts": []
+  },
+  {
+    "uid": "FP025",
+    "domain": "Finance",
+    "arm": "A",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 9885,
+      "total_tokens": 10578,
+      "completion_tokens": 693,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.75,
+      "found": 3,
+      "used": 4
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.4361111111111111,
+    "report_image": 1.0,
+    "report_overall": 0.7180555555555556,
+    "report_image_count": 2,
+    "report_image_sections": 2,
+    "report_sections": 6,
+    "report_image_coverage": 0.3333333333333333,
+    "contexts": []
+  },
+  {
+    "uid": "FP025",
+    "domain": "Finance",
+    "arm": "B",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 10016,
+      "total_tokens": 10654,
+      "completion_tokens": 638,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.6,
+      "found": 3,
+      "used": 5
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.41111111111111115,
+    "report_image": 1.0,
+    "report_overall": 0.7055555555555556,
+    "report_image_count": 2,
+    "report_image_sections": 2,
+    "report_sections": 6,
+    "report_image_coverage": 0.3333333333333333,
+    "contexts": []
+  },
+  {
+    "uid": "FP025",
+    "domain": "Finance",
+    "arm": "C",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 9947,
+      "total_tokens": 10608,
+      "completion_tokens": 661,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.75,
+      "found": 3,
+      "used": 4
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.4361111111111111,
+    "report_image": 1.0,
+    "report_overall": 0.7180555555555556,
+    "report_image_count": 2,
+    "report_image_sections": 2,
+    "report_sections": 6,
+    "report_image_coverage": 0.3333333333333333,
+    "contexts": []
+  },
+  {
+    "uid": "FP025",
+    "domain": "Finance",
+    "arm": "D",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 10078,
+      "total_tokens": 10697,
+      "completion_tokens": 619,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.6,
+      "found": 3,
+      "used": 5
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.41111111111111115,
+    "report_image": 1.0,
+    "report_overall": 0.7055555555555556,
+    "report_image_count": 2,
+    "report_image_sections": 2,
+    "report_sections": 6,
+    "report_image_coverage": 0.3333333333333333,
+    "contexts": []
+  },
+  {
+    "uid": "GM126",
+    "domain": "Geography",
+    "arm": "A",
+    "section_index": 0,
+    "target": false,
+    "any": true,
+    "image_slots": [
+      "img7"
+    ],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 6737,
+      "total_tokens": 7192,
+      "completion_tokens": 455,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.3333333333333333,
+      "found": 3,
+      "used": 9
+    },
+    "section_image": {
+      "precision": 1.0,
+      "found": 1,
+      "used": 1
+    },
+    "report_text": 0.5748299319727891,
+    "report_image": 1.0,
+    "report_overall": 0.7874149659863945,
+    "report_image_count": 1,
+    "report_image_sections": 1,
+    "report_sections": 7,
+    "report_image_coverage": 0.14285714285714285,
+    "contexts": []
+  },
+  {
+    "uid": "GM126",
+    "domain": "Geography",
+    "arm": "B",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 6957,
+      "total_tokens": 7452,
+      "completion_tokens": 495,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.5,
+      "found": 2,
+      "used": 4
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.5986394557823129,
+    "report_image": 0.0,
+    "report_overall": 0.29931972789115646,
+    "report_image_count": 0,
+    "report_image_sections": 0,
+    "report_sections": 7,
+    "report_image_coverage": 0.0,
+    "contexts": []
+  },
+  {
+    "uid": "GM126",
+    "domain": "Geography",
+    "arm": "C",
+    "section_index": 0,
+    "target": false,
+    "any": true,
+    "image_slots": [
+      "img7"
+    ],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 6799,
+      "total_tokens": 7364,
+      "completion_tokens": 565,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.125,
+      "found": 1,
+      "used": 8
+    },
+    "section_image": {
+      "precision": 1.0,
+      "found": 1,
+      "used": 1
+    },
+    "report_text": 0.5450680272108844,
+    "report_image": 1.0,
+    "report_overall": 0.7725340136054422,
+    "report_image_count": 1,
+    "report_image_sections": 1,
+    "report_sections": 7,
+    "report_image_coverage": 0.14285714285714285,
+    "contexts": []
+  },
+  {
+    "uid": "GM126",
+    "domain": "Geography",
+    "arm": "D",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 7019,
+      "total_tokens": 7562,
+      "completion_tokens": 543,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.3333333333333333,
+      "found": 2,
+      "used": 6
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.5748299319727891,
+    "report_image": 0.0,
+    "report_overall": 0.28741496598639454,
+    "report_image_count": 0,
+    "report_image_sections": 0,
+    "report_sections": 7,
+    "report_image_coverage": 0.0,
+    "contexts": []
+  },
+  {
+    "uid": "HO010",
+    "domain": "Health",
+    "arm": "A",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 12090,
+      "total_tokens": 12587,
+      "completion_tokens": 497,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 7
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.4146825396825397,
+    "report_image": 0.6666666666666666,
+    "report_overall": 0.5406746031746031,
+    "report_image_count": 4,
+    "report_image_sections": 2,
+    "report_sections": 6,
+    "report_image_coverage": 0.3333333333333333,
+    "contexts": []
+  },
+  {
+    "uid": "HO010",
+    "domain": "Health",
+    "arm": "B",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 12149,
+      "total_tokens": 12725,
+      "completion_tokens": 576,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 6
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.4146825396825397,
+    "report_image": 0.6666666666666666,
+    "report_overall": 0.5406746031746031,
+    "report_image_count": 4,
+    "report_image_sections": 2,
+    "report_sections": 6,
+    "report_image_coverage": 0.3333333333333333,
+    "contexts": []
+  },
+  {
+    "uid": "HO010",
+    "domain": "Health",
+    "arm": "C",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 12152,
+      "total_tokens": 12657,
+      "completion_tokens": 505,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 7
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.4146825396825397,
+    "report_image": 0.6666666666666666,
+    "report_overall": 0.5406746031746031,
+    "report_image_count": 4,
+    "report_image_sections": 2,
+    "report_sections": 6,
+    "report_image_coverage": 0.3333333333333333,
+    "contexts": []
+  },
+  {
+    "uid": "HO010",
+    "domain": "Health",
+    "arm": "D",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 12211,
+      "total_tokens": 12818,
+      "completion_tokens": 607,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.1111111111111111,
+      "found": 1,
+      "used": 9
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.4332010582010582,
+    "report_image": 0.6666666666666666,
+    "report_overall": 0.5499338624338624,
+    "report_image_count": 4,
+    "report_image_sections": 2,
+    "report_sections": 6,
+    "report_image_coverage": 0.3333333333333333,
+    "contexts": []
+  },
+  {
+    "uid": "HiC106",
+    "domain": "History",
+    "arm": "A",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 6989,
+      "total_tokens": 7530,
+      "completion_tokens": 541,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.6,
+      "found": 3,
+      "used": 5
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.5464285714285715,
+    "report_image": 0.0,
+    "report_overall": 0.27321428571428574,
+    "report_image_count": 0,
+    "report_image_sections": 0,
+    "report_sections": 4,
+    "report_image_coverage": 0.0,
+    "contexts": []
+  },
+  {
+    "uid": "HiC106",
+    "domain": "History",
+    "arm": "B",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 7051,
+      "total_tokens": 7600,
+      "completion_tokens": 549,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.5,
+      "found": 2,
+      "used": 4
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.5214285714285715,
+    "report_image": 0.0,
+    "report_overall": 0.26071428571428573,
+    "report_image_count": 0,
+    "report_image_sections": 0,
+    "report_sections": 4,
+    "report_image_coverage": 0.0,
+    "contexts": []
+  },
+  {
+    "uid": "HiC106",
+    "domain": "History",
+    "arm": "C",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 7051,
+      "total_tokens": 7785,
+      "completion_tokens": 734,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.6666666666666666,
+      "found": 4,
+      "used": 6
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.5630952380952381,
+    "report_image": 0.0,
+    "report_overall": 0.28154761904761905,
+    "report_image_count": 0,
+    "report_image_sections": 0,
+    "report_sections": 4,
+    "report_image_coverage": 0.0,
+    "contexts": []
+  },
+  {
+    "uid": "HiC106",
+    "domain": "History",
+    "arm": "D",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 7113,
+      "total_tokens": 7811,
+      "completion_tokens": 698,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.5714285714285714,
+      "found": 4,
+      "used": 7
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.5392857142857143,
+    "report_image": 0.0,
+    "report_overall": 0.26964285714285713,
+    "report_image_count": 0,
+    "report_image_sections": 0,
+    "report_sections": 4,
+    "report_image_coverage": 0.0,
+    "contexts": []
+  },
+  {
+    "uid": "HuO056",
+    "domain": "Humanity",
+    "arm": "A",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 6429,
+      "total_tokens": 6885,
+      "completion_tokens": 456,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.6,
+      "found": 3,
+      "used": 5
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.2928571428571428,
+    "report_image": 0.0,
+    "report_overall": 0.1464285714285714,
+    "report_image_count": 1,
+    "report_image_sections": 1,
+    "report_sections": 4,
+    "report_image_coverage": 0.25,
+    "contexts": []
+  },
+  {
+    "uid": "HuO056",
+    "domain": "Humanity",
+    "arm": "B",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 6499,
+      "total_tokens": 7069,
+      "completion_tokens": 570,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.6,
+      "found": 3,
+      "used": 5
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.2928571428571428,
+    "report_image": 0.0,
+    "report_overall": 0.1464285714285714,
+    "report_image_count": 1,
+    "report_image_sections": 1,
+    "report_sections": 4,
+    "report_image_coverage": 0.25,
+    "contexts": []
+  },
+  {
+    "uid": "HuO056",
+    "domain": "Humanity",
+    "arm": "C",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 6491,
+      "total_tokens": 6974,
+      "completion_tokens": 483,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.6,
+      "found": 3,
+      "used": 5
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.2928571428571428,
+    "report_image": 0.0,
+    "report_overall": 0.1464285714285714,
+    "report_image_count": 1,
+    "report_image_sections": 1,
+    "report_sections": 4,
+    "report_image_coverage": 0.25,
+    "contexts": []
+  },
+  {
+    "uid": "HuO056",
+    "domain": "Humanity",
+    "arm": "D",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 6561,
+      "total_tokens": 7015,
+      "completion_tokens": 454,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.75,
+      "found": 3,
+      "used": 4
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.33035714285714285,
+    "report_image": 0.0,
+    "report_overall": 0.16517857142857142,
+    "report_image_count": 1,
+    "report_image_sections": 1,
+    "report_sections": 4,
+    "report_image_coverage": 0.25,
+    "contexts": []
+  },
+  {
+    "uid": "RP032",
+    "domain": "Religion",
+    "arm": "A",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 9897,
+      "total_tokens": 10391,
+      "completion_tokens": 494,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.3333333333333333,
+      "found": 1,
+      "used": 3
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.34095238095238095,
+    "report_image": 0.0,
+    "report_overall": 0.17047619047619048,
+    "report_image_count": 1,
+    "report_image_sections": 1,
+    "report_sections": 5,
+    "report_image_coverage": 0.2,
+    "contexts": []
+  },
+  {
+    "uid": "RP032",
+    "domain": "Religion",
+    "arm": "B",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 9982,
+      "total_tokens": 10354,
+      "completion_tokens": 372,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.5,
+      "found": 1,
+      "used": 2
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.3742857142857143,
+    "report_image": 0.0,
+    "report_overall": 0.18714285714285714,
+    "report_image_count": 1,
+    "report_image_sections": 1,
+    "report_sections": 5,
+    "report_image_coverage": 0.2,
+    "contexts": []
+  },
+  {
+    "uid": "RP032",
+    "domain": "Religion",
+    "arm": "C",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 9959,
+      "total_tokens": 10511,
+      "completion_tokens": 552,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.25,
+      "found": 1,
+      "used": 4
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.3242857142857143,
+    "report_image": 0.0,
+    "report_overall": 0.16214285714285714,
+    "report_image_count": 1,
+    "report_image_sections": 1,
+    "report_sections": 5,
+    "report_image_coverage": 0.2,
+    "contexts": []
+  },
+  {
+    "uid": "RP032",
+    "domain": "Religion",
+    "arm": "D",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 10044,
+      "total_tokens": 10414,
+      "completion_tokens": 370,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.3333333333333333,
+      "found": 1,
+      "used": 3
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.34095238095238095,
+    "report_image": 0.0,
+    "report_overall": 0.17047619047619048,
+    "report_image_count": 1,
+    "report_image_sections": 1,
+    "report_sections": 5,
+    "report_image_coverage": 0.2,
+    "contexts": []
+  },
+  {
+    "uid": "SS035",
+    "domain": "Science",
+    "arm": "A",
+    "section_index": 0,
+    "target": true,
+    "any": true,
+    "image_slots": [
+      "img1"
+    ],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 8312,
+      "total_tokens": 8874,
+      "completion_tokens": 562,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.5,
+      "found": 3,
+      "used": 6
+    },
+    "section_image": {
+      "precision": 1.0,
+      "found": 1,
+      "used": 1
+    },
+    "report_text": 0.30892857142857144,
+    "report_image": 1.0,
+    "report_overall": 0.6544642857142857,
+    "report_image_count": 2,
+    "report_image_sections": 2,
+    "report_sections": 4,
+    "report_image_coverage": 0.5,
+    "contexts": [
+      "…\n\nThe process of hydrogen fusion into helium is the foundation of a star’s life cycle, setting the stage for the more complex fusion processes that occur in later evolutionary stages. As a star ages, the hydrogen in its core is gradually consumed, leading to changes in its internal structure and energy production. Understanding these early stages is essential for comprehending the full scope of stellar evolution and the ultimate fate of stars like the Sun [citation:txt8].\n\n![](citation:img1)\n\n…"
+    ]
+  },
+  {
+    "uid": "SS035",
+    "domain": "Science",
+    "arm": "B",
+    "section_index": 0,
+    "target": false,
+    "any": true,
+    "image_slots": [
+      "img2"
+    ],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 8438,
+      "total_tokens": 9113,
+      "completion_tokens": 675,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.6,
+      "found": 3,
+      "used": 5
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 1
+    },
+    "report_text": 0.3339285714285714,
+    "report_image": 0.5,
+    "report_overall": 0.4169642857142857,
+    "report_image_count": 2,
+    "report_image_sections": 2,
+    "report_sections": 4,
+    "report_image_coverage": 0.5,
+    "contexts": []
+  },
+  {
+    "uid": "SS035",
+    "domain": "Science",
+    "arm": "C",
+    "section_index": 0,
+    "target": false,
+    "any": true,
+    "image_slots": [
+      "img8"
+    ],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 8374,
+      "total_tokens": 8954,
+      "completion_tokens": 580,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.2857142857142857,
+      "found": 2,
+      "used": 7
+    },
+    "section_image": {
+      "precision": 1.0,
+      "found": 1,
+      "used": 1
+    },
+    "report_text": 0.25535714285714284,
+    "report_image": 1.0,
+    "report_overall": 0.6276785714285714,
+    "report_image_count": 2,
+    "report_image_sections": 2,
+    "report_sections": 4,
+    "report_image_coverage": 0.5,
+    "contexts": []
+  },
+  {
+    "uid": "SS035",
+    "domain": "Science",
+    "arm": "D",
+    "section_index": 0,
+    "target": false,
+    "any": true,
+    "image_slots": [
+      "img8"
+    ],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 8500,
+      "total_tokens": 9109,
+      "completion_tokens": 609,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.25,
+      "found": 1,
+      "used": 4
+    },
+    "section_image": {
+      "precision": 1.0,
+      "found": 1,
+      "used": 1
+    },
+    "report_text": 0.24642857142857144,
+    "report_image": 1.0,
+    "report_overall": 0.6232142857142857,
+    "report_image_count": 2,
+    "report_image_sections": 2,
+    "report_sections": 4,
+    "report_image_coverage": 0.5,
+    "contexts": []
+  },
+  {
+    "uid": "SP011",
+    "domain": "Social",
+    "arm": "A",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 8184,
+      "total_tokens": 8669,
+      "completion_tokens": 485,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.2857142857142857,
+      "found": 2,
+      "used": 7
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.5013227513227513,
+    "report_image": 1.0,
+    "report_overall": 0.7506613756613756,
+    "report_image_count": 1,
+    "report_image_sections": 1,
+    "report_sections": 6,
+    "report_image_coverage": 0.16666666666666666,
+    "contexts": []
+  },
+  {
+    "uid": "SP011",
+    "domain": "Social",
+    "arm": "B",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 8261,
+      "total_tokens": 8857,
+      "completion_tokens": 596,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.3333333333333333,
+      "found": 1,
+      "used": 3
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.5092592592592592,
+    "report_image": 1.0,
+    "report_overall": 0.7546296296296295,
+    "report_image_count": 1,
+    "report_image_sections": 1,
+    "report_sections": 6,
+    "report_image_coverage": 0.16666666666666666,
+    "contexts": []
+  },
+  {
+    "uid": "SP011",
+    "domain": "Social",
+    "arm": "C",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 8246,
+      "total_tokens": 8742,
+      "completion_tokens": 496,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.42857142857142855,
+      "found": 3,
+      "used": 7
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.5251322751322751,
+    "report_image": 1.0,
+    "report_overall": 0.7625661375661376,
+    "report_image_count": 1,
+    "report_image_sections": 1,
+    "report_sections": 6,
+    "report_image_coverage": 0.16666666666666666,
+    "contexts": []
+  },
+  {
+    "uid": "SP011",
+    "domain": "Social",
+    "arm": "D",
+    "section_index": 0,
+    "target": false,
+    "any": false,
+    "image_slots": [],
+    "unresolved": [],
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 8323,
+      "total_tokens": 8906,
+      "completion_tokens": 583,
+      "prompt_tokens_details": null
+    },
+    "section_text": {
+      "precision": 0.3333333333333333,
+      "found": 1,
+      "used": 3
+    },
+    "section_image": {
+      "precision": 0.0,
+      "found": 0,
+      "used": 0
+    },
+    "report_text": 0.5092592592592592,
+    "report_image": 1.0,
+    "report_overall": 0.7546296296296295,
+    "report_image_count": 1,
+    "report_image_sections": 1,
+    "report_sections": 6,
+    "report_image_coverage": 0.16666666666666666,
+    "contexts": []
+  }
+]

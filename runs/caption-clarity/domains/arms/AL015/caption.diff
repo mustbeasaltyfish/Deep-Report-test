@@ -1,0 +1,46 @@
+--- A
++++ B
+@@ -166,7 +166,9 @@
+ - **Annotations:**
+   - Text annotations describe each component and process step, aiding in understanding the methodology.
+ 
+-This structured approach highlights the integration of supervised and semi-supervised learning techniques to improve image classification and change detection efficiency.]
++This structured approach highlights the integration of supervised and semi-supervised learning techniques to improve image classification and change detection efficiency.
++
++The upper supervised panel sends the labeled dataset into the change-detection networks to produce predictions. In the lower panel the networks are first trained on the labeled portion, then shared weights are used on the unlabeled branch; pseudo-label predictions and true-label predictions both feed the consistency-training block on the right.]
+ 
+ [Source img2: Coarse-grained Description:
+ - The image presents a comparative overview of supervised and semi-supervised learning processes for change detection in satellite imagery.
+@@ -204,7 +206,9 @@
+ **Annotations:**
+ - Arrows indicate data flow and interactions between components.
+ - Highlighted sections show key differences in approach, such as the use of pseudo-labeling in semi-supervised learning.
+-- The image uses color coding to distinguish between different components and processes.]
++- The image uses color coding to distinguish between different components and processes.
++
++The upper supervised panel sends the labeled dataset into the change-detection networks to produce predictions. In the lower panel the networks are first trained on the labeled portion, then shared weights are used on the unlabeled branch; pseudo-label predictions and true-label predictions both feed the consistency-training block on the right.]
+ 
+ [Source img3: ### Coarse-grained Description:
+ The image illustrates a two-step machine learning process involving self-supervised pretraining and supervised downstream task learning. It depicts the flow from using unlabeled data in the source domain to generating supervisory signals, followed by applying these signals to perform a pretext task. The learned features are then transferred to a target domain with labeled data for further fine-tuning and solving a downstream task.
+@@ -266,7 +270,9 @@
+ - The image uses dashed and solid lines to differentiate between labeled and pseudo-labeled data flows.
+ - The diagram highlights the iterative nature of semi-supervised learning, emphasizing the use of unlabeled data to enhance model training.
+ - Visual elements such as bar graphs depict data distribution and class balance in the semi-supervised section.
+-- The overall layout is structured to show the comparison between supervised and semi-supervised approaches in handling change detection tasks.]
++- The overall layout is structured to show the comparison between supervised and semi-supervised approaches in handling change detection tasks.
++
++The upper supervised panel sends the labeled dataset into the change-detection networks to produce predictions. In the lower panel the networks are first trained on the labeled portion, then shared weights are used on the unlabeled branch; pseudo-label predictions and true-label predictions both feed the consistency-training block on the right.]
+ 
+ [Source img5: ### Coarse-grained Description
+ 
+@@ -310,7 +316,9 @@
+ - **Predictions**: Both processes output change detection predictions, shown as highlighted areas in the post-disaster images.
+ - **Training Arrows**: Indicate the flow of data through the networks, emphasizing iterative training and prediction steps.
+ 
+-The diagram effectively contrasts the fully supervised approach with the semi-supervised method, highlighting the integration of attention mechanisms and pseudo-labeling for improved model performance.]
++The diagram effectively contrasts the fully supervised approach with the semi-supervised method, highlighting the integration of attention mechanisms and pseudo-labeling for improved model performance.
++
++The upper supervised panel sends the labeled dataset into the change-detection networks to produce predictions. In the lower panel the networks are first trained on the labeled portion, then shared weights are used on the unlabeled branch; pseudo-label predictions and true-label predictions both feed the consistency-training block on the right.]
+ 
+ [Source img6: Coarse-grained Description:
+ - The image illustrates a semi-supervised learning framework, showing how unlabeled data is utilized in two distinct phases: unsupervised pretraining and task-specific self-training/distillation.

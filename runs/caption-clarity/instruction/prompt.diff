@@ -1,0 +1,24 @@
+--- A
++++ C
+@@ -448,6 +448,9 @@
+ - You MAY synthesize and conclude the entire article
+ - Wrap up all major points discussed in the article
+ 
++# Visual Evidence Decision
++Before drafting, check whether any candidate image directly helps explain, compare, or substantiate a point required by this section. If an image helps, place it next to the relevant passage and explain the specific detail the reader should notice. If none helps, write the section without an image.
++
+ # Content Requirements
+ 1. **Address all sectional requirements** in the checklist above
+ 2. **Maintain coherence** with previous sections using the provided context
+--- B
++++ D
+@@ -448,6 +448,9 @@
+ - You MAY synthesize and conclude the entire article
+ - Wrap up all major points discussed in the article
+ 
++# Visual Evidence Decision
++Before drafting, check whether any candidate image directly helps explain, compare, or substantiate a point required by this section. If an image helps, place it next to the relevant passage and explain the specific detail the reader should notice. If none helps, write the section without an image.
++
+ # Content Requirements
+ 1. **Address all sectional requirements** in the checklist above
+ 2. **Maintain coherence** with previous sections using the provided context

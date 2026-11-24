@@ -1,0 +1,10 @@
+{
+  "pairs": 6,
+  "A": 0,
+  "B": 0,
+  "A_no_B_yes": 0,
+  "A_yes_B_no": 0,
+  "net_gain": 0,
+  "passes_citation_gate": false,
+  "semantic_gate": "requires manual review"
+}

@@ -1,0 +1,12 @@
+{
+  "task_uid": "SP011",
+  "section_index": 0,
+  "image_slot": "img3",
+  "image_uid": "ecc3b254bbff1fab8543168f31afd10d",
+  "image_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_136482.png",
+  "equivalent_image_uids": [],
+  "clarification": "The top two rows compare two groups within the survey: all blue-collar workers and all other workers. The career gap is 23 percentage points (33% versus 56%). Calling the work just a job is exactly twice as common among the blue-collar group in the chart (54% versus 27%). The lower rows subdivide the blue-collar group only.",
+  "verified_detail": "Use the plot to explain at least one of its matched two-group comparisons, quantified as the 23-point career gap or the twofold just-a-job comparison, or both.",
+  "rationale": "The first two candidates concern income tiers and recession exposure rather than this Pew survey. The third is a real result of the surveyed blue-collar/other comparison, useful to introduce the two analysis groups. The old caption lists rates but does not spell out the two comparative differences.",
+  "replacements_by_uid": {}
+}

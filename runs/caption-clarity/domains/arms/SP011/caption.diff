@@ -1,0 +1,13 @@
+--- A
++++ B
+@@ -235,7 +235,9 @@
+ - The survey was conducted from October 7-13, 2024, among U.S. workers.
+ - The chart notes that shares of respondents who didn't offer an answer are not shown.
+ 
+-This chart highlights the varying perspectives on job perception among different demographics and education levels, with blue-collar workers generally less likely to see their job as a long-term career.]
++This chart highlights the varying perspectives on job perception among different demographics and education levels, with blue-collar workers generally less likely to see their job as a long-term career.
++
++The top two rows compare two groups within the survey: all blue-collar workers and all other workers. The career gap is 23 percentage points (33% versus 56%). Calling the work just a job is exactly twice as common among the blue-collar group in the chart (54% versus 27%). The lower rows subdivide the blue-collar group only.]
+ 
+ [Source img4: Coarse-grained Description:
+ - The image presents a table titled "TABLE A1. Demographic, Political, Religious, and Geographic Subgroup Sample Sizes," which provides data on the unweighted sample sizes of the general public categorized by various demographic, political, religious, and geographic subgroups.

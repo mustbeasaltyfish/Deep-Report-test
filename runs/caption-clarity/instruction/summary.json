@@ -1,0 +1,8 @@
+{
+  "pairs": 6,
+  "target_counts": {
+    "C": 2,
+    "D": 1
+  },
+  "requires_semantic_review": true
+}

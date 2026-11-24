@@ -1,0 +1,538 @@
+{
+  "task": {
+    "domain": "Geography",
+    "uid": "GM126",
+    "source": "TestSet/Geography/GM126.md",
+    "query": "What are the major unresolved maritime and territorial disputes between the United States and Canada, and what are their historical, legal, and practical implications?",
+    "sections": 7
+  },
+  "arm": "B",
+  "section_index": 0,
+  "request": {
+    "model": "qwen3-32b",
+    "max_tokens": 4096,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 1701,
+    "messages": [
+      {
+        "role": "user",
+        "content": "# Role\nYou are an expert writer skilled at creating coherent, well-structured long-form content with proper source citations.\n\n# Task\nWrite a specific section of a larger article based on the provided requirements, context, and retrieved materials.\n\n# Overall Article Context\n**Article Topic:** What are the major unresolved maritime and territorial disputes between the United States and Canada, and what are their historical, legal, and practical implications?\n\n**Overall Requirements:**\n- What are the main maritime and territorial disputes between the U.S. and Canada?\n- How did historical treaties and events shape these disputes?\n- What are the practical consequences and ongoing tensions resulting from these unresolved boundaries?\n\n# Current Section Information\n**Section Position:** Section 1/7\n**Section Description:** This section introduces the concept of the U.S.-Canada border as the world's longest peaceful land boundary, contrasting it with the existence of five unresolved maritime and territorial disputes. It sets the stage for the article by highlighting the potential for conflict in these areas if relations sour.\n\n**Section Requirements (must address all):**\n- The U.S.-Canada land border is largely peaceful and undefended, but several maritime locations are disputed.\n- There are five key areas where Canada and the U.S. disagree over ownership.\n\n# Context from Previous Sections\n**Summary of previous sections:**\nThis is the first section\n\n**End of previous section (for smooth transition):**\nNo previous content\n\n# Retrieved Materials\nYou have access to the following sources for citation:\n[Source txt1 begin]\nIt is often called the longest undefended and peaceful border in the world, and for its 5,525 miles (8,891 km) over land, the U.S.-Canada border is just that. At sea, it is a different story. There are five maritime locations where Canada and the U.S. have very different opinions over who owns what. If ever the friendly relations between both countries turn frosty, it could very well be over one or more of these disputed areas.\n[Source txt1 end]\n\n[Source txt2 begin]\nThe United States and Canada share the longest international border in the world. And ever since Canada got the keys to the place in 1867, we have been pretty peaceful and genial neighbors to each other. The previous landlord… Great Britain… well, the US had a bit more of a spotty relationship with them. We invaded them, they burned down our house. It was a whole thing. But even though the border with Canada is now pretty tame, when two countries touch each other over a stretch of 55 hundred miles, it can result in some surprisingly weird disputes, misunderstandings, geographical quirks and … some really good stories. And we have a few of them for you today. Here to tell us the first one is producer Vivian Le.\n[Source txt2 end]\n\n[Source txt3 begin]\n* The United States and Canada have a total of 5 ongoing border disputes.\n* The border disputes between the United States and Canada all center around maritime claims.\n[Source txt3 end]\n\n[Source txt4 begin]\n[Canada]( \"Canada\") and the [United States]( \"United States\") have one land dispute over [Machias Seal Island]( \"Machias Seal Island\") (off the coast of [Maine]( \"Maine\")), and four other maritime disputes in the Arctic and Pacific. The two countries share the longest international border in the world and have a long history of disputes about the border's demarcation (see [Canada–United States border]( \"Canada–United States border\")).[[1]]()\n[Source txt4 end]\n\n[Source txt5 begin]\nThe US–Canada border is the longest international land boundary in the world. Originally established by the 1783 Treaty of Paris and revised nearly a dozen times since, the International Boundary, as it is officially termed, comprises 5,450 total miles and touches eight provinces and 13 states. But scale alone doesn’t begin to describe this curious and sometimes confusing border.\n[Source txt5 end]\n\n[Source txt6 begin]\n· Canada asserts that the treaty establishes both a land and a maritime border at the meridian line of the 141st degree.\n· The US, however, holds that the treaty only establishes a land border and that the boundary in the Beaufort Sea should follow an equidistance line.\n[Source txt6 end]\n\n[Source txt7 begin]\nThe authority for the Canadian position has always been the 1825 Convention between Great Britain and Russia. The historical reason for that Convention was to establish the spheres of maritime influence; the land boundary from the Pacific to Arctic Ocean was essentially added for completeness. Article 3 of that Convention defined the boundary between what is now Canada and the United States of America as:\n[Source txt7 end]\n\n[Source txt8 begin]\nThough the U.S. and Canada have the [longest undefended border in the world](), this particular stretch has been under dispute since the late 1700s. In 1783, the treaty that ended the Revolutionary War placed Machias Seal Island under U.S. control. Canada disagreed, pointing to the land grant that founded Nova Scotia, which included the island.\n[Source txt8 end]\n\n[Source txt9 begin]\nSome call the border between the United States and [Canada]() the world’s longest undefended border. There were times when relations between the two countries were frosty. In fact, the United States and Canada have even engaged in armed conflict with each other on some occasions. The days of conflict and even outright hostility between the two countries, however, are long gone. Indeed, the two neighbors have maintained a very cordial relationship with each other for the last century. Nevertheless, the United States and Canada still have their differences and disagreements. In fact, inasmuch as the border between the two countries is undefended, there are some disputes between the two countries as to where that border should be in some places. Today, Canada and the United States have 5 major ongoing border conflicts.\n[Source txt9 end]\n\n[Source txt10 begin]\nIn September 2024, Canada and the United States announced the creation of a joint task force to negotiate an unresolved maritime boundary in the Beaufort Sea, located between Alaska and Canada's High Arctic islands.[83]( \"U.S. Department of State, \"Joint Statement on Creation of Joint Task Force to Negotiate Beaufort Sea Boundary,\" September 24, 2024.\") The disputed boundary stems from differing legal interpretations of an 1825 treaty between Russia and the UK, the rights of which were inherited, respectively, by the United States and Canada. The U.S. and Canadian governments last sought to negotiate the boundary in the late 1970s, spurred by the potential for offshore oil and gas. Those talks ultimately stalled due to differing U.S. and Canadian government views over whether or not to include the countries' other unresolved maritime boundaries in the scope of the negotiations.[84]( \"T he United States and Canada have four unresolved \\(or partially resolved\\) maritime boundaries within 200 nautical miles of their shore s in the Beufort Sea, the Gulf of Maine, and two areas off the Pacific Coast: the Juan de Fuca Strait \\(located offshore of Washington and Vancouver Island, Canada\\) and the Dixon Entrance \\(located offshore of southeastern Alaska and British Columbia, Canada\\) . Michael Byers and Andreas Østhagen, \"Why Does Canada Have So Many Unresolved Maritime Boundary Disp...\")\n[Source txt10 end]\n\n[Source txt11 begin]\nThe marine boundary dispute between the United States and Canada in the Beaufort Sea remains to be settled. Given the potentially high economic stakes,namely, offshore hydrocarbon resources,in the disputed area (6,180 square nautical miles?),it is unlikely that settlement will be easy. (See Map 3.)\n[Source txt11 end]\n\n[Source txt12 begin]\nCanada’s greatest problem in relying on the 1825 Boundary Treaty is the difficulty in proving that at the time of its making, the parties sought to delimit a maritime boundary. The history of maritime boundaries shows the difficulty in this approach, given that the concept of the territorial sea did not become accepted until late in the eighteenth and early nineteenth centuries, and that it is not until the 1945 Truman Declaration19 that the concept of a coastal state having sovereign rights over its adjacent continental shelf became recognized in customary international law.\n[Source txt12 end]\n\n[Source txt13 begin]\nThe 1925 “Treaty between Canada and the United States of America to Define More Accurately and to Complete the International Boundary between the Two Countries” finally codified large sections of the US–Canada boundary and formally established the International Boundary Commission.\n**1984**\n[Source txt13 end]\n\n[Source txt14 begin]\n2 Canada also has unresolved boundaries beyond 200 nautical miles from shore — between adjacent or opposing “extended continental shelves” — in the Beaufort Sea (with the United States), central Arctic Ocean (Denmark and Russia), Gulf of Maine (United States), and potentially off St. Pierre and Miquelon (France). Last but not least, it has a dispute with the United States over the status of the Northwest Passage. However, this article considers these disputes only insofar as they are relevant to the maritime boundary disputes within 200 nautical miles from shore.\n[Source txt14 end]\n\n[Source txt15 begin]\nIn September 2024, Canada and the United States announced the creation of a joint task force to negotiate an unresolved maritime boundary in the Beaufort Sea, located between Alaska and Canada's High Arctic islands.[83]( \"U.S. Department of State, \"Joint Statement on Creation of Joint Task Force to Negotiate Beaufort Sea Boundary,\" September 24, 2024.\") The disputed boundary stems from differing legal interpretations of an 1825 treaty between Russia and the UK, the rights of which were inherited, respectively, by the United States and Canada. The U.S. and Canadian governments last sought to negotiate the boundary in the late 1970s, spurred by the potential for offshore oil and gas. Those talks ultimately stalled due to differing U.S. and Canadian government views over whether or not to include the countries' other unresolved maritime boundaries in the scope of the negotiations.[84]( \"T he United States and Canada have four unresolved \\(or partially resolved\\) maritime boundaries within 200 nautical miles of their shore s in the Beufort Sea, the Gulf of Maine, and two areas off the Pacific Coast: the Juan de Fuca Strait \\(located offshore of Washington and Vancouver Island, Canada\\) and the Dixon Entrance \\(located offshore of southeastern Alaska and British Columbia, Canada\\) . Michael Byers and Andreas Østhagen, \"Why Does Canada Have So Many Unresolved Maritime Boundary Disp...\")\n[Source txt15 end]\n\n[Source txt16 begin]\n## Border cooperation\nCanada and the U.S. share a land border that, at close to 9,000 km, is the longest international border in the world. There are 13 U.S. states, seven Canadian provinces and one territory along the border. Most Canadians – 2 out of 3 – live within 100 km of the border.\n[Source txt16 end]\n\n[Source txt17 begin]\nThe [international border]( \"International border\") between [Canada]( \"Canada\") and the [United States]( \"United States\") is the longest in the world by total length.[[a]]() The boundary (including boundaries in the [Great Lakes]( \"Great Lakes\"), Atlantic, and Pacific coasts) is 8,891 km (5,525 mi) long. The land border has two sections: Canada's border with the [northern tier]() \"Northern Tier \\(United States\\)\") of the [contiguous United States]( \"Contiguous United States\") to its south, and with the U.S. state of [Alaska]( \"Alaska\") to its west. The bi-national [International Boundary Commission]( \"International Boundary Commission\") deals with matters relating to marking and maintaining the boundary, and the [International Joint Commission]( \"International Joint Commission\") deals with issues concerning boundary waters. The agencies responsible for facilitating legal passage through the international boundary are the [Canada Border Services Agency]( \"Canada Border Services Agency\") (CBSA) and [U.S. Customs and Border Protection]( \"U.S. Customs and Border Protection\") (CBP).\n[Source txt17 end]\n\n[Source txt18 begin]\nWhat is the course of the single maritime boundary that divides the continental shelf and fisheries zone, of Canada and the United States from a point in latitude 44° 11’ 12˝ N longitude 67° 16’ 46˝ W to a point determined by the Chamber within an area bounded by straight lines connecting the following sets of geographical coordinates: latitude 40° N, longitude 65° W, latitude 42° N, longitude 65° W? ([Art. II (1) Special Agreement]( \"Special Agreement between the Government of Canada and the Government of the United States to submit to a Chamber of the International Court of Justice the delimitation of the maritime boundary in the Gulf of Maine area \\(United Nations \\[UN\\]\\), Art.II\\(1\\)\"))\n[Source txt18 end]\n\n[Source txt19 begin]\n[84]().  |  The United States and Canada have four unresolved (or partially resolved) maritime boundaries within 200 nautical miles of their shores in the Beufort Sea, the Gulf of Maine, and two areas off the Pacific Coast: the Juan de Fuca Strait (located offshore of Washington and Vancouver Island, Canada) and the Dixon Entrance (located offshore of southeastern Alaska and British Columbia, Canada). Michael Byers and Andreas Østhagen, \"Why Does Canada Have So Many Unresolved Maritime Boundary Disputes?,\" _The Canadian Yearbook of International Law_ , vol. 54 (2017). The countries also have two unresolved boundaries beyond 200 nautical miles (in the Arctic and northern Atlantic regions). U.S. Department of State, _The Outer Limits of the Extended Continental Shelf of the United States of America: Executive Summary_ , December 19, 2023, pp. 13, 19, and 25.\n[Source txt19 end]\n\n[Source txt20 begin]\nCanada has five unresolved maritime boundaries. This might seem like a high number, given that Canada has only three neighbours: the United States, Denmark (Greenland), and France (St. Pierre and Miquelon). This article explores why Canada has so many unresolved maritime boundaries. It does so through a comparison with Norway, which has settled all of its maritime boundaries, most notably in the Barents Sea with Russia. This comparison illuminates some of the factors that motivate or impede maritime boundary negotiations. It turns out that the status of each maritime boundary can only be explained on the basis of its own unique geographic, historic, political, and legal context. Canada’s unresolved maritime boundaries are the result of circumstances specific to each of them and not of a particular policy approach in Ottawa.\n[Source txt20 end]\n\n[Source img1: Coarse-grained Description:\n- The image is a map depicting a historical territorial dispute between the United States and the United Kingdom over a region known as the \"Disputed Territory.\"\n- It illustrates the boundaries claimed by each country and the eventual resolution via the Webster-Ashburton Treaty of 1842.\n- The map highlights geographic features and the agreed border lines.\n\nFine-grained Description:\n- **Territorial Claims**:\n  - The map shows the area marked in pink as the disputed territory between the U.S. and the U.K.\n  - The green line represents the border defined by the Webster-Ashburton Treaty of 1842.\n  \n- **Boundaries**:\n  - The dashed purple line indicates the border defined by the treaty.\n  - The black line labeled \"Border claimed by the United States\" shows the U.S. claim.\n  - The red dashed line indicates the border claimed by the United Kingdom.\n\n- **Geographic Features**:\n  - Major rivers such as the St. Lawrence River and the Saint John River are labeled.\n  - The map includes parts of present-day states and provinces like Quebec, New Brunswick, and Vermont.\n\n- **Labels and Annotations**:\n  - \"Disputed Territory\" is labeled within the pink shaded area.\n  - Arrows point to the disputed area and the agreed border, indicating the claims and resolution.\n  - Latitude lines (45° and 46°) and longitude lines are marked for reference.\n\n- **Regions**:\n  - The map covers parts of the northeastern United States and southeastern Canada, showing the complexity of the border dispute in this region.]\n\n[Source img2: Coarse-grained Description:\n- The image is a map illustrating the territorial claims over the Beaufort Sea between the United States and Canada.\n- It shows the geographical boundaries and overlapping claims in the Arctic region.\n- The map highlights the disputed areas and the lines demarcating U.S. and Canadian claims.\n\nFine-grained Description:\n- The map shows the Beaufort Sea with labeled claims from both the U.S. and Canada.\n- An arrow labels the line to the right offshore \"U.S. line.\"\n- An arrow labels the offshore continuation near the land boundary \"Canadian line.\"\n- The overlapping area is shaded, indicating a potential dispute or shared interest.\n- The map includes latitude and longitude lines, with degrees marked along the top edge.\n- The Alaskan coast is labeled on the left, while the Canadian Northwest Territories and Yukon are labeled on the right.\n- Nearby islands such as Banks Island and Prince Patrick Island are also labeled.\n- The map is credited to © 2010 Cesium by Sensing Geospatial, Inc.\n\nAt the coast the U.S. and Canadian claims start near the same point on the Alaska–Yukon border. The Canadian line continues nearly along the land boundary; the U.S. line angles to the right offshore. The shaded wedge between the two lines illustrates the competing Beaufort Sea claims.]\n\n[Source img3: Coarse-grained Description:\n- The image is a map depicting the disputed territorial claims over the Beaufort Sea between the United States and Canada.\n- It shows the geographical boundaries and areas claimed by both countries.\n- The map highlights the Beaufort Sea and its surrounding regions, including Alaska and the Canadian provinces of Yukon and Northwest Territories.\n\nFine-grained Description:\n- The map features the Beaufort Sea with dashed lines indicating the U.S. and Canadian claims.\n- The U.S. line angles offshore to the right.\n- The Canadian line runs nearly straight offshore from the Alaska–Yukon boundary.\n- Labels indicate \"ALASKA\" and \"YUKON\" on the left side, and \"NORTHWEST TERRITORIES\" on the right.\n- The map includes longitude lines, with markings at 150°W, 140°W, and 130°W.\n- The arrow labeled \"Canadian line\" points to the Canadian claim, and the arrow labeled \"U.S. line\" points to the U.S. claim.\n- The map is credited to © 2010 Coviello, Geographics, Inc., with a reference to www.coveliogeographic.com.\n- The map provides a visual representation of the territorial dispute in the Beaufort Sea region.\n\nAt the coast the U.S. and Canadian claims start near the same point on the Alaska–Yukon border. The Canadian line continues nearly along the land boundary; the U.S. line angles to the right offshore. The shaded wedge between the two lines illustrates the competing Beaufort Sea claims.]\n\n[Source img4: Coarse-grained Description:\n- The image is a map illustrating the territorial claims over the Beaufort Sea between the United States and Canada.\n- It shows the geographical boundaries and overlapping claims in the Arctic region.\n- The map highlights the disputed areas and the lines demarcating U.S. and Canadian claims.\n\nFine-grained Description:\n- The map shows the Beaufort Sea with labeled claims from both the U.S. and Canada.\n- An arrow labels the line to the right offshore \"U.S. line.\"\n- An arrow labels the offshore continuation near the land boundary \"Canadian line.\"\n- The overlapping area is shaded, indicating a potential dispute or shared interest.\n- The map includes latitude and longitude lines, with degrees marked along the top edge.\n- The Alaskan coast is labeled on the left, while the Canadian Northwest Territories and Yukon are labeled on the right.\n- Nearby islands such as Banks Island and Prince Patrick Island are also labeled.\n- The map is credited to © 2010 Cesium by Sensing Geospatial, Inc.\n\nAt the coast the U.S. and Canadian claims start near the same point on the Alaska–Yukon border. The Canadian line continues nearly along the land boundary; the U.S. line angles to the right offshore. The shaded wedge between the two lines illustrates the competing Beaufort Sea claims.]\n\n[Source img5: Coarse-grained Description:\n- The image is a map depicting the disputed territorial claims over the Beaufort Sea between the United States and Canada.\n- It shows the geographical boundaries and areas claimed by both countries.\n- The map highlights the Beaufort Sea and its surrounding regions, including Alaska and the Canadian provinces of Yukon and Northwest Territories.\n\nFine-grained Description:\n- The map features the Beaufort Sea with dashed lines indicating the U.S. and Canadian claims.\n- The U.S. line angles offshore to the right.\n- The Canadian line runs nearly straight offshore from the Alaska–Yukon boundary.\n- Labels indicate \"ALASKA\" and \"YUKON\" on the left side, and \"NORTHWEST TERRITORIES\" on the right.\n- The map includes longitude lines, with markings at 150°W, 140°W, and 130°W.\n- The arrow labeled \"Canadian line\" points to the Canadian claim, and the arrow labeled \"U.S. line\" points to the U.S. claim.\n- The map is credited to © 2010 Coviello, Geographics, Inc., with a reference to www.coveliogeographic.com.\n- The map provides a visual representation of the territorial dispute in the Beaufort Sea region.\n\nAt the coast the U.S. and Canadian claims start near the same point on the Alaska–Yukon border. The Canadian line continues nearly along the land boundary; the U.S. line angles to the right offshore. The shaded wedge between the two lines illustrates the competing Beaufort Sea claims.]\n\n[Source img6: Coarse-grained Description:\n- The image is a map depicting a historical territorial dispute between the United States and the United Kingdom over a region known as the \"Disputed Territory.\"\n- It illustrates the boundaries claimed by each country and the eventual resolution via the Webster-Ashburton Treaty of 1842.\n- The map highlights geographic features and the agreed border lines.\n\nFine-grained Description:\n- **Territorial Claims**:\n  - The map shows the area marked in pink as the disputed territory between the U.S. and the U.K.\n  - The green line represents the border defined by the Webster-Ashburton Treaty of 1842.\n  \n- **Boundaries**:\n  - The dashed purple line indicates the border defined by the treaty.\n  - The black line labeled \"Border claimed by the United States\" shows the U.S. claim.\n  - The red dashed line indicates the border claimed by the United Kingdom.\n\n- **Geographic Features**:\n  - Major rivers such as the St. Lawrence River and the Saint John River are labeled.\n  - The map includes parts of present-day states and provinces like Quebec, New Brunswick, and Vermont.\n\n- **Labels and Annotations**:\n  - \"Disputed Territory\" is labeled within the pink shaded area.\n  - Arrows point to the disputed area and the agreed border, indicating the claims and resolution.\n  - Latitude lines (45° and 46°) and longitude lines are marked for reference.\n\n- **Regions**:\n  - The map covers parts of the northeastern United States and southeastern Canada, showing the complexity of the border dispute in this region.]\n\n[Source img7: Coarse-grained Description:\n- The image is a map illustrating five territorial disputes between the United States and Canada.\n- It highlights the geographical locations of these disputes, showing the areas of contention along the border and in adjacent waters.\n- The main message is to depict areas where the U.S. and Canada have unresolved territorial disagreements.\n\nFine-grained Description:\n- The map is color-coded with the United States in green and Canada in orange.\n- Five red dots mark the specific locations of territorial disputes:\n  - Strait of Juan de Fuca\n  - Dixon Entrance\n  - Beaufort Sea\n  - Northwest Passage\n  - Machias Seal Island\n- The map includes labels for each disputed area, indicating their geographical context.\n- The Northwest Passage is highlighted with a red line, suggesting its significance in the dispute.\n- The image provides a visual representation of the disputed areas along the northern and western borders between the two countries.]\n\n[Source img8: Coarse-grained Description:\n- The image is a map illustrating five territorial disputes between the United States and Canada.\n- It highlights key geographic locations and disputed areas along the border.\n- The map uses color coding to differentiate between the two countries and mark disputed regions.\n\nFine-grained Description:\n- The map shows the United States in green and Canada in orange.\n- Five red dots indicate specific points of territorial disputes:\n  - Strait of Juan de Fuca\n  - Dixon Entrance\n  - Beaufort Sea\n  - Northwest Passage\n  - Machias Seal Island\n- The Northwest Passage is highlighted with a red line, indicating its significance in the disputes.\n- The map includes labels for each disputed area and major geographic features.\n- The title \"Five territorial disputes between the U.S. and Canada\" is prominently displayed, summarizing the map's focus.]\n\n[Source img9: Coarse-grained Description:\n- The image is a map illustrating territorial claims and boundaries in the Arctic Ocean.\n- It shows the agreed borders, equidistance lines, 200-mile lines, and Canadian claims in the region.\n- The map highlights the geopolitical interests of Canada, the USA, Russia, and Greenland in the Arctic.\n\nFine-grained Description:\n- **Map Elements:**\n  - **Agreed Borders:** Shown in solid blue lines.\n  - **Equidistance Line:** Indicated by a blue dashed line.\n  - **200-Mile Line:** Represented by a red dashed line.\n  - **Canadian Claim:** Marked in orange.\n  - The map notes all locations are approximate.\n  \n- **Geographical Labels:**\n  - Countries/Regions labeled: USA, Canada, Russia, Greenland.\n  - Arctic Ocean is centrally located with the North Pole marked.\n\n- **Claims and Boundaries:**\n  - Canada's claim extends from its northern coast into the Arctic Ocean.\n  - The equidistance line runs from the North Pole towards Canada and Russia.\n  - The 200-mile line encircles the North Pole, showing potential extended economic zones.\n\n- **Source:**\n  - The map is sourced from the University of Durham, UN, and Marum.\n\n- **Purpose:**\n  - The map serves to illustrate the complex territorial and maritime boundaries in the Arctic, reflecting international claims and agreements.]\n\n[Source img10: Coarse-grained Description:\n- The image is a historical map depicting the territorial claims and disputes in the Pacific Northwest region of North America during the period 1818-1846.\n- The map shows the boundaries and claims of various entities, including the United States, British territories, and disputed areas.\n- The main focus is on the Oregon Country/Columbia District, highlighting the geopolitical tensions between the U.S. and British claims in the region.\n\nFine-grained Description:\n- The map is labeled with the title \"Oregon Country / Columbia District 1818-1846,\" indicating the historical context.\n- The map features different color-coded areas:\n  - Green represents Rupert's Land (British).\n  - Yellow represents the United States.\n  - The \"Disputed Area\" is shown in a lighter color between the U.S. and British territories.\n- Notable locations marked on the map include:\n  - Cities and forts such as Astoria, Oregon City, Fort Vancouver, and many others.\n  - Latitude lines are marked at 42° and 46°, with annotations for \"extreme U.S. claim\" and \"extreme British claim.\"\n- The map shows geographical features such as rivers and mountains, with names like the Columbia River and the Rocky Mountains.\n- The boundaries of Alaska (Russia) are shown to the northwest, and Mexico is indicated to the south.\n- Annotations provide context for the disputed area and the specific time frame of the territorial claims.]\n\n# CRITICAL Citation Rules\nYou MUST follow these citation rules strictly:\n\n1. **Text Citation Format:**\n   - When using information from a text source, cite it as: `[citation:txt1]`, `[citation:txt2]`, etc.\n   - Example: \"Recent studies show significant progress in AI safety[citation:txt3].\"\n\n2. **Image Citation Format:**\n   - When you want to insert an image/figure, use: `![](citation:img1)`, `![](citation:img2)`, etc.\n   - Example: \"The architecture is shown below:\n![](citation:img5)\nAs illustrated, the system...\"\n   - ONLY use this format for sources explicitly marked as \"Image\"\n\n3. **Citation Placement:**\n   - Place text citations at the end of the sentence or claim\n   - Place image citations on their own line where the visual should appear\n   - You can cite the same source multiple times if needed\n\n4. **Important Distinctions:**\n   - Text sources → use `[citation:txt1]`, `[citation:txt2]`, etc.\n   - Image sources → use `![](citation:img1)`, `![](citation:img2)`, etc.\n\n# Position-Aware Writing Instructions\n\n**Is this the FIRST section?** yes\n**Is this the LAST section?** no\n\n## If FIRST section (is_first_section = yes):\n- Start with an engaging introduction\n- No need to reference previous content (there is none)\n- Set the stage for the article\n- DO NOT conclude the entire article\n\n## If MIDDLE section (is_first_section = no, is_last_section = no):\n- Begin with a smooth transition from the previous section\n- Focus ONLY on this section's specific requirements\n- **CRITICAL: DO NOT use concluding phrases like:**\n  - \"In conclusion\"\n  - \"To summarize\"\n  - \"Overall, this article\"\n  - \"We have discussed\"\n  - \"In this article, we covered\"\n- Continue the narrative without wrapping up the entire article\n- End in a way that allows the next section to continue naturally\n\n## If LAST section (is_last_section = yes):\n- Provide appropriate transitions from previous content\n- You MAY synthesize and conclude the entire article\n- Wrap up all major points discussed in the article\n\n# Content Requirements\n1. **Address all sectional requirements** in the checklist above\n2. **Maintain coherence** with previous sections using the provided context\n3. **Use retrieved materials** as the foundation of your content\n4. **Cite sources properly** using the formats specified above\n5. **Write naturally** - your content should flow smoothly while integrating citations\n6. **Appropriate length** - typically 300-800 words depending on the complexity of requirements\n\n# Markdown Formatting Requirements\n**CRITICAL: You MUST use proper Markdown formatting for structure:**\n\n1. **Section Title (Required):**\n   - Start your content with a section title using `# Title`\n   - The title should reflect the section description\n\n2. **Subsections (If Needed):**\n   - Use `## Subsection Title` for major subsections\n   - Use `### Subsubsection Title` for deeper nesting\n   - Use appropriate heading levels to create clear hierarchy\n\n3. **Example Structure:**\n```markdown\n# Introduction to Machine Learning\n\nMachine learning has revolutionized...[citation:txt1]\n\n## Supervised Learning\nSupervised learning approaches...[citation:txt2]\n\n### Classification\nClassification tasks involve...[citation:txt3]\n\n## Unsupervised Learning\nUnlike supervised methods...[citation:txt5]\n```\n\n# Output Format\nProvide ONLY the section content with proper Markdown formatting and citations. Do NOT include:\n- Meta-commentary about what you're doing\n- Explanations of your writing process\n\n**Remember to start with a section title using `#`!**\n\nBegin writing the section now:"
+      }
+    ]
+  },
+  "response": {
+    "id": "chatcmpl-670c3cc277cf41949ce7657281a80d1b",
+    "object": "chat.completion",
+    "created": 1795349936,
+    "model": "qwen3-32b",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# The Longest Peaceful Border and Its Maritime Disputes\n\nThe U.S.-Canada border is widely recognized as the longest peaceful and undefended land boundary in the world, stretching approximately 5,525 miles (8,891 km) across land and water. Despite its reputation for tranquility and cooperation, this vast boundary conceals a set of complex and unresolved maritime and territorial disputes that could, under different political or economic circumstances, become flashpoints of contention. While the two nations have historically maintained a strong and cooperative relationship, the existence of these disputes reveals the fragility of international boundaries, even between the closest of neighbors [citation:txt1].\n\nThough the land border is largely settled and peaceful, the maritime boundaries between the United States and Canada remain a source of disagreement in several key areas. Specifically, there are five ongoing maritime and territorial disputes between the two countries. These disputes span both the Arctic and Pacific Oceans and include disagreements over the delimitation of exclusive economic zones (EEZs), continental shelf claims, and the status of specific islands and straits [citation:txt3]. While the land border has been meticulously mapped and negotiated over the course of centuries, the maritime boundaries remain unresolved due to historical ambiguities, conflicting legal interpretations, and the evolving nature of international maritime law [citation:txt4].\n\nThese disputes are not merely academic or historical in nature; they carry significant practical implications. The areas in contention often overlap with regions rich in natural resources, including fisheries and potential hydrocarbon reserves. For example, the Beaufort Sea, a focal point of one of the most contentious disputes, is believed to hold substantial oil and gas reserves. The unresolved boundary in this region has led to competing claims over resource rights, with both nations interpreting historical treaties—particularly the 1825 Convention between Great Britain and Russia—differently [citation:txt10].\n\nThe existence of these disputes highlights the fact that even the most cooperative of international relationships can be strained by unresolved territorial issues. While the U.S. and Canada have demonstrated a willingness to engage in dialogue—such as the 2024 announcement of a joint task force to negotiate the Beaufort Sea boundary—progress has often been slow and incremental [citation:txt15]. This section sets the stage for a deeper exploration of each of these disputes, their historical roots, and their implications for the future of U.S.-Canada relations.",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning_content": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 6957,
+      "total_tokens": 7452,
+      "completion_tokens": 495,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "elapsed_seconds": 64.092,
+  "attempt": 1,
+  "used_target": false,
+  "sections": [
+    {
+      "section_index": 0,
+      "section_description": "This section introduces the concept of the U.S.-Canada border as the world's longest peaceful land boundary, contrasting it with the existence of five unresolved maritime and territorial disputes. It sets the stage for the article by highlighting the potential for conflict in these areas if relations sour.",
+      "content_length": 2427,
+      "content": "# The Longest Peaceful Border and Its Maritime Disputes\n\nThe U.S.-Canada border is widely recognized as the longest peaceful and undefended land boundary in the world, stretching approximately 5,525 miles (8,891 km) across land and water. Despite its reputation for tranquility and cooperation, this vast boundary conceals a set of complex and unresolved maritime and territorial disputes that could, under different political or economic circumstances, become flashpoints of contention. While the two nations have historically maintained a strong and cooperative relationship, the existence of these disputes reveals the fragility of international boundaries, even between the closest of neighbors [citation:txt1].\n\nThough the land border is largely settled and peaceful, the maritime boundaries between the United States and Canada remain a source of disagreement in several key areas. Specifically, there are five ongoing maritime and territorial disputes between the two countries. These disputes span both the Arctic and Pacific Oceans and include disagreements over the delimitation of exclusive economic zones (EEZs), continental shelf claims, and the status of specific islands and straits [citation:txt3]. While the land border has been meticulously mapped and negotiated over the course of centuries, the maritime boundaries remain unresolved due to historical ambiguities, conflicting legal interpretations, and the evolving nature of international maritime law [citation:txt4].\n\nThese disputes are not merely academic or historical in nature; they carry significant practical implications. The areas in contention often overlap with regions rich in natural resources, including fisheries and potential hydrocarbon reserves. For example, the Beaufort Sea, a focal point of one of the most contentious disputes, is believed to hold substantial oil and gas reserves. The unresolved boundary in this region has led to competing claims over resource rights, with both nations interpreting historical treaties—particularly the 1825 Convention between Great Britain and Russia—differently [citation:txt10].\n\nThe existence of these disputes highlights the fact that even the most cooperative of international relationships can be strained by unresolved territorial issues. While the U.S. and Canada have demonstrated a willingness to engage in dialogue—such as the 2024 announcement of a joint task force to negotiate the Beaufort Sea boundary—progress has often been slow and incremental [citation:txt15]. This section sets the stage for a deeper exploration of each of these disputes, their historical roots, and their implications for the future of U.S.-Canada relations.",
+      "text_citations": [
+        "txt1",
+        "txt10",
+        "txt15",
+        "txt3",
+        "txt4"
+      ],
+      "image_citations": [],
+      "text_citations_count": 6,
+      "image_citations_count": 0,
+      "total_citations": 6,
+      "text_sources": [
+        {
+          "citation_id": "txt1",
+          "index": "txt1",
+          "uid": "f20cf07b767620b92190f30f35a94a2d",
+          "score": 0.8493999242782593,
+          "content": "It is often called the longest undefended and peaceful border in the world, and for its 5,525 miles (8,891 km) over land, the U.S.-Canada border is just that. At sea, it is a different story. There are five maritime locations where Canada and the U.S. have very different opinions over who owns what. If ever the friendly relations between both countries turn frosty, it could very well be over one or more of these disputed areas.",
+          "source": "",
+          "metadata": {}
+        },
+        {
+          "citation_id": "txt10",
+          "index": "txt10",
+          "uid": "e5c03ee3ca60aaa6a15c0212eefd98e7",
+          "score": 0.8067662119865417,
+          "content": "In September 2024, Canada and the United States announced the creation of a joint task force to negotiate an unresolved maritime boundary in the Beaufort Sea, located between Alaska and Canada's High Arctic islands.[83]( \"U.S. Department of State, \"Joint Statement on Creation of Joint Task Force to Negotiate Beaufort Sea Boundary,\" September 24, 2024.\") The disputed boundary stems from differing legal interpretations of an 1825 treaty between Russia and the UK, the rights of which were inherited, respectively, by the United States and Canada. The U.S. and Canadian governments last sought to negotiate the boundary in the late 1970s, spurred by the potential for offshore oil and gas. Those talks ultimately stalled due to differing U.S. and Canadian government views over whether or not to include the countries' other unresolved maritime boundaries in the scope of the negotiations.[84]( \"T he United States and Canada have four unresolved \\(or partially resolved\\) maritime boundaries within 200 nautical miles of their shore s in the Beufort Sea, the Gulf of Maine, and two areas off the Pacific Coast: the Juan de Fuca Strait \\(located offshore of Washington and Vancouver Island, Canada\\) and the Dixon Entrance \\(located offshore of southeastern Alaska and British Columbia, Canada\\) . Michael Byers and Andreas Østhagen, \"Why Does Canada Have So Many Unresolved Maritime Boundary Disp...\")",
+          "source": "",
+          "metadata": {}
+        },
+        {
+          "citation_id": "txt15",
+          "index": "txt15",
+          "uid": "e5c03ee3ca60aaa6a15c0212eefd98e7",
+          "score": 0.8005727529525757,
+          "content": "In September 2024, Canada and the United States announced the creation of a joint task force to negotiate an unresolved maritime boundary in the Beaufort Sea, located between Alaska and Canada's High Arctic islands.[83]( \"U.S. Department of State, \"Joint Statement on Creation of Joint Task Force to Negotiate Beaufort Sea Boundary,\" September 24, 2024.\") The disputed boundary stems from differing legal interpretations of an 1825 treaty between Russia and the UK, the rights of which were inherited, respectively, by the United States and Canada. The U.S. and Canadian governments last sought to negotiate the boundary in the late 1970s, spurred by the potential for offshore oil and gas. Those talks ultimately stalled due to differing U.S. and Canadian government views over whether or not to include the countries' other unresolved maritime boundaries in the scope of the negotiations.[84]( \"T he United States and Canada have four unresolved \\(or partially resolved\\) maritime boundaries within 200 nautical miles of their shore s in the Beufort Sea, the Gulf of Maine, and two areas off the Pacific Coast: the Juan de Fuca Strait \\(located offshore of Washington and Vancouver Island, Canada\\) and the Dixon Entrance \\(located offshore of southeastern Alaska and British Columbia, Canada\\) . Michael Byers and Andreas Østhagen, \"Why Does Canada Have So Many Unresolved Maritime Boundary Disp...\")",
+          "source": "",
+          "metadata": {}
+        },
+        {
+          "citation_id": "txt3",
+          "index": "txt3",
+          "uid": "093eba1a0d43a5cc62a3f9d316104107",
+          "score": 0.81755131483078,
+          "content": "* The United States and Canada have a total of 5 ongoing border disputes.\n* The border disputes between the United States and Canada all center around maritime claims.",
+          "source": "",
+          "metadata": {}
+        },
+        {
+          "citation_id": "txt4",
+          "index": "txt4",
+          "uid": "856ccb19e096ae7429480964d5f2e565",
+          "score": 0.8159960508346558,
+          "content": "[Canada]( \"Canada\") and the [United States]( \"United States\") have one land dispute over [Machias Seal Island]( \"Machias Seal Island\") (off the coast of [Maine]( \"Maine\")), and four other maritime disputes in the Arctic and Pacific. The two countries share the longest international border in the world and have a long history of disputes about the border's demarcation (see [Canada–United States border]( \"Canada–United States border\")).[[1]]()",
+          "source": "",
+          "metadata": {}
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:08:27.745077",
+      "unresolved": []
+    },
+    {
+      "section_index": 1,
+      "section_description": "This section explores the Strait of Juan de Fuca dispute, detailing its historical origins, the principle of equidistance, and the involvement of British Columbia. It explains how differing interpretations of base points and boundary principles have led to overlapping claims, and the complications introduced by provincial interests. Key sub-topics include: 1. Historical background of Juan de Fuca, 2. The principle of equidistance and base point disagreements, 3. British Columbia's alternative claim based on natural prolongation.",
+      "content_length": 3365,
+      "content": "# The Strait of Juan de Fuca Dispute: Equidistance, Base Points, and Provincial Divergence\n\nThe Strait of Juan de Fuca, a 154.5 km long waterway separating Vancouver Island in British Columbia from the Olympic Peninsula in Washington State, is a focal point of a maritime boundary dispute between the United States and Canada. While the international boundary runs clearly through the middle of the strait and is not in question, the seaward boundary extending 200 nautical miles (370 km) west from the strait’s mouth remains unresolved[citation:txt1]. The core of the dispute lies in the application of the principle of equidistance, which both countries agree should be used, but they differ in the selection of base points from which the equidistant line is drawn[citation:txt2]. These discrepancies have led to overlapping claims over a small but legally and ecologically significant area.\n\nThe principle of equidistance, a method of maritime boundary delimitation under international law, seeks to divide the waters between two states by drawing a line equidistant from their respective coasts. In the Strait of Juan de Fuca, both the U.S. and Canadian federal governments have proposed equidistant lines, but the disagreement arises from which coastal points are used as the starting points for these calculations. The result is two slightly different maritime boundaries, creating a small zone of overlap that remains contested[citation:txt14]. The area in dispute is approximately 15 square nautical miles, yet its resolution has been complicated by its potential implications for other unresolved maritime boundaries between the two countries[citation:txt18].\n\nAdding another layer of complexity to the dispute is the stance of the Canadian province of British Columbia, which has rejected both federal proposals and instead advocates for a boundary based on the principle of natural prolongation. According to this principle, a state's maritime boundary should follow the natural geological extension of its landmass into the sea. British Columbia argues that the Juan de Fuca submarine canyon, a significant underwater feature, should serve as the boundary between the two countries[citation:txt16]. The province's position is rooted in the idea that the canyon represents a natural physiographic boundary, distinct from the artificial lines drawn by equidistance[citation:txt20].\n\nThis provincial claim, however, creates a dilemma for the Canadian federal government. If Canada were to adopt the natural prolongation argument for the Juan de Fuca Canyon, it could undermine its own position in the Gulf of Maine boundary dispute, where Canada favors an equidistant approach[citation:txt2]. The tension between federal and provincial interests highlights the broader challenge of balancing international legal consistency with regional economic and environmental concerns.\n\nThe Strait of Juan de Fuca dispute is emblematic of the broader unresolved maritime boundary issues between the U.S. and Canada. While the disagreement is relatively small in geographic scope, it underscores the complexities introduced by differing interpretations of international law and the influence of domestic political interests. As the next section will explore, similar tensions and historical legacies shape other maritime disputes along the Pacific and Atlantic coasts.",
+      "text_citations": [
+        "txt1",
+        "txt14",
+        "txt16",
+        "txt18",
+        "txt2",
+        "txt20"
+      ],
+      "image_citations": [],
+      "text_citations_count": 6,
+      "image_citations_count": 0,
+      "total_citations": 6,
+      "text_sources": [
+        {
+          "citation_id": "txt2",
+          "uid": "bad66ae6abdc3625e640127a3b9a841a",
+          "score": 0.8138513565063477,
+          "content_preview": "This strait remains the subject of a maritime boundary dispute between Canada and the United States. The dispute is only over the seaward boundary extending 200 nautical miles (370 km) west from the m",
+          "source": ""
+        },
+        {
+          "citation_id": "txt14",
+          "uid": "4a37be71d282775a0dc825b2e7773ee1",
+          "score": 0.7795998454093933,
+          "content_preview": "At the end of the land boundary in the [Strait of Juan de Fuca](), Canada and the United States have different interpretation of how the Pacific Ocean maritime boundary should continue westward. The t",
+          "source": ""
+        },
+        {
+          "citation_id": "txt1",
+          "uid": "caab6f4eb279f67c75f0ecfb0f552919",
+          "score": 0.818601131439209,
+          "content_preview": "The [Strait of Juan de Fuca]() connects the [Salish Sea]() in the east to the Pacific Ocean in the west. It is approximately 154.5 km long, and is situated between Vancouver Island in Canada and Washi",
+          "source": ""
+        },
+        {
+          "citation_id": "txt16",
+          "uid": "c49aeefc9bb3f2f7f0df894aeaece852",
+          "score": 0.7788585424423218,
+          "content_preview": "To complicate matters, the provincial government of British Columbia has rejected both the Canadian and American borderlines and the entire principle of equidistance. It argues for the principle of na",
+          "source": ""
+        },
+        {
+          "citation_id": "txt20",
+          "uid": "edc6aa4422c4f46fa50c6eafdcbb415f",
+          "score": 0.7739866375923157,
+          "content_preview": "Both the Canadian and US governments have proposed that the boundary be drawn in accordance with the concept of equidistance. There is disagreement, however, on the basepoints from which the border wo",
+          "source": ""
+        },
+        {
+          "citation_id": "txt18",
+          "uid": "d71e61786f8401b1efde430d3f3e66f5",
+          "score": 0.7748699188232422,
+          "content_preview": "## The Strait of Juan de Fuca: a three-way fight over equidistance\n![]()\nTwo small slivers adding up to no more than 15 square nautical miles. [Credit](): David H. Gray, “Canada’s Unresolved Maritime ",
+          "source": ""
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:09:33.210541"
+    },
+    {
+      "section_index": 2,
+      "section_description": "This section analyzes the Dixon Entrance dispute, tracing its roots to the 1825 Treaty of St Petersburg and subsequent Alaska Boundary Dispute. It describes the conflicting interpretations of the A-B Line, the division of the Dixon Entrance, and the practical impact on fishing rights and enforcement. The section also discusses the existence of a 'negative sovereignty' zone and past incidents such as the 'salmon wars.' Key sub-topics include: 1. Historical treaties and boundary arbitration, 2. Competing claims and the A-B Line, 3. Fishing conflicts and the gray zone.",
+      "content_length": 3785,
+      "content": "# The Dixon Entrance Dispute: A-B Line, Salmon Wars, and Gray Zones\n\nThe Dixon Entrance, a narrow strait separating the U.S. state of Alaska from the Canadian province of British Columbia, remains one of the most contentious and complex maritime boundary disputes between the two nations. Rooted in historical treaties and unresolved interpretations of boundary lines, the dispute has created a legal and practical gray zone that continues to impact fishing rights, enforcement, and international relations.\n\nThe origins of the conflict trace back to the 1825 Treaty of St. Petersburg, which established the initial boundary in the region that would later become the Alaska Panhandle. However, the area was largely unsurveyed at the time, and the treaty left room for interpretation. By the late 19th century, with the U.S. in control of Alaska and British Columbia a Canadian province, the discovery of gold in the region rekindled the dispute, bringing the issue to the forefront of diplomatic discussions [citation:txt2].\n\nIn 1903, a Court of Arbitration was established to resolve the boundary, resulting in the creation of the A-B Line. This line, drawn at approximately 54°40'N, was intended to delineate the boundary between the land masses of the two countries. Canada interprets the A-B Line as the international maritime boundary, asserting that nearly all of the Dixon Entrance lies within its internal waters. In contrast, the United States maintains that the A-B Line was only meant to define land sovereignty, and that the maritime boundary should be determined by international law—specifically, the equidistant principle. As a result, the U.S. unilaterally established its own maritime boundary in 1977, drawing a line south of the A-B Line [citation:txt4].\n\nThis divergence in interpretation has created four distinct zones in the Dixon Entrance. Two of these zones, located north of the A-B Line, are unclaimed by either country, while the two to the south are mutually claimed by both the U.S. and Canada. The overlapping claims have led to a “negative sovereignty” zone, where neither side exercises full jurisdiction, and enforcement is ambiguous [citation:txt10].\n\nThe practical consequences of this dispute are most evident in the fishing industry. The waters of the Dixon Entrance are rich in salmon, a vital resource for both the U.S. and Canadian fishing sectors. Because the U.S. does not recognize the A-B Line for purposes of fishing rights, it allows its fishermen to operate in areas that Canada considers its exclusive economic zone. This has led to direct conflict, including arrests, blockades, and the so-called “salmon wars,” where enforcement agencies from both countries have clashed over jurisdiction and compliance [citation:txt7].\n\nThe U.S. position is further complicated by its use of Nunez Rocks, a low-tide elevation located south of the A-B Line, as a basepoint for its territorial sea claims. While the U.S. does not recognize the Law of the Sea Treaty, it adheres to many of its principles as customary international law. This allows it to assert claims that go beyond the treaty’s provisions, particularly in areas where the tide recedes, leaving Nunez Rocks above water for part of the day [citation:txt10].\n\nDespite the lack of a formal resolution, both countries continue to navigate the situation through diplomatic channels and cooperative agreements. However, the unresolved nature of the Dixon Entrance dispute remains a potential flashpoint, especially in times of heightened tension or resource competition. The historical and legal ambiguities surrounding the A-B Line underscore the broader challenges of defining maritime boundaries in international law and the ongoing need for clarity in border agreements [citation:txt9].",
+      "text_citations": [
+        "txt10",
+        "txt2",
+        "txt4",
+        "txt7",
+        "txt9"
+      ],
+      "image_citations": [],
+      "text_citations_count": 5,
+      "image_citations_count": 0,
+      "total_citations": 5,
+      "text_sources": [
+        {
+          "citation_id": "txt2",
+          "uid": "a06d8245cb33ed453fa339d8d0323726",
+          "score": 0.808462917804718,
+          "content_preview": "The Dixon Entrance is a 50-meter wide strait situated on the United States-Canada border, between the US state of [Alaska]() and the Canadian province of [British Columbia](). The strait is named afte",
+          "source": ""
+        },
+        {
+          "citation_id": "txt4",
+          "uid": "eab0e900b5abcd3a2e7ebe5c001b4adb",
+          "score": 0.8051938414573669,
+          "content_preview": "In 1903, a Court of Arbitration was set up in order to establish a boundary between the United States and Canada in the Dixon Entrance. This court drew up a line, known as the A-B line, in the strait ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt10",
+          "uid": "9b5dcd5c5caa362eb8fa8decb8e19c82",
+          "score": 0.7843674421310425,
+          "content_preview": "* [Dixon Entrance]( \"Dixon Entrance\") ([Alaska]( \"Alaska\") and [British Columbia]( \"British Columbia\")) contains two water areas that are mutually claimed by Canada and the United States. A line known",
+          "source": ""
+        },
+        {
+          "citation_id": "txt9",
+          "uid": "04d2bf1b6435095ff0d03e1ab26153a6",
+          "score": 0.7851452827453613,
+          "content_preview": "The \"A–B\" line (approximately [54°40′ N]( \"Parallel 54°40′ north\")), which marks the northern boundary of the Dixon Entrance, was delineated by a court of arbitration set up by the [1903 Alaska Bounda",
+          "source": ""
+        },
+        {
+          "citation_id": "txt7",
+          "uid": "eab0e900b5abcd3a2e7ebe5c001b4adb",
+          "score": 0.7899264693260193,
+          "content_preview": "In 1903, a Court of Arbitration was set up in order to establish a boundary between the United States and Canada in the Dixon Entrance. This court drew up a line, known as the A-B line, in the strait ",
+          "source": ""
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:10:50.969263"
+    },
+    {
+      "section_index": 3,
+      "section_description": "This section covers the Beaufort Sea dispute, focusing on the wedge-shaped area north of the Alaska-Yukon border. It explains the conflicting methods for extending the land border into the sea (meridian vs. perpendicular), the concept of 'equitable' boundaries, and the significance of oil and gas reserves in the disputed region. The section also notes the impact of climate change on accessibility and resource extraction.",
+      "content_length": 3321,
+      "content": "# The Beaufort Sea Dispute: Meridian vs. Perpendicular and Resource Stakes\n\nThe Beaufort Sea dispute represents one of the most significant unresolved maritime boundary issues between the United States and Canada. At the heart of the conflict is a wedge-shaped area north of the Alaska-Yukon border, where the two nations diverge sharply in their interpretations of how the land border should extend into the sea. Canada asserts that the 141st meridian, which forms the land boundary between Yukon and Alaska, should also serve as the maritime boundary, extending northward into the Arctic Ocean. In contrast, the United States advocates for a perpendicular line, which would create a more equidistant boundary and result in a triangular wedge of disputed territory approximately 6,250 square nautical miles in size [citation:txt2].\n\nThis disagreement originates from the 1825 Anglo-Russian Boundary Treaty, which defined the eastern border of Alaska as the “meridian line of the 141st degree, in its prolongation as far as the frozen ocean.” Canada interprets this language as establishing both a land and a maritime boundary along the 141st meridian. The U.S., however, argues that the treaty applies only to the land border and that the principle of equidistance should govern the maritime extension [citation:txt5]. The U.S. position is reinforced by its own historical application of equidistance in other Arctic boundary negotiations, such as with Russia in the Bering Strait [citation:txt10].\n\nThe dispute has long been influenced by the potential for oil and gas exploration in the region. Canada has issued oil and gas exploration permits and leases in the Beaufort Sea up to the 141st meridian, a move that the U.S. protested in 1976. Despite attempts to resolve the issue in the late 1970s, the U.S. and Canada were unable to reach a consensus and set the matter aside until the 2000s, when rising hydrocarbon prices reignited interest in the region. While the initial enthusiasm for a “race for Arctic resources” has since tempered, the presence of estimated 1.5 billion barrels of oil and significant natural gas reserves continues to make the Beaufort Sea a high-stakes geopolitical issue [citation:txt19].\n\nThe complexity of the dispute is further compounded by the principle of “equitable result,” a concept emphasized in international maritime law. Both nations have considered how an equitable boundary might balance geographic, legal, and historical factors. Canada has also invoked the historical usage of the area by Indigenous groups, such as the Inuvialuit, as a basis for its claims [citation:txt6]. However, the U.S. remains steadfast in its equidistance argument, maintaining that this method is the most legally and geographically appropriate solution [citation:txt8].\n\nIn 2024, both countries took a step toward resolution by establishing a joint task force to negotiate the Beaufort Sea boundary. This development, while promising, underscores the deep-rooted legal and political challenges in reconciling the two nations’ fundamentally different interpretations of the 1825 treaty [citation:txt9]. As climate change accelerates the melting of Arctic ice and opens new opportunities for resource extraction, the urgency of resolving the Beaufort Sea dispute is likely to grow [citation:txt1].",
+      "text_citations": [
+        "txt1",
+        "txt10",
+        "txt19",
+        "txt2",
+        "txt5",
+        "txt6",
+        "txt8",
+        "txt9"
+      ],
+      "image_citations": [],
+      "text_citations_count": 8,
+      "image_citations_count": 0,
+      "total_citations": 8,
+      "text_sources": [
+        {
+          "citation_id": "txt2",
+          "uid": "d0fad060ae0e8b2267b3559d9a7fcf77",
+          "score": 0.8274531960487366,
+          "content_preview": "Beaufort Sea (United States): The Beaufort Sea boundary remains the most significant unsettled maritime boundary dispute in the Canadian Arctic. The wording of the 1825 Anglo-Russian Boundary Treaty s",
+          "source": ""
+        },
+        {
+          "citation_id": "txt1",
+          "uid": "659f6b72611270e6605439311454ddd1",
+          "score": 0.835309624671936,
+          "content_preview": "This ongoing dispute belies easy resolution using strictly legal criteria. In 1965, Canada issued oil and gas exploration permits and leases in the Beaufort Sea up to the $1 4 1 ^ { \\mathrm { s t } }$",
+          "source": ""
+        },
+        {
+          "citation_id": "txt8",
+          "uid": "699ce3a081efccacca4553fa1910e613",
+          "score": 0.8095966577529907,
+          "content_preview": "The United States argues that the equidistance principle must be used, and maintains that no special circumstances temper its application in the Beaufort Sea dispute. Canada, on the other hand, believ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt5",
+          "uid": "db4b005cbe0a38abbcab92016f1be26c",
+          "score": 0.8171993494033813,
+          "content_preview": "The main dispute still remaining on Arctic maritime zones concerns delineation in the Beaufort Sea between Canada and the USA. The dispute centres on the wording of a treaty concluded between Russia a",
+          "source": ""
+        },
+        {
+          "citation_id": "txt10",
+          "uid": "d5c0efcd259d8ca03201232035b9ea57",
+          "score": 0.8013522624969482,
+          "content_preview": "There is some support in State practice and international jurisprudence for Canada’s position that the boundary in the Beaufort Sea should be delimited by reference to the 141st meridian line, that is",
+          "source": ""
+        },
+        {
+          "citation_id": "txt9",
+          "uid": "e5c03ee3ca60aaa6a15c0212eefd98e7",
+          "score": 0.8076668977737427,
+          "content_preview": "In September 2024, Canada and the United States announced the creation of a joint task force to negotiate an unresolved maritime boundary in the Beaufort Sea, located between Alaska and Canada's High ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt19",
+          "uid": "ab0e92fea561173dc0955a1d7248c629",
+          "score": 0.7948540449142456,
+          "content_preview": "The next obvious variable in negotiating “trade-offs” is estimating the amount and location of hydrocarbon reserves. As noted earlier, seismic surveys and exploratory wells drilled during the 1970s an",
+          "source": ""
+        },
+        {
+          "citation_id": "txt6",
+          "uid": "ce690a60f76d5259b48bf4b7cc5f298a",
+          "score": 0.8133057355880737,
+          "content_preview": "Canada’s position is that the Beaufort Sea boundary extends from the Alaska/Yukon land boundary, at the $1 4 1 ^ { \\mathrm { s t } }$ meridian, along that same line north towards the North Pole. Canad",
+          "source": ""
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:12:03.077987"
+    },
+    {
+      "section_index": 4,
+      "section_description": "This section examines the Northwest Passage dispute, detailing its historical significance, the impact of climate change on navigability, and the legal disagreement over whether the passage constitutes Canadian internal waters or an international strait. It recounts notable incidents involving U.S. vessels, the 1988 Arctic Cooperation agreement, and ongoing diplomatic tensions as the passage becomes more accessible. Key sub-topics include: 1. Historical exploration and search for the passage, 2. Climate change and increased navigability, 3. Legal and diplomatic disputes over sovereignty and transit rights.",
+      "content_length": 4326,
+      "content": "# The Northwest Passage Dispute: Sovereignty, Climate Change, and Legal Conflict\n\nThe Northwest Passage, a historically elusive sea route through the Canadian Arctic Archipelago, has become a focal point of unresolved sovereignty and navigational rights between the United States and Canada. The dispute centers on whether the passage constitutes Canadian internal waters, over which Canada exercises full control, or an international strait, where foreign vessels, including those of the United States, have the right to transit freely. Canada asserts its claim to the waters as internal territory, grounded in the United Nations Convention on the Law of the Sea (UNCLOS) and the precedent of archipelagic baselines, while the United States and other maritime nations maintain that the passage is an international waterway. The disagreement has deep historical roots, practical implications for Arctic navigation, and is increasingly influenced by the effects of climate change.\n\n## Historical Exploration and the 1969 Incident\n\nThe Northwest Passage has long been a subject of exploration and strategic interest. For centuries, it was considered a mythical route connecting the Atlantic and Pacific Oceans. The 1969 voyage of the SS Manhattan, an icebreaking supertanker that successfully navigated the passage from the Beaufort Sea to the Davis Strait, marked a turning point in the dispute. Canada perceived this as a challenge to its sovereignty and responded by strengthening its legal and regulatory framework, including the extension of its territorial sea from 3 to 12 nautical miles and the enactment of the Arctic Waters Pollution Prevention Act. The U.S., meanwhile, viewed the voyage as a legitimate exercise of navigational rights under international law, setting the stage for a protracted legal and diplomatic conflict [citation:txt3].\n\n## Legal Framework and the 1988 Arctic Cooperation Agreement\n\nThe legal disagreement is rooted in differing interpretations of UNCLOS. Canada argues that the passage qualifies as internal waters under Article 16 of the convention, as it is enclosed by a series of islands forming an archipelago. The U.S., however, contends that the passage meets the criteria of a strait used for international navigation under Article 37 of UNCLOS, which would grant it the right of transit passage. The dispute intensified in 1985 when the Canadian Coast Guard attempted to inspect an American vessel, an act that the U.S. government viewed as an infringement on its sovereign rights. In response to such incidents, the two nations signed the 1988 Arctic Cooperation Agreement, which established a framework for managing navigation through the passage. The agreement stipulated that the U.S. would notify Canada of its intentions to navigate the passage, and Canada would facilitate such navigation. While this arrangement has reduced overt conflict, the underlying legal dispute remains unresolved [citation:txt12].\n\n## Climate Change and Increased Navigability\n\nThe most pressing factor influencing the Northwest Passage dispute is climate change. As global temperatures rise, sea ice in the Arctic is retreating at an unprecedented rate, making the passage more navigable for commercial and military vessels. Studies indicate that under 2°C of global warming, the passage could be navigable for up to 100 days a year, and with 4°C of warming, the navigable season could extend to 200–300 days annually. This increased accessibility raises the stakes for both nations, as the strategic and economic value of the passage grows. For Canada, the potential for increased traffic through its claimed internal waters heightens concerns over environmental protection and national sovereignty. For the U.S., the development of Arctic shipping routes is crucial to its economic and strategic interests, particularly in relation to Alaska [citation:txt10].\n\nThe shifting ice conditions also complicate enforcement and governance. As the passage becomes more accessible, the likelihood of foreign vessels attempting to transit without Canadian approval increases, potentially reigniting tensions. Moreover, the lack of a ratified international agreement on the passage’s status means that legal disputes may escalate as commercial and military activity in the region intensifies [citation:txt13].",
+      "text_citations": [
+        "txt10",
+        "txt12",
+        "txt13",
+        "txt3"
+      ],
+      "image_citations": [],
+      "text_citations_count": 4,
+      "image_citations_count": 0,
+      "total_citations": 4,
+      "text_sources": [
+        {
+          "citation_id": "txt3",
+          "uid": "0a7f436f57062e3e1e8444dcbcab2fe6",
+          "score": 0.8360545039176941,
+          "content_preview": "As Donald Rothwell [notes](), the legal status of the Northwest Passage as a shipping route “was relatively uncontroversial for much of the 20th Century,” primarily due to the lack of interest in comm",
+          "source": ""
+        },
+        {
+          "citation_id": "txt12",
+          "uid": "1daacc84a8dcaccf0d4e535f7fa181dc",
+          "score": 0.8186308145523071,
+          "content_preview": "Canada's government also continues to argue that the various channels that pass through the country's 36,000-island Arctic Archipelago, commonly referred to as the _Northwest_ _Passage_ , are internal",
+          "source": ""
+        },
+        {
+          "citation_id": "txt13",
+          "uid": "b7c89e9bd397afaa6a863057e601e153",
+          "score": 0.8178678154945374,
+          "content_preview": "The international legal status of the Northwest Passage remains unresolved. Canada maintains that the Passage lies within its internal waters, under full Canadian sovereignty. Whereas the United State",
+          "source": ""
+        },
+        {
+          "citation_id": "txt10",
+          "uid": "8855896e20406ac654764f836956d698",
+          "score": 0.8198820352554321,
+          "content_preview": "Climate change-driven reductions in sea ice have facilitated increased shipping traffic volumes across the Arctic. Here, we use climate model simulations to investigate changing navigability in the Ca",
+          "source": ""
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:13:22.479367"
+    },
+    {
+      "section_index": 5,
+      "section_description": "This section discusses the Machias Seal Island dispute, the only dry land contested between the U.S. and Canada. It recounts the colorful history of individual claimants, the ambiguous wording of historical land grants and treaties, and the ongoing Canadian presence via lighthouse keepers. The section also addresses the associated fishing grounds, the exclusion of the island from previous boundary settlements, and recent tensions over lobster fishing. Key sub-topics include: 1. Historical claims and local figures, 2. Treaty ambiguities and sovereignty assertions, 3. Fishing rights and recent conflicts.",
+      "content_length": 3652,
+      "content": "# The Machias Seal Island Dispute: A Dry Land Claim in the Grey Zone\n\nMachias Seal Island, a small, rocky outcrop less than 10 miles off the coast of Maine, remains the only dry land territory contested between the United States and Canada. Despite its diminutive size—just 550 meters long and 250 meters wide—the island lies at the heart of a longstanding dispute rooted in ambiguous historical treaties and evolving interpretations of maritime sovereignty [citation:txt20]. The island is located in a 277-square-mile stretch of ocean known as the “grey zone,” an area claimed by both nations and rich in marine resources, particularly lobster [citation:txt7].\n\nThe origins of the dispute trace back to the Treaty of Paris in 1783, which ended the American Revolutionary War and established the initial framework for U.S.-Canadian borders. However, the treaty left the maritime boundaries in the Gulf of Maine undefined, creating a legal gray area that neither country sought to resolve definitively in subsequent agreements such as the Jay Treaty (1794) or the Webster–Ashburton Treaty (1842) [citation:txt1]. The ambiguity persisted through the 19th and 20th centuries, and while most Gulf of Maine disputes were settled by the International Court of Justice in 1984, Machias Seal Island was notably excluded from that resolution [citation:txt4].\n\nThe island has been continuously occupied by Canadian authorities since 1832, when a lighthouse was constructed by the British to aid navigation in the busy shipping lanes of the Gulf of Maine. After Canadian Confederation in 1867, the lighthouse and the island were inherited by Canada, and it has remained under Canadian control ever since. Although the lighthouse is now automated, the Canadian Coast Guard continues to station lighthouse keepers on the island—ostensibly for operational purposes, but also as a symbolic assertion of Canadian sovereignty [citation:txt17].\n\nWhile the island itself is of limited strategic or economic value, the surrounding waters are among the most productive fishing grounds in the region. Lobster fishing, in particular, has become a flashpoint in the dispute. In 2002, Canada unilaterally extended its jurisdiction into the grey zone, allowing Canadian fishermen to operate in the area during the summer months. This move brought them into direct conflict with U.S. fishermen from Maine, who view the waters as their own. Tensions have escalated into physical altercations, with reports of lobstermen cutting each other’s gear, making death threats, and even an incident in which a Maine fisherman lost a thumb while trying to free his traps from Canadian lines [citation:txt7].\n\nThe dispute has also seen recent flare-ups involving U.S. border patrol operations. In 2018, Canadian fishermen reported being harassed by U.S. enforcement vessels in the grey zone, reigniting diplomatic tensions between the two nations [citation:txt8]. While both countries have largely avoided formalizing the dispute through international courts, the ongoing presence of Canadian lighthouse keepers and the sporadic clashes between fishermen underscore the unresolved nature of the issue [citation:txt13].\n\nThe Machias Seal Island dispute, though relatively low-profile compared to other U.S.-Canada maritime conflicts, remains a symbol of the complexities of historical boundary-making and the enduring importance of resource-rich waters in international relations. As the climate continues to shift and marine ecosystems change, the stakes of this dispute are likely to remain high, with both nations watching the grey zone closely for any sign of escalation [citation:txt20].",
+      "text_citations": [
+        "txt1",
+        "txt13",
+        "txt17",
+        "txt20",
+        "txt4",
+        "txt7",
+        "txt8"
+      ],
+      "image_citations": [],
+      "text_citations_count": 7,
+      "image_citations_count": 0,
+      "total_citations": 7,
+      "text_sources": [
+        {
+          "citation_id": "txt13",
+          "uid": "b8cb23e2d15440a7f0a92663023cd2c3",
+          "score": 0.804154634475708,
+          "content_preview": "**Machias Seal Island** is an island in disputed water between the [Gulf of Maine]( \"Gulf of Maine\") and the [Bay of Fundy]( \"Bay of Fundy\"), about 8.6 nmi (16 km) southeast from [Cutler, Maine]( \"Cut",
+          "source": ""
+        },
+        {
+          "citation_id": "txt1",
+          "uid": "b26ff03360838c067b2e949054a52b24",
+          "score": 0.8405210971832275,
+          "content_preview": "The conflict over **Machias Seal Island** stretches back to the colonial era, when cartographers’ ink was still drying on what would become the modern borders of North America. The [Treaty of Paris (1",
+          "source": ""
+        },
+        {
+          "citation_id": "txt17",
+          "uid": "7d0049b98f7e1ab73e14f3d82d949a96",
+          "score": 0.8018530607223511,
+          "content_preview": "So, from the late 1700s on, Machias Seal Island was claimed by both countries. Then in 1832, the British took the first step in occupying the territory by building a lighthouse there. When Canada beca",
+          "source": ""
+        },
+        {
+          "citation_id": "txt8",
+          "uid": "08562a72be6d207cbe860a4cbc7d211b",
+          "score": 0.8078003525733948,
+          "content_preview": "The Machias Seal Island dispute is significant due to the vast stocks of fish and lobster in the surrounding waters. In 2018, this dispute boiled over when Canadian fishermen complained of being haras",
+          "source": ""
+        },
+        {
+          "citation_id": "txt20",
+          "uid": "1984e2baa735fb6a960c02f90fa655ec",
+          "score": 0.7979209423065186,
+          "content_preview": "Machias Seal Island is located in the Gulf of Maine, about 16 km southeast from the town of Cutler, Maine. It is a tiny, rocky island that is just 550 meters long and 250 meters wide. The dispute over",
+          "source": ""
+        },
+        {
+          "citation_id": "txt4",
+          "uid": "2dfc6833d6032d8118ae8da6ce47891f",
+          "score": 0.8219177722930908,
+          "content_preview": "In fact, the U.S. and Canada did have a few other territorial issues in the Gulf of Maine, but those were resolved by the International Court of Justice in The Hague in 1984. But Machias Seal Island w",
+          "source": ""
+        },
+        {
+          "citation_id": "txt7",
+          "uid": "791b1a7606aa8c8a1733522ef07ac4b8",
+          "score": 0.8091239929199219,
+          "content_preview": "[cs_drop_cap letter=”M” color=”#a81818″ size=”5em” ]achias Seal Island lies 10 miles off the Maine coast, a lonely outcrop of rock and scrub in a 277-square-mile swath of ocean known to mariners and m",
+          "source": ""
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:14:46.757722"
+    },
+    {
+      "section_index": 6,
+      "section_description": "This section provides references for further reading and credits for images and data sources used throughout the article. It points readers to additional resources on each dispute and acknowledges the work of David H. Gray and the International Boundaries Research Unit.",
+      "content_length": 3658,
+      "content": "# References and Credits\n\nThe information and analysis presented in this article have drawn from a range of authoritative texts, scholarly works, and cartographic resources that provide insight into the unresolved maritime and territorial disputes between the United States and Canada. These sources offer historical, legal, and geopolitical context to the complex issues at hand, and they are essential for those wishing to explore these disputes in greater depth.\n\nFor readers interested in the broader context of Canada’s Arctic sovereignty claims, *Canada and the Maritime Arctic: Boundaries, Shelves, and Waters* by P. Whitney Lackenbauer, Suzanne Lalonde, and Elizabeth Riddell-Dixon provides a comprehensive overview of the Beaufort Sea boundary, the extended continental shelf, and the status of the Northwest Passage [citation:txt3]. Similarly, *Canada and the Changing Arctic: Sovereignty, Security and Stewardship* by Franklyn Griffiths, Rob Huebert, and P. Whitney Lackenbauer is an insightful read on the evolving Arctic landscape and its implications for Canada [citation:txt4].\n\nThe legal and diplomatic dimensions of these disputes are well covered in Michael Byers and Andreas Østhagen’s article, *Why Does Canada Have So Many Unresolved Maritime Boundary Disputes?* [citation:txt5], which examines the unique circumstances surrounding each of Canada’s five unresolved maritime boundaries. Ted McDorman’s *Salt Water Neighbors: International Ocean Law Relations between the United States and Canada* [citation:txt12] is another valuable resource, offering a detailed account of the legal and political dynamics that have shaped U.S.-Canadian maritime relations.\n\nFor those interested in the historical and practical aspects of the disputes, *The Fish Feud: The U.S. and Canadian Boundary Dispute* by David VanderZwaag [citation:txt8] and *An Overview of International Fisheries Disputes and the International Tribunal for the Law of the Sea* by Ted L. McDorman [citation:txt2] provide a compelling look into the fisheries-related tensions and the mechanisms in place to resolve them.\n\nThe maps and data included in this article are credited to David H. Gray and the International Boundaries Research Unit (IBRU) at Durham University, whose work has been instrumental in visualizing and understanding the complexities of maritime boundaries. In particular, the detailed maps of the Beaufort Sea [citation:img1] and the Gulf of Maine [citation:img10] are based on Gray’s extensive research and are essential for visual learners and policymakers alike.\n\nFor further reading and academic exploration, the following texts are recommended: *Public International Law* by John H. Currie [citation:txt19], *Environmental Law* by Jamie Benidickson [citation:txt19], and *Canadian Maritime Law* edited by Aldo Chircop, William Moreira, Hugh Kindred, and Edgar Gold [citation:txt19]. These works provide foundational knowledge in the legal frameworks that govern international boundaries and maritime disputes.\n\nWe would like to acknowledge the contributions of David H. Gray and the IBRU for their invaluable maps and data, which have enhanced the clarity and precision of this article. Their work continues to be a cornerstone in the field of boundary research and international relations.\n\nFinally, for a deeper understanding of the unresolved maritime boundary in the Beaufort Sea, readers are encouraged to review the U.S. Department of State’s *Joint Statement on Creation of Joint Task Force to Negotiate Beaufort Sea Boundary* [citation:txt13], which outlines the latest developments in U.S.-Canadian efforts to resolve this long-standing issue.",
+      "text_citations": [
+        "txt12",
+        "txt13",
+        "txt19",
+        "txt2",
+        "txt3",
+        "txt4",
+        "txt5",
+        "txt8"
+      ],
+      "image_citations": [],
+      "text_citations_count": 8,
+      "image_citations_count": 0,
+      "total_citations": 8,
+      "text_sources": [
+        {
+          "citation_id": "txt2",
+          "uid": "a55c3404270c607affed82f257235b4b",
+          "score": 0.7775333523750305,
+          "content_preview": "McDorman, Ted L. (2002) An Overview of International Fisheries Disputes and the International Tribunal for the Law of the Sea. Canadian Yearbook of International Law 40:119-148.\nMerrills, J. G. 2005. ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt13",
+          "uid": "e5c03ee3ca60aaa6a15c0212eefd98e7",
+          "score": 0.7657330632209778,
+          "content_preview": "In September 2024, Canada and the United States announced the creation of a joint task force to negotiate an unresolved maritime boundary in the Beaufort Sea, located between Alaska and Canada's High ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt8",
+          "uid": "211cdfe7a1bdad009ed8bea7d4ab7e68",
+          "score": 0.7713559865951538,
+          "content_preview": "VanderZwaag, David L. The Fish Feud: The U.S. and Canadian Boundary Dispute. Lexington: Lexington Books. 1983\nVan de Poll, Henk W. Telephone Interview. University of New Brunswick, Canada. 11 Oct. 198",
+          "source": ""
+        },
+        {
+          "citation_id": "txt4",
+          "uid": "61d59332058237be6a600762f8bd9748",
+          "score": 0.7746660709381104,
+          "content_preview": "Gray, David H. 1997. “Canada’s Unresolved Maritime Boundaries.” IBRU Boundary and Security Bulletin: 61-70.\nGriffiths, Franklyn, Rob Huebert, and P. Whitney Lackenbauer. 2011. Canada and the Changing ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt3",
+          "uid": "6def55dbff74c5e0694e4cd875a2aeec",
+          "score": 0.7765255570411682,
+          "content_preview": "For more details on the background to this dispute, see P. Whitney Lackenbauer, Suzanne Lalonde, and Elizabeth Riddell-Dixon, Canada and the Maritime Arctic: Boundaries, Shelves, and Waters (Peterboro",
+          "source": ""
+        },
+        {
+          "citation_id": "txt12",
+          "uid": "7862c1ca644d243ee8fa610b9c1b3be5",
+          "score": 0.7682074308395386,
+          "content_preview": "* McDorman, T.L. _Salt Water Neighbors: International Ocean Law Relations between the United States and Canada_. New York: Oxford University Press, 2009.\n[(Open in a new window)Google Scholar]()",
+          "source": ""
+        },
+        {
+          "citation_id": "txt5",
+          "uid": "9d4918ecf17b0e34e92452a857aaffef",
+          "score": 0.7738443613052368,
+          "content_preview": "# Why Does Canada Have So Many Unresolved Maritime Boundary Disputes?\nPublished online by Cambridge University Press: **11 August 2017**\n[MICHAEL BYERS ]() and\n[ANDREAS ØSTHAGEN ]()\n* * *\n[]()\n* [Arti",
+          "source": ""
+        },
+        {
+          "citation_id": "txt19",
+          "uid": "5e3283cd584accb836db829603bc74d2",
+          "score": 0.7588375806808472,
+          "content_preview": "### Further Reading\n* John H. Currie, _Public International Law_ , 2d ed. (2008); Jamie Benidickson, _Environmental Law_ , 3d ed. (2008);  Aldo Chircop, William Moreira, Hugh Kindred and Edgar Gold, e",
+          "source": ""
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:16:25.084656"
+    }
+  ],
+  "references": [],
+  "unresolved": []
+}

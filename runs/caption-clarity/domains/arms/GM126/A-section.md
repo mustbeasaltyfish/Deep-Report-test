@@ -1,0 +1,11 @@
+# The Longest Peaceful Border and Its Maritime Exceptions
+
+The U.S.-Canada border is often hailed as the longest undefended and peaceful international land boundary in the world, stretching approximately 5,525 miles (8,891 km) across land and water [citation:txt1]. This border, which has been shaped by numerous treaties and agreements since the Treaty of Paris in 1783 [citation:txt5], is a testament to the generally cooperative and stable relationship between the two nations. Along much of its length, the border is marked by natural features such as rivers and lakes, and it is largely unguarded, reflecting the mutual trust and diplomatic harmony between the United States and Canada [citation:txt2].
+
+However, the peaceful nature of the land border contrasts sharply with the maritime boundary disputes that persist between the two countries. While the land border has been largely demarcated and accepted, there are five key areas where the U.S. and Canada disagree over maritime boundaries and territorial claims [citation:txt3]. These disputes, though not currently a source of open conflict, remain unresolved and could become points of contention if bilateral relations were to sour in the future [citation:txt1].
+
+The five disputed areas include Machias Seal Island off the coast of Maine, as well as four maritime boundaries in the Arctic and Pacific Oceans [citation:txt4]. These disputes are not only historical in nature but also carry significant legal and economic implications, particularly as the Arctic becomes more accessible due to climate change and the potential for resource extraction [citation:txt10]. For example, in the Beaufort Sea, the U.S. and Canada have differing interpretations of an 1825 treaty between Great Britain and Russia, which now binds the two nations as successors to those agreements [citation:txt6].
+
+The existence of these unresolved disputes highlights the complexity of international boundary negotiations, especially when historical treaties and evolving legal frameworks come into play [citation:txt12]. While the U.S. and Canada continue to maintain a strong and cooperative relationship, the unresolved maritime boundaries serve as a reminder that even the most stable international relationships can have lingering points of contention [citation:txt9].
+
+![](citation:img7)

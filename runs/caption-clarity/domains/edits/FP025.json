@@ -1,0 +1,31 @@
+{
+  "task_uid": "FP025",
+  "section_index": 0,
+  "image_slot": "img1",
+  "image_uid": "6814d10ed6b80744a7d79a34f62901bf",
+  "image_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_48695.png",
+  "equivalent_image_uids": [
+    "038efb00fe46ba01c79eba7cf4f60b02"
+  ],
+  "clarification": "The percentages are shares of all surveyed U.S. adults, not shares within the 22% group. The 22% is the broad set of respondents who moved, had someone move in, or knew someone who moved; only 3% said they personally moved. The right-hand categories can overlap.",
+  "verified_detail": "Distinguish the broad 22% statistic from the 3% that personally moved, with the same survey denominator or a clear equivalent statement.",
+  "rationale": "The candidate is the June Pew survey graphic named in the section. The original caption calls the percentage bars a breakdown of 22%, obscuring their denominator.",
+  "replacements_by_uid": {
+    "6814d10ed6b80744a7d79a34f62901bf": [
+      [
+        "The bar graph on the right breaks down the 22% into three categories:",
+        "The bars show three response shares measured across all U.S. adults:"
+      ]
+    ],
+    "038efb00fe46ba01c79eba7cf4f60b02": [
+      [
+        "The bar graph breaks down the 22% into three categories:",
+        "The bars show three response shares measured across all U.S. adults:"
+      ],
+      [
+        "22% of U.S. adults have been personally affected by relocation because of COVID-19.",
+        "22% of U.S. adults moved, had someone move into their household, or knew someone who moved because of COVID-19."
+      ]
+    ]
+  }
+}

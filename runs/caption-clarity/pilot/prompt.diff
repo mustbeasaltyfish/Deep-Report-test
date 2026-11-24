@@ -1,0 +1,58 @@
+--- A-original-caption
++++ B-clear-caption
+@@ -121,22 +121,22 @@
+ - **Datasets:**
+   - Three users (User 1, User 2, User 3) contribute different data points.
+   - User 1 contributes triangles, User 2 contributes circles, and User 3 contributes diamonds.
+-  - The datasets show that each user's examples are individually included.
++  - The left dataset contains three triangles from User 1. The right dataset removes exactly one of those triangles and keeps every other example.
+ - **Training Process:**
+   - Each dataset undergoes "Noisy Training" to ensure privacy.
+-  - The resulting models are identical, indicating that the noise addition process does not affect the model outcome despite differences in the datasets.
++  - The output models are labeled "Looks the same": noisy training limits how distinguishable the outputs are when one example is removed.
+ 
+ #### User-level DP:
+ - **Datasets:**
+   - Similar structure with three users contributing different shapes.
+-  - However, the right side shows a blue box covering User 1's data, indicating aggregation or exclusion in user-level DP.
++  - The right dataset removes all three of User 1's triangles. It keeps the other users' data unchanged.
+ - **Training Process:**
+   - Datasets undergo "Noisy Training," treating each user's data as a group.
+-  - The resulting models are identical, suggesting that the privacy mechanism at the user level maintains consistency despite aggregated data handling.
++  - The output models are labeled "Looks the same": noisy training limits how distinguishable the outputs are when all examples from one user are removed.
+ 
+ #### General Observations:
+ - **Models:**
+-  - Both scenarios result in models that "look the same," highlighting the effectiveness of DP in maintaining model performance while ensuring privacy.
++  - The label "Looks the same" illustrates limited distinguishability of the output distributions under the indicated data change.
+ - **Privacy Levels:**
+   - Example-level DP focuses on individual data points, while user-level DP considers entire user datasets, emphasizing different privacy granularities.]
+ 
+@@ -149,22 +149,22 @@
+ - **Datasets:**
+   - Three users (User 1, User 2, User 3) contribute different data points.
+   - User 1 contributes triangles, User 2 contributes circles, and User 3 contributes diamonds.
+-  - The datasets show that each user's examples are individually included.
++  - The left dataset contains three triangles from User 1. The right dataset removes exactly one of those triangles and keeps every other example.
+ - **Training Process:**
+   - Each dataset undergoes "Noisy Training" to ensure privacy.
+-  - The resulting models are identical, indicating that the noise addition process does not affect the model outcome despite differences in the datasets.
++  - The output models are labeled "Looks the same": noisy training limits how distinguishable the outputs are when one example is removed.
+ 
+ #### User-level DP:
+ - **Datasets:**
+   - Similar structure with three users contributing different shapes.
+-  - However, the right side shows a blue box covering User 1's data, indicating aggregation or exclusion in user-level DP.
++  - The right dataset removes all three of User 1's triangles. It keeps the other users' data unchanged.
+ - **Training Process:**
+   - Datasets undergo "Noisy Training," treating each user's data as a group.
+-  - The resulting models are identical, suggesting that the privacy mechanism at the user level maintains consistency despite aggregated data handling.
++  - The output models are labeled "Looks the same": noisy training limits how distinguishable the outputs are when all examples from one user are removed.
+ 
+ #### General Observations:
+ - **Models:**
+-  - Both scenarios result in models that "look the same," highlighting the effectiveness of DP in maintaining model performance while ensuring privacy.
++  - The label "Looks the same" illustrates limited distinguishability of the output distributions under the indicated data change.
+ - **Privacy Levels:**
+   - Example-level DP focuses on individual data points, while user-level DP considers entire user datasets, emphasizing different privacy granularities.]
+ 

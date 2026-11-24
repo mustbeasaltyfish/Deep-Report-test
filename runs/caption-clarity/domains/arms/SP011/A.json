@@ -1,0 +1,512 @@
+{
+  "task": {
+    "domain": "Social",
+    "uid": "SP011",
+    "source": "TestSet/Social/SP011.md",
+    "query": "How do blue-collar workers in the U.S. perceive their jobs compared to other workers, based on recent survey data?",
+    "sections": 6
+  },
+  "arm": "A",
+  "section_index": 0,
+  "request": {
+    "model": "qwen3-32b",
+    "max_tokens": 4096,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 1701,
+    "messages": [
+      {
+        "role": "user",
+        "content": "# Role\nYou are an expert writer skilled at creating coherent, well-structured long-form content with proper source citations.\n\n# Task\nWrite a specific section of a larger article based on the provided requirements, context, and retrieved materials.\n\n# Overall Article Context\n**Article Topic:** How do blue-collar workers in the U.S. perceive their jobs compared to other workers, based on recent survey data?\n\n**Overall Requirements:**\n- How do blue-collar workers' job satisfaction levels compare to other workers?\n- What factors contribute to blue-collar workers' dissatisfaction with pay and work conditions?\n- How do blue-collar workers view their jobs in terms of career prospects, job-hunting, respect, and opportunities for education or training?\n\n# Current Section Information\n**Section Position:** Section 1/6\n**Section Description:** This section introduces the topic by highlighting the prominence of blue-collar workers in public discourse and outlines the scope and methodology of the Pew Research Center survey. It defines 'blue-collar workers' for the purposes of the analysis, describes the survey sample, and explains the rationale behind the sectoral and labor-based classification. Key sub-topics include: 1. Definition of blue-collar workers, 2. Survey methodology and sample characteristics.\n\n**Section Requirements (must address all):**\n- Blue-collar workers are defined as those who do manual or physical labor in one of five industrial sectors: manufacturing, mining and construction; agriculture, forestry, fishing and hunting; retail and trade; hospitality or service; and transportation.\n- The survey was conducted among 5,273 employed U.S. adults, with 1,004 classified as blue-collar workers.\n\n# Context from Previous Sections\n**Summary of previous sections:**\nThis is the first section\n\n**End of previous section (for smooth transition):**\nNo previous content\n\n# Retrieved Materials\nYou have access to the following sources for citation:\n[Source txt1 begin]\nThe Center’s definition of blue-collar workers, who comprise about 27% of the U.S. workforce, includes people who do manual or physical labor in their jobs and work in one of five industry sectors:\n* manufacturing, mining and construction\n* agriculture, forestry, fishing and hunting\n* retail and trade\n* hospitality or service\n* transportation.\n[Source txt1 end]\n\n[Source txt2 begin]\n##  Blue-Collar Workers\nThe term blue-collar worker references individuals who engage in hard manual labor, typically in the agriculture, [manufacturing](), construction, mining, or maintenance sectors of the economy. Most of these people historically wore blue-collar shirts when they worked.\n[Source txt2 end]\n\n[Source txt3 begin]\nOur definition of “blue-collar workers” includes people who do manual or physical labor in their jobs _and_ work in one of five specific industrial sectors: manufacturing, mining and construction; agriculture, forestry, fishing and hunting; retail and trade; hospitality or service; and transportation.\n[Source txt3 end]\n\n[Source txt4 begin]\nHow we did this\nPew Research Center conducted this study to better understand the experiences of American workers – specifically, blue-collar workers.\nWe surveyed 5,273 U.S. adults who are employed part or full time and either have one job  _or_ have more than one but consider one to be their primary job. The survey was conducted Oct. 7-13, 2024.\n[Source txt4 end]\n\n[Source txt5 begin]\nOver time, \"blue-collar\" became a broad label for anyone [engaged in manual labor]() or skilled trades, emphasizing the physical nature of their work compared to the office-based, intellectual tasks of their white-collar counterparts.\n[Source txt5 end]\n\n[Source txt6 begin]\nHistorically, blue-collar workers have been the backbone of many industries, contributing directly to the production and maintenance of goods and infrastructure. These roles often involve working with machinery, tools, and various materials and can be found in settings such as factories, construction sites, and service industries.\n[Source txt6 end]\n\n[Source txt7 begin]\n## What is blue-collar work anyway?\nWhile there’s no hard-and-fast definition, blue-collar work involves the production of goods, while white-collar work occurs at a desk in an office.\nAlthough intuitive, the delineation between blue- and white-collar work leaves loads of room for interpretation, especially in today’s knowledge and service economy.\n[Source txt7 end]\n\n[Source txt8 begin]\nThe term \"blue-collar workers\" originated in the early 20th century, reflecting the typical work attire of manual laborers. During the Industrial Revolution, many workers wore blue uniforms or work shirts, which were both durable and practical for the demanding conditions of factory and manual labor.\n[Source txt8 end]\n\n[Source txt9 begin]\nAll of our findings are based on a survey conducted Oct. 7-13, 2024, among 5,273 employed U.S. adults, including 1,004 workers we classified as blue-collar. (For more about the survey and how we defined blue-collar workers, read “How we did this.”)\n_**Related:** [Most Americans Feel Good About Their Job Security but Not Their Pay]()_\n[Source txt9 end]\n\n[Source txt10 begin]\nBlue-collar workers were primarily involved in jobs requiring physical effort, such as [manufacturing](), construction, and maintenance, and their attire was designed to withstand the rigors of their tasks.\n[Source txt10 end]\n\n[Source txt11 begin]\nIn October 2024, the Center surveyed 5,273 employed U.S. adults, including 1,004 workers who were classified as blue-collar.\nKey findings include:\n* Blue-collar workers are markedly less satisfied with their jobs than other workers.\n[Source txt11 end]\n\n[Source txt12 begin]\nWifi talents report that blue-collar workers make up about [13.4%]() of the total workforce in the United States. These individuals are engaged in manual labor or skilled trades, typically involving physical work. This category includes a diverse range of professions such as construction workers, electricians, plumbers, mechanics, and factory workers.\n[Source txt12 end]\n\n[Source txt13 begin]\nOne of the most common ways to classify workers and jobs is by collar colors, with blue and white being the best known. Traditionally, [blue-collar]() jobs have involved manual labor, often in manufacturing or construction, and hourly or piecework pay. [White-collar]() jobs, on the other hand, are performed in offices, with work that is managerial, administrative, or clerical in nature. White collar workers are usually salaried.\n[Source txt13 end]\n\n[Source txt14 begin]\nFor the purposes of this analysis, we defined “blue-collar workers” as those who do manual or physical labor in their jobs _and_ work in one of five specific industrial sectors: manufacturing, mining and construction; agriculture, forestry, fishing and hunting; retail and trade; hospitality and service; and transportation. In each of those sectors, more than 60% of workers do manual or physical labor in their jobs, and about 30% of workers or fewer have a bachelor’s degree. Together, those five sectors account for 39% of the U.S. workforce; those whose jobs involve manual/physical labor within those industries – who we term blue-collar workers – account for 27% of the workforce.\n[Source txt14 end]\n\n[Source txt15 begin]\nOne way of conceptualizing occupational grades is the distinction between white-collar and blue-collar work. Blue-collar jobs are usually considered physically demanding, manual labour, which characterized much of the workforce during the industrial development of the labour market. White-collar work is typically defined as non-manual labour often in an office environment, e.g., managerial, professional, and service work (Herr et al., [Citation2015]()). However, the distinction between blue-collar and white-collar jobs has become more blurred today with the increase of skilled labour in modern western service society (Alvesson, [Citation2004]()). Consequently, the white-collar and the blue-collar groups have expanded to include both low-skilled and high-skilled jobs (see e.g., Lau, [Citation2008]()). In the public sector, for example, the low-skilled white-collar group typically consists of employees who perform non-supervisory clerical tasks or low-skilled service tasks primarily related to health and child care (Della Torre et al., [Citation2015]()). Studies have shown that low-skilled and high-skilled white-collar employees may differ in their perceptions of and attitudes to sickness absence (Wynne-Jones et al., [Citation2011]()).\n[Source txt15 end]\n\n[Source txt16 begin]\n* Blue-collar jobs usually involve manual labor, and workers are paid on an hourly or piecework basis.\n* Certain perceptions aren't necessarily accurate, including those that hold that blue-collar workers belong to a lower social class and that white-collar jobs pay more.\n[Source txt16 end]\n\n[Source txt17 begin]\nSome blue-collar workers may have to do physically demanding or exhausting tasks. They may work outdoors and/or with heavy machinery or animals. Workers may be [skilled]() or [unskilled](). Skills can be acquired on the job or, more commonly, at a trade school.\nSome of the most common blue-collar jobs include:\n* Welders\n* Mechanics\n* Electricians\n[Source txt17 end]\n\n[Source txt18 begin]\n## Who are blue collar workers?\n![Three blue paper boats]()Who are blue collar workers?\n[Source txt18 end]\n\n[Source txt19 begin]\nPew Research Center has a history of studying digital technology adoption. For the new material in this report, the Center surveyed 1,502 U.S. adults from Jan. 25 to Feb. 8, 2021, by cellphone and landline phone. The survey was conducted by interviewers under the direction of Abt Associates and is weighted to be representative of the U.S. adult population by gender, race, ethnicity, education and other categories. Here are [the questions used]() for this report, along with responses, and its methodology.\n[Source txt19 end]\n\n[Source txt20 begin]\n\"The Blue-Collar Drought\" refers to the growing shortage of skilled blue-collar workers in various industries. This term [highlights the challenges]() faced by employers in filling positions that require technical skills and manual labor, which are essential for maintaining and expanding industrial and infrastructural capabilities.\n[Source txt20 end]\n\n[Source img1: **Coarse-grained Description:**\n\n- The image presents a bar chart showing the distribution of U.S. workers across different income tiers by industry in 2022.\n- The chart highlights that about a third of workers in the information, financial, and professional services sectors fall into the upper-income category.\n- The chart compares the percentage of lower, middle, and upper-income workers in various industries.\n\n**Fine-grained Description:**\n\n- **Main Topic:** Distribution of U.S. workers across income tiers by industry in 2022.\n- **Income Tiers:** \n  - Lower income (light green)\n  - Middle income (gold)\n  - Upper income (dark green)\n- **Industries Covered:**\n  - Finance, insurance, and real estate\n  - Information\n  - Professional services\n  - Public administration\n  - Wholesale trade\n  - Education\n  - Manufacturing\n  - Health care and social assistance\n  - Arts, entertainment, and recreation\n  - Agriculture, forestry, fishing, and mining\n  - Transportation, warehousing, and utilities\n  - Construction\n  - Retail trade\n  - Other services\n  - Military\n  - Accommodation and food services\n- **Notable Patterns:**\n  - **Upper Income:** Information (33%), Finance, insurance, and real estate (33%), and Professional services (31%) have the highest percentages of upper-income workers.\n  - **Middle Income:** Most industries have a significant portion of middle-income workers, with Public administration (61%) and Military (65%) having the highest percentages.\n  - **Lower Income:** Accommodation and food services (38%) has the highest percentage of lower-income workers.\n- **Additional Notes:**\n  - The data is based on household incomes adjusted for household size and local cost of living.\n  - Estimates are for individuals ages 16 and older who worked in the previous five years.\n  - The data is sourced from the American Community Survey (IPUMS) by the Pew Research Center, 2022.\n\nThis chart provides insights into income distribution across various sectors, highlighting disparities and concentrations of income levels within different industries.]\n\n[Source img2: Coarse-grained Description:\n- The image presents a matrix that categorizes different industries based on their sensitivity to recession and rising costs.\n- It compares industries by plotting them on a two-dimensional grid, highlighting which sectors are more or less sensitive to economic downturns and cost increases.\n- The main message is to identify which industries are more vulnerable to economic challenges and which are more resilient.\n\nFine-grained Description:\n- The matrix is divided into four quadrants:\n  - **Top Left (Less Sensitive to Recession, Less Vulnerable to Rising Costs):**\n    - **Agrifood:** Considered less sensitive because food is a staple necessity.\n    - **Paper**\n    - **Transport**\n    - **Retail**\n    - **Pharma**\n    - **Chemicals**\n\n  - **Top Right (Less Sensitive to Recession, More Vulnerable to Rising Costs):**\n    - **Textile**\n    - **Electronics**\n    - **Computers**\n    - **Machinery & Equipment**\n    - **Oil & Gas**\n    - **Services**\n\n  - **Bottom Left (More Sensitive to Recession, Less Vulnerable to Rising Costs):**\n    - **Power**\n    - **Household Equipment**\n    - **Construction**\n    - **Metals**\n    - **Auto**\n    - *Note:* The automotive sector is noted as less sensitive due to material and labor shortages.\n\n  - **Bottom Right (More Sensitive to Recession, More Vulnerable to Rising Costs):**\n    - This quadrant is empty, indicating no industries fall into this category.\n\n- **Annotations:**\n  - A note mentions that while the automotive sector is typically recession-sensitive, current material and labor shortages have temporarily bolstered it.\n- **Axes:**\n  - The vertical axis represents \"Recession Risk\" from less to more sensitive.\n  - The horizontal axis represents \"Rising Costs\" from less to more vulnerable.]\n\n[Source img3: Coarse-grained Description:\n- The image is a chart from the Pew Research Center showing the percentage of blue-collar workers and other workers who perceive their current job as a career, a stepping stone to a career, or just a job to get them by.\n- The data compares different groups within blue-collar workers based on gender, age, and education level, as well as contrasting them with other workers.\n- The main message is that blue-collar workers are less likely to view their job as a career compared to other workers.\n\nFine-grained Description:\n- The chart is divided into three categories of job perception: \"A career,\" \"A stepping stone to a career,\" and \"Just a job to get them by.\"\n- For all blue-collar workers:\n  - 33% view their job as a career.\n  - 12% see it as a stepping stone.\n  - 54% consider it just a job.\n- For all other workers:\n  - 56% view their job as a career.\n  - 16% see it as a stepping stone.\n  - 27% consider it just a job.\n- Among blue-collar workers:\n  - Men: 39% as a career, 11% as a stepping stone, 50% just a job.\n  - Women: 24% as a career, 14% as a stepping stone, 61% just a job.\n  - Ages 18-29: 15% as a career, 20% as a stepping stone, 65% just a job.\n  - Ages 30-49: 34% as a career, 14% as a stepping stone, 52% just a job.\n  - Ages 50+: 48% as a career, 3% as a stepping stone, 49% just a job.\n  - Some college or less: 32% as a career, 12% as a stepping stone, 56% just a job.\n  - Bachelors+: 46% as a career, 12% as a stepping stone, 42% just a job.\n- The survey was conducted from October 7-13, 2024, among U.S. workers.\n- The chart notes that shares of respondents who didn't offer an answer are not shown.\n\nThis chart highlights the varying perspectives on job perception among different demographics and education levels, with blue-collar workers generally less likely to see their job as a long-term career.]\n\n[Source img4: Coarse-grained Description:\n- The image presents a table titled \"TABLE A1. Demographic, Political, Religious, and Geographic Subgroup Sample Sizes,\" which provides data on the unweighted sample sizes of the general public categorized by various demographic, political, religious, and geographic subgroups.\n- The table is designed to show the distribution of a sample population across different categories, highlighting diversity in gender, political affiliation, race/ethnicity, age, religion, and geographic region.\n\nFine-grained Description:\n- **Column Headers:**\n  - The table has two columns: the first column lists the categories, and the second column shows the corresponding sample sizes.\n\n- **Rows and Sample Sizes:**\n  - **Total Sample:** 5,352\n  - **Gender:**\n    - Male: 2,556\n    - Female: 2,796\n  - **Political Affiliation:**\n    - Republican: 1,681\n    - Independent: 1,435\n    - Democrat: 1,853\n    - Other/Don't know: 383\n  - **Race/Ethnicity:**\n    - White, non-Hispanic: 3,920\n    - Black, non-Hispanic: 471\n    - Hispanic: 580\n    - AAPI (Asian American or Pacific Islander): 170\n    - Multiracial: 167\n    - Other: 44\n  - **Age Groups:**\n    - 18-29: 370\n    - 30-49: 1,484\n    - 50-64: 1,656\n    - 65+: 1,842\n  - **Religious Affiliation:**\n    - White evangelical Protestant: 882\n    - White mainline/non-evangelical Protestant: 846\n    - Black Protestant: 315\n    - Hispanic Protestant: 129\n    - Other Protestant of color: 120\n    - White Catholic: 822\n    - Hispanic Catholic: 284\n    - Latter-day Saint: 97\n    - Other Christian: 142\n    - Jewish: 137\n    - Non-Christian religion: 187\n    - Religiously unaffiliated: 1,346\n  - **Geographic Region:**\n    - Northeast: 942\n    - Midwest: 1,184\n    - South: 1,939\n    - West: 1,287\n\n- **Notable Patterns:**\n  - The largest subgroup is \"White, non-Hispanic\" with 3,920 participants.\n  - The \"Religiously unaffiliated\" category has a significant sample size of 1,346.\n  - The age group 65+ has the largest representation with 1,842 participants.\n  - The South has the highest geographic sample size with 1,939 participants.\n\n- **Labels and Annotations:**\n  - The table specifies that the data represents the \"General Public (unweighted)\" sample sizes.\n  - The table is organized systematically to facilitate comparison across various demographic, political, religious, and geographic categories.]\n\n[Source img5: Coarse-grained Description:\n- The image is a scatter plot showing the relationship between the percentage change in informal employment from Q2 2020 to Q2 2019 and the percentage of informal jobs at risk by sector.\n- The data highlights the impact of job risk on informal employment across various sectors, emphasizing sectors where informal jobs are more vulnerable.\n- The main message is to illustrate which sectors are experiencing the most significant changes in informal employment and their exposure to job risks.\n\nFine-grained Description:\n- **X-axis:** Labeled \"Informal Jobs at Risk (%)\", representing the percentage of informal jobs at risk in each sector.\n- **Y-axis:** Labeled \"% Change in Informal Employment Q2 2020-Q2 19\", indicating the percentage change in informal employment over the specified period.\n- **Data Points:** Each point represents a different sector, labeled accordingly:\n  - On the left, sectors like \"Hospitality\" and \"Transport\" show high job risk and significant negative employment changes.\n  - In the middle, sectors such as \"Agric,\" \"Trade,\" and \"Construct.\" have moderate risk and employment changes.\n  - On the right, sectors including \"Education,\" \"Healthcare,\" \"Real Estate,\" \"Finance,\" and \"Public Sector\" show low job risk and slight positive or neutral employment changes.\n- **Trend Line:** A dotted line suggests a general trend showing that sectors with higher informal job risk tend to have greater negative changes in employment.\n- **Weighting Note:** The data is weighted by employment share by sector, indicating the relative size or importance of each sector in the overall analysis.\n- **Outliers:** \"Natural Resources\" shows a significant employment change despite lower job risk, suggesting unique dynamics in this sector.]\n\n[Source img6: ### Coarse-grained Description:\n- The image presents a table labeled \"TABLE A1. Demographic, Political, Religious, and Geographic Subgroup Sample Sizes.\"\n- It provides the sample sizes of various demographic, political, religious, and geographic subgroups within the general public.\n- The data is unweighted and highlights the distribution of respondents across different categories, emphasizing diversity in the sample.\n\n### Fine-grained Description:\n- **Table Headers:**\n  - The table is divided into two columns:\n    - The first column lists the different subgroup categories.\n    - The second column shows the number of respondents in each category, labeled as \"General Public (unweighted).\"\n\n- **Demographic Categories:**\n  - **Gender:**\n    - Male: 2,606\n    - Female: 3,021\n  - **Political Affiliation:**\n    - Republican: 1,611\n    - Independent: 1,707\n    - Democrat: 1,851\n    - Other/Don’t know: 458\n  - **Race/Ethnicity:**\n    - White, non-Hispanic: 4,033\n    - Black, non-Hispanic: 506\n    - Hispanic: 687\n    - AAPI (Asian American or Pacific Islander): 163\n    - Multiracial: 182\n    - Other: 56\n  - **Age Groups:**\n    - 18-29: 436\n    - 30-49: 1,574\n    - 50-64: 1,686\n    - 65+: 1,931\n\n- **Religious Affiliation:**\n  - White evangelical Protestant: 888\n  - White mainline/non-evangelical Protestant: 923\n  - Black Protestant: 353\n  - Hispanic Protestant: 144\n  - Other Protestant of color: 138\n  - White Catholic: 787\n  - Hispanic Catholic: 340\n  - Latter-day Saint: 117\n  - Other Christian: 148\n  - Jewish: 131\n  - Other non-Christian religion: 195\n  - Religiously unaffiliated: 1,436\n\n- **Geographic Regions:**\n  - Northeast: 983\n  - Midwest: 1,207\n  - South: 1,900\n  - West: 1,537\n\n- **Total Sample Size:**\n  - General Public (unweighted): 5,627\n\n- **Notable Patterns:**\n  - The largest demographic group is \"White, non-Hispanic\" at 4,033.\n  - The largest political group is \"Democrat\" with 1,851.\n  - The largest age group is \"65+\" with 1,931.\n  - The largest religious group is \"Religiously unaffiliated\" with 1,436.\n  - The largest geographic region is the \"South\" with 1,900 respondents.]\n\n[Source img7: Coarse-grained Description:\n- The image presents demographic, political, and geographic subgroup sample sizes for a survey or study.\n- It provides a breakdown of the sample across various categories such as gender, political affiliation, race, age, religion, and region.\n- The main topic is to show the distribution of the sample population across different attributes.\n\nFine-grained Description:\n- **Column Header**: \"General Public (unweighted)\"\n- **Row Headers and Values**:\n  - **Total Sample**: 6,212\n  - **Gender**:\n    - Male: 2,849\n    - Female: 3,363\n  - **Political Affiliation**:\n    - Republican: 2,157\n    - Independent: 1,603\n    - Democrat: 2,016\n    - Other/Don't know: 436\n  - **Race**:\n    - White, non-Hispanic: 4,587\n    - Black, non-Hispanic: 504\n    - Hispanic: 729\n    - AAPI (Asian American/Pacific Islander): 154\n    - Multiracial: 155\n    - Other: 237\n  - **Age Groups**:\n    - Age 18-29: 549\n    - 30-49: 1,699\n    - 50-64: 1,873\n    - 65+: 2,091\n  - **Religion**:\n    - White evangelical Protestant: 1,027\n    - White mainline Protestant: 977\n    - Black Protestant: 339\n    - Hispanic Protestant: 165\n    - Other Protestant of color: 147\n    - White Catholic: 1,023\n    - Hispanic Catholic: 362\n    - Latter-day Saint: 90\n    - Other Christian: 165\n    - Jewish: 166\n    - Non-Christian religion: 231\n    - Religiously unaffiliated: 1,445\n  - **Geographic Region**:\n    - Northeast: 1,086\n    - Midwest: 1,297\n    - South: 2,242\n    - West: 1,587\n\n- The table provides a detailed breakdown of the sample sizes for each subgroup, allowing for analysis of representation across different demographics and affiliations.]\n\n[Source img8: **Coarse-grained Description:**\n\nThe image presents a table summarizing the results of a survey conducted by the Pew Research Center. It compares the differences in opinions or attitudes across various demographic groups, specifically focusing on religious affiliation and age. The data is split into weighted and unweighted samples, showing the percentage point differences among groups.\n\n**Fine-grained Description:**\n\n- **Table Overview:**\n  - The table divides respondents into groups based on religious affiliation and age.\n  - It provides both weighted and unweighted sample sizes, along with the percentage point differences for each group.\n\n- **Columns:**\n  - **Group:** Lists the demographic categories (e.g., Christian, Protestant, Catholic, etc.).\n  - **Unweighted sample size:** Shows the number of respondents in each group.\n  - **Weighted %:** Indicates the percentage of the total sample each group represents.\n  - **Plus or minus ...:** Displays the margin of error in percentage points for each group.\n\n- **Row Details:**\n  - **Total:** 5,933 respondents, 100% of the sample, with a margin of ±2.1 percentage points.\n  - **Christian:** \n    - Total: 3,959 respondents, 67% of the sample, ±2.4 percentage points.\n    - Subcategories include Protestant (2,532 respondents, 43%, ±3.0 percentage points), White evangelical Protestant (1,045 respondents, 18%, ±4.5 percentage points), etc.\n  - **Catholic:** 1,294 respondents, 22%, ±4.4 percentage points.\n  - **Religiously unaffiliated:** 1,581 respondents, 27%, ±4.1 percentage points.\n  - **Age Groups:**\n    - 18-29: 575 respondents, 10%, ±6.0 percentage points.\n    - 30-49: 1,895 respondents, 32%, ±3.4 percentage points.\n    - 50-64: 1,847 respondents, 31%, ±3.4 percentage points.\n    - 65+: 1,587 respondents, 27%, ±3.6 percentage points.\n  - **Political Affiliation:**\n    - Rep./lean Rep.: 2,862 respondents, 48%, ±2.8 percentage points.\n    - Dem./lean Dem.: 2,898 respondents, 48%, ±3.0 percentage points.\n\n- **Notes:**\n  - The survey data was collected in multiple waves from July 13-19, 2020, to November 22, 2021.\n  - The table highlights differences in responses or attitudes across these groups, with varying margins of error indicating the reliability of the results for each subgroup.]\n\n[Source img9: Coarse-grained Description:\n- The image presents a table summarizing sample sizes and margins of error for a survey conducted by the Pew Research Center.\n- The table compares these metrics across different demographic groups, including men, women, Republicans/Lean Republicans, and Democrats/Lean Democrats.\n- The overall message is to convey the statistical reliability of survey results by showing the sample sizes and associated margins of error.\n\nFine-grained Description:\n- **Column Headers:**\n  - Group: Categories include Total sample, Men, Women, Rep/Lean Rep, and Dem/Lean Rep.\n  - Unweighted sample size: The number of respondents in each group.\n  - Plus or minus ...: The margin of error for each group.\n\n- **Row Details:**\n  - **Total sample:**\n    - Unweighted sample size: 6,204\n    - Plus or minus: 1.5 percentage points\n  - **Men:**\n    - Unweighted sample size: 2,710\n    - Plus or minus: 2.3 percentage points\n  - **Women:**\n    - Unweighted sample size: 3,446\n    - Plus or minus: 2.1 percentage points\n  - **Rep/Lean Rep:**\n    - Unweighted sample size: 2,515\n    - Plus or minus: 2.3 percentage points\n  - **Dem/Lean Rep:**\n    - Unweighted sample size: 3,531\n    - Plus or minus: 2.1 percentage points\n\n- **Notes:**\n  - The survey oversamples Hispanic, non-Hispanic Black, and non-Hispanic Asian respondents.\n  - Unweighted sample sizes do not account for the sample design or weighting and do not describe a group’s contribution to weighted estimates.\n  - Additional details are available in the Sample design and Weighting sections mentioned in the note.\n  - Conducted by Pew Research Center.\n\n- **Observations:**\n  - The total sample size is 6,204 with a margin of error of 1.5 percentage points.\n  - Women and Democrats/Lean Democrats have larger sample sizes compared to men and Republicans/Lean Republicans.\n  - The margin of error is slightly higher for men and Republicans/Lean Republicans compared to women and Democrats/Lean Democrats.]\n\n[Source img10: Coarse-grained Description:\n- The image is a promotional graphic highlighting the top five industries in Virginia by employment.\n- It serves as a guide to career pathways within these industries.\n- The main topic is showcasing the diverse employment opportunities in Virginia's key sectors.\n\nFine-grained Description:\n- The image features a central figure of a woman looking upwards, symbolizing aspiration or seeking guidance.\n- Surrounding the central figure are five circular icons, each representing a different industry:\n  - A person with a camera, suggesting the media or entertainment industry.\n  - A person in a suit, indicating the business or corporate sector.\n  - A graduation cap and books, representing education.\n  - A medical professional with a stethoscope, indicating healthcare.\n  - A person on the phone, suggesting the telecommunications or customer service industry.\n- The top of the image has the text \"Top 5 Industries in Virginia by Employment\" in green.\n- The bottom section has a blue bar with the text \"A Quick Guide to Career Pathways In The Top 5 Industries.\"\n- Logos for \"Virginia Employment Commission\" and \"Virginia Workforce Development\" are present, indicating the source or sponsors of the information.]\n\n# CRITICAL Citation Rules\nYou MUST follow these citation rules strictly:\n\n1. **Text Citation Format:**\n   - When using information from a text source, cite it as: `[citation:txt1]`, `[citation:txt2]`, etc.\n   - Example: \"Recent studies show significant progress in AI safety[citation:txt3].\"\n\n2. **Image Citation Format:**\n   - When you want to insert an image/figure, use: `![](citation:img1)`, `![](citation:img2)`, etc.\n   - Example: \"The architecture is shown below:\n![](citation:img5)\nAs illustrated, the system...\"\n   - ONLY use this format for sources explicitly marked as \"Image\"\n\n3. **Citation Placement:**\n   - Place text citations at the end of the sentence or claim\n   - Place image citations on their own line where the visual should appear\n   - You can cite the same source multiple times if needed\n\n4. **Important Distinctions:**\n   - Text sources → use `[citation:txt1]`, `[citation:txt2]`, etc.\n   - Image sources → use `![](citation:img1)`, `![](citation:img2)`, etc.\n\n# Position-Aware Writing Instructions\n\n**Is this the FIRST section?** yes\n**Is this the LAST section?** no\n\n## If FIRST section (is_first_section = yes):\n- Start with an engaging introduction\n- No need to reference previous content (there is none)\n- Set the stage for the article\n- DO NOT conclude the entire article\n\n## If MIDDLE section (is_first_section = no, is_last_section = no):\n- Begin with a smooth transition from the previous section\n- Focus ONLY on this section's specific requirements\n- **CRITICAL: DO NOT use concluding phrases like:**\n  - \"In conclusion\"\n  - \"To summarize\"\n  - \"Overall, this article\"\n  - \"We have discussed\"\n  - \"In this article, we covered\"\n- Continue the narrative without wrapping up the entire article\n- End in a way that allows the next section to continue naturally\n\n## If LAST section (is_last_section = yes):\n- Provide appropriate transitions from previous content\n- You MAY synthesize and conclude the entire article\n- Wrap up all major points discussed in the article\n\n# Content Requirements\n1. **Address all sectional requirements** in the checklist above\n2. **Maintain coherence** with previous sections using the provided context\n3. **Use retrieved materials** as the foundation of your content\n4. **Cite sources properly** using the formats specified above\n5. **Write naturally** - your content should flow smoothly while integrating citations\n6. **Appropriate length** - typically 300-800 words depending on the complexity of requirements\n\n# Markdown Formatting Requirements\n**CRITICAL: You MUST use proper Markdown formatting for structure:**\n\n1. **Section Title (Required):**\n   - Start your content with a section title using `# Title`\n   - The title should reflect the section description\n\n2. **Subsections (If Needed):**\n   - Use `## Subsection Title` for major subsections\n   - Use `### Subsubsection Title` for deeper nesting\n   - Use appropriate heading levels to create clear hierarchy\n\n3. **Example Structure:**\n```markdown\n# Introduction to Machine Learning\n\nMachine learning has revolutionized...[citation:txt1]\n\n## Supervised Learning\nSupervised learning approaches...[citation:txt2]\n\n### Classification\nClassification tasks involve...[citation:txt3]\n\n## Unsupervised Learning\nUnlike supervised methods...[citation:txt5]\n```\n\n# Output Format\nProvide ONLY the section content with proper Markdown formatting and citations. Do NOT include:\n- Meta-commentary about what you're doing\n- Explanations of your writing process\n\n**Remember to start with a section title using `#`!**\n\nBegin writing the section now:"
+      }
+    ]
+  },
+  "response": {
+    "id": "chatcmpl-b9f0668de4844c89a63d82da3cbb43a9",
+    "object": "chat.completion",
+    "created": 1795350264,
+    "model": "qwen3-32b",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# Defining Blue-Collar Workers and Survey Methodology\n\nBlue-collar workers have long played a vital role in the U.S. economy, contributing to the production and maintenance of goods and infrastructure through manual and physical labor. Traditionally associated with industries such as manufacturing, construction, and transportation, the term \"blue-collar\" reflects both the physical nature of the work and the historical work attire of these laborers, who often wore durable blue uniforms to withstand the demands of their jobs [citation:txt8]. In modern economic contexts, blue-collar work is distinguished from white-collar work, which typically involves office-based, intellectual, or managerial tasks [citation:txt13].\n\nFor the purposes of this analysis, the Pew Research Center defines blue-collar workers as individuals who perform manual or physical labor in one of five specific industrial sectors: manufacturing, mining and construction; agriculture, forestry, fishing, and hunting; retail and trade; hospitality or service; and transportation [citation:txt1]. These sectors collectively account for 39% of the U.S. workforce, with those whose jobs involve manual or physical labor—classified as blue-collar workers—comprising 27% of the labor force [citation:txt14]. This definition ensures a consistent and measurable framework for analyzing the experiences and perceptions of blue-collar workers in comparison to other types of workers.\n\nTo explore how blue-collar workers perceive their jobs, the Pew Research Center conducted a nationwide survey in October 2024. The survey included 5,273 employed U.S. adults, of whom 1,004 were classified as blue-collar workers based on the criteria outlined above [citation:txt4]. The survey was conducted between October 7 and October 13, 2024, and aimed to capture a representative sample of the U.S. workforce across various demographic and geographic categories [citation:txt9]. The sample included individuals working part-time or full-time, with a primary job, and was weighted to ensure demographic accuracy [citation:txt19]. This rigorous methodology provides a reliable foundation for understanding the broader experiences of blue-collar workers in the U.S. labor market.\n\nBy defining blue-collar workers through both job function and industry classification and by employing a robust survey methodology, this study aims to provide a nuanced understanding of job satisfaction, career perceptions, and work-related challenges among this significant segment of the workforce.",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning_content": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 8184,
+      "total_tokens": 8669,
+      "completion_tokens": 485,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "elapsed_seconds": 31.358,
+  "attempt": 1,
+  "used_target": false,
+  "sections": [
+    {
+      "section_index": 0,
+      "section_description": "This section introduces the topic by highlighting the prominence of blue-collar workers in public discourse and outlines the scope and methodology of the Pew Research Center survey. It defines 'blue-collar workers' for the purposes of the analysis, describes the survey sample, and explains the rationale behind the sectoral and labor-based classification. Key sub-topics include: 1. Definition of blue-collar workers, 2. Survey methodology and sample characteristics.",
+      "content_length": 2507,
+      "content": "# Defining Blue-Collar Workers and Survey Methodology\n\nBlue-collar workers have long played a vital role in the U.S. economy, contributing to the production and maintenance of goods and infrastructure through manual and physical labor. Traditionally associated with industries such as manufacturing, construction, and transportation, the term \"blue-collar\" reflects both the physical nature of the work and the historical work attire of these laborers, who often wore durable blue uniforms to withstand the demands of their jobs [citation:txt8]. In modern economic contexts, blue-collar work is distinguished from white-collar work, which typically involves office-based, intellectual, or managerial tasks [citation:txt13].\n\nFor the purposes of this analysis, the Pew Research Center defines blue-collar workers as individuals who perform manual or physical labor in one of five specific industrial sectors: manufacturing, mining and construction; agriculture, forestry, fishing, and hunting; retail and trade; hospitality or service; and transportation [citation:txt1]. These sectors collectively account for 39% of the U.S. workforce, with those whose jobs involve manual or physical labor—classified as blue-collar workers—comprising 27% of the labor force [citation:txt14]. This definition ensures a consistent and measurable framework for analyzing the experiences and perceptions of blue-collar workers in comparison to other types of workers.\n\nTo explore how blue-collar workers perceive their jobs, the Pew Research Center conducted a nationwide survey in October 2024. The survey included 5,273 employed U.S. adults, of whom 1,004 were classified as blue-collar workers based on the criteria outlined above [citation:txt4]. The survey was conducted between October 7 and October 13, 2024, and aimed to capture a representative sample of the U.S. workforce across various demographic and geographic categories [citation:txt9]. The sample included individuals working part-time or full-time, with a primary job, and was weighted to ensure demographic accuracy [citation:txt19]. This rigorous methodology provides a reliable foundation for understanding the broader experiences of blue-collar workers in the U.S. labor market.\n\nBy defining blue-collar workers through both job function and industry classification and by employing a robust survey methodology, this study aims to provide a nuanced understanding of job satisfaction, career perceptions, and work-related challenges among this significant segment of the workforce.",
+      "text_citations": [
+        "txt1",
+        "txt13",
+        "txt14",
+        "txt19",
+        "txt4",
+        "txt8",
+        "txt9"
+      ],
+      "image_citations": [],
+      "text_citations_count": 7,
+      "image_citations_count": 0,
+      "total_citations": 7,
+      "text_sources": [
+        {
+          "citation_id": "txt1",
+          "index": "txt1",
+          "uid": "8d7d21e76e6ed3a4c683a0c3088f3801",
+          "score": 0.8600724935531616,
+          "content": "The Center’s definition of blue-collar workers, who comprise about 27% of the U.S. workforce, includes people who do manual or physical labor in their jobs and work in one of five industry sectors:\n* manufacturing, mining and construction\n* agriculture, forestry, fishing and hunting\n* retail and trade\n* hospitality or service\n* transportation.",
+          "source": "",
+          "metadata": {}
+        },
+        {
+          "citation_id": "txt13",
+          "index": "txt13",
+          "uid": "457db5ad9107a3917c820639696d9d84",
+          "score": 0.7804299592971802,
+          "content": "One of the most common ways to classify workers and jobs is by collar colors, with blue and white being the best known. Traditionally, [blue-collar]() jobs have involved manual labor, often in manufacturing or construction, and hourly or piecework pay. [White-collar]() jobs, on the other hand, are performed in offices, with work that is managerial, administrative, or clerical in nature. White collar workers are usually salaried.",
+          "source": "",
+          "metadata": {}
+        },
+        {
+          "citation_id": "txt14",
+          "index": "txt14",
+          "uid": "8538d0af08ec61ca8aeada56a051eb31",
+          "score": 0.7752660512924194,
+          "content": "For the purposes of this analysis, we defined “blue-collar workers” as those who do manual or physical labor in their jobs _and_ work in one of five specific industrial sectors: manufacturing, mining and construction; agriculture, forestry, fishing and hunting; retail and trade; hospitality and service; and transportation. In each of those sectors, more than 60% of workers do manual or physical labor in their jobs, and about 30% of workers or fewer have a bachelor’s degree. Together, those five sectors account for 39% of the U.S. workforce; those whose jobs involve manual/physical labor within those industries – who we term blue-collar workers – account for 27% of the workforce.",
+          "source": "",
+          "metadata": {}
+        },
+        {
+          "citation_id": "txt19",
+          "index": "txt19",
+          "uid": "d4dfe9721c627f7809ffe4f1d31b8c67",
+          "score": 0.7471214532852173,
+          "content": "Pew Research Center has a history of studying digital technology adoption. For the new material in this report, the Center surveyed 1,502 U.S. adults from Jan. 25 to Feb. 8, 2021, by cellphone and landline phone. The survey was conducted by interviewers under the direction of Abt Associates and is weighted to be representative of the U.S. adult population by gender, race, ethnicity, education and other categories. Here are [the questions used]() for this report, along with responses, and its methodology.",
+          "source": "",
+          "metadata": {}
+        },
+        {
+          "citation_id": "txt4",
+          "index": "txt4",
+          "uid": "a56a536d50eec5130b0991a0b0fcf90b",
+          "score": 0.8147755861282349,
+          "content": "How we did this\nPew Research Center conducted this study to better understand the experiences of American workers – specifically, blue-collar workers.\nWe surveyed 5,273 U.S. adults who are employed part or full time and either have one job  _or_ have more than one but consider one to be their primary job. The survey was conducted Oct. 7-13, 2024.",
+          "source": "",
+          "metadata": {}
+        },
+        {
+          "citation_id": "txt8",
+          "index": "txt8",
+          "uid": "f00c9f4198f68f25bdce365e11d3dccb",
+          "score": 0.796320915222168,
+          "content": "The term \"blue-collar workers\" originated in the early 20th century, reflecting the typical work attire of manual laborers. During the Industrial Revolution, many workers wore blue uniforms or work shirts, which were both durable and practical for the demanding conditions of factory and manual labor.",
+          "source": "",
+          "metadata": {}
+        },
+        {
+          "citation_id": "txt9",
+          "index": "txt9",
+          "uid": "fb9b34a30b71c56b644afc04396eb9eb",
+          "score": 0.7918882369995117,
+          "content": "All of our findings are based on a survey conducted Oct. 7-13, 2024, among 5,273 employed U.S. adults, including 1,004 workers we classified as blue-collar. (For more about the survey and how we defined blue-collar workers, read “How we did this.”)\n_**Related:** [Most Americans Feel Good About Their Job Security but Not Their Pay]()_",
+          "source": "",
+          "metadata": {}
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:17:49.073484",
+      "unresolved": []
+    },
+    {
+      "section_index": 1,
+      "section_description": "This section examines overall job satisfaction among blue-collar workers compared to other workers. It presents survey findings on satisfaction levels, with particular attention to age differences and satisfaction with pay. The section also discusses how blue-collar workers feel about various aspects of their work, including benefits and work hour flexibility, and highlights gender differences in pay satisfaction. Key sub-topics include: 1. Job satisfaction statistics, 2. Satisfaction with pay and benefits, 3. Gender and age differences.",
+      "content_length": 3202,
+      "content": "# Job Satisfaction Among Blue-Collar Workers\n\nBlue-collar workers in the United States report lower levels of job satisfaction compared to their non-blue-collar counterparts. According to recent survey data, only 43% of blue-collar workers say they are extremely or very satisfied with their jobs, compared to 53% of other workers [citation:txt3]. This 10-point difference is significant and reflects a broader pattern of dissatisfaction among blue-collar workers across multiple dimensions of their work experience.\n\nThe survey also reveals that blue-collar workers are less satisfied with specific aspects of their jobs, including pay, benefits, and work hour flexibility. For instance, just 25% of blue-collar workers are extremely or very satisfied with their pay, compared to 32% of other workers [citation:img5]. Additionally, blue-collar workers are less likely to express satisfaction with their employer-provided benefits, such as health insurance and paid time off, with only 36% reporting high satisfaction versus 49% of other workers [citation:img5].\n\nOne of the most striking disparities is in the realm of remote work flexibility. Only 20% of blue-collar workers are satisfied with the amount of flexibility they have to work remotely, compared to 43% of other workers [citation:txt2]. This gap underscores the physical nature of many blue-collar jobs, which often require in-person presence and limit the ability to work from home [citation:txt13].\n\nAge differences also play a role in job satisfaction levels. Older blue-collar workers (ages 50 and older) tend to be more satisfied with their jobs than their younger counterparts. In fact, 56% of older blue-collar workers report being extremely or very satisfied with their jobs, compared to just 15% among those younger than 30 [citation:txt6]. This age-related trend is particularly evident in satisfaction with pay, with 32% of older blue-collar workers reporting high satisfaction, compared to a much lower percentage among younger workers [citation:txt9].\n\nGender differences further complicate the picture. Women in blue-collar jobs are especially likely to report dissatisfaction with their pay, with 40% saying they are not too or not at all satisfied, compared to 30% of men in the same category [citation:txt8]. This disparity is compounded by broader perceptions of respect and career prospects. For example, 41% of women in blue-collar jobs believe the public does not respect their type of work, compared to 31% of men [citation:txt2]. Additionally, only 24% of blue-collar women view their jobs as a career, compared to 39% of men [citation:txt2].\n\nThese findings highlight the multifaceted nature of job satisfaction among blue-collar workers. While some aspects, such as relationships with co-workers, are relatively high—61% of blue-collar workers report being extremely or very satisfied with this element—other critical areas, particularly pay and career advancement, remain problematic [citation:img5]. The next section will explore how these perceptions of career prospects and opportunities for education or training influence blue-collar workers’ long-term job outlook and sense of stability in the labor market.",
+      "text_citations": [
+        "txt13",
+        "txt2",
+        "txt3",
+        "txt6",
+        "txt8",
+        "txt9"
+      ],
+      "image_citations": [],
+      "text_citations_count": 6,
+      "image_citations_count": 0,
+      "total_citations": 6,
+      "text_sources": [
+        {
+          "citation_id": "txt2",
+          "uid": "cb1753a486eae86ca316670b9e1df865",
+          "score": 0.7908762693405151,
+          "content_preview": "Some fascinating takeaways in this new analysis of blue collar workers from my colleagues [Luona Lin]() and [Drew DeSilver](). Compared with other workers, blue collar workers are less satisfied with ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt13",
+          "uid": "db1600328014dcd2ab784275d546f049",
+          "score": 0.7502067685127258,
+          "content_preview": "To say one person works a blue-collar job while another has a white-collar job implies a [difference in earnings](). The blue-collar worker may work for [hourly wages]() or receive payment per item pr",
+          "source": ""
+        },
+        {
+          "citation_id": "txt8",
+          "uid": "70ec577aff03ada03c58acc383f7d175",
+          "score": 0.7553002834320068,
+          "content_preview": "* Among all blue-collar workers, just a quarter say they’re extremely or very satisfied with how much they’re paid, while a third are not too or not at all satisfied. Among other workers, 32% are extr",
+          "source": ""
+        },
+        {
+          "citation_id": "txt3",
+          "uid": "5869c101b0b01a9cee45d2bf19f338fc",
+          "score": 0.783370852470398,
+          "content_preview": "Among blue-collar workers, 43% say they feel extremely or very satisfied with their jobs; by comparison, 53% of other workers express this level of satisfaction. And 15% of blue-collar workers are not",
+          "source": ""
+        },
+        {
+          "citation_id": "txt9",
+          "uid": "04a0be5f1a6fe81d4330fa69b9b6131f",
+          "score": 0.7531297206878662,
+          "content_preview": "However, slightly more than half of blue-collar workers ages 50 and older (56%) say they’re extremely or very satisfied with their jobs – considerably higher than the share among younger blue-collar w",
+          "source": ""
+        },
+        {
+          "citation_id": "txt6",
+          "uid": "3e18d714ebd9daf2f3b9b93281fa7371",
+          "score": 0.7643148899078369,
+          "content_preview": "### Blue‑collar vs. other workers\nOnly **43% of blue‑collar workers** say they’re highly satisfied, compared to **53% among other occupations**.\nOlder blue‑collar workers (50+) fare better, with **56%",
+          "source": ""
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:19:46.857240"
+    },
+    {
+      "section_index": 2,
+      "section_description": "This section explores how blue-collar workers perceive their jobs in terms of career prospects. It discusses the tendency for blue-collar workers to view their jobs as a means to get by rather than as careers, with breakdowns by gender and age. The section also notes the low percentage of workers who see their jobs as stepping stones to a career.",
+      "content_length": 3371,
+      "content": "# Career Prospects and Job Perceptions Among Blue-Collar Workers\n\nBlue-collar workers in the U.S. tend to view their jobs as a means of survival rather than as long-term careers. According to recent survey data, 54% of blue-collar workers describe their work as “just a job to get you by,” a stark contrast to the 27% of other workers who express the same sentiment [citation:txt1]. This perception is particularly pronounced among certain demographic groups within the blue-collar workforce. For instance, blue-collar women are especially likely to see their jobs this way—61% describe their jobs as just a way to get by, compared to 50% of blue-collar men [citation:txt2].\n\nThe disparity extends to age as well. Younger blue-collar workers are significantly more likely to view their jobs as temporary or unfulfilling. Among those aged 18 to 29, a staggering 65% consider their work “just a job to get them by,” compared to only 48% of blue-collar workers aged 50 and older [citation:txt13]. This generational divide highlights a growing sense of detachment from long-term career pathways among younger workers in physically demanding sectors.\n\nThe broader data on career perception reinforces this trend. Only 33% of blue-collar workers view their jobs as actual careers, compared to 56% of other workers [citation:img1]. Even among those who do see their jobs as careers, the sense of progression is limited—just 12% of blue-collar workers describe their positions as stepping stones to something more, compared to 16% of other workers [citation:txt6]. This limited perception of upward mobility is further exacerbated by structural barriers such as restricted career paths and limited access to education and training opportunities [citation:txt4].\n\nThe gender gap in career outlook is particularly striking. While 39% of blue-collar men see their jobs as careers, only 24% of blue-collar women share this view [citation:txt2]. This disparity may be linked to broader societal and workplace challenges, including lower perceived respect for blue-collar women’s work—41% of blue-collar women say most Americans don’t respect their work much or at all, compared to 31% of men [citation:txt14].\n\nThese perceptions are not merely abstract reflections but are tied to tangible concerns about job stability and future prospects. Although 29% of blue-collar workers say they are likely to look for a new job in the next six months, fewer than a quarter believe it would be easy to find one they would like [citation:txt8]. This uncertainty is especially acute among the youngest workers: only 11% of blue-collar workers under 30 believe it would be easy to find a new job they want, while 67% say it would be difficult [citation:txt12].\n\nThe data collectively paints a picture of a workforce that is often seen as transient or unfulfilling, particularly among younger and female blue-collar workers. While some blue-collar workers, especially those in older age groups, may find satisfaction in the stability of their roles, the broader narrative suggests a lack of long-term career vision and limited opportunities for advancement [citation:txt7]. This has significant implications for both individual workers and the broader labor market, as it signals a potential disconnect between the value of blue-collar labor and the opportunities available to those who perform it.",
+      "text_citations": [
+        "txt1",
+        "txt12",
+        "txt13",
+        "txt14",
+        "txt2",
+        "txt4",
+        "txt6",
+        "txt7",
+        "txt8"
+      ],
+      "image_citations": [],
+      "text_citations_count": 9,
+      "image_citations_count": 0,
+      "total_citations": 9,
+      "text_sources": [
+        {
+          "citation_id": "txt2",
+          "uid": "13202204dba947255079e4406d9dfe9b",
+          "score": 0.8083168864250183,
+          "content_preview": "Blue-collar women are especially likely to see their jobs as something just to get them by: 61% describe their jobs this way, versus half of blue-collar men. And while 39% of blue-collar men see their",
+          "source": ""
+        },
+        {
+          "citation_id": "txt13",
+          "uid": "8e6642b04f8494fd983b7f9d23ef05ad",
+          "score": 0.7474193572998047,
+          "content_preview": "Across different age groups, the oldest blue-collar workers are most likely to view their jobs as careers: About half of those ages 50 and older (48%) see their jobs this way. Conversely, 65% of blue-",
+          "source": ""
+        },
+        {
+          "citation_id": "txt14",
+          "uid": "cb1753a486eae86ca316670b9e1df865",
+          "score": 0.7468093633651733,
+          "content_preview": "Some fascinating takeaways in this new analysis of blue collar workers from my colleagues [Luona Lin]() and [Drew DeSilver](). Compared with other workers, blue collar workers are less satisfied with ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt1",
+          "uid": "7590f9fc8688cdde290b8deb746a80f5",
+          "score": 0.8709278702735901,
+          "content_preview": "Slightly more than half of blue-collar workers (54%) describe their work as “just a job to get you by” – double the share of other workers who say this (27%). Only a third of blue-collar workers see t",
+          "source": ""
+        },
+        {
+          "citation_id": "txt8",
+          "uid": "587ae894d7c06cd4fd9faa6656334785",
+          "score": 0.764285683631897,
+          "content_preview": "About three-in-ten blue-collar workers (29%) say it’s very or somewhat likely that they’ll look for a new job in the next six months, versus 23% of all other workers. And fewer blue-collar workers tha",
+          "source": ""
+        },
+        {
+          "citation_id": "txt4",
+          "uid": "ac7356f5c0fdfa405537496bce4f38e3",
+          "score": 0.7729294300079346,
+          "content_preview": "For this paper, we follow others in defining blue-collar workers as those who perform primarily physical work and whose career paths are relatively restricted (Gibson and Papa, 2000, Lederer, 1987) an",
+          "source": ""
+        },
+        {
+          "citation_id": "txt12",
+          "uid": "23368ea60b3c73b48308f52c9684fa7b",
+          "score": 0.7520641088485718,
+          "content_preview": "Blue-collar men are a bit more optimistic in this regard than blue-collar women: 28% of men, but just 17% of women, say it would be very or somewhat easy to find the kind of job they want. And the you",
+          "source": ""
+        },
+        {
+          "citation_id": "txt7",
+          "uid": "4a2e286ca37729a871c353a19216bf83",
+          "score": 0.7646209597587585,
+          "content_preview": "Blue-collar workers are markedly less satisfied with their jobs than other workers. They feel less respected, are less attached to their jobs, and are more likely to view their jobs as just a way to g",
+          "source": ""
+        },
+        {
+          "citation_id": "txt6",
+          "uid": "0f008733da96c15f7a1ba18cf55c332f",
+          "score": 0.7693272233009338,
+          "content_preview": "Relatively few U.S. workers – blue-collar or otherwise – see their jobs as stepping stones to a career. Only 12% of blue-collar workers and 16% of other workers describe their current jobs this way.",
+          "source": ""
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:21:22.381275"
+    },
+    {
+      "section_index": 3,
+      "section_description": "This section analyzes blue-collar workers' attitudes toward job-hunting and their optimism about finding new employment. It presents data on the likelihood of seeking a new job, differences by gender and age, and perceived ease or difficulty in finding desirable new positions.",
+      "content_length": 3406,
+      "content": "# Job-Hunting and Optimism Among Blue-Collar Workers\n\nBlue-collar workers are more likely than other workers to consider job-hunting in the near future, though their optimism about finding desirable new positions varies significantly by gender and age. According to the Pew Research Center survey, 29% of blue-collar workers say it is very or somewhat likely they will look for a new job in the next six months, compared to 23% of other workers [citation:txt1]. This higher likelihood of job-hunting is particularly evident among blue-collar women and workers under the age of 30, with 33% and 44% of these groups, respectively, indicating they are likely to start searching for new employment [citation:txt6].\n\nHowever, despite this willingness to seek new opportunities, blue-collar workers tend to be less optimistic about their chances of finding a job that meets their expectations. Only 28% of blue-collar men say it would be very or somewhat easy to find the kind of job they want, compared to just 17% of blue-collar women [citation:txt13]. The youngest blue-collar workers—those under 30—are the least optimistic of all, with a mere 11% believing it would be easy to find a desirable job and 67% stating it would be difficult [citation:txt13]. These findings suggest that while younger blue-collar workers are more likely to consider job-hunting, they also face greater uncertainty and pessimism about the labor market.\n\nAge further plays a significant role in shaping job-hunting behavior and perceptions. Workers under the age of 30 are the most likely to consider job-hunting, but they also report the lowest levels of optimism. In contrast, blue-collar workers aged 50 and older are less likely to look for new jobs—only 14% say it is likely—and, when they do, they tend to have a more positive outlook [citation:txt4]. This pattern reflects broader trends in job satisfaction and career perceptions discussed in earlier sections, where older blue-collar workers were found to be more satisfied with their current roles and more likely to view them as long-term careers [citation:txt7].\n\nThe gender gap in optimism is particularly striking. Blue-collar women are not only more likely to consider job-hunting than their male counterparts but also more likely to encounter difficulties in finding a position that aligns with their goals [citation:txt13]. This may be influenced by a combination of factors, including limited access to training and advancement opportunities, as well as broader societal perceptions that often undervalue blue-collar labor, especially for women [citation:txt9].\n\n![](citation:img1)\n\nThese patterns of job-hunting and optimism are further shaped by demographic and educational differences. Blue-collar workers with a bachelor’s degree or higher are more likely to consider job-hunting (33%) than those with some college or less (28%) [citation:txt4]. This suggests that higher education may provide a sense of confidence or access to different job markets, even among blue-collar workers.\n\nOverall, while blue-collar workers are more inclined to explore new job opportunities compared to other workers, their ability to transition to more desirable positions is often constrained by age, gender, and education level. The next section will explore how blue-collar workers perceive their access to education and training as a means to improve their career prospects.",
+      "text_citations": [
+        "txt1",
+        "txt13",
+        "txt4",
+        "txt6",
+        "txt7",
+        "txt9"
+      ],
+      "image_citations": [
+        "img1"
+      ],
+      "text_citations_count": 6,
+      "image_citations_count": 1,
+      "total_citations": 7,
+      "text_sources": [
+        {
+          "citation_id": "txt13",
+          "uid": "23368ea60b3c73b48308f52c9684fa7b",
+          "score": 0.7221347689628601,
+          "content_preview": "Blue-collar men are a bit more optimistic in this regard than blue-collar women: 28% of men, but just 17% of women, say it would be very or somewhat easy to find the kind of job they want. And the you",
+          "source": ""
+        },
+        {
+          "citation_id": "txt1",
+          "uid": "587ae894d7c06cd4fd9faa6656334785",
+          "score": 0.7508599758148193,
+          "content_preview": "About three-in-ten blue-collar workers (29%) say it’s very or somewhat likely that they’ll look for a new job in the next six months, versus 23% of all other workers. And fewer blue-collar workers tha",
+          "source": ""
+        },
+        {
+          "citation_id": "txt4",
+          "uid": "52f09a28c974cb0668e6426d6612e0a6",
+          "score": 0.7370445132255554,
+          "content_preview": "* Blue-collar workers are a bit more likely than other workers to say they expect to look for a new job soon, though they have doubts about finding a position they’ll like. Blue-collar men are a bit m",
+          "source": ""
+        },
+        {
+          "citation_id": "txt9",
+          "uid": "cb1753a486eae86ca316670b9e1df865",
+          "score": 0.7272989749908447,
+          "content_preview": "Some fascinating takeaways in this new analysis of blue collar workers from my colleagues [Luona Lin]() and [Drew DeSilver](). Compared with other workers, blue collar workers are less satisfied with ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt7",
+          "uid": "ff4f7d42b46c33ae48463506ddf18956",
+          "score": 0.7293631434440613,
+          "content_preview": "### **Overview**\nIn March 2025, the Pew Research Center issued findings from its recent research on blue-collar workers, as reported in “[Blue-collar workers are less satisfied at work, less attached ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt6",
+          "uid": "678f91ed54aecfa74975761e38150cd7",
+          "score": 0.7314310073852539,
+          "content_preview": "Blue-collar women (33%) and those ages 18 to 29 (44%) are among the subgroups most likely to say they’re very or somewhat likely to look for a new job soon.",
+          "source": ""
+        }
+      ],
+      "image_sources": [
+        {
+          "citation_id": "img1",
+          "uid": "3cbbbdd8fb0b3ed743fba61cacd9555f",
+          "score": 0.6899516582489014,
+          "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_136483.png",
+          "description": "Coarse-grained Description:\n- The image presents a bar chart showing the likelihood of blue-collar workers and other workers looking for a new job in the next six months.\n- It compares different demog"
+        }
+      ],
+      "timestamp": "2026-11-22T20:22:28.291406"
+    },
+    {
+      "section_index": 4,
+      "section_description": "This section discusses how blue-collar workers feel about respect, both from society and within the workplace. It compares perceptions of societal respect between blue-collar and other workers, and details experiences of respect from supervisors, co-workers, and clients or customers. Gender differences in perceived respect are also addressed.",
+      "content_length": 3132,
+      "content": "# Respect and Perceptions of Blue-Collar Work in Society and the Workplace\n\nPerceptions of respect—both from the broader society and within the workplace—play a crucial role in shaping job satisfaction and self-worth among blue-collar workers. According to recent survey data from the Pew Research Center, only 31% of blue-collar workers believe that most Americans have a great deal or a fair amount of respect for the work they do, compared to 47% of other workers. Conversely, 35% of blue-collar workers—rising to 41% among women—report that most Americans don’t respect their work much or at all, a sentiment expressed by just 19% of other workers [citation:txt1]. This disparity highlights a significant gap in public perception that appears to disproportionately affect those in blue-collar professions.\n\nDespite this lack of perceived societal respect, blue-collar workers generally report positive interactions within their immediate work environments. For instance, 78% of blue-collar workers say their supervisors treat them respectfully all or most of the time, although this is still lower than the 83% of other workers who report the same. Similarly, 83% of blue-collar workers say their co-workers treat them with respect, compared to 87% of other workers [citation:txt4]. These findings suggest that while blue-collar workers may feel undervalued in the public eye, they often experience more supportive and respectful dynamics within the workplace itself.\n\nWhen it comes to interactions with clients or customers, the data shows a slightly more positive trend. Among blue-collar workers who engage with customers, 67% say they are treated with respect all or most of the time, compared to 74% of other workers [citation:txt10]. This indicates that, while blue-collar workers may not receive widespread societal respect, their day-to-day interactions with the public are often more affirming than might be expected given the broader perception of their work.\n\nGender differences further complicate these perceptions. Female blue-collar workers are more likely than their male counterparts to report that most Americans do not respect their work. Specifically, 41% of women in blue-collar jobs say they feel this way, compared to 31% of men [citation:txt12]. This gender gap underscores the intersection of occupational and gender-based biases that may contribute to the overall sense of undervaluation among women in these roles.\n\nThese findings are not merely statistical—they reflect a deeper cultural dynamic. As one academic analysis notes, blue-collar work is often stigmatized as dirty, low-skilled, and lacking intrinsic value, contrasting sharply with the respect afforded to cognitive or professional labor [citation:txt9]. Yet, despite this societal bias, many blue-collar workers—especially those who have gained visibility during the pandemic—report a renewed sense of pride and purpose in their work [citation:txt3]. This suggests that while external perceptions may be slow to change, internal attitudes and personal fulfillment can still be sources of resilience and motivation for blue-collar workers.",
+      "text_citations": [
+        "txt1",
+        "txt10",
+        "txt12",
+        "txt3",
+        "txt4",
+        "txt9"
+      ],
+      "image_citations": [],
+      "text_citations_count": 6,
+      "image_citations_count": 0,
+      "total_citations": 6,
+      "text_sources": [
+        {
+          "citation_id": "txt1",
+          "uid": "02bda1f107acb10091da4244c99c0d32",
+          "score": 0.7931627035140991,
+          "content_preview": "Only around three-in-ten blue-collar workers (31%) say most Americans have a great deal or a fair amount of respect for the work they do, compared with nearly half of other workers (47%). Conversely, ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt4",
+          "uid": "8f1376bf53418dae8b577accace9f610",
+          "score": 0.7685800790786743,
+          "content_preview": "Attitudes are somewhat more positive when it comes to being respected on the job. Most of blue-collar workers (78%) say their supervisor treats them respectfully all or most of the time, though that’s",
+          "source": ""
+        },
+        {
+          "citation_id": "txt12",
+          "uid": "cb1753a486eae86ca316670b9e1df865",
+          "score": 0.7440207004547119,
+          "content_preview": "Some fascinating takeaways in this new analysis of blue collar workers from my colleagues [Luona Lin]() and [Drew DeSilver](). Compared with other workers, blue collar workers are less satisfied with ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt10",
+          "uid": "8f8966550179b807ac95d9488222f63d",
+          "score": 0.7461211681365967,
+          "content_preview": "Meanwhile, among blue-collar workers who interact with customers or clients, two-thirds (67%) say they’re treated with respect in those relationships all or most of the time, compared with about three",
+          "source": ""
+        },
+        {
+          "citation_id": "txt9",
+          "uid": "967f50aad12ba1906f771f6b523e7a2c",
+          "score": 0.7463763952255249,
+          "content_preview": "Job pride, especially among blue-collar workers, remains an understudied subject, even though other positive aspects of work, such as work engagement ([Bakker and Albrecht, 2018](javascript:;); [Knigh",
+          "source": ""
+        },
+        {
+          "citation_id": "txt3",
+          "uid": "da1194da2d20f6466372db62402dbf7a",
+          "score": 0.7706037759780884,
+          "content_preview": "After taking center stage throughout the bulk of the media’s coverage of the COVID-19 pandemic, blue-collar workers say they’ve gained more respect and appreciation from the people they serve—and have",
+          "source": ""
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:23:29.519020"
+    },
+    {
+      "section_index": 5,
+      "section_description": "This section covers blue-collar workers' views on education and training needed to advance at work. It details the proportion who feel they need more education or training, preferred methods for obtaining it, and differences in motivations for pursuing additional training between men and women. Key sub-topics include: 1. Perceived need for further education/training, 2. Preferred sources of training, 3. Gender differences in training motivations.",
+      "content_length": 2823,
+      "content": "# Education and Training for Advancement Among Blue-Collar Workers\n\nBlue-collar workers, like their counterparts in other sectors, often find themselves at a crossroads when it comes to career advancement. About one-third of blue-collar workers (31%) say they need more education or training to get ahead at work, a proportion that mirrors the share among other workers [citation:txt1]. However, the pathways they prefer to pursue for gaining these skills diverge significantly from the formal education routes that other workers might favor.\n\nOnly 17% of blue-collar workers who feel they need more education or training believe formal schooling—such as a high school diploma or college degree—is the best way to achieve their goals. This is notably lower than the 27% of other workers who hold this view [citation:txt2]. Instead, a more practical approach is favored: about a third (32%) of blue-collar workers point to on-the-job learning as the most effective method, while 28% cite certificate programs as a viable alternative. These preferences suggest a strong reliance on hands-on experience and targeted skill development over traditional academic routes [citation:txt10].\n\nThis preference for on-the-job training and certificate programs aligns with the nature of many blue-collar roles, where skills are often acquired or refined through direct work experience. Blue-collar jobs can be characterized by physical labor and repetitive tasks, where the acquisition of skills is more experiential than theoretical [citation:txt12]. Moreover, as industries evolve and new technologies emerge, the need for continuous skill development becomes increasingly important [citation:txt20].\n\nThe motivations behind pursuing additional training also reveal interesting gender differences. Similar shares of blue-collar men and women (39% and 36%, respectively) have taken a class or received extra training in the past 12 months to learn, maintain, or improve job skills. However, the reasons for doing so differ. Two-thirds of blue-collar men who have taken training cite keeping up with requirements in their field or industry as a reason, compared to 52% of women. Conversely, blue-collar women are more likely than men to pursue training with the goal of securing a new job (36% vs. 23%) [citation:txt3]. These distinctions suggest that while men may be more focused on staying current in their existing roles, women may be using training as a stepping stone toward broader career opportunities.\n\nThese findings underscore the importance of tailored training programs that meet the specific needs and motivations of blue-collar workers. As industries continue to evolve, the ability to access flexible, relevant training will become even more critical for these workers to remain competitive and advance in their careers.",
+      "text_citations": [
+        "txt1",
+        "txt10",
+        "txt12",
+        "txt2",
+        "txt20",
+        "txt3"
+      ],
+      "image_citations": [],
+      "text_citations_count": 6,
+      "image_citations_count": 0,
+      "total_citations": 6,
+      "text_sources": [
+        {
+          "citation_id": "txt2",
+          "uid": "590849bf9ecaad37d82bb36f5c68dd6a",
+          "score": 0.7846925258636475,
+          "content_preview": "* About one-third of blue-collar workers (31%) say they need more education or training to get ahead at work, about the same share as other workers. However, relatively few see more formal schooling a",
+          "source": ""
+        },
+        {
+          "citation_id": "txt1",
+          "uid": "b4bb593b3129abe76ccb1529be84bd1d",
+          "score": 0.8018523454666138,
+          "content_preview": "#### Education and training\nAbout three-in-ten blue-collar workers (31%) say they need more education or training to get ahead at work, about the same share as other workers. However, relatively few s",
+          "source": ""
+        },
+        {
+          "citation_id": "txt20",
+          "uid": "1952ef35286e05698bfc6a945777cd89",
+          "score": 0.7193751335144043,
+          "content_preview": "Such training programs, workshops, or other development opportunities should be provided both in-person and online to maximize accessibility and engagement; this may even include offering stipends for",
+          "source": ""
+        },
+        {
+          "citation_id": "txt3",
+          "uid": "982e700760c5a3494742a1228fff120f",
+          "score": 0.7633890509605408,
+          "content_preview": "* Similar shares of blue-collar men and women (39% and 36%) say they’ve taken a class or received extra training in the past 12 months to learn, maintain or improve job skills. But their motivations f",
+          "source": ""
+        },
+        {
+          "citation_id": "txt10",
+          "uid": "d9a02760208bbbcdbca0db00154676d8",
+          "score": 0.7453014850616455,
+          "content_preview": "Among blue-collar workers who say they need more education or training to get ahead, only 17% say formal education – for example, a high school diploma or college degree – would be the best way to get",
+          "source": ""
+        },
+        {
+          "citation_id": "txt12",
+          "uid": "d23731ae76bc9f6f3bd9c8abd333a888",
+          "score": 0.735668420791626,
+          "content_preview": "... Such work can be characterized by repetition and monotony (Gibson & Papa, 2000;Melamed, Ben-Avi, Luz, & Green, 1995). Blue-collar workers typically gain skills through on-the-job experience, with ",
+          "source": ""
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:24:19.045239"
+    }
+  ],
+  "references": [],
+  "unresolved": []
+}

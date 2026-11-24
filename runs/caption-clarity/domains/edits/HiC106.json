@@ -1,0 +1,12 @@
+{
+  "task_uid": "HiC106",
+  "section_index": 0,
+  "image_slot": "img1",
+  "image_uid": "67db9282cf2f8b1131017ae9bf6c401c",
+  "image_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_92466.jpg",
+  "equivalent_image_uids": [],
+  "clarification": "The Warkworth Castle label sits inside the large bend of the River Coquet, immediately west of the road through the village. The red golf-course outline lies farther east along the coast, across the river from the castle. This map provides geographic orientation; it does not establish the location of a medieval crossing.",
+  "verified_detail": "Use the map to locate the castle by the Coquet bend, distinguish it from the red coastal golf-course outline, or both. Do not claim the map proves the medieval lowest crossing.",
+  "rationale": "Although the map emphasizes the golf course, it labels the castle and clearly shows the immediate river landscape described in the section. The original caption lists both but fails to explain their spatial relationship.",
+  "replacements_by_uid": {}
+}

@@ -1,0 +1,21 @@
+{
+  "task_uid": "SS035",
+  "section_index": 0,
+  "image_slot": "img1",
+  "image_uid": "1397226f74b3cf3aa24eba0a2552e189",
+  "image_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_142312.png",
+  "equivalent_image_uids": [
+    "7dd72b02bee89705b5365d9d0128ad4e"
+  ],
+  "clarification": "In the top-left proton–proton chain, the final arrows show two helium-3 nuclei combining into one helium-4 nucleus and returning two protons. The CNO cycle is in a separate top-right panel; the upper-left chain is the figure detail used to illustrate hydrogen burning in a Sun-like star.",
+  "verified_detail": "Explain the indicated final branch of the proton–proton chain in which two helium-3 nuclei produce helium-4 and return two protons. Exact notation is optional.",
+  "rationale": "The first candidate directly illustrates the requested proton–proton chain. Its caption lists intermediate nuclei but misses the returned protons. Both candidate versions show the same upper-left pathway.",
+  "replacements_by_uid": {
+    "1397226f74b3cf3aa24eba0a2552e189": [
+      [
+        "beryllium (⁶Be) as an intermediate",
+        "beryllium (⁸Be) as an intermediate"
+      ]
+    ]
+  }
+}

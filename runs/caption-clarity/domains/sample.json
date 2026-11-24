@@ -1,0 +1,65 @@
+[
+  {
+    "domain": "AI",
+    "uid": "AL015",
+    "source": "TestSet/AI/AL015.md",
+    "query": "What are the main approaches and recent advances in semi-supervised learning when labeled data is scarce?",
+    "sections": 7
+  },
+  {
+    "domain": "Finance",
+    "uid": "FP025",
+    "source": "TestSet/Finance/FP025.md",
+    "query": "How and why did Americans' moving patterns change during the COVID-19 pandemic, according to Pew Research Center surveys in 2020?",
+    "sections": 6
+  },
+  {
+    "domain": "Geography",
+    "uid": "GM126",
+    "source": "TestSet/Geography/GM126.md",
+    "query": "What are the major unresolved maritime and territorial disputes between the United States and Canada, and what are their historical, legal, and practical implications?",
+    "sections": 7
+  },
+  {
+    "domain": "Health",
+    "uid": "HO010",
+    "source": "TestSet/Health/HO010.md",
+    "query": "What are the causes, variations, and historical shifts in the life expectancy gap between women and men worldwide?",
+    "sections": 6
+  },
+  {
+    "domain": "History",
+    "uid": "HiC106",
+    "source": "TestSet/History/HiC106.md",
+    "query": "What does the recent geophysical survey reveal about the medieval landscape surrounding Warkworth Castle, and how does this inform our understanding of its historical context and connections?",
+    "sections": 4
+  },
+  {
+    "domain": "Humanity",
+    "uid": "HuO056",
+    "source": "TestSet/Humanity/HuO056.md",
+    "query": "What makes ChatGPT's Code Interpreter (Advanced Data Analytics) a transformative tool for AI-assisted data analysis, and how can users effectively leverage its capabilities?",
+    "sections": 4
+  },
+  {
+    "domain": "Religion",
+    "uid": "RP032",
+    "source": "TestSet/Religion/RP032.md",
+    "query": "How prevalent are astrology, tarot cards, and fortune-telling practices among Americans, and what roles do these practices play in their lives according to recent Pew Research Center survey data?",
+    "sections": 5
+  },
+  {
+    "domain": "Science",
+    "uid": "SS035",
+    "source": "TestSet/Science/SS035.md",
+    "query": "What is the life cycle of a star like the Sun, and how do its mass and interactions determine its ultimate fate?",
+    "sections": 4
+  },
+  {
+    "domain": "Social",
+    "uid": "SP011",
+    "source": "TestSet/Social/SP011.md",
+    "query": "How do blue-collar workers in the U.S. perceive their jobs compared to other workers, based on recent survey data?",
+    "sections": 6
+  }
+]

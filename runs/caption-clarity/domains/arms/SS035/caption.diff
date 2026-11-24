@@ -1,0 +1,33 @@
+--- A
++++ B
+@@ -147,7 +147,7 @@
+   - Shows the transformation of elements within the cycle, ending with the production of ⁴He.
+ 
+ - **Helium-Burning (Triple-alpha Process):**
+-  - Highlights the fusion of helium (⁴He) into carbon (¹²C), with beryllium (⁶Be) as an intermediate.
++  - Highlights the fusion of helium (⁴He) into carbon (¹²C), with beryllium (⁸Be) as an intermediate.
+   - Indicates the energy threshold required for this process (100 - 200 million K).
+ 
+ - **Alpha Process:**
+@@ -161,7 +161,9 @@
+ - **Overall Structure:**
+   - The diagram uses arrows to indicate the flow of reactions and transformations.
+   - Each process is labeled with the specific elements involved and their atomic representations.
+-  - The central hub connects various elements and processes, emphasizing the interconnected nature of stellar nucleosynthesis.]
++  - The central hub connects various elements and processes, emphasizing the interconnected nature of stellar nucleosynthesis.
++
++In the top-left proton–proton chain, the final arrows show two helium-3 nuclei combining into one helium-4 nucleus and returning two protons. The CNO cycle is in a separate top-right panel; the upper-left chain is the figure detail used to illustrate hydrogen burning in a Sun-like star.]
+ 
+ [Source img2: Coarse-grained Description:
+ - The image is a diagram of the internal structure of the Sun.
+@@ -293,7 +295,9 @@
+ - The diagram uses arrows to indicate the direction of nuclear reactions and the transformation of elements.
+ - Isotopes are represented with their mass number and element symbol, such as \( ^4He \) for helium-4 and \( ^{12}C \) for carbon-12.
+ - Temperatures for each stage are indicated in Kelvin, showing the conditions under which each fusion process occurs.
+-- Labels and captions are provided for each stage and process, clarifying the type of nuclear reactions and the elements involved.]
++- Labels and captions are provided for each stage and process, clarifying the type of nuclear reactions and the elements involved.
++
++In the top-left proton–proton chain, the final arrows show two helium-3 nuclei combining into one helium-4 nucleus and returning two protons. The CNO cycle is in a separate top-right panel; the upper-left chain is the figure detail used to illustrate hydrogen burning in a Sun-like star.]
+ 
+ [Source img8: ### Coarse-grained Description:
+ - **Overall Content and Purpose**: The image illustrates the proton-proton chain reaction, a series of nuclear fusion processes that convert hydrogen into helium in stars, such as the Sun. It depicts the step-by-step fusion of protons to form helium, along with the emission of particles like positrons, gamma rays, and neutrinos.

@@ -1,0 +1,352 @@
+{
+  "task": {
+    "domain": "Religion",
+    "uid": "RP032",
+    "source": "TestSet/Religion/RP032.md",
+    "query": "How prevalent are astrology, tarot cards, and fortune-telling practices among Americans, and what roles do these practices play in their lives according to recent Pew Research Center survey data?",
+    "sections": 5
+  },
+  "arm": "A",
+  "section_index": 0,
+  "request": {
+    "model": "qwen3-32b",
+    "max_tokens": 4096,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 1701,
+    "messages": [
+      {
+        "role": "user",
+        "content": "# Role\nYou are an expert writer skilled at creating coherent, well-structured long-form content with proper source citations.\n\n# Task\nWrite a specific section of a larger article based on the provided requirements, context, and retrieved materials.\n\n# Overall Article Context\n**Article Topic:** How prevalent are astrology, tarot cards, and fortune-telling practices among Americans, and what roles do these practices play in their lives according to recent Pew Research Center survey data?\n\n**Overall Requirements:**\n- How many Americans engage in astrology, tarot cards, or fortune-telling, and how frequently?\n- What demographic factors influence belief in and engagement with these practices?\n- Do Americans use astrology, tarot cards, or fortune-telling for fun or for making major life decisions?\n\n# Current Section Information\n**Section Position:** Section 1/5\n**Section Description:** This section introduces the study, outlining its purpose, methodology, and context. It explains that Pew Research Center conducted a nationally representative survey of 9,593 U.S. adults in October 2024 to assess experiences with astrology, tarot cards, and fortune-telling. The section also situates the research within broader cultural trends, noting increased media attention and social media engagement with New Age practices, especially among young people and during the COVID-19 pandemic.\n\n**Section Requirements (must address all):**\n- The study surveyed 9,593 U.S. adults in October 2024 using the American Trends Panel.\n- The survey is weighted to be representative of the U.S. adult population by key demographics.\n- Media reports have described rising interest in New Age practices, particularly among young people and on social media.\n\n# Context from Previous Sections\n**Summary of previous sections:**\nThis is the first section\n\n**End of previous section (for smooth transition):**\nNo previous content\n\n# Retrieved Materials\nYou have access to the following sources for citation:\n[Source txt1 begin]\n# 2024 PEW RESEARCH CENTER’S AMERICAN TRENDS PANELWAVE 158 ASTROLOGY, TAROT CARDS AND FORTUNE TELLERSOCTOBER 21-27, 2024$\\aleph = 9 , 5 9 3$\nNote: All numbers are percentages unless otherwise noted. Rows/columns may not total $100 \\%$ due to rounding. The questions presented below are part of a larger survey conducted on the American Trends Panel.\n[Source txt1 end]\n\n[Source txt2 begin]\n# 2024 PEW RESEARCH CENTER’S AMERICAN TRENDS PANELWAVE 158 ASTROLOGY, TAROT CARDS AND FORTUNE TELLERSOCTOBER 21-27, 2024$\\aleph = 9 , 5 9 3$\nNote: All numbers are percentages unless otherwise noted. Rows/columns may not total $100 \\%$ due to rounding. The questions presented below are part of a larger survey conducted on the American Trends Panel.\n[Source txt2 end]\n\n[Source txt3 begin]\nA fall 2024 Pew Research Center survey finds that **30% of U.S. adults say they consult astrology (or a horoscope), tarot cards or a fortune teller at least once a year,** but most do so just for fun, and few Americans say they make major decisions based on what they learn along the way.\n[Source txt3 end]\n\n[Source txt4 begin]\nA fall 2024 Pew Research Center survey finds that $30 \\%$ of U.S. adults say they consult astrology (or a horoscope), tarot cards or a fortune teller at least once a year, but most do so just for fun, and few Americans say they make major decisions based on what they learn along the way.\n[Source txt4 end]\n\n[Source txt5 begin]\nA fall 2024 Pew Research Center survey finds that 30% of U.S. adults say they consult astrology (or a horoscope), tarot cards, or a fortune teller at least once a year. But most do so just for fun. 💫 Few Americans say they make major decisions based on what they learn along the way. ⚖️\n[Source txt5 end]\n\n[Source txt6 begin]\n1. Pew Research Center has previously asked some other questions about topics covered in this report, though question wording has varied. Recently, in [a 2024 survey of three dozen countries](), 9% of U.S. adults said they consult a fortune teller, horoscope or other  _way to see the future_. The current survey does not specifically define astrology, horoscopes, tarot cards or fortune-telling as ways to see the future.[↩]()\n[Source txt6 end]\n\n[Source txt7 begin]\n**May 21, 2025 –** About three in ten U.S. adults use astrology, tarot cards, or consult fortune tellers at least once a year, [according to a recent survey conducted by the Pew Research Center](). The findings provide a detailed look at the prevalence and motivations behind these practices in the United States.\n[Source txt7 end]\n\n[Source txt8 begin]\n<html><body><table><tr><td colspan=\"3\">Astrology or a horoscope</td><td colspan=\"2\">Tarot cards</td><td colspan=\"2\">A fortune teller</td></tr><tr><td></td><td colspan=\"2\">At least once or twice a</td><td colspan=\"2\">At least once or</td><td colspan=\"2\">At least once or</td></tr><tr><td></td><td>year</td><td>Never</td><td>twice a year</td><td>Never</td><td>twice a year</td><td>Never</td></tr><tr><td>U.S. adults</td><td>28%</td><td>71%</td><td>11%</td><td>88%</td><td>6%</td><td>93%</td></tr><tr><td>Women</td><td>37</td><td>63</td><td>14</td><td>85</td><td>8</td><td>92</td></tr><tr><td>Men</td><td>19</td><td>81</td><td>7</td><td>92</td><td>4</td><td>95</td></tr><tr><td>Ages 18-29</td><td>37</td><td>63</td><td>23</td><td>76</td><td>14</td><td>85</td></tr><tr><td>30-49</td><td>31</td><td>68</td><td>13</td><td>86</td><td>6</td><td>93</td></tr><tr><td>50-64</td><td>25</td><td>75</td><td>6</td><td>93</td><td>4</td><td>96</td></tr><tr><td>65+</td><td>20</td><td>80</td><td>3</td><td>96</td><td>2</td><td>98</td></tr><tr><td>LGBT</td><td>54</td><td>46</td><td>33</td><td>66</td><td>12</td><td>86</td></tr><tr><td>Non-LGBT</td><td>26</td><td>74</td><td>9</td><td>91</td><td>6</td><td>94</td></tr><tr><td>Lower income</td><td>35</td><td>65</td><td>17</td><td>83</td><td>10</td><td>90</td></tr><tr><td>Middle income</td><td>26</td><td>74</td><td>9</td><td>91</td><td>4</td><td>96</td></tr><tr><td>Upper income</td><td>22</td><td>78</td><td>7</td><td>93</td><td>4</td><td>96</td></tr><tr><td>Politicallyliberal</td><td>36</td><td>64</td><td>18</td><td>82</td><td>7</td><td>92</td></tr><tr><td>Moderate</td><td>31</td><td>69</td><td>11</td><td>89</td><td>6</td><td>93</td></tr><tr><td>Conservative</td><td>20</td><td>80</td><td>7</td><td>93</td><td>5</td><td>94</td></tr><tr><td>White</td><td>25</td><td>75</td><td>8</td><td>92</td><td>3</td><td>96</td></tr><tr><td>Black</td><td>36</td><td>63</td><td>16</td><td>84</td><td>12</td><td>87</td></tr><tr><td>Hispanic</td><td>33</td><td>67</td><td>15</td><td>84</td><td>11</td><td>89</td></tr><tr><td>Asian*</td><td>30</td><td>70</td><td>19</td><td>81</td><td>15</td><td>85</td></tr></table></body></html>\n[Source txt8 end]\n\n[Source txt9 begin]\nSource: Survey of U.S. adults conducted Oct. 21-27, 2024. $30 \\%$ of Americans Consult Astrology, Tarot Cards or Fortune Tellers”\nPEW RESEARCH CENTER\nLGBT women are more likely than LGBT men to consult astrology at least yearly $63 \\%$ vs. $40 \\%$ ).\n[Source txt9 end]\n\n[Source txt10 begin]\n# Pew: 3 in 10 Americans consult astrology, horoscopes, tarot cards, or fortune tellers\nShare\n[]()[]()[]()[]()\nThree in 10 Americans say they consult astrology, horoscopes, tarot cards, or fortune tellers at least once a year, [according]() to a recently released Pew Research Center survey.\n[Source txt10 end]\n\n[Source txt11 begin]\nPew Research Center conducted this analysis to highlight religious differences in U.S. voters’ views about the 2024 presidential election. For this analysis, we surveyed 8,709 adults – including 7,166 registered voters – from April 8 to 14, 2024. Everyone who took part in this survey is a member of the Center’s American Trends Panel (ATP), an online survey panel that is recruited through national, random sampling of residential addresses. This way nearly all U.S. adults have a chance of selection. The survey is weighted to be representative of the U.S. adult population by gender, race, ethnicity, partisan affiliation, education and other categories. [Read more about the ATP’s methodology]().\n[Source txt11 end]\n\n[Source txt12 begin]\n#  A new report says three in 10 US adults consult astrology, horoscopes, tarot cards or a fortune teller at least once a year, according to the Pew Research Center.\n[ General Discussion + Astrology Assistance  ]()\n[Source txt12 end]\n\n[Source txt13 begin]\n<html><body><table><tr><td colspan=\"3\">Astrology or a horoscope At least</td><td colspan=\"2\">Tarot cards</td><td colspan=\"2\">A fortune teller</td></tr><tr><td colspan=\"3\">once or</td><td colspan=\"2\">At least once or</td><td colspan=\"2\">At least once or</td></tr><tr><td></td><td>twice a year</td><td>Never</td><td>twice a year</td><td>Never</td><td>twice a year</td><td>Never</td></tr><tr><td>U.S. adults</td><td>28%</td><td>71%</td><td>11%</td><td>88%</td><td>6%</td><td>93%</td></tr><tr><td>Religiously affiliated</td><td>28</td><td>72</td><td>10</td><td>89</td><td>6</td><td>93</td></tr><tr><td>Christian</td><td>27</td><td>73</td><td>9</td><td>91</td><td>6</td><td>94</td></tr><tr><td>Protestant</td><td>24</td><td>76</td><td>7</td><td>92</td><td>4</td><td>96</td></tr><tr><td>White evangelical</td><td>17</td><td>83</td><td>4</td><td>96</td><td>1</td><td>99</td></tr><tr><td>White, not evang.</td><td>28</td><td>72</td><td>8</td><td>92</td><td>4</td><td>96</td></tr><tr><td>Black Protestant</td><td>33</td><td>67</td><td>13</td><td>87</td><td>9</td><td>91</td></tr><tr><td>Catholic</td><td>32</td><td>68</td><td>11</td><td>89</td><td>8</td><td>92</td></tr><tr><td>White Catholic</td><td>27</td><td>73</td><td>7</td><td>93</td><td>5</td><td>95</td></tr><tr><td>Hispanic Catholic</td><td>39</td><td>61</td><td>14</td><td>84</td><td>11</td><td>89</td></tr><tr><td>Jewish</td><td>26</td><td>74</td><td>11</td><td>89</td><td>4</td><td>96</td></tr><tr><td>Religiously unaffiliated</td><td>30</td><td>69</td><td>14</td><td>86</td><td>6</td><td>93</td></tr><tr><td>Atheist</td><td>17</td><td>83</td><td>7</td><td>93</td><td>2</td><td>98</td></tr><tr><td>Agnostic</td><td>31</td><td>69</td><td>14</td><td>85</td><td>3</td><td>97</td></tr><tr><td>Nothing in particular</td><td>35</td><td>64</td><td>16</td><td>83</td><td>8</td><td>90</td></tr></table></body></html>\n[Source txt13 end]\n\n[Source txt14 begin]\nThe survey of 9,593 adults, conducted Oct. 21-27, 2024, reveals sharp demographic divides in who engages with these practices. Women are significantly more likely than men to believe in astrology (35% vs. 18%) and to consult it regularly. Among women ages 18 to 49, 43% believe in astrology.\n[Source txt14 end]\n\n[Source txt15 begin]\nA fall 2024 Pew Research Center survey finds that $30 \\%$ of U.S. adults say they consult astrology (or a horoscope), tarot cards or a fortune teller at least once a year, but most do so just for fun, and few Americans say they make major decisions based on what they learn along the way.\n[Source txt15 end]\n\n[Source txt16 begin]\n# Survey Reveals Nearly 30% of Americans Engage with Astrology and Fortune-Telling\n[![Atheism Daily Writer]()]( \"Atheism Daily Writer\")\nBy [Atheism Daily Writer]()\nMay 24, 2025\n[0]()\n536\nShare\n[Facebook]( \"Facebook\")[Twitter]( \"Twitter\")[Copy URL]( \"Copy URL\")\n[ ]( \"More\")\n[ ![]() ]()\n**Contents** [hide]()\n[Source txt16 end]\n\n[Source txt17 begin]\nThe survey reveals notable demographic distinctions. Younger adults, particularly women aged 18 to 49, show higher engagement, with about 46% consulting astrology or horoscopes annually. The LGBTQ+ community also demonstrates significant involvement; approximately 54% consult astrology or horoscopes at least once a year, and 33% engage with tarot cards—three times the national average. Furthermore, 21% of LGBTQ+ adults report relying at least a little on insights from these practices when making major life decisions, a higher proportion than any other demographic group surveyed.\n[Source txt17 end]\n\n[Source txt18 begin]\nA fall 2024 Pew Research Center survey finds that **30% of U.S. adults say they consult astrology (or a horoscope), tarot cards or a fortune teller at least once a year,** but most do so just for fun, and few Americans say they make major decisions based on what they learn along the way.\n[Source txt18 end]\n\n[Source txt19 begin]\nSource: Survey of U.S. adults conducted Oct. 21-27, 2024. $30 \\%$ of Americans Consult Astrology, Tarot Cards or Fortune Tellers”\nPEW RESEARCH CENTER\nLGBT women are more likely than LGBT men to consult astrology at least yearly $63 \\%$ vs. $40 \\%$ ).\n[Source txt19 end]\n\n[Source txt20 begin]\nSource: Survey of U.S. adults conducted Oct. 21-27, 2024. $30 \\%$ of Americans Consult Astrology, Tarot Cards or Fortune Tellers”\nPEW RESEARCH CENTER\n[Source txt20 end]\n\n[Source img1: **Coarse-grained Description:**\n\n- The image presents data comparing the percentage of U.S. adults who believe in astrology in December 2017 and October 2024.\n- It highlights a slight decrease in the belief in astrology over the period.\n- The data is categorized by religious affiliation, showing the percentage of believers within each group.\n\n**Fine-grained Description:**\n\n- **Title:** 27% of U.S. adults say they believe in astrology, similar to the share in 2017\n- **Subtitle:** % who say they believe in astrology (the position of the stars and planets can affect people’s lives)\n\n**Data Overview:**\n\n- **Overall U.S. Adults:**\n  - December 2017: 29%\n  - October 2024: 27%\n\n- **Religiously Affiliated:**\n  - Christian: \n    - 2017: 26%\n    - 2024: 25%\n  - Protestant:\n    - 2017: 24%\n    - 2024: 24%\n  - White evangelical:\n    - 2017: 17%\n    - 2024: 19%\n  - White, not evangelical:\n    - 2017: 31%\n    - 2024: 25%\n  - Black Protestant:\n    - 2017: 31%\n    - 2024: 34%\n  - Catholic:\n    - 2017: 33%\n    - 2024: 29%\n  - White Catholic:\n    - 2017: 30%\n    - 2024: 25%\n  - Hispanic Catholic:\n    - 2017: 37%\n    - 2024: 35%\n  - Jewish:\n    - 2017: Not shown\n    - 2024: 18%\n\n- **Religiously Unaffiliated:**\n  - 2017: 32%\n  - 2024: 28%\n  - Atheist:\n    - 2017: 3%\n    - 2024: 13%\n  - Agnostic:\n    - 2017: 18%\n    - 2024: 20%\n  - Nothing in particular:\n    - 2017: 47%\n    - 2024: 36%\n\n**Notes:**\n\n- The 2017 survey included 169 interviews with Hispanic Catholic respondents, with an effective sample size of 74 and a 95% confidence level margin of error.\n- No estimates for Jewish Americans are shown due to small sample size.\n- The source is a Pew Research Center survey conducted from October 21-27, 2024.\n- The survey is titled \"30% of Americans Consult Astrology, Tarot Cards or Fortune Tellers.\"\n\n**Observations:**\n\n- The belief in astrology among U.S. adults decreased slightly from 29% in 2017 to 27% in 2024.\n- Notable increases in belief include Black Protestants and atheists.\n- Decreases are observed in white Catholics and the religiously unaffiliated group.]\n\n[Source img2: Coarse-grained Description:\n- The image presents data on the percentage of U.S. adults who believe in astrology, showing differences by gender and age group.\n- The data is organized in a bar chart format for comparison.\n- The main message highlights that 43% of women under 50 believe in astrology, which is notably higher than other groups.\n\nFine-grained Description:\n- The chart displays the percentage of U.S. adults who believe in astrology, broken down by gender and age group.\n- Categories include:\n  - U.S. adults: 27%\n  - Women, ages 18-49: 43%\n  - Women, 50+: 27%\n  - Men, ages 18-49: 20%\n  - Men, 50+: 16%\n- The data was sourced from a survey conducted by Pew Research Center from October 21-27, 2024.\n- The survey title is “30% of Americans Consult Astrology, Tarot Cards or Fortune Tellers.”\n- The chart emphasizes that younger women are the most likely to believe in astrology compared to other demographics.]\n\n[Source img3: Coarse-grained Description:\n- The image is a chart from the Pew Research Center showing the percentage of U.S. adults who consult astrology, tarot cards, or fortune tellers at various frequencies.\n- It compares the frequency of consultation, from at least weekly to never, and highlights the percentage of people engaging in these activities.\n- The main message is that 5% of Americans consult astrology or a horoscope weekly, while the majority (71%) never do.\n\nFine-grained Description:\n- The chart is divided into three categories: \"Consult astrology or a horoscope,\" \"Consult tarot cards,\" and \"Consult a fortune teller.\"\n- Frequencies are broken down into: \n  - At least weekly\n  - Once or twice a month\n  - Once or twice a year\n  - Net (At least once or twice a year)\n  - Never\n- Specific percentages:\n  - 5% consult astrology at least weekly, with 28% consulting at least once or twice a year.\n  - 7% consult tarot cards once or twice a month, and 11% once or twice a year, totaling 18%.\n  - 4% consult fortune tellers at least weekly, with 6% doing so once or twice a year.\n  - Overall, 30% consult at least one of these things.\n  - 71% never consult astrology, 88% never consult tarot cards, and 93% never consult fortune tellers.\n- The chart notes that unaccounted respondents are not shown due to rounding.\n- The data is from a survey conducted October 21-27, 2024, with a source citation: \"30% of Americans Consult Astrology, Tarot Cards or Fortune Tellers.\"\n- The Pew Research Center logo is present at the bottom of the chart.]\n\n[Source img4: Coarse-grained Description:\n- The image presents data on the percentage of U.S. adults who consult astrology, tarot cards, or fortune tellers, categorized by their religious affiliation.\n- The table shows a comparison between different religious groups and their engagement with these practices.\n- The main topic is the prevalence of astrology, tarot card, and fortune-telling consultations among various religiously affiliated and unaffiliated groups in the U.S.\n\nFine-grained Description:\n- The table is divided into three main columns: \"Astrology or a horoscope,\" \"Tarot cards,\" and \"A fortune teller.\"\n- Each column is further divided into two categories: \"At least once or twice a year\" and \"Never.\"\n- The rows categorize the data by religious affiliation, including \"U.S. adults,\" \"Religiously affiliated\" (with subcategories like Christian, Protestant, Catholic, etc.), and \"Religiously unaffiliated\" (with subcategories like Atheist, Agnostic, Nothing in particular).\n\nNotable values and patterns:\n- Overall, 28% of U.S. adults consult astrology or a horoscope at least once or twice a year, while 71% never do.\n- Among religiously unaffiliated adults, 30% consult astrology or a horoscope at least annually, compared to 28% of the general U.S. adult population.\n- The highest percentage of astrology or horoscope consultation among religiously affiliated groups is seen in Black Protestants (33%) and Hispanic Catholics (39%).\n- For tarot cards, 11% of U.S. adults consult them at least once or twice a year, with the highest usage among the religiously unaffiliated (14%).\n- Only 6% of U.S. adults consult a fortune teller at least once or twice a year, with the highest usage among those identifying with \"Nothing in particular\" (16%).\n\nLabels and annotations:\n- The note mentions that those who did not answer are not shown.\n- The survey was conducted by Pew Research Center from October 21-27, 2024.\n- The title highlights that \"3 in 10 religiously unaffiliated adults consult astrology or a horoscope at least annually.\"]\n\n[Source img5: Coarse-grained Description:\n- The image presents data on the percentage of U.S. adults who consult astrology, tarot cards, or fortune tellers, categorized by their religious affiliation.\n- The table shows a comparison between different religious groups and their engagement with these practices.\n- The main topic is the prevalence of astrology, tarot card, and fortune-telling consultations among various religiously affiliated and unaffiliated groups in the U.S.\n\nFine-grained Description:\n- The table is divided into three main columns: \"Astrology or a horoscope,\" \"Tarot cards,\" and \"A fortune teller.\"\n- Each column is further divided into two categories: \"At least once or twice a year\" and \"Never.\"\n- The rows categorize the data by religious affiliation, including \"U.S. adults,\" \"Religiously affiliated\" (with subcategories like Christian, Protestant, Catholic, etc.), and \"Religiously unaffiliated\" (with subcategories like Atheist, Agnostic, Nothing in particular).\n\nNotable values and patterns:\n- Overall, 28% of U.S. adults consult astrology or a horoscope at least once or twice a year, while 71% never do.\n- Among religiously unaffiliated adults, 30% consult astrology or a horoscope at least annually, compared to 28% of the general U.S. adult population.\n- The highest percentage of astrology or horoscope consultation among religiously affiliated groups is seen in Black Protestants (33%) and Hispanic Catholics (39%).\n- For tarot cards, 11% of U.S. adults consult them at least once or twice a year, with the highest usage among the religiously unaffiliated (14%).\n- Only 6% of U.S. adults consult a fortune teller at least once or twice a year, with the highest usage among those identifying with \"Nothing in particular\" (16%).\n\nLabels and annotations:\n- The note mentions that those who did not answer are not shown.\n- The survey was conducted by Pew Research Center from October 21-27, 2024.\n- The title highlights that \"3 in 10 religiously unaffiliated adults consult astrology or a horoscope at least annually.\"]\n\n[Source img6: Coarse-grained Description:\n- The image is a bar chart showing the percentage of Americans who believe in astrology, based on various demographic categories.\n- It compares beliefs across different age groups, genders, ethnicities, education levels, regions, and religious affiliations.\n- The main message is that over one in four Americans believe in astrology, with notable variations among different groups.\n\nFine-grained Description:\n- **Title**: \"Over one in four Americans say they believe in astrology\"\n- **Subtitle**: \"Do you believe in astrology, or that the position of the stars and planets influence people’s lives? (% who say yes)\"\n- **Data Source**: YouGov\n- **Date**: April 21 - 22, 2022\n\n**Demographic Categories and Belief Percentages**:\n- **Age**:\n  - 18- to 29-year-olds: 37%\n  - 30- to 44-year-olds: 33%\n  - 45- to 64-year-olds: 22%\n  - 65 and older: 16%\n\n- **Gender**:\n  - Men: 25%\n  - Women: 30%\n\n- **Ethnicity**:\n  - White Americans: 25%\n  - Black Americans: 31%\n  - Hispanic Americans: 32%\n\n- **Education Level**:\n  - High school degree or less: 29%\n  - College degree only: 28%\n  - Postgraduate degree: 24%\n\n- **Region**:\n  - Northeast: 32%\n  - Midwest: 24%\n  - South: 25%\n  - West: 29%\n\n- **Religious Affiliation**:\n  - Protestants: 22%\n  - Catholics: 31%\n  - Jewish: 22%\n  - No particular religion: 28%\n  - Agnostics: 30%\n  - Atheists: 10%\n\n- **Overall U.S. Adults**: 27%\n\n**Observations**:\n- Younger individuals and women are more likely to believe in astrology.\n- Hispanic and Black Americans show higher belief rates compared to White Americans.\n- People with less formal education tend to have slightly higher belief rates.\n- The Northeast and West have higher belief rates compared to other regions.\n- Agnostics and Catholics have higher belief rates, while atheists have the lowest.]\n\n[Source img7: Coarse-grained Description:\n- The image presents a horizontal bar chart titled \"How Often Have You Used Tarot or Astrology Services in the Last 12 Months?\".\n- It shows the number of premium rate service users in the UK who have used these services with varying frequencies.\n- The chart highlights the distribution of usage frequency, indicating a comparison across different usage intervals.\n\nFine-grained Description:\n- **Title:** \"How Often Have You Used Tarot or Astrology Services in the Last 12 Months?\"\n- **Subtitle:** \"Number of Premium Rate Service* Users in the UK\"\n- **Horizontal Axis (x-axis):** \n  - Represents the number of users, ranging from 0 to 500,000.\n- **Vertical Axis (y-axis):** \n  - Lists the frequency of service usage:\n    - Less than once a month\n    - Once or twice a month\n    - Two to five times per month\n    - Over once a week\n    - Daily\n- **Bars:**\n  - \"Less than once a month\" has the highest number of users, close to 400,000.\n  - \"Once or twice a month\" follows, with approximately 350,000 users.\n  - \"Two to five times per month\" shows around 300,000 users.\n  - \"Over once a week\" has about 250,000 users.\n  - \"Daily\" has the lowest usage, slightly above 100,000 users.\n- **Note:** \n  - The asterisk indicates that premium rate services involve micro-payments for over-the-phone services, content, data services, and value-added services charged on a phone bill.\n- **Source:** \n  - Data sourced from Mobilesquared, Dec. 2014-Jan. 2015.\n- **Branding:** \n  - The image includes the \"MysticMag\" logo at the bottom right.\n\nThis chart illustrates that the majority of users engage with tarot or astrology services less than once a month, with daily usage being the least common.]\n\n[Source img8: Coarse-grained Description:\n- The image presents data from a survey about the belief in astrology among U.S. adults, comparing beliefs in December 2017 and October 2024.\n- It highlights differences in astrology belief across various demographics, including gender, age, sexual orientation, income, political ideology, education, and race.\n- The main message is that women are twice as likely as men to believe in astrology, and there are notable differences among other demographic groups.\n\nFine-grained Description:\n- **Title:** \"Women are twice as likely as men to believe in astrology\"\n- **Subtitle:** \"% who say they believe in astrology (the position of the stars and planets can affect people’s lives)\"\n- **Columns:** \n  - Categories (U.S. adults, Women, Men, Ages 18-29, 30-49, 50-64, 65+, LGBT, Non-LGBT, Lower income, Middle income, Upper income, Politically liberal, Moderate, Conservative, Less than college, College graduate, White, Black, Hispanic, Asian)\n  - Data for December 2017 and October 2024\n- **Notable Values:**\n  - U.S. adults: 29% in 2017, 27% in 2024\n  - Women: 37% in 2017, 35% in 2024\n  - Men: 20% in 2017, 18% in 2024\n  - LGBT: 43% in 2024\n  - Non-LGBT: 26% in 2024\n  - Lower income: 37% in 2024\n  - Middle income: 25% in 2024\n  - Upper income: 16% in 2024\n  - Politically liberal: 32% in 2017, 29% in 2024\n  - College graduate: 22% in 2017, 20% in 2024\n  - Black: 39% in 2017, 37% in 2024\n- **Notes:**\n  - Estimates for Asian adults are representative of English speakers only.\n  - Family income tiers are based on adjusted 2023 earnings.\n  - The 2017 survey did not ask about sexual orientation or transgender identity.\n  - Estimates for Asian Americans in 2017 are not shown due to a small sample size.\n  - White, Black, and Asian adults include those who report being only one race and are not Hispanic. Hispanics are of any race.\n- **Source:** Survey of U.S. adults conducted Oct. 21-27, 2024, titled \"30% of Americans Consult Astrology, Tarot Cards or Fortune Tellers\"\n- **Publisher:** PEW RESEARCH CENTER]\n\n[Source img9: Coarse-grained Description:\n- The image presents survey data on beliefs in astrology among different age groups and genders.\n- It compares the percentage of men and women across three age categories who believe in astrology.\n- The main message is that women aged 45 and older are more likely to believe in astrology than men in the same age group.\n\nFine-grained Description:\n- The chart is divided into two sections: one for men and one for women.\n- Each section lists three age categories: 18 to 44-year-olds, 45 to 64-year-olds, and 65 and older.\n- For men:\n  - 18 to 44-year-olds: 38% believe in astrology.\n  - 45 to 64-year-olds: 15% believe in astrology.\n  - 65 and older: 9% believe in astrology.\n- For women:\n  - 18 to 44-year-olds: 32% believe in astrology.\n  - 45 to 64-year-olds: 29% believe in astrology.\n  - 65 and older: 23% believe in astrology.\n- The data was collected by YouGov from April 21-22, 2022.\n- The image highlights that older women are more inclined towards astrology compared to older men.]\n\n[Source img10: Coarse-grained Description:\n- The image presents data from a survey on the frequency with which U.S. adults consult astrology, tarot cards, or fortune tellers.\n- The table compares these behaviors across different religious affiliations.\n- The main finding is that 30% of religiously unaffiliated adults consult astrology or horoscopes at least annually, showing variations among religious groups.\n\nFine-grained Description:\n- **Survey Overview:**\n  - Conducted by Pew Research Center\n  - Date: October 21-27, 2024\n  - Focus: Consultation of astrology, tarot cards, and fortune tellers\n\n- **Table Structure:**\n  - Columns: \n    - \"Astrology or a horoscope\" (At least once or twice a year / Never)\n    - \"Tarot cards\" (At least once or twice a year / Never)\n    - \"A fortune teller\" (At least once or twice a year / Never)\n  \n  - Rows:\n    - U.S. adults\n    - Religiously affiliated (Christian, Protestant, White evangelical, White not evangelical, Black Protestant, Catholic, White Catholic, Hispanic Catholic, Jewish)\n    - Religiously unaffiliated (Atheist, Agnostic, Nothing in particular)\n\n- **Notable Values:**\n  - **U.S. adults:**\n    - 28% consult astrology or a horoscope at least once or twice a year.\n    - 11% consult tarot cards annually.\n    - 6% consult a fortune teller annually.\n  \n  - **Religiously Unaffiliated:**\n    - 30% consult astrology or a horoscope.\n    - 14% consult tarot cards.\n    - 6% consult a fortune teller.\n\n- **Religious Groups:**\n  - White evangelicals are least likely to consult any of these (17% for astrology, 4% for tarot, 1% for fortune tellers).\n  - Hispanic Catholics show higher astrology consultation (39%) compared to other groups.\n\n- **Annotations:**\n  - The note clarifies that non-respondents are not shown.\n  - The title highlights the 30% of Americans who consult astrology, tarot cards, or fortune tellers. \n\n- **Source:**\n  - \"30% of Americans Consult Astrology, Tarot Cards or Fortune Tellers\" from Pew Research Center.]\n\n# CRITICAL Citation Rules\nYou MUST follow these citation rules strictly:\n\n1. **Text Citation Format:**\n   - When using information from a text source, cite it as: `[citation:txt1]`, `[citation:txt2]`, etc.\n   - Example: \"Recent studies show significant progress in AI safety[citation:txt3].\"\n\n2. **Image Citation Format:**\n   - When you want to insert an image/figure, use: `![](citation:img1)`, `![](citation:img2)`, etc.\n   - Example: \"The architecture is shown below:\n![](citation:img5)\nAs illustrated, the system...\"\n   - ONLY use this format for sources explicitly marked as \"Image\"\n\n3. **Citation Placement:**\n   - Place text citations at the end of the sentence or claim\n   - Place image citations on their own line where the visual should appear\n   - You can cite the same source multiple times if needed\n\n4. **Important Distinctions:**\n   - Text sources → use `[citation:txt1]`, `[citation:txt2]`, etc.\n   - Image sources → use `![](citation:img1)`, `![](citation:img2)`, etc.\n\n# Position-Aware Writing Instructions\n\n**Is this the FIRST section?** yes\n**Is this the LAST section?** no\n\n## If FIRST section (is_first_section = yes):\n- Start with an engaging introduction\n- No need to reference previous content (there is none)\n- Set the stage for the article\n- DO NOT conclude the entire article\n\n## If MIDDLE section (is_first_section = no, is_last_section = no):\n- Begin with a smooth transition from the previous section\n- Focus ONLY on this section's specific requirements\n- **CRITICAL: DO NOT use concluding phrases like:**\n  - \"In conclusion\"\n  - \"To summarize\"\n  - \"Overall, this article\"\n  - \"We have discussed\"\n  - \"In this article, we covered\"\n- Continue the narrative without wrapping up the entire article\n- End in a way that allows the next section to continue naturally\n\n## If LAST section (is_last_section = yes):\n- Provide appropriate transitions from previous content\n- You MAY synthesize and conclude the entire article\n- Wrap up all major points discussed in the article\n\n# Content Requirements\n1. **Address all sectional requirements** in the checklist above\n2. **Maintain coherence** with previous sections using the provided context\n3. **Use retrieved materials** as the foundation of your content\n4. **Cite sources properly** using the formats specified above\n5. **Write naturally** - your content should flow smoothly while integrating citations\n6. **Appropriate length** - typically 300-800 words depending on the complexity of requirements\n\n# Markdown Formatting Requirements\n**CRITICAL: You MUST use proper Markdown formatting for structure:**\n\n1. **Section Title (Required):**\n   - Start your content with a section title using `# Title`\n   - The title should reflect the section description\n\n2. **Subsections (If Needed):**\n   - Use `## Subsection Title` for major subsections\n   - Use `### Subsubsection Title` for deeper nesting\n   - Use appropriate heading levels to create clear hierarchy\n\n3. **Example Structure:**\n```markdown\n# Introduction to Machine Learning\n\nMachine learning has revolutionized...[citation:txt1]\n\n## Supervised Learning\nSupervised learning approaches...[citation:txt2]\n\n### Classification\nClassification tasks involve...[citation:txt3]\n\n## Unsupervised Learning\nUnlike supervised methods...[citation:txt5]\n```\n\n# Output Format\nProvide ONLY the section content with proper Markdown formatting and citations. Do NOT include:\n- Meta-commentary about what you're doing\n- Explanations of your writing process\n\n**Remember to start with a section title using `#`!**\n\nBegin writing the section now:"
+      }
+    ]
+  },
+  "response": {
+    "id": "chatcmpl-4cb393c49318470ea48a5869af2a76fc",
+    "object": "chat.completion",
+    "created": 1795350277,
+    "model": "qwen3-32b",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# Introduction to the Pew Research Center Survey on Astrology, Tarot Cards, and Fortune-Telling\n\nIn a world increasingly shaped by data and rational inquiry, the enduring appeal of astrology, tarot cards, and fortune-telling remains a compelling cultural phenomenon. To better understand the role these practices play in the lives of Americans, the Pew Research Center conducted a nationally representative survey of 9,593 U.S. adults in October 2024. The survey, part of the American Trends Panel, aimed to assess how many Americans engage in these practices, how frequently they do so, and what demographic factors influence their beliefs and behaviors. The study was weighted to ensure the sample accurately reflects the U.S. adult population across key demographics such as age, gender, race, ethnicity, political ideology, and income level [citation:txt1].\n\nThe interest in New Age and esoteric practices has grown substantially in recent years, particularly among younger generations. This surge is often attributed to increased media attention, the rise of social media platforms, and a cultural shift toward spirituality and personal exploration [citation:txt3]. During the pandemic, many individuals turned to these practices as a source of comfort, guidance, and connection in uncertain times. The Pew Research Center’s findings offer a timely and data-driven look at the prevalence of astrology, tarot cards, and fortune-telling in the United States and their place in the broader cultural landscape.\n\nThe survey’s timing—fall 2024—coincides with a period of heightened public interest in metaphysical and spiritual practices, especially among young adults and those identifying as part of the LGBTQ+ community. These groups have shown a disproportionate engagement with such practices, as seen in preliminary data from the survey [citation:txt9]. Moreover, the rise of astrology and tarot content on platforms like Instagram, TikTok, and YouTube has likely contributed to the normalization of these traditions, making them more accessible and socially acceptable across a wide range of demographics.\n\nBy examining the survey results, we can better understand how Americans are incorporating these ancient practices into their modern lives. Do they see them as tools for decision-making, or simply as entertainment and self-reflection? What role do gender, age, and political orientation play in shaping these beliefs? The following sections will explore these questions in detail, beginning with the overall prevalence of astrology, tarot cards, and fortune-telling in the U.S. adult population.",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning_content": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 9897,
+      "total_tokens": 10391,
+      "completion_tokens": 494,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "elapsed_seconds": 30.759,
+  "attempt": 1,
+  "used_target": false,
+  "sections": [
+    {
+      "section_index": 0,
+      "section_description": "This section introduces the study, outlining its purpose, methodology, and context. It explains that Pew Research Center conducted a nationally representative survey of 9,593 U.S. adults in October 2024 to assess experiences with astrology, tarot cards, and fortune-telling. The section also situates the research within broader cultural trends, noting increased media attention and social media engagement with New Age practices, especially among young people and during the COVID-19 pandemic.",
+      "content_length": 2195,
+      "content": "# Introduction to the Pew Research Center Survey on Astrology, Tarot Cards, and Fortune-Telling\n\nIn a world increasingly shaped by data and rational inquiry, the enduring appeal of astrology, tarot cards, and fortune-telling remains a compelling cultural phenomenon. To better understand the role these practices play in the lives of Americans, the Pew Research Center conducted a nationally representative survey of 9,593 U.S. adults in October 2024. The survey, part of the American Trends Panel, aimed to assess how many Americans engage in these practices, how frequently they do so, and what demographic factors influence their beliefs and behaviors. The study was weighted to ensure the sample accurately reflects the U.S. adult population across key demographics such as age, gender, race, ethnicity, political ideology, and income level [citation:txt1].\n\nThe interest in New Age and esoteric practices has grown substantially in recent years, particularly among younger generations. This surge is often attributed to increased media attention, the rise of social media platforms, and a cultural shift toward spirituality and personal exploration [citation:txt3]. During the pandemic, many individuals turned to these practices as a source of comfort, guidance, and connection in uncertain times. The Pew Research Center’s findings offer a timely and data-driven look at the prevalence of astrology, tarot cards, and fortune-telling in the United States and their place in the broader cultural landscape.\n\nThe survey’s timing—fall 2024—coincides with a period of heightened public interest in metaphysical and spiritual practices, especially among young adults and those identifying as part of the LGBTQ+ community. These groups have shown a disproportionate engagement with such practices, as seen in preliminary data from the survey [citation:txt9]. Moreover, the rise of astrology and tarot content on platforms like Instagram, TikTok, and YouTube has likely contributed to the normalization of these traditions, making them more accessible and socially acceptable across a wide range of demographics.\n\nBy examining the survey results, we can better understand how Americans are incorporating these ancient practices into their modern lives. Do they see them as tools for decision-making, or simply as entertainment and self-reflection? What role do gender, age, and political orientation play in shaping these beliefs? The following sections will explore these questions in detail, beginning with the overall prevalence of astrology, tarot cards, and fortune-telling in the U.S. adult population.",
+      "text_citations": [
+        "txt1",
+        "txt3",
+        "txt9"
+      ],
+      "image_citations": [],
+      "text_citations_count": 3,
+      "image_citations_count": 0,
+      "total_citations": 3,
+      "text_sources": [
+        {
+          "citation_id": "txt1",
+          "index": "txt1",
+          "uid": "163b53cdaa4775cd4c037fc52cdf4c1e",
+          "score": 0.7876548767089844,
+          "content": "# 2024 PEW RESEARCH CENTER’S AMERICAN TRENDS PANELWAVE 158 ASTROLOGY, TAROT CARDS AND FORTUNE TELLERSOCTOBER 21-27, 2024$\\aleph = 9 , 5 9 3$\nNote: All numbers are percentages unless otherwise noted. Rows/columns may not total $100 \\%$ due to rounding. The questions presented below are part of a larger survey conducted on the American Trends Panel.",
+          "source": "",
+          "metadata": {}
+        },
+        {
+          "citation_id": "txt3",
+          "index": "txt3",
+          "uid": "f786c4a49938a98d98742890fc5f7b09",
+          "score": 0.7633262872695923,
+          "content": "A fall 2024 Pew Research Center survey finds that **30% of U.S. adults say they consult astrology (or a horoscope), tarot cards or a fortune teller at least once a year,** but most do so just for fun, and few Americans say they make major decisions based on what they learn along the way.",
+          "source": "",
+          "metadata": {}
+        },
+        {
+          "citation_id": "txt9",
+          "index": "txt9",
+          "uid": "063571d987e72dfda7b64f43d7374329",
+          "score": 0.7363541722297668,
+          "content": "Source: Survey of U.S. adults conducted Oct. 21-27, 2024. $30 \\%$ of Americans Consult Astrology, Tarot Cards or Fortune Tellers”\nPEW RESEARCH CENTER\nLGBT women are more likely than LGBT men to consult astrology at least yearly $63 \\%$ vs. $40 \\%$ ).",
+          "source": "",
+          "metadata": {}
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:16:58.960016",
+      "unresolved": []
+    },
+    {
+      "section_index": 1,
+      "section_description": "This section presents the main findings on the prevalence and frequency of engagement with astrology, tarot cards, and fortune-telling among Americans. It highlights that 30% of U.S. adults consult these practices at least once a year, but most do so for fun rather than guidance. The section also notes that belief in astrology has remained relatively stable over time, with 27% of adults expressing belief, similar to previous years. Differences by age and gender are emphasized, with younger women being the most likely to believe and consult astrology.",
+      "content_length": 2982,
+      "content": "# Prevalence and Frequency of Engagement with Astrology, Tarot Cards, and Fortune-Telling\n\nAccording to the Pew Research Center’s 2024 survey, 30% of U.S. adults consult astrology, tarot cards, or fortune tellers at least once a year [citation:txt6]. This figure includes those who engage in one or more of these practices, with astrology being the most common. Specifically, 28% of Americans consult astrology or horoscopes at least once or twice a year, a figure that closely mirrors the 27% who say they believe in astrology [citation:txt11]. In contrast, about one in ten Americans consult tarot cards annually, and only 6% consult a fortune teller at least once a year [citation:img1].\n\nDespite the relatively high rate of engagement, most Americans use these practices for entertainment rather than as a source of serious life guidance. Just 10% of those who consult astrology, tarot cards, or fortune tellers do so because they believe the practices offer meaningful insights into their lives, while 20% say they engage in these activities primarily for fun [citation:txt10]. This trend is especially pronounced among younger adults, with 23% of those aged 18 to 29 saying they consult these practices for entertainment, compared to only 6% of those aged 50 to 64 [citation:txt18].\n\nBelief in astrology, however, has remained largely stable over the past seven years. In 2024, 27% of U.S. adults said they believe in astrology, a slight decrease from 29% in 2017 [citation:img2]. This stability suggests that astrology has become a relatively mainstream part of American culture, rather than a growing or declining trend. Religious affiliation influences these beliefs, with religiously unaffiliated individuals being more likely to believe in astrology than their religiously affiliated counterparts [citation:img3].\n\nDemographic differences are particularly pronounced when it comes to engagement with astrology and tarot cards. Younger adults, especially younger women, are far more likely to consult and believe in these practices. For example, 43% of women aged 18 to 49 say they believe in astrology, compared to 27% of women aged 50 and older, 20% of men aged 18 to 49, and 15% of men aged 50 and older [citation:txt7]. This gender gap becomes more pronounced with age, as older women are more likely than older men to believe in astrology [citation:txt3]. Additionally, the LGBTQ+ community shows a higher level of engagement with astrology, with 54% of LGBTQ+ adults consulting horoscopes annually and 33% engaging with tarot cards—three times the national average [citation:txt13].\n\nThese findings highlight a broader generational and gendered shift in how Americans approach spiritual and esoteric practices. While astrology, tarot cards, and fortune-telling are not central to most people’s decision-making processes, they remain a popular and culturally accepted form of entertainment and self-reflection, particularly among younger and more secular populations.",
+      "text_citations": [
+        "txt10",
+        "txt11",
+        "txt13",
+        "txt18",
+        "txt3",
+        "txt6",
+        "txt7"
+      ],
+      "image_citations": [],
+      "text_citations_count": 7,
+      "image_citations_count": 0,
+      "total_citations": 7,
+      "text_sources": [
+        {
+          "citation_id": "txt13",
+          "uid": "4507aef65c80a651062128836df71c11",
+          "score": 0.7918750047683716,
+          "content_preview": "The survey reveals notable demographic distinctions. Younger adults, particularly women aged 18 to 49, show higher engagement, with about 46% consulting astrology or horoscopes annually. The LGBTQ+ co",
+          "source": ""
+        },
+        {
+          "citation_id": "txt11",
+          "uid": "20cf83ebb7c0c26381160d5f244398bc",
+          "score": 0.7963352203369141,
+          "content_preview": "# Consulting astrology or horoscopes, tarot cards,and fortune tellers\nThe share of Americans who say they consult astrology or a horoscope at least once or twice a year $( 2 8 \\% )$ parallels the shar",
+          "source": ""
+        },
+        {
+          "citation_id": "txt18",
+          "uid": "5836bd683c88b6f06a50b00d2e37d40c",
+          "score": 0.7806403636932373,
+          "content_preview": "Nearly a quarter of Americans ages 18 to 29 say they consult tarot cards at least annually, compared with just $6 \\%$ of Americans ages 50 to 64 and $3 \\%$ of Americans who are 65 and older. There are",
+          "source": ""
+        },
+        {
+          "citation_id": "txt10",
+          "uid": "965d227682fb5ba8a607af5a3b000a23",
+          "score": 0.7996258735656738,
+          "content_preview": "# 30% of Americans consult astrology, tarot cards or fortune tellers, Pew Survey finds\nThe study found that 30% of U.S. adults say they consult these practices annually, while only 10% do so because t",
+          "source": ""
+        },
+        {
+          "citation_id": "txt3",
+          "uid": "54a2fcb5f4da1498eb97d11f2e4c922e",
+          "score": 0.8129202127456665,
+          "content_preview": "We also find that the gender gap flips with age: men under 45 are slightly more likely to believe in astrology than women the same age are (38% vs. 32%), while older women are much more likely to beli",
+          "source": ""
+        },
+        {
+          "citation_id": "txt7",
+          "uid": "c1300a476b47956df802aac9203ae328",
+          "score": 0.8036625981330872,
+          "content_preview": "On most questions we asked about these practices, there are big differences by age and gender. Younger adults – and especially younger women – are more likely to believe in astrology and to consult as",
+          "source": ""
+        },
+        {
+          "citation_id": "txt6",
+          "uid": "b1af012304e47c6ea4c7b98e69116a02",
+          "score": 0.8043785095214844,
+          "content_preview": "A fall 2024 Pew Research Center survey finds that $30 \\%$ of U.S. adults say they consult astrology (or a horoscope), tarot cards or a fortune teller at least once a year, but most do so just for fun,",
+          "source": ""
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:18:45.421727"
+    },
+    {
+      "section_index": 2,
+      "section_description": "This section explores how engagement and belief in these practices vary across demographic groups, including religious affiliation, gender, age, LGBT identity, income, ideology, education, and race/ethnicity. It details statistical findings, such as women being twice as likely as men to believe in astrology, and LGBT adults showing higher rates of both belief and engagement. The section also discusses differences among religious groups and notes that some groups (e.g., Black Protestants, Hispanic Catholics) are more likely to believe in astrology, while others (e.g., atheists, White evangelicals) are less likely.",
+      "content_length": 3817,
+      "content": "# Demographic Variations in Belief and Engagement with Astrology, Tarot Cards, and Fortune-Telling\n\nBelief in and engagement with astrology, tarot cards, and fortune-telling practices in the United States are not evenly distributed across demographic groups. These practices show distinct patterns based on factors such as gender, age, religious affiliation, sexual orientation, income, political ideology, education, and race/ethnicity. The Pew Research Center survey of 9,593 U.S. adults, conducted in October 2024, reveals a complex landscape of belief and participation that reflects broader cultural and social trends.\n\nGender is one of the most significant predictors of engagement with these practices. Women are about twice as likely as men to believe in astrology, with 35% of women expressing belief compared to 18% of men [citation:txt9]. This disparity is especially pronounced among younger women: 43% of women aged 18 to 49 believe in astrology, compared to 20% of men in the same age group [citation:txt2]. The gender gap in belief also shifts with age, with older women being significantly more likely than older men to express belief. For example, women between the ages of 45 and 64 are twice as likely as their male counterparts to say they believe in astrology (29% vs. 15%), and women aged 65 and older are more than twice as likely as older men to believe (23% vs. 9%) [citation:txt1].\n\nLGBT adults are also more likely to engage with these practices than their non-LGBT counterparts. In fact, 43% of LGBT adults believe in astrology, compared to 26% of non-LGBT adults [citation:txt9]. Furthermore, 54% of LGBT adults consult astrology or horoscopes at least once a year, a rate roughly twice that of the general U.S. adult population [citation:txt4]. These trends underscore the role of identity and community in shaping spiritual and esoteric practices, particularly among groups that may feel a stronger need for alternative sources of meaning and connection.\n\nReligious affiliation also plays a role in belief in and engagement with astrology. While religiously affiliated and unaffiliated Americans are equally likely to believe in astrology (27% and 28%, respectively), significant differences exist within specific religious groups. For instance, about one-third of Black Protestants, Hispanic Catholics, and individuals who say their religion is “nothing in particular” believe in astrology [citation:txt6]. In contrast, atheists, White evangelical Protestants, and Jewish Americans are less likely than the general public to embrace these beliefs [citation:txt6].\n\nSocioeconomic and political factors also influence engagement with astrology. Lower-income adults are about twice as likely as those in the upper-income category to believe in astrology (37% vs. 16%) [citation:txt9]. Similarly, politically liberal individuals are more likely to express belief in astrology than conservatives [citation:txt9]. Education level also plays a role, with adults without college degrees more likely than college graduates to believe in astrology [citation:txt9].\n\nRace and ethnicity further shape patterns of belief. Black Americans are more likely than White and Asian Americans to believe in astrology [citation:txt9]. This trend aligns with broader data showing that Black and Hispanic Americans are more likely than White Americans to engage in a range of New Age beliefs, including psychics, spiritual energy, and reincarnation [citation:img6].\n\n![](citation:img3)\n\nThese demographic variations highlight the multifaceted nature of belief in and engagement with astrology, tarot cards, and fortune-telling in the United States. The data reveal that these practices are not confined to a single group but are instead embedded in the cultural and personal narratives of diverse communities.",
+      "text_citations": [
+        "txt1",
+        "txt2",
+        "txt4",
+        "txt6",
+        "txt9"
+      ],
+      "image_citations": [
+        "img3"
+      ],
+      "text_citations_count": 5,
+      "image_citations_count": 1,
+      "total_citations": 6,
+      "text_sources": [
+        {
+          "citation_id": "txt2",
+          "uid": "c1300a476b47956df802aac9203ae328",
+          "score": 0.7866345643997192,
+          "content_preview": "On most questions we asked about these practices, there are big differences by age and gender. Younger adults – and especially younger women – are more likely to believe in astrology and to consult as",
+          "source": ""
+        },
+        {
+          "citation_id": "txt1",
+          "uid": "54a2fcb5f4da1498eb97d11f2e4c922e",
+          "score": 0.7891072034835815,
+          "content_preview": "We also find that the gender gap flips with age: men under 45 are slightly more likely to believe in astrology than women the same age are (38% vs. 32%), while older women are much more likely to beli",
+          "source": ""
+        },
+        {
+          "citation_id": "txt4",
+          "uid": "c61ede7fc31d447ab1fe83fd3a53de0c",
+          "score": 0.7831897139549255,
+          "content_preview": "LGBT adults stand out as particularly likely to engage with these practices. Fifty-four percent consult astrology or horoscopes at least yearly — “roughly twice the share among U.S. adults overall.” O",
+          "source": ""
+        },
+        {
+          "citation_id": "txt9",
+          "uid": "7bc892844de3aed26d7b613aec81e3b2",
+          "score": 0.7730166912078857,
+          "content_preview": "Gender: Women are about twice as likely as men to believe in astrology $( 3 5 \\%$ vs. $1 8 \\%$ ). Women ages 18 to 49 are especially likely to express belief $( 4 3 \\% )$ . Age: Americans under 65 are",
+          "source": ""
+        },
+        {
+          "citation_id": "txt6",
+          "uid": "c5152c8a77bb809ba986d1e406c2f5d8",
+          "score": 0.7744046449661255,
+          "content_preview": "Religious affiliation shows mixed patterns. While religiously affiliated and unaffiliated Americans are equally likely to believe in astrology (27% and 28%, respectively), some religious groups diverg",
+          "source": ""
+        }
+      ],
+      "image_sources": [
+        {
+          "citation_id": "img3",
+          "uid": "b09b9c17435a359e20be581987ece321",
+          "score": 0.6773597002029419,
+          "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_118118.png",
+          "description": "Coarse-grained Description:\n- The image presents data on the percentage of U.S. adults who believe in astrology, showing differences by gender and age group.\n- The data is organized in a bar chart for"
+        }
+      ],
+      "timestamp": "2026-11-22T20:20:26.130446"
+    },
+    {
+      "section_index": 3,
+      "section_description": "This section examines the specific practices of consulting astrology, horoscopes, tarot cards, and fortune tellers, including frequency and demographic differences. It notes that 28% of Americans consult astrology or horoscopes annually, with similar patterns to belief rates. Tarot card consultation is less common (about 11% overall), but much higher among LGBT adults and younger Americans. Consulting fortune tellers is rare, but more prevalent among certain age and racial/ethnic groups. The section also highlights that some groups (e.g., White evangelicals, atheists) are most likely to never engage in these practices.",
+      "content_length": 3112,
+      "content": "# Demographic Patterns and Frequency of Engagement with Astrology, Tarot Cards, and Fortune-Telling\n\nThe Pew Research Center survey reveals distinct patterns in how often Americans engage with astrology, tarot cards, and fortune-telling, with significant variation across demographic groups. Overall, 28% of U.S. adults consult astrology or horoscopes at least once or twice a year, with the practice being particularly common among younger adults, women, and members of religiously unaffiliated groups. Notably, Hispanic Catholics, Black Protestants, and those who identify with \"nothing in particular\" as their religious affiliation are among the most likely to consult astrology or horoscopes annually [citation:img1].\n\nTarot card consultation is less common than astrology, with about 11% of U.S. adults reporting they consult tarot cards at least once a year. However, this number rises sharply among specific subgroups, particularly the LGBTQ+ community. A striking 33% of LGBT adults consult tarot cards annually, which is three times the national average. This pattern is even more pronounced when looking at frequency: 15% of LGBT adults consult tarot cards at least once or twice a month [citation:txt1]. These findings highlight a strong connection between New Age spiritual practices and the LGBTQ+ community, a trend that has been noted in both academic and media discussions [citation:txt7].\n\nFortune-telling is the least common of the three practices, with only 6% of U.S. adults consulting fortune tellers at least once or twice a year. However, this behavior is more prevalent among certain age and racial/ethnic groups. For example, 14% of adults ages 18 to 29 consult fortune tellers annually, compared to just 2% of those 65 and older. Additionally, Asian Americans are more likely to consult fortune tellers than the general population, with 15% reporting annual consultations [citation:img1]. These variations suggest that cultural and generational factors play a role in shaping engagement with fortune-telling.\n\nReligious affiliation also strongly influences whether individuals engage in these practices. White evangelicals and atheists are among the least likely to consult astrology, tarot cards, or fortune tellers. In fact, 83% of white evangelicals say they never consult any of these practices, making them the least engaged group in the survey [citation:img3]. Conversely, religiously unaffiliated individuals, especially those who identify as agnostic or as having \"nothing in particular\" as their religion, are more likely to consult astrology or tarot cards than their religiously affiliated counterparts [citation:txt9].\n\nThese demographic differences underscore the complex relationship between spirituality, identity, and cultural trends in contemporary American society. While some groups embrace these practices as part of their personal or spiritual exploration, others view them with skepticism or disinterest. The next section will examine how Americans use these practices in their lives, including whether they rely on them for fun or for making major life decisions.",
+      "text_citations": [
+        "txt1",
+        "txt7",
+        "txt9"
+      ],
+      "image_citations": [],
+      "text_citations_count": 3,
+      "image_citations_count": 0,
+      "total_citations": 3,
+      "text_sources": [
+        {
+          "citation_id": "txt9",
+          "uid": "c017722cb4dc3c6635cfd8d1471bd85e",
+          "score": 0.7809303998947144,
+          "content_preview": "About one-in-ten Americans **consult** **tarot cards** at least annually. On the whole, religiously unaffiliated Americans are slightly more likely than religiously affiliated Americans to say they co",
+          "source": ""
+        },
+        {
+          "citation_id": "txt7",
+          "uid": "2369cf5cb82c3172b7d7fccba28b2804",
+          "score": 0.7842095494270325,
+          "content_preview": "In addition, 33% of LGBT adults say they consult tarot cards – making them three times as likely as U.S. adults overall to say this (11%). And 21% of LGBT Americans say that when they make major life ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt1",
+          "uid": "3b0e8b497546eca2af3163bcf3de84d2",
+          "score": 0.8202439546585083,
+          "content_preview": "LGBT adults are about three times as likely as non-LGBT adults to report consulting tarot cards at least annually $( 3 3 \\%$ vs. $9 \\%$ ). And $15 \\%$ of LGBT adults say they consult tarot cards at le",
+          "source": ""
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:21:57.485636"
+    },
+    {
+      "section_index": 4,
+      "section_description": "This section analyzes Americans' motivations for engaging in astrology, tarot cards, and fortune-telling, distinguishing between those who do so for fun and those seeking helpful insights. It reports that most participants engage for fun, but certain groups (Hispanic Catholics, Black Protestants, LGBT adults, younger Americans, and Black Americans) are more likely to seek insights. The section also investigates the extent to which Americans rely on these practices for major life decisions, finding that only a small minority do so, with LGBT adults and Hispanic Catholics standing out as more likely to rely on insights from these practices.",
+      "content_length": 2901,
+      "content": "# Motivations for Engaging in Astrology, Tarot Cards, and Fortune-Telling\n\nThe motivations behind Americans' engagement with astrology, tarot cards, and fortune-telling reveal a nuanced picture of how these practices are perceived and used across different demographics. According to the Pew Research Center survey, 20% of U.S. adults engage in these practices mostly for fun, while 10% do so primarily because they believe the practices offer helpful insights [citation:txt4]. This distinction is critical in understanding the role these practices play in everyday life, as it separates recreational interest from a more serious reliance on them for guidance.\n\nLGBT adults stand out as the demographic most likely to seek helpful insights from these practices. Specifically, 29% of LGBT adults engage with astrology, tarot cards, or fortune-telling for insights, compared to the national average of 10% [citation:txt6]. This is reflected in their reliance on these practices for major life decisions, with 21% of LGBT adults reporting that they rely at least a little on such insights when making significant choices [citation:txt12]. This is more than four times the national average of 5% [citation:txt5].\n\nBlack Americans and younger Americans also show a higher likelihood of engaging with these practices for insights. Nearly one in five Black Americans (19%) and Americans under the age of 30 (17%) consult astrology, tarot cards, or fortune-telling for helpful guidance [citation:txt6]. This is particularly notable among young women, with 17% of those aged 18 to 29 reporting that they consult these practices for insights [citation:img6].\n\nDespite these trends, only a small minority of Americans rely heavily on these practices for making major life decisions. Overall, 1% of U.S. adults rely a lot on insights from astrology, tarot cards, or fortune-telling, while an additional 5% rely at least a little [citation:txt5]. However, certain groups deviate from this pattern. Hispanic Catholics, for instance, are more likely to rely on these practices for decision-making, with 12% reporting at least a little reliance [citation:img1]. Similarly, 21% of LGBT adults report relying at least a little on these practices for major life decisions, a rate significantly higher than the general population [citation:txt10].\n\nThese findings highlight how cultural and social identities shape the use of New Age practices in the U.S. While the majority of Americans engage in these practices for entertainment or curiosity, specific demographic groups—particularly those who identify as LGBT, Hispanic Catholic, Black, or under 30—tend to view these practices as more than just a form of leisure. Instead, they are integrated into their decision-making processes, reflecting the diverse ways in which Americans navigate spirituality, identity, and personal guidance in an increasingly complex world.",
+      "text_citations": [
+        "txt10",
+        "txt12",
+        "txt4",
+        "txt5",
+        "txt6"
+      ],
+      "image_citations": [],
+      "text_citations_count": 5,
+      "image_citations_count": 0,
+      "total_citations": 5,
+      "text_sources": [
+        {
+          "citation_id": "txt4",
+          "uid": "698a29a3cbac37621d4033150e944d88",
+          "score": 0.791490912437439,
+          "content_preview": "Yet, most Americans who engage in astrology, tarot cards or fortune-telling say they do it for fun, rather than for insights or guidance on life decisions. Overall, $20 \\%$ of U.S. adults say they eng",
+          "source": ""
+        },
+        {
+          "citation_id": "txt12",
+          "uid": "4507aef65c80a651062128836df71c11",
+          "score": 0.770281195640564,
+          "content_preview": "The survey reveals notable demographic distinctions. Younger adults, particularly women aged 18 to 49, show higher engagement, with about 46% consulting astrology or horoscopes annually. The LGBTQ+ co",
+          "source": ""
+        },
+        {
+          "citation_id": "txt10",
+          "uid": "95928f4c0e9c63542a3c8871e82e1469",
+          "score": 0.7776492238044739,
+          "content_preview": "# 1 in 5 LGBT adults say they rely on tarot cards, astrology or fortune tellers at least a little to make big life decisions\n% who say that when they make major life decisions, they rely on what they’",
+          "source": ""
+        },
+        {
+          "citation_id": "txt5",
+          "uid": "a784f4f2d2c008c12c3242ced174b0a1",
+          "score": 0.7902404069900513,
+          "content_preview": "[![Table showing 7% of Americans rely on insights from fortune tellers, tarot cards or astrology at least a little for major life decisions]()]()\nJust 1% of Americans say they rely on insights from th",
+          "source": ""
+        },
+        {
+          "citation_id": "txt6",
+          "uid": "d63eb5ecde310f5cf3587aec2c0558b3",
+          "score": 0.7798649072647095,
+          "content_preview": "**Yet, most Americans who engage in astrology, tarot cards or fortune-telling say they do it for fun,** rather than for insights or guidance on life decisions. Overall, 20% of U.S. adults say they eng",
+          "source": ""
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:23:10.894494"
+    }
+  ],
+  "references": [],
+  "unresolved": []
+}

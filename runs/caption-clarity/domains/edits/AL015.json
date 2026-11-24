@@ -1,0 +1,16 @@
+{
+  "task_uid": "AL015",
+  "section_index": 0,
+  "image_slot": "img1",
+  "image_uid": "f68f771b09a3dde73bd343c044cfa704",
+  "image_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_27349.gif",
+  "equivalent_image_uids": [
+    "e84fb0e05d5e98a1eb2fdb9cc249d2bd",
+    "5bbee07beaeda747b68fa2a224964356",
+    "6810d45025a445313ae60be0f49f7a7b"
+  ],
+  "clarification": "The upper supervised panel sends the labeled dataset into the change-detection networks to produce predictions. In the lower panel the networks are first trained on the labeled portion, then shared weights are used on the unlabeled branch; pseudo-label predictions and true-label predictions both feed the consistency-training block on the right.",
+  "verified_detail": "Explain the figure’s contrast between supervised labeled-only prediction and the semi-supervised labeled/unlabeled branches, including that the illustrated consistency block compares pseudo-label and true-label predictions or class distributions.",
+  "rationale": "Section 1 introduces semi-supervised learning under label scarcity. The first candidate compares the two pipelines; the original caption does not specify the displayed two signals going into consistency training. Other copies show the same architecture.",
+  "replacements_by_uid": {}
+}

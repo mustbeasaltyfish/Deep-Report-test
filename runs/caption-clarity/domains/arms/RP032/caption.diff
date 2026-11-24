@@ -1,0 +1,22 @@
+--- A
++++ B
+@@ -193,7 +193,7 @@
+ **Notes:**
+ 
+ - The 2017 survey included 169 interviews with Hispanic Catholic respondents, with an effective sample size of 74 and a 95% confidence level margin of error.
+-- No estimates for Jewish Americans are shown due to small sample size.
++- The 2017 Jewish estimate is suppressed because of the small sample; the 2024 estimate is 18%.
+ - The source is a Pew Research Center survey conducted from October 21-27, 2024.
+ - The survey is titled "30% of Americans Consult Astrology, Tarot Cards or Fortune Tellers."
+ 
+@@ -201,7 +201,9 @@
+ 
+ - The belief in astrology among U.S. adults decreased slightly from 29% in 2017 to 27% in 2024.
+ - Notable increases in belief include Black Protestants and atheists.
+-- Decreases are observed in white Catholics and the religiously unaffiliated group.]
++- Decreases are observed in white Catholics and the religiously unaffiliated group.
++
++The headline calls 29% in 2017 and 27% in 2024 similar. This is a measure of stated belief in astrology, distinct from consultation frequency. The dash next to the Jewish row covers 2017 only; the 2024 column shows 18%.]
+ 
+ [Source img2: Coarse-grained Description:
+ - The image presents data on the percentage of U.S. adults who believe in astrology, showing differences by gender and age group.

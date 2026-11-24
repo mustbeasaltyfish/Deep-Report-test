@@ -1,0 +1,39 @@
+--- A
++++ B
+@@ -119,27 +119,31 @@
+ 
+ Fine-grained Description:
+ - The pie chart on the left indicates that 22% of U.S. adults have either relocated due to COVID-19 or know someone who has.
+-- The bar graph on the right breaks down the 22% into three categories:
++- The bars show three response shares measured across all U.S. adults:
+   - 3% moved permanently or temporarily.
+   - 6% had someone else move into their household.
+   - 14% did not move or have someone move into their household but know someone who moved.
+ - The note clarifies that response categories do not sum to the total because some respondents selected more than one option.
+-- The source of the data is a survey of U.S. adults conducted from June 4-10, 2020, by the Pew Research Center.]
++- The source of the data is a survey of U.S. adults conducted from June 4-10, 2020, by the Pew Research Center.
++
++The percentages are shares of all surveyed U.S. adults, not shares within the 22% group. The 22% is the broad set of respondents who moved, had someone move in, or knew someone who moved; only 3% said they personally moved. The right-hand categories can overlap.]
+ 
+ [Source img2: Coarse-grained Description:
+ - The image presents data on how the COVID-19 pandemic has affected residential relocation among Americans.
+ - It shows the percentage of U.S. adults who have relocated or know someone who has due to the pandemic.
+-- The main message is that 22% of U.S. adults have been personally affected by relocation because of COVID-19.
++- The main message is that 22% of U.S. adults moved, had someone move into their household, or knew someone who moved because of COVID-19.
+ 
+ Fine-grained Description:
+ - The image includes a pie chart and a bar graph.
+ - The pie chart indicates that 22% of U.S. adults have either relocated or know someone who has relocated due to COVID-19.
+-- The bar graph breaks down the 22% into three categories:
++- The bars show three response shares measured across all U.S. adults:
+   - 3% moved permanently or temporarily.
+   - 6% had someone else move into their household.
+   - 14% did not move but know someone who did.
+ - The note explains that response categories do not sum to a total because some respondents chose more than one answer.
+-- The data source is a survey of U.S. adults conducted by the Pew Research Center from June 4-10, 2020.]
++- The data source is a survey of U.S. adults conducted by the Pew Research Center from June 4-10, 2020.
++
++The percentages are shares of all surveyed U.S. adults, not shares within the 22% group. The 22% is the broad set of respondents who moved, had someone move in, or knew someone who moved; only 3% said they personally moved. The right-hand categories can overlap.]
+ 
+ [Source img3: Coarse-grained Description:
+ - The image presents data on the reasons and destinations of U.S. adults who moved due to the COVID-19 pandemic, comparing responses from surveys conducted in June and November 2020.

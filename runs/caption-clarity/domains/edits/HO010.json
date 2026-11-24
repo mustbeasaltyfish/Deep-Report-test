@@ -1,0 +1,23 @@
+{
+  "task_uid": "HO010",
+  "section_index": 0,
+  "image_slot": "img1",
+  "image_uid": "3d1ecd618dc8c0f299a032907c44a17e",
+  "image_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_74882.png",
+  "equivalent_image_uids": [],
+  "clarification": "This is a United Kingdom age-specific comparison, not the global gap. On the right in 2023 the female-minus-male gap is just under four years at birth, about 2.4 years at age 65, and about 1.3 years at age 80. The chart therefore shows a positive gap even for people who have already reached age 80.",
+  "verified_detail": "Use the UK chart to explain the positive gap at age 80, and contrast it with the larger at-birth gap. Any quoted ages or numbers must match the chart approximately.",
+  "rationale": "The opening asks whether the gap persists at older ages. The first candidate directly illustrates this. The old caption materially understates the age-65 and age-80 endpoints.",
+  "replacements_by_uid": {
+    "3d1ecd618dc8c0f299a032907c44a17e": [
+      [
+        "starts around 1 year in 1922, peaks around 2.5 years in the 1940s, and decreases to about 1 year by 2023.",
+        "rises to around four years in the 1970s, then declines to about 2.4 years by 2023."
+      ],
+      [
+        "starts around 0.5 years in 1922, peaks around 1.5 years in the 1940s, and decreases to about 0.5 years by 2023.",
+        "is positive throughout the shown period, rises to approximately 1.9 years in the late twentieth century, and ends near 1.3 years in 2023."
+      ]
+    ]
+  }
+}

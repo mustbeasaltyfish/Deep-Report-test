@@ -1,0 +1,78 @@
+--- A
++++ B
+@@ -147,13 +147,15 @@
+ 
+ Fine-grained Description:
+ - The map shows the Beaufort Sea with labeled claims from both the U.S. and Canada.
+-- The U.S. claim is indicated with a dashed line labeled "U.S. line."
+-- The Canadian claim is marked with a solid line labeled "Canadian line."
++- An arrow labels the line to the right offshore "U.S. line."
++- An arrow labels the offshore continuation near the land boundary "Canadian line."
+ - The overlapping area is shaded, indicating a potential dispute or shared interest.
+ - The map includes latitude and longitude lines, with degrees marked along the top edge.
+ - The Alaskan coast is labeled on the left, while the Canadian Northwest Territories and Yukon are labeled on the right.
+ - Nearby islands such as Banks Island and Prince Patrick Island are also labeled.
+-- The map is credited to © 2010 Cesium by Sensing Geospatial, Inc.]
++- The map is credited to © 2010 Cesium by Sensing Geospatial, Inc.
++
++At the coast the U.S. and Canadian claims start near the same point on the Alaska–Yukon border. The Canadian line continues nearly along the land boundary; the U.S. line angles to the right offshore. The shaded wedge between the two lines illustrates the competing Beaufort Sea claims.]
+ 
+ [Source img3: Coarse-grained Description:
+ - The image is a map depicting the disputed territorial claims over the Beaufort Sea between the United States and Canada.
+@@ -162,13 +164,15 @@
+ 
+ Fine-grained Description:
+ - The map features the Beaufort Sea with dashed lines indicating the U.S. and Canadian claims.
+-- The U.S. claim is shown with a solid line extending from the Alaskan coast.
+-- The Canadian claim is marked by a dashed line extending from the Yukon and Northwest Territories.
++- The U.S. line angles offshore to the right.
++- The Canadian line runs nearly straight offshore from the Alaska–Yukon boundary.
+ - Labels indicate "ALASKA" and "YUKON" on the left side, and "NORTHWEST TERRITORIES" on the right.
+ - The map includes longitude lines, with markings at 150°W, 140°W, and 130°W.
+ - The arrow labeled "Canadian line" points to the Canadian claim, and the arrow labeled "U.S. line" points to the U.S. claim.
+ - The map is credited to © 2010 Coviello, Geographics, Inc., with a reference to www.coveliogeographic.com.
+-- The map provides a visual representation of the territorial dispute in the Beaufort Sea region.]
++- The map provides a visual representation of the territorial dispute in the Beaufort Sea region.
++
++At the coast the U.S. and Canadian claims start near the same point on the Alaska–Yukon border. The Canadian line continues nearly along the land boundary; the U.S. line angles to the right offshore. The shaded wedge between the two lines illustrates the competing Beaufort Sea claims.]
+ 
+ [Source img4: Coarse-grained Description:
+ - The image is a map illustrating the territorial claims over the Beaufort Sea between the United States and Canada.
+@@ -177,13 +181,15 @@
+ 
+ Fine-grained Description:
+ - The map shows the Beaufort Sea with labeled claims from both the U.S. and Canada.
+-- The U.S. claim is indicated with a dashed line labeled "U.S. line."
+-- The Canadian claim is marked with a solid line labeled "Canadian line."
++- An arrow labels the line to the right offshore "U.S. line."
++- An arrow labels the offshore continuation near the land boundary "Canadian line."
+ - The overlapping area is shaded, indicating a potential dispute or shared interest.
+ - The map includes latitude and longitude lines, with degrees marked along the top edge.
+ - The Alaskan coast is labeled on the left, while the Canadian Northwest Territories and Yukon are labeled on the right.
+ - Nearby islands such as Banks Island and Prince Patrick Island are also labeled.
+-- The map is credited to © 2010 Cesium by Sensing Geospatial, Inc.]
++- The map is credited to © 2010 Cesium by Sensing Geospatial, Inc.
++
++At the coast the U.S. and Canadian claims start near the same point on the Alaska–Yukon border. The Canadian line continues nearly along the land boundary; the U.S. line angles to the right offshore. The shaded wedge between the two lines illustrates the competing Beaufort Sea claims.]
+ 
+ [Source img5: Coarse-grained Description:
+ - The image is a map depicting the disputed territorial claims over the Beaufort Sea between the United States and Canada.
+@@ -192,13 +198,15 @@
+ 
+ Fine-grained Description:
+ - The map features the Beaufort Sea with dashed lines indicating the U.S. and Canadian claims.
+-- The U.S. claim is shown with a solid line extending from the Alaskan coast.
+-- The Canadian claim is marked by a dashed line extending from the Yukon and Northwest Territories.
++- The U.S. line angles offshore to the right.
++- The Canadian line runs nearly straight offshore from the Alaska–Yukon boundary.
+ - Labels indicate "ALASKA" and "YUKON" on the left side, and "NORTHWEST TERRITORIES" on the right.
+ - The map includes longitude lines, with markings at 150°W, 140°W, and 130°W.
+ - The arrow labeled "Canadian line" points to the Canadian claim, and the arrow labeled "U.S. line" points to the U.S. claim.
+ - The map is credited to © 2010 Coviello, Geographics, Inc., with a reference to www.coveliogeographic.com.
+-- The map provides a visual representation of the territorial dispute in the Beaufort Sea region.]
++- The map provides a visual representation of the territorial dispute in the Beaufort Sea region.
++
++At the coast the U.S. and Canadian claims start near the same point on the Alaska–Yukon border. The Canadian line continues nearly along the land boundary; the U.S. line angles to the right offshore. The shaded wedge between the two lines illustrates the competing Beaufort Sea claims.]
+ 
+ [Source img6: Coarse-grained Description:
+ - The image is a map depicting a historical territorial dispute between the United States and the United Kingdom over a region known as the "Disputed Territory."

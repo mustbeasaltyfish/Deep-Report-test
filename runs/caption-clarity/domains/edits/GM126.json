@@ -1,0 +1,35 @@
+{
+  "task_uid": "GM126",
+  "section_index": 0,
+  "image_slot": "img2",
+  "image_uid": "57055165f6fcc4639a8823720d41e148",
+  "image_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestRefImages/refimg_07354.png",
+  "equivalent_image_uids": [
+    "73cda97da2aa71910b1d414429b2f0b4"
+  ],
+  "clarification": "At the coast the U.S. and Canadian claims start near the same point on the Alaska–Yukon border. The Canadian line continues nearly along the land boundary; the U.S. line angles to the right offshore. The shaded wedge between the two lines illustrates the competing Beaufort Sea claims.",
+  "verified_detail": "Explain the shared coastal starting area and the two diverging claim lines, or clearly describe the shaded offshore wedge as the area between the competing lines.",
+  "rationale": "The first returned map concerns a resolved historic dispute. The next candidate is a present-day dispute directly relevant to the opening contrast. Two versions of this map recur four times.",
+  "replacements_by_uid": {
+    "57055165f6fcc4639a8823720d41e148": [
+      [
+        "The U.S. claim is indicated with a dashed line labeled \"U.S. line.\"",
+        "An arrow labels the line to the right offshore \"U.S. line.\""
+      ],
+      [
+        "The Canadian claim is marked with a solid line labeled \"Canadian line.\"",
+        "An arrow labels the offshore continuation near the land boundary \"Canadian line.\""
+      ]
+    ],
+    "73cda97da2aa71910b1d414429b2f0b4": [
+      [
+        "The U.S. claim is shown with a solid line extending from the Alaskan coast.",
+        "The U.S. line angles offshore to the right."
+      ],
+      [
+        "The Canadian claim is marked by a dashed line extending from the Yukon and Northwest Territories.",
+        "The Canadian line runs nearly straight offshore from the Alaska–Yukon boundary."
+      ]
+    ]
+  }
+}

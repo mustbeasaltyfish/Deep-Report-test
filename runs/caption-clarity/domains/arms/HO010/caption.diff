@@ -1,0 +1,19 @@
+--- A
++++ B
+@@ -136,11 +136,13 @@
+   - **Age 15**: Shown in purple, starts around 2.5 years in 1922, peaks around 4.5 years in the 1940s, and decreases to about 3 years by 2023.
+   - **Age 25**: Shown in orange, starts around 2 years in 1922, peaks around 4 years in the 1940s, and decreases to about 2.5 years by 2023.
+   - **Age 45**: Shown in brown, starts around 1.5 years in 1922, peaks around 3.5 years in the 1940s, and decreases to about 2 years by 2023.
+-  - **Age 65**: Shown in dark red, starts around 1 year in 1922, peaks around 2.5 years in the 1940s, and decreases to about 1 year by 2023.
+-  - **Age 80**: Shown in dark blue, starts around 0.5 years in 1922, peaks around 1.5 years in the 1940s, and decreases to about 0.5 years by 2023.
++  - **Age 65**: Shown in dark red, rises to around four years in the 1970s, then declines to about 2.4 years by 2023.
++  - **Age 80**: Shown in dark blue, is positive throughout the shown period, rises to approximately 1.9 years in the late twentieth century, and ends near 1.3 years in 2023.
+ - **Data Source**: Human Mortality Database (2024); UN, World Population Prospects (2024)
+ - **Website**: OurWorldinData.org/life-expectancy | CC BY
+-- The chart shows a general trend of decreasing sex gap in life expectancy over time, with the gap being largest in the mid-20th century and narrowing towards the 21st century.]
++- The chart shows a general trend of decreasing sex gap in life expectancy over time, with the gap being largest in the mid-20th century and narrowing towards the 21st century.
++
++This is a United Kingdom age-specific comparison, not the global gap. On the right in 2023 the female-minus-male gap is just under four years at birth, about 2.4 years at age 65, and about 1.3 years at age 80. The chart therefore shows a positive gap even for people who have already reached age 80.]
+ 
+ [Source img2: ### Coarse-grained Description
+ 

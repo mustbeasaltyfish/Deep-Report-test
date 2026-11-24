@@ -1,0 +1,13 @@
+# The Longest Peaceful Border and Its Maritime Exceptions
+
+The U.S.-Canada border is often hailed as the longest undefended and peaceful international land boundary in the world, stretching approximately 5,525 miles (8,891 km) across land and water [citation:txt1]. This border, which has been shaped by numerous treaties and agreements since the Treaty of Paris in 1783 [citation:txt5], is a testament to the generally cooperative and stable relationship between the two nations. Along much of its length, the border is marked by natural features such as rivers and lakes, and it is largely unguarded, reflecting the mutual trust between the U.S. and Canada [citation:txt17].
+
+Despite this overall harmony, the maritime extensions of the border tell a different story. While the land border is largely settled, there are five key areas where the U.S. and Canada continue to disagree over maritime boundaries and territorial claims [citation:txt3]. These disputes, though not currently a source of open conflict, could become flashpoints if political tensions were to escalate. The disputed areas include the Beaufort Sea in the Arctic, the Gulf of Maine, the Strait of Juan de Fuca, the Dixon Entrance, and Machias Seal Island [citation:txt7]. Each of these locations represents a complex intersection of historical treaties, legal interpretations, and geopolitical interests.
+
+The Beaufort Sea, for instance, is a site of contention due to differing interpretations of the 1825 treaty between Russia and the United Kingdom, which Canada and the U.S. inherited. Canada asserts that the boundary should follow the 141st meridian, while the U.S. favors an equidistant line [citation:txt6]. The potential for significant offshore hydrocarbon resources in the area only heightens the stakes of this dispute [citation:txt11].
+
+Meanwhile, Machias Seal Island, located off the coast of Maine, has been a point of disagreement since the late 1700s, with the U.S. claiming it based on the Treaty of Paris in 1783, while Canada argues it falls within its territorial jurisdiction [citation:txt8]. These disputes, though often overlooked, underscore the fact that even the most peaceful of borders can conceal unresolved tensions beneath the surface.
+
+![](citation:img7)
+
+As shown in the map above, the five disputed areas are spread across the northern and western regions of the U.S.-Canada border. While the land border remains largely peaceful and cooperative, these maritime disputes highlight the ongoing complexities in defining and maintaining international boundaries at sea. The next sections will explore these disputes in greater detail, examining their historical roots, legal frameworks, and the practical implications they carry for both nations.

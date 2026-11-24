@@ -1,0 +1,196 @@
+{
+  "per_arm": {
+    "A": {
+      "selected": 0,
+      "correct": 0
+    },
+    "B": {
+      "selected": 0,
+      "correct": 0
+    },
+    "C": {
+      "selected": 2,
+      "correct": 0
+    },
+    "D": {
+      "selected": 1,
+      "correct": 1
+    }
+  },
+  "per_output": [
+    {
+      "seed": 1701,
+      "arm": "A",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1701,
+      "arm": "B",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1701,
+      "arm": "C",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1701,
+      "arm": "D",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1702,
+      "arm": "A",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1702,
+      "arm": "B",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1702,
+      "arm": "C",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1702,
+      "arm": "D",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1703,
+      "arm": "A",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1703,
+      "arm": "B",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1703,
+      "arm": "C",
+      "images": [
+        "img1"
+      ],
+      "correct": false,
+      "review": "节末只有 img1 标记。紧邻正文讲数据中心，未解释图中对照。"
+    },
+    {
+      "seed": 1703,
+      "arm": "D",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1704,
+      "arm": "A",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1704,
+      "arm": "B",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1704,
+      "arm": "C",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1704,
+      "arm": "D",
+      "images": [
+        "img1"
+      ],
+      "correct": true,
+      "review": "图后紧接说明，明确对比改变单条样本与移除同一用户全部贡献。图及说明放在本节靠后的位置。"
+    },
+    {
+      "seed": 1705,
+      "arm": "A",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1705,
+      "arm": "B",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1705,
+      "arm": "C",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1705,
+      "arm": "D",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1706,
+      "arm": "A",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1706,
+      "arm": "B",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    },
+    {
+      "seed": 1706,
+      "arm": "C",
+      "images": [
+        "img1"
+      ],
+      "correct": false,
+      "review": "图后解释了样本与用户两个粒度，但未说出图里分别移除一条样本和同一用户全部数据。宽松口径可视为解释了保护单位。"
+    },
+    {
+      "seed": 1706,
+      "arm": "D",
+      "images": [],
+      "correct": false,
+      "review": "无图片引用"
+    }
+  ]
+}

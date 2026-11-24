@@ -1,0 +1,712 @@
+{
+  "task": {
+    "domain": "AI",
+    "uid": "AL015",
+    "source": "TestSet/AI/AL015.md",
+    "query": "What are the main approaches and recent advances in semi-supervised learning when labeled data is scarce?",
+    "sections": 7
+  },
+  "arm": "D",
+  "section_index": 0,
+  "request": {
+    "model": "qwen3-32b",
+    "max_tokens": 4096,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "seed": 1701,
+    "messages": [
+      {
+        "role": "user",
+        "content": "# Role\nYou are an expert writer skilled at creating coherent, well-structured long-form content with proper source citations.\n\n# Task\nWrite a specific section of a larger article based on the provided requirements, context, and retrieved materials.\n\n# Overall Article Context\n**Article Topic:** What are the main approaches and recent advances in semi-supervised learning when labeled data is scarce?\n\n**Overall Requirements:**\n- What are the primary strategies for supervised learning with limited labeled data?\n- How do semi-supervised learning methods leverage both labeled and unlabeled data, and what are their theoretical foundations?\n- What are the latest techniques and empirical findings in combining pseudo labeling, consistency regularization, and pre-training for improved semi-supervised learning performance?\n\n# Current Section Information\n**Section Position:** Section 1/7\n**Section Description:** This section introduces the challenge of supervised learning with limited labeled data and outlines four major approaches to address it: pre-training plus fine-tuning, semi-supervised learning, active learning, and pre-training with dataset auto-generation. It sets the stage for a deeper exploration of semi-supervised learning, which is the focus of the article.\n\n**Section Requirements (must address all):**\n- Lists four main strategies for learning with limited labeled data: pre-training + fine-tuning, semi-supervised learning, active learning, and pre-training + dataset auto-generation.\n- Defines the scope of the article as a series on 'Learning with not enough data', with this part focusing on semi-supervised learning.\n\n# Context from Previous Sections\n**Summary of previous sections:**\nThis is the first section\n\n**End of previous section (for smooth transition):**\nNo previous content\n\n# Retrieved Materials\nYou have access to the following sources for citation:\n[Source txt1 begin]\nEarly research in the field of semi-supervised learning mainly focused on wrapper methods (Sect. [4]()) and semi-supervised extensions of traditional supervised algorithms (such as SVMs, see Sect. [6]()). Graph-based methods (Sects. [6.3]() and [7]()) have been extensively researched over the past two decades. They are perhaps the most intuitive semi-supervised learning method, explicitly incorporating the similarity of different unlabelled data points in a principled way. However, they still pose computational challenges. In recent years, semi-supervised learning has developed along similar lines as supervised learning: notably, there has been a strong focus on semi-supervised neural networks, in the form of unsupervised preprocessing (Sect. [5.3]()) as well as semi-supervised regularization (Sect. [6.2]()). Additionally, deep generative models have been extended to the semi-supervised setting (Sect. [6.4]()).\n[Source txt1 end]\n\n[Source txt2 begin]\nUnfortunately, however, the underlying assumptions of these semi-supervised learning methods are not captured well by standard theoretical models. The main goal of this work is to propose a unified theoretical framework for semi-supervised learning, in which one can analyze when and why unlabeled data can help, and in which one can discuss both sample-complexity and algorithmic issues in a discriminative (PAC-model style) framework.\n[Source txt2 end]\n\n[Source txt3 begin]\nOpen-world semi-supervised learning. The learning setting that considers both labeled and unlabeled data with a mixture of known and novel classes is first proposed in [7] and inspires a proliferation of follow-up works [49, 52, 63, 69, 81] advancing empirical success. Most works put emphasis on learning high-quality embeddings [49, 63, 69, 81]. In particular, Sun and Li [63] employ contrastive learning with both supervised and self-supervised signals, which aligns with our theoretical setup in Sec. 3.1. Different from prior works, our paper focuses on advancing theoretical understanding. To the best of our knowledge, we are the first to theoretically investigate the problem from a graph-theoretic perspective and provide a rigorous error bound.\n[Source txt3 end]\n\n[Source txt4 begin]\nContinuing in the spirit of the previous section, in many applications there is variance not only in label quality from one instance to the next, but also in the cost of obtaining that label. If our goal in active learning is to minimize the overall cost of training an accurate model, then simply reducing the number of labeled instances does not necessarily guarantee a reduction in overall labeling cost. One proposed approach for reducing annotation effort in active learning involves using the current trained model to assist in the labeling of query instances by pre-labeling them in structured learning tasks like parsing (Baldridge and Osborne, 2004) or information extraction (Culotta and McCallum, 2005). However, such methods do not actually represent or reason about labeling costs. Instead, they attempt to reduce cost indirectly by minimizing the number of annotation actions required for a query that has already been selected.\n[Source txt4 end]\n\n[Source txt5 begin]\nSemi-supervised learning is the branch of machine learning concerned with using labelled as well as unlabelled data to perform certain learning tasks. Conceptually situated between supervised and unsupervised learning, it permits harnessing the large amounts of unlabelled data available in many use cases in combination with typically smaller sets of labelled data. In recent years, research in this area has followed the general trends observed in machine learning, with much attention directed at neural network-based models and generative learning. The literature on the topic has also expanded in volume and scope, now encompassing a broad spectrum of theory, algorithms and applications. However, no recent surveys exist to collect and organize this knowledge, impeding the ability of researchers and engineers alike to utilize it. Filling this void, we present an up-to-date overview of semi-supervised learning methods, covering earlier work as well as more recent advances. We focus primarily on semi-supervised classification, where the large majority of semi-supervised learning research takes place. Our survey aims to provide researchers and practitioners new to the field as well as more advanced readers with a solid understanding of the main approaches and algorithms developed over the past two decades, with an emphasis on the most prominent and currently relevant work. Furthermore, we propose a new taxonomy of semi-supervised classification algorithms, which sheds light on the different conceptual and methodological approaches for incorporating unlabelled data into the training process. Lastly, we show how the fundamental assumptions underlying most semi-supervised learning algorithms are closely connected to each other, and how they relate to the well-known semi-supervised clustering assumption.\n[Source txt5 end]\n\n[Source txt6 begin]\n4.  **Pre-training + dataset auto-generation**: Given a capable pre-trained model, we can utilize it to auto-generate a lot more labeled samples. This has been especially popular within the language domain driven by the success of few-shot learning.\n[Source txt6 end]\n\n[Source txt7 begin]\n4. **Pre-training + dataset auto-generation** : Given a capable pre-trained model, we can utilize it to auto-generate a lot more labeled samples. This has been especially popular within the language domain driven by the success of few-shot learning.\n[Source txt7 end]\n\n[Source txt8 begin]\nBased on the results from table-to-text (§6.1) and summarization $( \\ S 6 . 2 )$ , we observe that prefixtuning has a comparative advantage when the number of training examples is smaller. To construct low-data settings, we subsample the full dataset (E2E for table-to-text and XSUM for summarization) to obtain small datasets of size $\\{ 5 0 , 1 0 0 , 2 0 0 , 5 0 0 \\}$ . For each size, we sample 5 different datasets and average over 2 training random seeds. Thus, we average over 10 models to get an estimate for each low-data setting.11\n[Source txt8 end]\n\n[Source txt9 begin]\nWe validate the effectiveness of our approaches in improving model capabilities in dataconstrained setups. As a testbed for data-efficient pretraining, our experiments continually pretrain a 1.1B TinyLlama (Zhang et al., 2024) model on a limited amount of data from FineMath (Lozhkov et al., 2024), a reasoning-intensive web corpus.\n[Source txt9 end]\n\n[Source txt10 begin]\nWhen facing a limited amount of labeled data for supervised learning tasks, four approaches are commonly discussed.\n[Source txt10 end]\n\n[Source txt11 begin]\nIn this study, we propose another active learning framework to reduce labeling efforts as well as increase efficiency with limited training data of medical images. The purpose of this study is to verify if segmentation accuracy and annotation efficiency can be improved through the use of active learning.\n[Source txt11 end]\n\n[Source txt12 begin]\nBased on the results from table-to-text (§6.1) and summarization (§6.2), we observe that prefixtuning has a comparative advantage when the number of training examples is smaller. To explore the low-data setting more systematically, we subsample the full dataset (E2E for table-to-text and XSUM for summarization) to obtain small datasets of size $\\{ 5 0 , 1 0 0 , 2 0 0 , 5 0 0 \\}$ . For each size, we sample 5 different datasets and average over 2 training random seeds. Thus, we average over 10 models for each low-data setting.9\n[Source txt12 end]\n\n[Source txt13 begin]\n* [Forgetting Events]()\n* [Hybrid]()\n* [Citation]()\n* [References]()\nThis is part 2 of what to do when facing a limited amount of labeled data for supervised learning tasks. This time we will get some amount of human labeling work involved, but within a budget limit, and therefore we need to be smart when selecting which samples to label.\n[Source txt13 end]\n\n[Source txt14 begin]\nIn this thesis, we develop families of algorithms for semi-supervised inference. These algorithms are based on intuitions about the natural structure and geometry of probability distributions that underlie typical datasets for learning. The classical framework of Regularization in Reproducing Kernel Hilbert Spaces (which is the basis of state-of-the-art supervised algorithms such as SVMs) is extended in several ways to utilize unlabeled data.\n[Source txt14 end]\n\n[Source txt15 begin]\n.\")) for supervised learning has prompted new approaches to semi-supervised learning, driven by the simplicity of incorporating unsupervised loss terms into the cost functions of neural networks. Lastly, there has been increased attention for the development of robust semi-supervised learning methods that do not degrade performance, and for the evaluation of semi-supervised learning methods for practical purposes.\n[Source txt15 end]\n\n[Source txt16 begin]\nPretrained large language models (LLMs) are currently state-of-the-art for solving the vast majority of natural language processing tasks. While many real-world applications still require fine-tuning to reach satisfactory levels of performance, many of them are in the low-data regime, making fine-tuning challenging. To address this, we propose LLM2LLM, a targeted and iterative data augmentation strategy that uses a teacher LLM to enhance a small seed dataset by augmenting additional data that can be used for fine-tuning on a specific task. LLM2LLM (1) fine-tunes a baseline student LLM on the initial seed data, (2) evaluates and extracts data points that the model gets wrong, and (3) uses a teacher LLM to generate synthetic data based on these incorrect data points, which are then added back into the training data. This approach amplifies the signal from incorrectly predicted data points by the LLM during training and reintegrates them into the dataset to focus on more challenging examples for the LLM. Our results show that LLM2LLM significantly enhances the performance of LLMs in the low-data regime, outperforming both traditional fine-tuning and other data augmentation baselines. LLM2LLM reduces the dependence on labor-intensive data curation and paves the way for more scalable and performant LLM solutions, allowing us to tackle data-constrained domains and tasks. We achieve improvements up to 24.2% on the GSM8K dataset, 32.6% on CaseHOLD, 32.0% on SNIPS, 52.6% on TREC and 39.8% on SST-2 over regular fine-tuning in the low-data regime using a Llama-2-7B student model. Our code is available at\n[Source txt16 end]\n\n[Source txt17 begin]\nSemi-supervised boosting methods have been studied extensively over the past two decades. The success achieved by supervised boosting methods, such as _AdaBoost_ (Freund and Schapire [1997]( \"Freund, Y., & Schapire, R. E. \\(1997\\). A decision-theoretic generalization of on-line learning and an application to boosting. Journal of Computer and System Sciences, 55\\(1\\), 119–139.\")), gradient boosting, and _XGBoost_ (Chen and Guestrin [2016]( \"Chen, K., & Wang, S. \\(2011\\). Semi-supervised learning via regularized boosting working on multiple semi-supervised assumptions. IEEE Transactions on Pattern Analysis and Machine Intelligence, 33\\(1\\), 129–143.\")), provides ample motivation for bringing boosting to the semi-supervised setting. Furthermore, the pseudo-labelling approach of self-training and co-training can be easily extended to boosting methods.\n[Source txt17 end]\n\n[Source txt18 begin]\nA plethora of learning methods exists, each with their own characteristics, advantages and disadvantages. The most recent comprehensive survey of the area was published by Zhu in 2005 and last updated in 2008 [see Zhu ([2008]( \"Zhu, X. \\(2008\\). Semi-supervised learning literature survey. Technical Report. 1530, University of Wisconsin-Madison.\"))]. The book by Chapelle et al. ([2006b]( \"Chapelle, O., Chi, M., & Zien, A. \\(2006a\\). A continuation method for semi-supervised SVMs. In Proceedings of the 23rd international conference on machine learning \\(pp. 185–192\\).\")) and the introductory book by Zhu and Goldberg ([2009]( \"Zhu, X., & Lafferty, J. \\(2005\\). Harmonic mixtures: Combining mixture models and graph-based methods for inductive and scalable semi-supervised learning. In Proceedings of the 22nd international conference on machine learning \\(pp. 1052–1059\\). ACM.\")) also provide good bases for studying earlier work on semi-supervised learning. More recently, Subramanya and Talukdar ([2014]( \"Subramanya, A., & Talukdar, P. P. \\(2014\\). Graph-based semi-supervised learning. Synthesis Lectures on Artificial Intelligence and Machine Learning, 8\\(4\\), 1–125.\")) provided an overview of several graph-based techniques, and Triguero et al. ([2015]( \"Triguero, I., García, S., & Herrera, F. \\(2015\\). Self-labeled techniques for semi-supervised learning: Taxonomy, software and empirical study. Knowledge and Information Systems, 42\\(2\\), 245–284.\")) reviewed and analyzed pseudo-labelling techniques, a class of semi-supervised learning methods.\n[Source txt18 end]\n\n[Source txt19 begin]\nML-based approaches leverage algorithms to automate or assist in data annotation and address the inefficiencies of traditional methods. In particular, active learning is a prominent technique in which a model selects the most informative unlabeled data points for human annotation. This minimizes labeling efforts while maximizing model performance. For instance, uncertainty sampling identifies instances where the model is least confident as seen in text classification tasks where active learning has reduced annotation needs by up to 50% [[40]()]. Weak supervision enables the rapid labeling of large datasets using noisy or indirect signals such as heuristics or pre-trained models. Programmatic labeling, a key weak supervision method, involves defining labeling functions that assign labels based on data patterns. One example is identifying entities in text using syntactic rules [[41]()]. Furthermore, transfer learning uses pre-trained models, like BERT for NLP or ResNet for computer vision, to perform initial labeling on new tasks. By fine-tuning these models on a small set of labeled data, they can adapt to specific annotation requirements. This has been demonstrated in applications like named entity recognition [[42]()]. These methods reduce reliance on manual effort and allow more efficient use of human expertise.\n[Source txt19 end]\n\n[Source txt20 begin]\nUnlike previous work where data scarcity was simulated using small percentages of the left-out dataset, this paper presents a more challenging learning environment. It employs a fixed small number of samples per class, specifically considering 1, 2, 5, 10, 20, 50, and 100 samples per class in the low data-resourced setting. We refer to each unique available sample count per class for fine-tuning as a scenario. Each scenario combines samples from the scenarios with fewer samples per class, adding additional new samples. In addition, a learning instance where the entirety of the training dataset is used for comparison with conventional approaches.\n[Source txt20 end]\n\n[Source img1: ### Coarse-grained Description\n\nThe image illustrates a dual learning process for image classification and change detection, encompassing both supervised and semi-supervised learning methods. The overall goal is to enhance the classification and detection of different types of data through these processes. The image presents data flow diagrams showing the steps and components involved in each learning process.\n\n### Fine-grained Description\n\n#### Supervised Learning Process\n\n- **Input Data:**\n  - The process begins with a dataset that includes labeled images, where specific features are highlighted (e.g., disaster types, flood events).\n\n- **Encoder and Decoder:**\n  - An encoder processes the input images to extract features, followed by a decoder that reconstructs the information for prediction.\n\n- **Components:**\n  - **Encoder:** Transforms input images into feature maps.\n  - **Self-Attention Mechanism:** Enhances the understanding of image features.\n  - **Decoder:** Reconstructs the encoded features to produce predictions.\n\n- **Output:**\n  - Predictions are generated based on the processed information, allowing for the classification of image data.\n\n#### Semi-supervised Learning Process\n\n- **Data Utilization:**\n  - Involves both labeled and unlabeled data, with a focus on augmenting the learning process using a larger dataset.\n\n- **Data Distribution:**\n  - Shows the division of data into labeled and unlabeled portions, emphasizing the use of pseudo-labeling.\n\n- **Process Flow:**\n  - **Labeled Data:** Used initially for training.\n  - **Pseudo-Labeling:** Unlabeled data is processed to generate pseudo-labels, which are then used to enhance model training.\n  - **Mixing Strategy:** Combines labeled and pseudo-labeled data to improve learning.\n\n- **Model Training:**\n  - The model iteratively refines its predictions using both labeled and pseudo-labeled data, with a focus on consistency between predictions on unlabeled data.\n\n- **Output:**\n  - The final output includes refined predictions and improved classification through the semi-supervised approach.\n\n#### Additional Features\n\n- **Visual Elements:**\n  - The image includes flow diagrams with arrows indicating the direction of data flow.\n  - Boxes represent different components or stages within each process.\n\n- **Color Coding:**\n  - Different colors are used to distinguish between the supervised and semi-supervised processes, enhancing clarity.\n\n- **Annotations:**\n  - Text annotations describe each component and process step, aiding in understanding the methodology.\n\nThis structured approach highlights the integration of supervised and semi-supervised learning techniques to improve image classification and change detection efficiency.\n\nThe upper supervised panel sends the labeled dataset into the change-detection networks to produce predictions. In the lower panel the networks are first trained on the labeled portion, then shared weights are used on the unlabeled branch; pseudo-label predictions and true-label predictions both feed the consistency-training block on the right.]\n\n[Source img2: Coarse-grained Description:\n- The image presents a comparative overview of supervised and semi-supervised learning processes for change detection in satellite imagery.\n- It illustrates the methodologies and workflow for two different learning approaches applied to the same type of satellite data.\n- The main focus is on how the processes differ in terms of data usage and model training techniques.\n\nFine-grained Description:\n- The image is divided into two sections: \"Supervised Learning Process\" (top) and \"Semi-supervised Learning Process\" (bottom).\n\n**Supervised Learning Process:**\n- **Dataset:**\n  - Supervised dataset with 1 disaster type, 2 flood events, 4 damage levels, and a total of 11,423 images.\n  - The dataset is split into 90% training and 10% validation.\n- **Networks:**\n  - Two networks are used: Prior-Attention Modified Change Detection (PACD) and Self-Attention Modified Change Detection (SACD).\n  - PACD: Uses an encoder-decoder architecture with a Prior-Attention Module.\n  - SACD: Incorporates Transformer Encoder and Decoder.\n- **Process Flow:**\n  - Input images are processed through the chosen network.\n  - Outputs predictions that are compared to ground truth for error calculation.\n\n**Semi-supervised Learning Process:**\n- **Dataset:**\n  - Semi-supervised dataset with varying percentages (90%, 80%, 20%, 10%, 5%) of labeled data.\n  - Shows labeled and unlabeled dataset partitions.\n- **Networks:**\n  - Utilizes PACD and SACD networks pre-trained on labeled data.\n  - Implements pseudo-labeling and consistency training.\n- **Process Flow:**\n  - Labeled data is used to train initial models.\n  - Unlabeled data is processed to generate pseudo-labels.\n  - Consistency training is applied to refine predictions.\n  - The process iterates with pseudo-labels and labeled data to enhance learning.\n\n**Annotations:**\n- Arrows indicate data flow and interactions between components.\n- Highlighted sections show key differences in approach, such as the use of pseudo-labeling in semi-supervised learning.\n- The image uses color coding to distinguish between different components and processes.\n\nThe upper supervised panel sends the labeled dataset into the change-detection networks to produce predictions. In the lower panel the networks are first trained on the labeled portion, then shared weights are used on the unlabeled branch; pseudo-label predictions and true-label predictions both feed the consistency-training block on the right.]\n\n[Source img3: ### Coarse-grained Description:\nThe image illustrates a two-step machine learning process involving self-supervised pretraining and supervised downstream task learning. It depicts the flow from using unlabeled data in the source domain to generating supervisory signals, followed by applying these signals to perform a pretext task. The learned features are then transferred to a target domain with labeled data for further fine-tuning and solving a downstream task.\n\n### Fine-grained Description:\n- **Source Domain (Unlabeled Data):**\n  - Begins with unlabeled data from the source domain.\n  - **Supervisory signals generation (Pseudo labels):** Generates pseudo labels to create supervisory signals for the unlabeled data.\n  - **Pretext task learning (feature extractor):** Uses these signals to train a feature extractor, focusing on solving a pretext task.\n\n- **Target Domain (Labeled Data):**\n  - Involves labeled data from the target domain.\n  - **Annotations (Ground truth labels):** Provides ground truth labels for supervised learning.\n  - **Downstream task learning (fine-tuning):** The feature extractor undergoes fine-tuning using these annotations to adapt to the specific downstream task.\n\n- **Process Flow:**\n  - **Initial weight transfer:** The weights from the pretrained feature extractor are transferred to the downstream task learning phase.\n  - **Task Solving:** The diagram indicates two stages: pretext task solving in the source domain and downstream task solving in the target domain.\n\n- **Visual Elements:**\n  - The diagram includes dashed boxes indicating different learning phases.\n  - Arrows show the flow of data and processes from one stage to the next.\n  - Rectangular boxes represent specific tasks or components, such as feature extraction and fine-tuning.]\n\n[Source img4: Coarse-grained Description:\n\n- The image illustrates the processes involved in supervised and semi-supervised learning for change detection in datasets.\n- It presents two main sections: the \"Supervised Learning Process\" and the \"Semi-supervised Learning Process.\"\n- The purpose is to compare and explain the methodologies used for handling labeled and unlabeled data in machine learning models, particularly focusing on disaster event detection and classification.\n- The diagram aims to convey the workflow and components involved in each learning process, emphasizing the use of encoders, decoders, and transformers.\n\nFine-grained Description:\n\n**Supervised Learning Process:**\n\n- **Components:**\n  - **Encoder:** Processes input data (disaster type, focal events, damage levels) and encodes it into a format suitable for the model.\n  - **Decoder:** Takes the encoded data and produces predictions.\n  - **Transformer Encoder and Decoder:** Utilized in the \"Self-Attention Multimodal Change Detection (SMCD) Network.\"\n- **Flow:**\n  - Input data is processed through the encoder, followed by the decoder, leading to predictions.\n  - The process is repeated with different percentages of labeled data (100% dataset displayed).\n  - Visual outputs are shown as predictions on the right.\n\n**Semi-supervised Learning Process:**\n\n- **Components:**\n  - **Pre-training:** Uses unlabeled data to initialize the model parameters.\n  - **Free-Labeling Module:** Generates pseudo-labels for unlabeled data.\n  - **Distribution Alignment:** Ensures consistency between labeled and unlabeled data distributions.\n- **Flow:**\n  - Labeled and pseudo-labeled data is used in training.\n  - Two data distributions (labeled and pseudo-labeled) are aligned through a consistency training process.\n  - Various percentages of labeled data are shown: 30%, 20%, 10%, and 1%.\n  - Outputs include visual predictions and distribution comparisons.\n\n**Annotations:**\n\n- The image uses dashed and solid lines to differentiate between labeled and pseudo-labeled data flows.\n- The diagram highlights the iterative nature of semi-supervised learning, emphasizing the use of unlabeled data to enhance model training.\n- Visual elements such as bar graphs depict data distribution and class balance in the semi-supervised section.\n- The overall layout is structured to show the comparison between supervised and semi-supervised approaches in handling change detection tasks.\n\nThe upper supervised panel sends the labeled dataset into the change-detection networks to produce predictions. In the lower panel the networks are first trained on the labeled portion, then shared weights are used on the unlabeled branch; pseudo-label predictions and true-label predictions both feed the consistency-training block on the right.]\n\n[Source img5: ### Coarse-grained Description\n\nThe image is a diagram illustrating two processes for change detection using remote sensing data: Supervised Learning Process and Semi-supervised Learning Process. The diagram explains how different datasets are utilized for training and prediction in both methods. It highlights the use of convolutional neural networks and transformer models for encoding and decoding image features, as well as the use of attention mechanisms to improve detection accuracy.\n\n### Fine-grained Description\n\n#### Supervised Learning Process\n\n- **Dataset Components**:\n  - **Data Attributes**: 1 disaster type, 2 flood events, 4 damage levels, 256 x 256 pixels, 114234 pictures.\n  - **Training Data**: Uses 100% of the dataset, labeled with pre- and post-disaster images.\n\n- **Architecture**:\n  - **Prior-Attention Modified Change Detection (CD) Network**:\n    - **Input**: Pre and Post disaster images.\n    - **Process**: Convolutional layers generate feature maps, which are concatenated and passed through an encoder-decoder architecture with a prior attention module for enhanced predictions.\n  - **Self-Attention Modified Change Detection (CD) Network**:\n    - **Input**: Pre and Post disaster images.\n    - **Process**: Includes a BIT (Bi-level Iterative Training) tokenization step before passing feature maps through a transformer encoder-decoder for prediction.\n\n#### Semi-supervised Learning Process\n\n- **Dataset Components**:\n  - **Data Split**: Dataset is divided into labeled and unlabeled parts, with varying percentages (100%, 50%, 20%, 10%, 5%).\n  - **Training Data**: Combines labeled and unlabeled data for training.\n\n- **Architecture**:\n  - **Pre-trained CD Networks**:\n    - **Labeled Data**: Used to train initial CD networks.\n    - **Weight Sharing**: Pre-trained networks are used for both labeled and unlabeled data.\n  - **Pseudo-Labeling**:\n    - **Process**: Predictions on unlabeled data generate pseudo-labels, which are compared to true labels for consistency.\n    - **Control Unit**: Ensures class distribution consistency, adjusting predictions to minimize loss.\n\n- **Training Flow**:\n  - **Consistency Training**: Focuses on maintaining class distribution between predictions and true labels, optimizing the model using loss feedback.\n\n#### Additional Details\n\n- **Predictions**: Both processes output change detection predictions, shown as highlighted areas in the post-disaster images.\n- **Training Arrows**: Indicate the flow of data through the networks, emphasizing iterative training and prediction steps.\n\nThe diagram effectively contrasts the fully supervised approach with the semi-supervised method, highlighting the integration of attention mechanisms and pseudo-labeling for improved model performance.\n\nThe upper supervised panel sends the labeled dataset into the change-detection networks to produce predictions. In the lower panel the networks are first trained on the labeled portion, then shared weights are used on the unlabeled branch; pseudo-label predictions and true-label predictions both feed the consistency-training block on the right.]\n\n[Source img6: Coarse-grained Description:\n- The image illustrates a semi-supervised learning framework, showing how unlabeled data is utilized in two distinct phases: unsupervised pretraining and task-specific self-training/distillation.\n- The diagram highlights the integration of a task-agnostic big CNN and a task-specific CNN, emphasizing the use of both labeled and unlabeled data.\n- The overall message is the effective use of limited labeled data combined with abundant unlabeled data to improve model performance.\n\nFine-grained Description:\n- The framework consists of two main pathways involving unlabeled data:\n  1. **Unsupervised Pretraining Pathway:**\n     - **Unlabeled Data:** Inputs into a task-agnostic big CNN.\n     - **Task-agnostic Big CNN:** Processes the data and connects to a projection head for unsupervised pretraining.\n     - **Projection Head:** Facilitates unsupervised learning, feeding into supervised fine-tuning.\n  \n  2. **Self-training/Distillation Pathway:**\n     - **Task-specific CNN:** Uses a small fraction of labeled data for supervised fine-tuning.\n     - **Supervised Fine-tuning:** Involves a small amount of data with class labels.\n     - **Self-training/Distillation:** The task-specific CNN leverages predictions from the fine-tuned model for further training using additional unlabeled data.\n\n- **Annotations and Labels:**\n  - Arrows indicate the flow of data between components.\n  - The figure includes labels for each component, such as \"Unlabeled data,\" \"Task-agnostic Big CNN,\" \"Projection head,\" \"Supervised fine-tuning,\" and \"Task-specific CNN.\"\n  - A caption underneath explains the two ways unlabeled data is utilized in the framework.\n\n- **Color Coding:**\n  - Unlabeled data is represented by purple clouds.\n  - The task-agnostic and task-specific CNNs are shown in pink trapezoids.\n  - The projection head is depicted in yellow rectangles.\n\n- The image conveys a structured approach to semi-supervised learning, illustrating the interaction between labeled and unlabeled data in enhancing model training.]\n\n[Source img7: ### Coarse-grained Description:\n- The image is a flowchart illustrating the different learning modes of networks.\n- It presents a categorization of machine learning approaches.\n- The main topic is the classification of learning methods used in network systems.\n\n### Fine-grained Description:\n- The flowchart is structured with a central box labeled \"Learning modes of networks.\"\n- Four branches extend from the central box, each representing a different learning mode:\n  - **Supervised learning**: A branch pointing left.\n  - **Unsupervised learning**: A branch pointing downward on the left.\n  - **Semi-supervised learning**: A branch pointing downward in the center.\n  - **Reinforced learning**: A branch pointing right.\n- Each learning mode is contained within its own box, indicating distinct categories.\n- The arrows are red, suggesting a flow or connection from the main concept to each specific learning mode.\n- The layout is simple and clear, emphasizing the relationship between the general concept of network learning modes and the specific types.]\n\n[Source img8: ### Coarse-grained Description:\nThe image is an infographic illustrating three primary types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. It visually explains the processes involved in each type, highlighting how data is transformed into predicted outputs through machine learning models.\n\n### Fine-grained Description:\n- **Title**: The top of the image features the title \"Machine Learning,\" indicating the overall theme.\n  \n- **Supervised Learning**:\n  - **Step 1**: \n    - **Labeled Data**: Illustrated with a clipboard and checkmarks, representing input data with known outputs.\n    - **Training**: Depicted with gears, symbolizing the process of model training.\n    - **ML Model**: Shown as a network of interconnected nodes, indicating the neural network model.\n  - **Step 2**: \n    - **Raw Data**: Shown with a document icon.\n    - **ML Model**: The same network of nodes is used.\n    - **Predicted Outputs**: Represented by charts, indicating the results generated by the model.\n\n- **Unsupervised Learning**:\n  - **Raw Data**: Illustrated with a document containing binary code.\n  - **Training**: Gears are shown, indicating the training process without labeled data.\n  - **ML Model**: The network of nodes is used again.\n  - **Predicted Outputs**: Shown with charts, illustrating the outputs derived from the model.\n\n- **Reinforcement Learning**:\n  - **Raw Data**: A document icon with binary code.\n  - **ML Model**: Enclosed within a box labeled \"Environment,\" \"Reward,\" \"Best Action,\" \"Selection Algorithm,\" and \"Agent.\"\n  - **State**: A gear symbol indicating the current state of the agent in the environment.\n  - **Predicted Outputs**: Shown with charts, illustrating the outcomes based on the agent's actions.\n\n- **Layout and Design**:\n  - The infographic is divided into three sections, each representing a different type of learning.\n  - Arrows indicate the flow of data through the processes.\n  - Icons and charts are used to visually represent data, models, and outputs.\n  - The color scheme is blue and white, providing a clean and professional look.]\n\n[Source img9: ### Coarse-grained Description:\nThe image is a flowchart depicting the structure and classification of semi-supervised learning methods. It categorizes these methods into two main branches: Inductive and Transductive. The chart organizes various techniques under these branches, including unsupervised preprocessing, wrapper methods, and intrinsically semi-supervised approaches. It highlights the hierarchical relationships and subcategories within semi-supervised learning.\n\n### Fine-grained Description:\n- **Main Categories:**\n  - **Inductive:**\n    - **Unsupervised Preprocessing:**\n      - Feature extraction\n      - Cluster-then-label\n      - Pre-training\n    - **Wrapper Methods:**\n      - Self-training\n      - Co-training\n      - Boosting\n    - **Intrinsically Semi-supervised:**\n      - Maximum-margin\n      - Perturbation-based\n      - Manifolds\n      - Generative models\n\n  - **Transductive:**\n    - **Graph-based:**\n      - Construction\n      - Weighting\n      - Inference\n\n- **Flow and Structure:**\n  - The chart starts with \"Semi-supervised classification\" at the top, branching into \"Inductive\" and \"Transductive.\"\n  - The \"Inductive\" branch further divides into \"Unsupervised preprocessing,\" \"Wrapper methods,\" and \"Intrinsically semi-supervised.\"\n  - The \"Transductive\" branch focuses on \"Graph-based\" methods, with subcategories for construction, weighting, and inference.\n\n- **Purpose:**\n  - The flowchart is designed to provide a comprehensive overview of different approaches within semi-supervised learning, illustrating how various techniques are categorized and related.\n\n- **Layout:**\n  - The chart uses boxes and arrows to indicate the hierarchical structure and relationships between the categories and subcategories.\n  - Dashed lines are used under \"Graph-based\" to denote subcategories, distinguishing them from solid lines used for other branches. \n\nThis structured visualization helps in understanding the diverse methodologies employed in semi-supervised learning and their interconnections.]\n\n[Source img10: ### Coarse-grained Description:\nThe image is a flowchart illustrating the workflow of a semi-supervised learning framework called Semi-His-Net for histopathology image analysis. The process involves both labeled and unlabeled histological image tiles, data augmentation techniques, and a convolutional neural network (CNN) model to generate predictions, pseudo-labels, and training losses.\n\n### Fine-grained Description:\n- **Input Data:**\n  - A dataset of histopathology images is provided, which includes both labeled and unlabeled image tiles.\n  - The labeled tiles (\\(X\\)) and unlabeled tiles (\\(U\\)) are displayed, with examples of histological images shown.\n\n- **Data Processing:**\n  - The labeled tiles undergo weak augmentation (\\(\\alpha(x_b)\\)).\n  - The unlabeled tiles undergo both weak (\\(\\alpha(u_b)\\)) and strong augmentation (\\(\\mathcal{A}(u_b)\\)).\n\n- **Model Architecture:**\n  - A CNN model processes the augmented images, with shared parameters used across different inputs.\n  - The CNN outputs predictions for labeled and augmented unlabeled tiles.\n\n- **Training Mechanism:**\n  - **Supervised Learning:**\n    - For labeled data, the model computes the supervised cross-entropy loss using one-hot targets (\\(p_b\\)).\n  - **Unsupervised Learning:**\n    - For unlabeled data, pseudo-labels (\\(q_b\\)) are generated using the model's predictions, and unsupervised consistency training loss is calculated.\n  \n- **Loss Calculation:**\n  - The final loss combines supervised and unsupervised losses to optimize the model.\n\n- **Output:**\n  - The final output includes image labels, indicating areas of interest in the histopathology images, achieved through this hybrid training approach.\n\n- **Annotations:**\n  - The diagram includes arrows indicating the flow of data and computations.\n  - Boxes and circles represent different components and processes within the workflow.\n  - The image label on the right shows a sample output with highlighted regions of interest.]\n\n# CRITICAL Citation Rules\nYou MUST follow these citation rules strictly:\n\n1. **Text Citation Format:**\n   - When using information from a text source, cite it as: `[citation:txt1]`, `[citation:txt2]`, etc.\n   - Example: \"Recent studies show significant progress in AI safety[citation:txt3].\"\n\n2. **Image Citation Format:**\n   - When you want to insert an image/figure, use: `![](citation:img1)`, `![](citation:img2)`, etc.\n   - Example: \"The architecture is shown below:\n![](citation:img5)\nAs illustrated, the system...\"\n   - ONLY use this format for sources explicitly marked as \"Image\"\n\n3. **Citation Placement:**\n   - Place text citations at the end of the sentence or claim\n   - Place image citations on their own line where the visual should appear\n   - You can cite the same source multiple times if needed\n\n4. **Important Distinctions:**\n   - Text sources → use `[citation:txt1]`, `[citation:txt2]`, etc.\n   - Image sources → use `![](citation:img1)`, `![](citation:img2)`, etc.\n\n# Position-Aware Writing Instructions\n\n**Is this the FIRST section?** yes\n**Is this the LAST section?** no\n\n## If FIRST section (is_first_section = yes):\n- Start with an engaging introduction\n- No need to reference previous content (there is none)\n- Set the stage for the article\n- DO NOT conclude the entire article\n\n## If MIDDLE section (is_first_section = no, is_last_section = no):\n- Begin with a smooth transition from the previous section\n- Focus ONLY on this section's specific requirements\n- **CRITICAL: DO NOT use concluding phrases like:**\n  - \"In conclusion\"\n  - \"To summarize\"\n  - \"Overall, this article\"\n  - \"We have discussed\"\n  - \"In this article, we covered\"\n- Continue the narrative without wrapping up the entire article\n- End in a way that allows the next section to continue naturally\n\n## If LAST section (is_last_section = yes):\n- Provide appropriate transitions from previous content\n- You MAY synthesize and conclude the entire article\n- Wrap up all major points discussed in the article\n\n# Visual Evidence Decision\nBefore drafting, check whether any candidate image directly helps explain, compare, or substantiate a point required by this section. If an image helps, place it next to the relevant passage and explain the specific detail the reader should notice. If none helps, write the section without an image.\n\n# Content Requirements\n1. **Address all sectional requirements** in the checklist above\n2. **Maintain coherence** with previous sections using the provided context\n3. **Use retrieved materials** as the foundation of your content\n4. **Cite sources properly** using the formats specified above\n5. **Write naturally** - your content should flow smoothly while integrating citations\n6. **Appropriate length** - typically 300-800 words depending on the complexity of requirements\n\n# Markdown Formatting Requirements\n**CRITICAL: You MUST use proper Markdown formatting for structure:**\n\n1. **Section Title (Required):**\n   - Start your content with a section title using `# Title`\n   - The title should reflect the section description\n\n2. **Subsections (If Needed):**\n   - Use `## Subsection Title` for major subsections\n   - Use `### Subsubsection Title` for deeper nesting\n   - Use appropriate heading levels to create clear hierarchy\n\n3. **Example Structure:**\n```markdown\n# Introduction to Machine Learning\n\nMachine learning has revolutionized...[citation:txt1]\n\n## Supervised Learning\nSupervised learning approaches...[citation:txt2]\n\n### Classification\nClassification tasks involve...[citation:txt3]\n\n## Unsupervised Learning\nUnlike supervised methods...[citation:txt5]\n```\n\n# Output Format\nProvide ONLY the section content with proper Markdown formatting and citations. Do NOT include:\n- Meta-commentary about what you're doing\n- Explanations of your writing process\n\n**Remember to start with a section title using `#`!**\n\nBegin writing the section now:"
+      }
+    ]
+  },
+  "response": {
+    "id": "chatcmpl-6834d1d8ed534ed190739a915169e018",
+    "object": "chat.completion",
+    "created": 1795350122,
+    "model": "qwen3-32b",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "# Introduction to Learning with Limited Labeled Data\n\nIn many real-world applications of supervised learning, the availability of labeled data is often limited due to the high cost or difficulty of obtaining expert annotations. This scarcity of labeled data poses a significant challenge to building accurate and robust models. To address this, researchers and practitioners have developed several strategies that aim to maximize the utility of the limited labeled data while leveraging the abundance of unlabeled data. These strategies form the foundation for effective learning in low-data regimes and include pre-training plus fine-tuning, semi-supervised learning, active learning, and pre-training with dataset auto-generation. This article explores these approaches in depth, with a particular focus on semi-supervised learning, which is a powerful paradigm for improving model performance when labeled data is scarce.\n\n## Pre-training Plus Fine-tuning\n\nOne of the most widely used strategies for dealing with limited labeled data is pre-training a model on a large amount of unlabeled data and then fine-tuning it on the small labeled dataset. This approach is particularly effective in domains such as natural language processing and computer vision, where pre-trained models like BERT or ResNet have demonstrated strong performance across a range of tasks. By leveraging the rich representations learned during pre-training, fine-tuning allows the model to adapt to the specific characteristics of the target task with minimal labeled data [citation:txt16].\n\n## Semi-Supervised Learning\n\nSemi-supervised learning explicitly incorporates both labeled and unlabeled data into the training process. This approach is especially valuable when unlabeled data is abundant but labeled data is scarce. Semi-supervised methods often rely on assumptions such as the cluster assumption or the manifold assumption, which posit that data points close to each other in the input space are likely to share the same label. These assumptions guide the learning process and enable the model to make more informed predictions about the unlabeled data [citation:txt5]. Techniques like pseudo-labeling, consistency regularization, and graph-based methods have been developed to effectively utilize unlabeled data within a semi-supervised framework [citation:txt1].\n\n## Active Learning\n\nActive learning is another strategy that addresses the issue of limited labeled data by intelligently selecting the most informative samples for labeling. Instead of randomly sampling data points, active learning algorithms query the model to identify instances where the model is most uncertain. By focusing labeling efforts on these uncertain instances, active learning can significantly reduce the amount of labeled data required to achieve a given level of performance [citation:txt19]. This approach is particularly useful in domains where human annotation is expensive or time-consuming.\n\n## Pre-training Plus Dataset Auto-generation\n\nA more recent and innovative strategy is pre-training combined with dataset auto-generation. In this approach, a pre-trained model is used to generate additional labeled data, which is then used to fine-tune the model further. This has been particularly effective in the language domain, where pre-trained models can generate synthetic examples that are used to expand the training dataset. This technique is driven by the success of few-shot learning, where models can perform well on new tasks with only a small number of examples [citation:txt6].\n\nTogether, these four strategies provide a comprehensive toolkit for learning with limited labeled data. While this section has introduced the main approaches, the focus of the article is on semi-supervised learning, which has seen significant recent advances and remains a central topic in the field of machine learning.",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning_content": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": null,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 9270,
+      "total_tokens": 9954,
+      "completion_tokens": 684,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "elapsed_seconds": 46.464,
+  "attempt": 1,
+  "used_target": false,
+  "sections": [
+    {
+      "section_index": 0,
+      "section_description": "This section introduces the challenge of supervised learning with limited labeled data and outlines four major approaches to address it: pre-training plus fine-tuning, semi-supervised learning, active learning, and pre-training with dataset auto-generation. It sets the stage for a deeper exploration of semi-supervised learning, which is the focus of the article.",
+      "content_length": 3397,
+      "content": "# Introduction to Learning with Limited Labeled Data\n\nIn many real-world applications of supervised learning, the availability of labeled data is often limited due to the high cost or difficulty of obtaining expert annotations. This scarcity of labeled data poses a significant challenge to building accurate and robust models. To address this, researchers and practitioners have developed several strategies that aim to maximize the utility of the limited labeled data while leveraging the abundance of unlabeled data. These strategies form the foundation for effective learning in low-data regimes and include pre-training plus fine-tuning, semi-supervised learning, active learning, and pre-training with dataset auto-generation. This article explores these approaches in depth, with a particular focus on semi-supervised learning, which is a powerful paradigm for improving model performance when labeled data is scarce.\n\n## Pre-training Plus Fine-tuning\n\nOne of the most widely used strategies for dealing with limited labeled data is pre-training a model on a large amount of unlabeled data and then fine-tuning it on the small labeled dataset. This approach is particularly effective in domains such as natural language processing and computer vision, where pre-trained models like BERT or ResNet have demonstrated strong performance across a range of tasks. By leveraging the rich representations learned during pre-training, fine-tuning allows the model to adapt to the specific characteristics of the target task with minimal labeled data [citation:txt16].\n\n## Semi-Supervised Learning\n\nSemi-supervised learning explicitly incorporates both labeled and unlabeled data into the training process. This approach is especially valuable when unlabeled data is abundant but labeled data is scarce. Semi-supervised methods often rely on assumptions such as the cluster assumption or the manifold assumption, which posit that data points close to each other in the input space are likely to share the same label. These assumptions guide the learning process and enable the model to make more informed predictions about the unlabeled data [citation:txt5]. Techniques like pseudo-labeling, consistency regularization, and graph-based methods have been developed to effectively utilize unlabeled data within a semi-supervised framework [citation:txt1].\n\n## Active Learning\n\nActive learning is another strategy that addresses the issue of limited labeled data by intelligently selecting the most informative samples for labeling. Instead of randomly sampling data points, active learning algorithms query the model to identify instances where the model is most uncertain. By focusing labeling efforts on these uncertain instances, active learning can significantly reduce the amount of labeled data required to achieve a given level of performance [citation:txt19]. This approach is particularly useful in domains where human annotation is expensive or time-consuming.\n\n## Pre-training Plus Dataset Auto-generation\n\nA more recent and innovative strategy is pre-training combined with dataset auto-generation. In this approach, a pre-trained model is used to generate additional labeled data, which is then used to fine-tune the model further. This has been particularly effective in the language domain, where pre-trained models can generate synthetic examples that are used to expand the training dataset. This technique is driven by the success of few-shot learning, where models can perform well on new tasks with only a small number of examples [citation:txt6].\n\nTogether, these four strategies provide a comprehensive toolkit for learning with limited labeled data. While this section has introduced the main approaches, the focus of the article is on semi-supervised learning, which has seen significant recent advances and remains a central topic in the field of machine learning.",
+      "text_citations": [
+        "txt1",
+        "txt16",
+        "txt19",
+        "txt5",
+        "txt6"
+      ],
+      "image_citations": [],
+      "text_citations_count": 4,
+      "image_citations_count": 0,
+      "total_citations": 4,
+      "text_sources": [
+        {
+          "citation_id": "txt1",
+          "index": "txt1",
+          "uid": "c4ae703292117978b9d38aeb928e0d62",
+          "score": 0.761334240436554,
+          "content": "Early research in the field of semi-supervised learning mainly focused on wrapper methods (Sect. [4]()) and semi-supervised extensions of traditional supervised algorithms (such as SVMs, see Sect. [6]()). Graph-based methods (Sects. [6.3]() and [7]()) have been extensively researched over the past two decades. They are perhaps the most intuitive semi-supervised learning method, explicitly incorporating the similarity of different unlabelled data points in a principled way. However, they still pose computational challenges. In recent years, semi-supervised learning has developed along similar lines as supervised learning: notably, there has been a strong focus on semi-supervised neural networks, in the form of unsupervised preprocessing (Sect. [5.3]()) as well as semi-supervised regularization (Sect. [6.2]()). Additionally, deep generative models have been extended to the semi-supervised setting (Sect. [6.4]()).",
+          "source": "",
+          "metadata": {}
+        },
+        {
+          "citation_id": "txt16",
+          "index": "txt16",
+          "uid": "1e3c810a0bc7c90e695b64cbb7e96ae3",
+          "score": 0.7307102680206299,
+          "content": "Pretrained large language models (LLMs) are currently state-of-the-art for solving the vast majority of natural language processing tasks. While many real-world applications still require fine-tuning to reach satisfactory levels of performance, many of them are in the low-data regime, making fine-tuning challenging. To address this, we propose LLM2LLM, a targeted and iterative data augmentation strategy that uses a teacher LLM to enhance a small seed dataset by augmenting additional data that can be used for fine-tuning on a specific task. LLM2LLM (1) fine-tunes a baseline student LLM on the initial seed data, (2) evaluates and extracts data points that the model gets wrong, and (3) uses a teacher LLM to generate synthetic data based on these incorrect data points, which are then added back into the training data. This approach amplifies the signal from incorrectly predicted data points by the LLM during training and reintegrates them into the dataset to focus on more challenging examples for the LLM. Our results show that LLM2LLM significantly enhances the performance of LLMs in the low-data regime, outperforming both traditional fine-tuning and other data augmentation baselines. LLM2LLM reduces the dependence on labor-intensive data curation and paves the way for more scalable and performant LLM solutions, allowing us to tackle data-constrained domains and tasks. We achieve improvements up to 24.2% on the GSM8K dataset, 32.6% on CaseHOLD, 32.0% on SNIPS, 52.6% on TREC and 39.8% on SST-2 over regular fine-tuning in the low-data regime using a Llama-2-7B student model. Our code is available at",
+          "source": "",
+          "metadata": {}
+        },
+        {
+          "citation_id": "txt19",
+          "index": "txt19",
+          "uid": "e5a416282461600a608a8e59d73aaa8d",
+          "score": 0.7281214594841003,
+          "content": "ML-based approaches leverage algorithms to automate or assist in data annotation and address the inefficiencies of traditional methods. In particular, active learning is a prominent technique in which a model selects the most informative unlabeled data points for human annotation. This minimizes labeling efforts while maximizing model performance. For instance, uncertainty sampling identifies instances where the model is least confident as seen in text classification tasks where active learning has reduced annotation needs by up to 50% [[40]()]. Weak supervision enables the rapid labeling of large datasets using noisy or indirect signals such as heuristics or pre-trained models. Programmatic labeling, a key weak supervision method, involves defining labeling functions that assign labels based on data patterns. One example is identifying entities in text using syntactic rules [[41]()]. Furthermore, transfer learning uses pre-trained models, like BERT for NLP or ResNet for computer vision, to perform initial labeling on new tasks. By fine-tuning these models on a small set of labeled data, they can adapt to specific annotation requirements. This has been demonstrated in applications like named entity recognition [[42]()]. These methods reduce reliance on manual effort and allow more efficient use of human expertise.",
+          "source": "",
+          "metadata": {}
+        },
+        {
+          "citation_id": "txt5",
+          "index": "txt5",
+          "uid": "cff67264c12349f85e15d90e600a985b",
+          "score": 0.7462466955184937,
+          "content": "Semi-supervised learning is the branch of machine learning concerned with using labelled as well as unlabelled data to perform certain learning tasks. Conceptually situated between supervised and unsupervised learning, it permits harnessing the large amounts of unlabelled data available in many use cases in combination with typically smaller sets of labelled data. In recent years, research in this area has followed the general trends observed in machine learning, with much attention directed at neural network-based models and generative learning. The literature on the topic has also expanded in volume and scope, now encompassing a broad spectrum of theory, algorithms and applications. However, no recent surveys exist to collect and organize this knowledge, impeding the ability of researchers and engineers alike to utilize it. Filling this void, we present an up-to-date overview of semi-supervised learning methods, covering earlier work as well as more recent advances. We focus primarily on semi-supervised classification, where the large majority of semi-supervised learning research takes place. Our survey aims to provide researchers and practitioners new to the field as well as more advanced readers with a solid understanding of the main approaches and algorithms developed over the past two decades, with an emphasis on the most prominent and currently relevant work. Furthermore, we propose a new taxonomy of semi-supervised classification algorithms, which sheds light on the different conceptual and methodological approaches for incorporating unlabelled data into the training process. Lastly, we show how the fundamental assumptions underlying most semi-supervised learning algorithms are closely connected to each other, and how they relate to the well-known semi-supervised clustering assumption.",
+          "source": "",
+          "metadata": {}
+        },
+        {
+          "citation_id": "txt6",
+          "index": "txt6",
+          "uid": "0650918021ea0b2c35e8d07fd99b7602",
+          "score": 0.7435566782951355,
+          "content": "4.  **Pre-training + dataset auto-generation**: Given a capable pre-trained model, we can utilize it to auto-generate a lot more labeled samples. This has been especially popular within the language domain driven by the success of few-shot learning.",
+          "source": "",
+          "metadata": {}
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:08:36.542882",
+      "unresolved": []
+    },
+    {
+      "section_index": 1,
+      "section_description": "This section provides foundational definitions and notations for semi-supervised learning, including the mathematical formulation of the loss function and the distinction between supervised and unsupervised components. It also presents key hypotheses that underpin the design of semi-supervised methods, such as smoothness, cluster, low-density separation, and manifold assumptions. Key sub-topics include: 1. Mathematical notations and loss structure, 2. Theoretical assumptions supporting semi-supervised learning.",
+      "content_length": 4133,
+      "content": "# Foundations of Semi-Supervised Learning\n\nSemi-supervised learning (SSL) is a paradigm that leverages both labeled and unlabeled data to train a model, aiming to improve performance when labeled data is scarce. In this setting, the labeled dataset typically contains a small number of examples with known class labels, while the unlabeled dataset consists of a larger number of examples without labels. The goal of SSL is to extract additional information from the unlabeled data to enhance the model's generalization capabilities beyond what is possible with labeled data alone [citation:txt9].\n\nMathematically, let us define the labeled dataset as $D_L = \\{(x_1, y_1), \\dots, (x_l, y_l)\\}$ and the unlabeled dataset as $D_U = \\{x_{l+1}, \\dots, x_{l+u}\\}$, where $x_i \\in \\mathcal{X}$ is an input feature vector and $y_i \\in \\mathcal{Y}$ is the corresponding label. The total dataset is then composed of both labeled and unlabeled examples, $D = D_L \\cup D_U$. The model $f_\\theta$ is trained to approximate the underlying mapping from $\\mathcal{X}$ to $\\mathcal{Y}$ [citation:txt16].\n\nThe training objective in SSL is typically expressed as a combination of a supervised loss and an unsupervised loss. The supervised loss is computed using the labeled data and aims to minimize the discrepancy between the model's predictions and the true labels. The unsupervised loss, on the other hand, is derived from the unlabeled data and is designed to enforce certain structural assumptions about the data distribution. The total loss function can be written as:\n\n$$\n\\mathcal{L}_{\\text{total}} = \\mathcal{L}_{\\text{supervised}} + \\lambda \\cdot \\mathcal{L}_{\\text{unsupervised}},\n$$\n\nwhere $\\lambda$ is a weighting factor that balances the contributions of the two components [citation:txt15].\n\nThe design of SSL methods is grounded in several key assumptions that guide the use of unlabeled data. These assumptions reflect the intuition that the structure of the input space can be exploited to make more informed predictions. The four most widely recognized assumptions are:\n\n1. **Smoothness Assumption**: If two input samples $x$ and $x'$ are close in the input space, their corresponding labels $y$ and $y'$ should be the same. This assumption implies that the label function varies smoothly with respect to the input features. In other words, small perturbations in the input should not lead to drastic changes in the predicted label [citation:txt2].\n\n2. **Cluster Assumption**: Data points tend to form clusters, and the decision boundary between classes should avoid slicing through these clusters. This means that samples within the same cluster are likely to belong to the same class. The cluster assumption is closely related to the idea that the class label should not change in regions of high data density [citation:txt10].\n\n3. **Low-Density Separation Assumption**: The decision boundary between classes should lie in regions of low data density. This assumption is equivalent to the cluster assumption and is often used in consistency regularization methods, where the model is encouraged to produce consistent predictions for similar inputs [citation:txt17].\n\n4. **Manifold Assumption**: The data lies on a low-dimensional manifold embedded in a high-dimensional space. The label function is smooth with respect to the structure of this manifold. This assumption is particularly useful in scenarios where the input space is high-dimensional but the data lies on a lower-dimensional subspace [citation:txt4].\n\nThese assumptions are not mutually exclusive and often overlap in practice. Many SSL algorithms implicitly or explicitly rely on one or more of these assumptions to guide the training process. For example, consistency regularization methods enforce the smoothness and low-density separation assumptions by encouraging the model to produce consistent predictions for different augmentations of the same input [citation:txt17].\n\nIn the next section, we will explore specific SSL techniques that build upon these theoretical foundations, including pseudo labeling, consistency regularization, and pre-training methods.",
+      "text_citations": [
+        "txt10",
+        "txt15",
+        "txt16",
+        "txt17",
+        "txt2",
+        "txt4",
+        "txt9"
+      ],
+      "image_citations": [],
+      "text_citations_count": 7,
+      "image_citations_count": 0,
+      "total_citations": 7,
+      "text_sources": [
+        {
+          "citation_id": "txt2",
+          "uid": "302e51e803b9bc89b413b956c50ea83c",
+          "score": 0.7826957702636719,
+          "content_preview": "Fortunately, the previously mentioned condition appears to be satisfied in most learning problems encountered in the real world, as is suggested by the successful application of semi-supervised learni",
+          "source": ""
+        },
+        {
+          "citation_id": "txt17",
+          "uid": "f7a542ff98f7343998c4fbf2523ce09b",
+          "score": 0.7480184435844421,
+          "content_preview": "The goal of Semi-Supervised Learning (SSL) (Chapelle et al., 2010) is to leverage large amounts of unlabeled data to improve the performance of supervised learning over small datasets. Often, SSL algo",
+          "source": ""
+        },
+        {
+          "citation_id": "txt16",
+          "uid": "fd950bdfde573c1261c665d1a7bd6c9a",
+          "score": 0.7482931613922119,
+          "content_preview": "Given access to datasets ${ \\mathcal { D } } _ { \\mathrm { U } }$ and $\\mathcal { D } _ { \\mathrm { { L } } }$ , the goal of semi-supervised learning is to develop a model $f$ that approximates well s",
+          "source": ""
+        },
+        {
+          "citation_id": "txt4",
+          "uid": "c5224d4f3ab9555c74f6bb72b415e836",
+          "score": 0.7647985816001892,
+          "content_preview": "assumptions for semi-supervised learning\n1. Manifold assumption: Suppose that the marginal probability distribution underlying the data is supported on a low-dimensional manifold. Then the family of c",
+          "source": ""
+        },
+        {
+          "citation_id": "txt10",
+          "uid": "e99fc1fb5e42da6b446209aeb57db1af",
+          "score": 0.756339430809021,
+          "content_preview": "In semi-supervised learning, one tries to improve a classifier trained on labeled data by exploiting a relatively large set of unlabeled data. The most common assumption one makes in this setting is c",
+          "source": ""
+        },
+        {
+          "citation_id": "txt9",
+          "uid": "ce816dabdd53e2c943e5b74f33b72282",
+          "score": 0.757199764251709,
+          "content_preview": "Semi-supervised learning (SSL) is halfway between supervised and unsupervised learning. In addition to unlabeled data, the algorithm is provided with some supervision information $-$ but not necessari",
+          "source": ""
+        },
+        {
+          "citation_id": "txt15",
+          "uid": "ba82cb97fab1e81caf9855b30b26de14",
+          "score": 0.7490623593330383,
+          "content_preview": "Consider a typical semi-supervised learning problem with a few labeled examples $( ( x _ { 1 } , y _ { 1 } ) , \\dots , ( x _ { l } , y _ { l } ) )$ and a large number of unlabeled examples $( x _ { l ",
+          "source": ""
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:10:00.180028"
+    },
+    {
+      "section_index": 2,
+      "section_description": "This section explores consistency regularization techniques, which enforce that model predictions remain stable under input or model perturbations. It details several methods: Π-model, temporal ensembling, mean teacher, and approaches using noisy samples as learning targets (including VAT, ICT, and UDA). The section discusses their mechanisms, mathematical formulations, and empirical findings, with a focus on how these methods improve semi-supervised learning. Key sub-topics include: 1. Consistency regularization principles, 2. Specific methods (Π-model, temporal ensembling, mean teacher, VAT, ICT, UDA), 3. Empirical results and ablation studies.",
+      "content_length": 4931,
+      "content": "# Consistency Regularization in Semi-Supervised Learning\n\nConsistency regularization is a key technique in semi-supervised learning that enforces model predictions to remain stable under input or model perturbations. The fundamental principle is that a model should produce consistent outputs for different augmentations of the same input. This approach leverages the low-density separation and smoothness assumptions, ensuring that the decision boundary traverses regions of low data density [citation:txt13]. By encouraging such invariance, consistency regularization helps the model avoid overfitting to noisy or limited labeled examples [citation:txt1].\n\nOne of the earliest consistency regularization frameworks is the Π-model, introduced by Laine and Aila (2017), which trains two different perturbations of the same unlabeled input and enforces their predictions to be similar. The loss function is typically the mean squared error or KL divergence between the outputs of the two models [citation:txt9]. Temporal ensembling extends this idea by maintaining an exponential moving average of past model predictions, which serves as a more stable target for consistency training. This approach smooths out noisy predictions over time, improving the model’s robustness [citation:txt9].\n\nThe mean teacher framework builds upon temporal ensembling by using a slow-moving \"teacher\" model to provide pseudo-labels for the \"student\" model. The teacher model is updated using an exponential moving average of the student’s weights, ensuring that it reflects a more stable and consistent version of the model [citation:txt15]. This method has been particularly effective in tasks where data augmentation plays a critical role, such as image classification and natural language processing.\n\nBeyond early consistency methods, recent advances have introduced more sophisticated approaches, including adversarial and virtual adversarial training (VAT). VAT, proposed by Miyato et al., finds the worst-case perturbation that maximizes the model’s prediction change and regularizes the model to be consistent with respect to such adversarial examples [citation:txt15]. This method has shown strong performance in semi-supervised learning by explicitly targeting the most informative perturbations [citation:txt14].\n\nInterpolation consistency training (ICT) is another notable approach that uses linear interpolations between pairs of unlabeled examples to generate additional training signals. By enforcing consistency between predictions on the original and interpolated samples, ICT encourages the model to learn smooth and continuous decision boundaries [citation:txt15]. This technique is particularly effective when combined with strong data augmentation strategies [citation:txt15].\n\nUnsupervised data augmentation (UDA), introduced by Xie et al. (2019), is a powerful and widely adopted method that combines consistency regularization with advanced data augmentation techniques. UDA applies strong augmentations—such as RandAugment or AutoAugment—to unlabeled data and enforces the model to produce the same output for both the original and augmented examples [citation:txt2]. The loss is computed using the KL divergence between the model’s predictions on the original and augmented samples [citation:txt3]. UDA has demonstrated impressive performance on vision tasks, often matching or exceeding fully supervised models trained on much larger labeled datasets [citation:txt2].\n\nEmpirical studies have shown that the quality of data augmentation plays a crucial role in the success of consistency regularization. UDA, in particular, benefits from using diverse and realistic augmentations that preserve the underlying data distribution while introducing meaningful variations [citation:txt5]. For example, on the CIFAR-10 dataset, UDA outperforms previous methods by a clear margin when using state-of-the-art augmentation strategies [citation:txt2].\n\nRecent work has also explored combining consistency regularization with pseudo labeling and pre-training. For instance, FixMatch [citation:txt14] integrates confidence-based pseudo labeling with consistency training, achieving strong results on multiple semi-supervised benchmarks. These hybrid approaches demonstrate the effectiveness of combining multiple SSL strategies to further improve performance [citation:txt15].\n\nIn summary, consistency regularization provides a principled way to leverage unlabeled data by enforcing prediction stability under input perturbations. Methods like the Π-model, temporal ensembling, mean teacher, VAT, ICT, and UDA have significantly advanced the field, with empirical results showing that strong data augmentation and consistency training can nearly match fully supervised performance [citation:txt2]. In the next section, we will explore how these techniques can be integrated with pre-training to further enhance semi-supervised learning.",
+      "text_citations": [
+        "txt1",
+        "txt13",
+        "txt14",
+        "txt15",
+        "txt2",
+        "txt3",
+        "txt5",
+        "txt9"
+      ],
+      "image_citations": [],
+      "text_citations_count": 8,
+      "image_citations_count": 0,
+      "total_citations": 8,
+      "text_sources": [
+        {
+          "citation_id": "txt2",
+          "uid": "00fb0ebc6476d981cd49e53225fd23ef",
+          "score": 0.8479876518249512,
+          "content_preview": "In this paper, we show that data augmentation and semi-supervised learning are well connected: better data augmentation can lead to significantly better semi-supervised learning. Our method, UDA, empl",
+          "source": ""
+        },
+        {
+          "citation_id": "txt13",
+          "uid": "3a9c8360bb42489f2955424749b43e2e",
+          "score": 0.7782937288284302,
+          "content_preview": "Consistency regularization methods for semi-supervised learning enforce the low-density separation assumption by encouraging invariant prediction $f ( u ) ~ = ~ f ( u + \\delta )$ for perturbations $u ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt14",
+          "uid": "3290a0dc5262ade75cade2b9efc67754",
+          "score": 0.7777057886123657,
+          "content_preview": "Consistency regularization is highly-successful and widely-adopted technique in SSL (Bachman et al. [2014]( \"Bachman, P., Alsharif, O., & Precup, D. \\(2014\\). Learning with pseudo-ensembles. In Advanc",
+          "source": ""
+        },
+        {
+          "citation_id": "txt1",
+          "uid": "84b0d3749ba98b3c7a32015146fe2ebd",
+          "score": 0.8533711433410645,
+          "content_preview": "### Consistency regularization\nConsistency regularization is one of the most widely applied methods for semi-supervised learning. The basic principle is that the network presents a consistent output f",
+          "source": ""
+        },
+        {
+          "citation_id": "txt3",
+          "uid": "d3d4cda1812b65933891f64b8ebf1401",
+          "score": 0.8069263696670532,
+          "content_preview": "* _Unsupervised Data Augmentation_ (UDA; [Xie et al., 2019]()), among a set of possible augmentation strategies, selects a subset to minimize the KL divergence between the predicted distribution over ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt9",
+          "uid": "9ac9b6e7ae011b0a73b5971acb3adbcb",
+          "score": 0.7931560277938843,
+          "content_preview": "_Background_ The idea of consistency regularization (Bachman et al. [2014]( \"Bachman, P., Alsharif, O., & Precup, D. \\(2014\\). Learning with pseudo-ensembles. In Advances in neural information process",
+          "source": ""
+        },
+        {
+          "citation_id": "txt5",
+          "uid": "78004b36382e7ddfea529d71d13e67b9",
+          "score": 0.8005837202072144,
+          "content_preview": "Similar to VAT, **Unsupervised Data Augmentation** (**UDA** ; [Xie et al. 2020]()) learns to predict the same output for an unlabeled example and the augmented one. UDA especially focuses on studying ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt15",
+          "uid": "7485e4cdab2be36f29cc506f2bb535a8",
+          "score": 0.7758132815361023,
+          "content_preview": "Consistency regularization (Bachman et al. [2014]( \"Bachman, P., Alsharif, O., & Precup, D. \\(2014\\). Learning with pseudo-ensembles. In Advances in neural information processing systems.\"); Laine and",
+          "source": ""
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:11:27.680840"
+    },
+    {
+      "section_index": 3,
+      "section_description": "This section discusses pseudo labeling and related iterative self-training methods, where the model generates labels for unlabeled data and uses them for further training. It covers label propagation, self-training (including the Noisy Student approach), and strategies to reduce confirmation bias such as MixUp and Meta Pseudo Labels. The section highlights technical configurations and empirical results that improve robustness and accuracy. Key sub-topics include: 1. Pseudo labeling and entropy regularization, 2. Label propagation and self-training, 3. Reducing confirmation bias, 4. Meta Pseudo Labels and optimization strategies.",
+      "content_length": 5335,
+      "content": "# Pseudo Labeling and Iterative Self-Training in Semi-Supervised Learning\n\nPseudo labeling is a foundational technique in semi-supervised learning (SSL) where a model generates labels for unlabeled data based on its own predictions and then uses these pseudo-labels as if they were ground truth labels for further training. This method is particularly valuable when labeled data is scarce, as it enables the model to learn from a much larger pool of unlabeled examples. In its simplest form, pseudo labeling assigns the class with the highest softmax probability as the pseudo-label for each unlabeled sample [citation:txt1]. These pseudo-labels are then incorporated into the training set, allowing the model to iteratively refine its predictions [citation:txt6].\n\nThe process of pseudo labeling is closely related to self-training, where the model iteratively improves itself by generating and using pseudo-labels. This iterative approach is often visualized in algorithmic form, as illustrated in the following self-training procedure:\n\n![](citation:img1)\n\nIn this procedure, the model is first trained on the small labeled dataset $D_l$, and then used to generate pseudo-labels for the unlabeled dataset $D_u$. Only the most confident predictions are retained as pseudo-labels and added to the training data for the next iteration. This cycle continues until a predefined number of iterations $T$ is reached, allowing the model to progressively improve its performance by leveraging increasingly accurate pseudo-labels [citation:txt12].\n\nLabel propagation is another related method that extends the concept of pseudo labeling by incorporating graph-based structures. In label propagation, a similarity graph is constructed between all data points, and labels are propagated through this graph to unlabeled samples based on their proximity to labeled instances. This approach ensures that unlabeled data points with similar features to labeled ones inherit their labels, effectively leveraging the smoothness assumption of SSL [citation:txt2]. While label propagation can be more computationally intensive, it often leads to improved accuracy by considering the global structure of the data.\n\nSelf-training has also been extended to more sophisticated architectures, such as the Noisy Student approach. In this method, a teacher model is trained on labeled data and then used to generate pseudo-labels for unlabeled data. A student model is then trained on both the original labeled data and the pseudo-labeled data, with added noise to the input during training to improve robustness. This process can be repeated iteratively, with the student model becoming the new teacher in subsequent rounds. This approach has demonstrated strong performance in image classification and other vision tasks [citation:txt3].\n\nDespite its effectiveness, pseudo labeling is not without limitations. A major concern is confirmation bias, where the model becomes overly confident in its pseudo-labels and reinforces its own errors. To mitigate this, several strategies have been proposed. One such approach is MixUp, which blends pairs of data points and their corresponding labels, encouraging the model to produce smooth and consistent predictions across the input space [citation:txt17]. Another technique is to enforce a minimum number of labeled samples per mini-batch, ensuring that the model does not rely too heavily on pseudo-labels during training [citation:txt19]. This helps maintain a balance between the supervised and pseudo-supervised components of the loss function.\n\nMeta Pseudo Labels (MPL) is another advanced method that addresses confirmation bias by continuously adapting the teacher model alongside the student. Instead of keeping the teacher fixed, as in vanilla pseudo labeling, MPL updates the teacher model in response to the student’s learning progress, allowing it to generate more accurate and adaptive pseudo-labels over time [citation:txt3]. This dynamic interaction between the teacher and student models has been shown to improve performance in SSL, particularly in scenarios where the pseudo-labels may initially be noisy or inaccurate.\n\nIn addition to reducing confirmation bias, other factors such as noise injection, data balancing, and the use of soft pseudo-labels have been shown to enhance the robustness of self-training. Soft pseudo-labels, which retain the full probability distribution rather than just the predicted class, allow for more nuanced training and can help the model better handle uncertainty [citation:txt20]. Techniques like FlexMatch and FreeMatch further refine pseudo labeling by introducing class-specific thresholds that adapt based on the learning progress of each class, ensuring that pseudo-labels are only used when they are most likely to be accurate [citation:txt19].\n\nOverall, pseudo labeling and iterative self-training methods provide a powerful and flexible framework for semi-supervised learning when labeled data is limited. By combining these approaches with strategies to reduce confirmation bias and enhance pseudo-label quality, researchers have achieved significant improvements in model accuracy and generalization. These techniques are not only foundational but also serve as a basis for more advanced SSL methods, which will be explored in the following sections.",
+      "text_citations": [
+        "txt1",
+        "txt12",
+        "txt17",
+        "txt19",
+        "txt2",
+        "txt20",
+        "txt3",
+        "txt6"
+      ],
+      "image_citations": [
+        "img1"
+      ],
+      "text_citations_count": 8,
+      "image_citations_count": 1,
+      "total_citations": 9,
+      "text_sources": [
+        {
+          "citation_id": "txt2",
+          "uid": "e0e2498b58bdf8715932433a5d3ba945",
+          "score": 0.831828236579895,
+          "content_preview": "# Pseudo Labeling[#]()\n**Pseudo Labeling** ([Lee 2013]()) assigns fake labels to unlabeled samples based on the maximum softmax probabilities predicted by the current model and then trains the model o",
+          "source": ""
+        },
+        {
+          "citation_id": "txt1",
+          "uid": "cb8d9d6bc8afd4ebacdde2359fe761ca",
+          "score": 0.8368973135948181,
+          "content_preview": "## Pseudo Labeling\n**Pseudo Labeling** ([Lee 2013]()) assigns fake labels to unlabeled samples based on the maximum softmax probabilities predicted by the current model and then trains the model on bo",
+          "source": ""
+        },
+        {
+          "citation_id": "txt17",
+          "uid": "74eaca7b47fa28f2f45b6997b699cf53",
+          "score": 0.7849679589271545,
+          "content_preview": "This paper presented a semi-supervised learning approach for image classification based on pseudo-labeling. We proposed to directly use the network predictions as soft pseudo-labels for unlabeled data",
+          "source": ""
+        },
+        {
+          "citation_id": "txt20",
+          "uid": "d84309d5e58d608ca9d9f0dd6ca1a7c6",
+          "score": 0.7817559242248535,
+          "content_preview": "Pseudo-labeling leverages the idea of using the model itself to obtain artificial labels for unlabeled data [32, 47]. Specifically, this refers to the use of “hard” labels (i.e., the arg max of the mo",
+          "source": ""
+        },
+        {
+          "citation_id": "txt3",
+          "uid": "987affa37299bb3a7f5ecee49eeb52cd",
+          "score": 0.8259912729263306,
+          "content_preview": "Pseudo Labels. The method of Pseudo Labels, also known as self-training, is a simple Semi-Supervised Learning (SSL) approach that has been successfully applied to improve the state-of-the-art of many ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt12",
+          "uid": "1818bdbb08dfa848254bff65ae68484a",
+          "score": 0.7914583683013916,
+          "content_preview": "Pseudo-labeling (sometimes referred to as self-training) is one of the earliest SSL techniques. Though the idea has been around for many decades [94, 28, 2] before the era of deep learning, it is stil",
+          "source": ""
+        },
+        {
+          "citation_id": "txt19",
+          "uid": "ce3faefa063ed248c020c743f881f2f7",
+          "score": 0.7819876074790955,
+          "content_preview": "Pseudo-Labeling. Pseudo-labeling (Lee et al. 2013) has been demonstrated to offer superior supervision for augmented samples in SSL. To address the issue of confirmation bias inherent in pseudo-labeli",
+          "source": ""
+        },
+        {
+          "citation_id": "txt6",
+          "uid": "bea2fac9fadb20609a3d6bdd04f91b30",
+          "score": 0.8052628040313721,
+          "content_preview": "**Pseudo-Labeling** is the simplest approach to achieve Semi-Supervised Learning. A model is initially trained on the labeled dataset and is used to make predictions for the unlabeled data. It selects",
+          "source": ""
+        }
+      ],
+      "image_sources": [
+        {
+          "citation_id": "img1",
+          "uid": "133f624bfeb850cde493b6d5ab1f49a2",
+          "score": 0.6808629631996155,
+          "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_27280.jpg",
+          "description": "### Coarse-grained Description\n\nThe image presents a table outlining an algorithm for a self-training procedure used in machine learning. It details a method for iteratively training a model using a c"
+        }
+      ],
+      "timestamp": "2026-11-22T20:13:03.643973"
+    },
+    {
+      "section_index": 4,
+      "section_description": "This section examines methods that combine pseudo labeling with consistency regularization, presenting holistic approaches such as MixMatch, ReMixMatch, DivideMix, and FixMatch. It describes how these methods integrate multiple techniques (e.g., MixUp, entropy minimization, distribution alignment, augmentation anchoring, and co-divide for noisy labels) to enhance semi-supervised learning. The section includes algorithmic details, empirical results, and ablation study insights. Key sub-topics include: 1. MixMatch and its components, 2. ReMixMatch improvements, 3. DivideMix for noisy labels, 4. FixMatch for high-confidence pseudo labeling.",
+      "content_length": 5620,
+      "content": "# Combining Pseudo Labeling with Consistency Regularization in Semi-Supervised Learning\n\nRecent advances in semi-supervised learning have focused on combining pseudo labeling with consistency regularization to create more robust and data-efficient models. These methods integrate multiple strategies, including entropy minimization, MixUp, distribution alignment, and augmentation anchoring, to improve performance when labeled data is scarce. In this section, we examine key algorithms—MixMatch, ReMixMatch, DivideMix, and FixMatch—that exemplify this holistic approach.\n\n## MixMatch: A Holistic Approach\n\nMixMatch is a semi-supervised learning algorithm that combines consistency regularization, entropy minimization, and data augmentation techniques like MixUp to improve model accuracy with limited labeled data. The algorithm processes labeled and unlabeled data in parallel, generating augmented versions of both. For unlabeled data, MixMatch uses entropy minimization to enforce confidence in the model’s predictions and applies MixUp to blend data samples and their pseudo labels. This combination helps the model learn more robust representations and generalizes better to unseen data [citation:txt18].\n\nThe core mechanism of MixMatch involves applying weak and strong augmentations to unlabeled data. The weakly augmented version is used to generate a pseudo label, which is then combined with the strongly augmented version via MixUp. The model is trained to minimize the loss on both labeled and pseudo-labeled data, leading to significant performance improvements in low-label regimes [citation:txt11].\n\n## ReMixMatch: Distribution Alignment and Augmentation Anchoring\n\nReMixMatch builds upon MixMatch by introducing two novel techniques: distribution alignment and augmentation anchoring. Distribution alignment ensures that the marginal distribution of predictions on unlabeled data is close to the marginal distribution of ground-truth labels. This helps mitigate the risk of the model learning incorrect distributions from noisy or biased unlabeled data [citation:txt12].\n\nAugmentation anchoring, on the other hand, leverages the predictions of a weakly augmented version of an image as targets for its strongly augmented counterpart. This ensures that the model’s outputs remain consistent across different augmentation strategies, further enhancing robustness [citation:txt1]. ReMixMatch also incorporates a learned augmentation policy using AutoAugment, which is optimized during training to generate more effective augmentations [citation:txt13].\n\nEmpirically, ReMixMatch has demonstrated significant improvements in data efficiency. For example, on the CIFAR-10 dataset with only 250 labeled examples, ReMixMatch achieves 93.73% accuracy, outperforming MixMatch, which requires 4,000 labeled examples to reach similar performance [citation:txt15].\n\n## DivideMix: Handling Noisy Labels with Co-Divide and Co-Guessing\n\nDivideMix is designed to address the challenge of learning from noisy labels by integrating semi-supervised learning techniques. The algorithm trains two networks in parallel and uses a Gaussian Mixture Model (GMM) to dynamically divide the training data into a clean labeled set and a noisy unlabeled set. This co-divide strategy prevents confirmation bias by ensuring that each network uses the dataset division from the other [citation:txt16].\n\nDuring the semi-supervised training phase, DivideMix enhances the MixMatch strategy by performing label co-refinement and co-guessing. For labeled samples, the ground-truth labels are refined using the predictions of the other network, while for unlabeled samples, the ensemble of both networks is used to make reliable label guesses [citation:txt7]. These strategies enable DivideMix to achieve state-of-the-art results on benchmark datasets with varying levels of label noise [citation:txt10].\n\n## FixMatch: High-Confidence Pseudo Labeling with Weak and Strong Augmentation\n\nFixMatch is a simplified yet effective semi-supervised learning algorithm that combines pseudo labeling with consistency regularization. The method generates pseudo labels for unlabeled data using a weakly augmented version of the input and filters out predictions with low confidence. Only high-confidence pseudo labels are used to train the model on strongly augmented data [citation:txt2].\n\nThe core idea behind FixMatch is to ensure that the model learns from reliable pseudo labels, reducing the risk of error propagation. By using a high confidence threshold (e.g., 0.95), FixMatch filters out noisy predictions and focuses on the most trustworthy pseudo labels [citation:txt4]. This approach has been shown to achieve performance close to fully supervised models, particularly in low-label regimes [citation:txt14].\n\nFixMatch’s architecture is illustrated in the following diagram:\n![](citation:img3)\n\nAs shown, the weakly and strongly augmented versions of the same image are processed by the model, and the predictions are compared using a consistency loss. This mechanism ensures that the model remains robust to input perturbations and learns from high-quality pseudo labels [citation:txt3].\n\nIn conclusion, these advanced methods—MixMatch, ReMixMatch, DivideMix, and FixMatch—demonstrate the effectiveness of combining pseudo labeling with consistency regularization. By integrating multiple strategies, they achieve significant improvements in model accuracy and robustness, even when labeled data is limited. These approaches form the foundation for further research into semi-supervised learning and its applications in real-world scenarios.",
+      "text_citations": [
+        "txt1",
+        "txt10",
+        "txt11",
+        "txt12",
+        "txt13",
+        "txt14",
+        "txt15",
+        "txt16",
+        "txt18",
+        "txt2",
+        "txt3",
+        "txt4",
+        "txt7"
+      ],
+      "image_citations": [
+        "img3"
+      ],
+      "text_citations_count": 13,
+      "image_citations_count": 1,
+      "total_citations": 14,
+      "text_sources": [
+        {
+          "citation_id": "txt2",
+          "uid": "5ab0562ee85f05d2b0de33ad3f87337a",
+          "score": 0.83177649974823,
+          "content_preview": "**FixMatch** ([Sohn et al. 2020]()) generates pseudo labels on unlabeled samples with weak augmentation and only keeps predictions with high confidence. Here both weak augmentation and high confidence",
+          "source": ""
+        },
+        {
+          "citation_id": "txt13",
+          "uid": "9c76031eafd43d094aa068a2a0c4fa5b",
+          "score": 0.7809556722640991,
+          "content_preview": "We improve the recently-proposed “MixMatch” semi-supervised learning algorithm by introducing two new techniques: distribution alignment and augmentation anchoring. Distribution alignment encourages t",
+          "source": ""
+        },
+        {
+          "citation_id": "txt14",
+          "uid": "b5eed28047e1b6defc8b9c3761ae2614",
+          "score": 0.7776846289634705,
+          "content_preview": "• FixMatch [41]: FixMatch further improves on top of the above techniques. It computes an artificial label given a weakly augmented version of a given unlabeled image. Then it uses the pseudo-label to",
+          "source": ""
+        },
+        {
+          "citation_id": "txt1",
+          "uid": "2ea27515cd575b7ecb8a0bae644d5b7e",
+          "score": 0.8339331150054932,
+          "content_preview": "Figure 14: ReMixMatch. Left. Distribution alignment adjusts the guessed labels distributions to match the ground-truth class distribution divided by the average model predictions on $\\mathcal { D } _ ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt11",
+          "uid": "26d0c593ad457e6e2c3bc5932454cf6b",
+          "score": 0.7835533618927002,
+          "content_preview": "All the five methods brought significant gains compared to a supervised training setting using 10% of labeled data. They performed better than supervised learning without augmentation. On UBS8K, MixMa",
+          "source": ""
+        },
+        {
+          "citation_id": "txt16",
+          "uid": "d764c49e29caf15ba4927ae2bc5e069f",
+          "score": 0.7743207216262817,
+          "content_preview": "Supervised learning with a dataset with noisy labels is an interesting problem in machine learning research. DivideMix [Junnan Li, 2020a] is a recently proposed strategy to learn with noisy labels usi",
+          "source": ""
+        },
+        {
+          "citation_id": "txt18",
+          "uid": "694fbe3246feb00c7be325d958f30846",
+          "score": 0.7670722007751465,
+          "content_preview": "In this section, we introduce MixMatch, our proposed semi-supervised learning method. MixMatch is a “holistic” approach which incorporates ideas and components from the dominant paradigms for SSL disc",
+          "source": ""
+        },
+        {
+          "citation_id": "txt12",
+          "uid": "151fcce0fe3a36c9367327b77a8c2d4f",
+          "score": 0.7830135226249695,
+          "content_preview": "**Abstract :** We improve the recently-proposed ``MixMatch semi-supervised learning algorithm by introducing two new techniques: distribution alignment and augmentation anchoring. - Distribution align",
+          "source": ""
+        },
+        {
+          "citation_id": "txt10",
+          "uid": "9d38d425fc716657602e3ba25e9043d6",
+          "score": 0.7874352335929871,
+          "content_preview": "In this paper, we propose DivideMix for learning with noisy labels by leveraging SSL. Our method trains two networks simultaneously and achieves robustness to noise through dataset co-divide, label co",
+          "source": ""
+        },
+        {
+          "citation_id": "txt4",
+          "uid": "2dd337118de664b7bb0228b0a002e418",
+          "score": 0.8004437685012817,
+          "content_preview": "FixMatch [20] is the upgraded version of Pseudo Labeling. FixMatch turns the predictions on weakly-augmented unlabeled data into hard ’one-hot’ pseudo-labels and then further uses them as the learning",
+          "source": ""
+        },
+        {
+          "citation_id": "txt7",
+          "uid": "340bfc51a6d305d940939b16200074ca",
+          "score": 0.791477382183075,
+          "content_preview": "• We propose co-divide, which trains two networks simultaneously. For each network, we dynamically fit a Gaussian Mixture Model (GMM) on its per-sample loss distribution to divide the training samples",
+          "source": ""
+        },
+        {
+          "citation_id": "txt15",
+          "uid": "8eea04b57bce2e8731be840a9732cde3",
+          "score": 0.7752057313919067,
+          "content_preview": "> Abstract:We improve the recently-proposed \"MixMatch\" semi-supervised learning algorithm by introducing two new techniques: distribution alignment and augmentation anchoring. Distribution alignment e",
+          "source": ""
+        },
+        {
+          "citation_id": "txt3",
+          "uid": "244e4b27ebc18f5760f228d045e0d841",
+          "score": 0.8034052848815918,
+          "content_preview": "Figure 1: Diagram of FixMatch. A weakly-augmented image (top) is fed into the model to obtain predictions (red box). When the model assigns a probability to any class which is above a threshold (dotte",
+          "source": ""
+        }
+      ],
+      "image_sources": [
+        {
+          "citation_id": "img3",
+          "uid": "61906d98ccc9130bf9d74b94ff874024",
+          "score": 0.6500621438026428,
+          "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_27373.png",
+          "description": "### Coarse-grained Description:\nThe image illustrates a semi-supervised learning process where an unlabeled example is processed through two augmentation techniques (weak and strong) before being fed "
+        }
+      ],
+      "timestamp": "2026-11-22T20:14:43.188202"
+    },
+    {
+      "section_index": 5,
+      "section_description": "This section discusses the integration of semi-supervised learning with powerful pre-training, especially in the context of language and vision tasks. It reviews empirical studies comparing pre-training, self-training, and joint-training, and presents a three-step procedure for combining self-supervised pre-training, supervised fine-tuning, and distillation with unlabeled data. The section highlights key findings on model size, label efficiency, and the additive benefits of combining these approaches. Key sub-topics include: 1. Comparative analysis of pre-training and self-training, 2. Three-step procedure for semi-supervised learning, 3. Empirical results on model size and distillation.",
+      "content_length": 5217,
+      "content": "# Integrating Semi-Supervised Learning with Pre-Training\n\nRecent advances in semi-supervised learning have demonstrated the effectiveness of combining self-supervised pre-training with task-specific fine-tuning and distillation. This integration leverages the strengths of both task-agnostic and task-specific learning, enabling models to achieve high performance even with limited labeled data. The framework typically involves three key steps: self-supervised pre-training on unlabeled data, supervised fine-tuning on a small labeled dataset, and distillation using unlabeled data to refine the model further. This approach has shown significant improvements in label efficiency, especially when using large neural networks [citation:txt3].\n\n## Comparative Analysis of Pre-Training and Self-Training\n\nEmpirical studies have compared the performance of pre-training, self-training, and joint-training in different data regimes. One notable finding is that pre-training on unlabeled data, particularly with large models, is highly effective when labeled data is scarce. For instance, in the ImageNet classification task, using a large ResNet model pre-trained with SimCLRv2 and then fine-tuned on just 1% of the labeled data achieved 73.9% top-1 accuracy, a tenfold improvement in label efficiency over previous methods [citation:txt8]. In contrast, self-training methods, which generate pseudo-labels for unlabeled data and retrain the model iteratively, tend to be more effective in scenarios where the initial model is already reasonably accurate. However, self-training can suffer from confirmation bias if the pseudo-labels are noisy or incorrect [citation:txt12].\n\nJoint-training approaches, which combine pre-training and self-training, often achieve the best performance by leveraging both the general representations learned from unlabeled data and the task-specific knowledge from labeled data. For example, the AS3L framework, which integrates active learning with pseudo-labeling, has demonstrated improvements of up to 5.4% over baseline methods in image classification tasks [citation:txt6]. These findings highlight the importance of selecting the right combination of methods based on the data regime and model architecture.\n\n## Three-Step Procedure for Semi-Supervised Learning\n\nA widely adopted three-step procedure for semi-supervised learning includes:\n\n1. **Self-Supervised Pre-Training:** In this stage, a large neural network is trained on unlabeled data using self-supervised learning techniques such as contrastive learning. This step aims to learn general representations that can be adapted for downstream tasks [citation:txt4].\n\n2. **Supervised Fine-Tuning:** After pre-training, the model is fine-tuned on a small labeled dataset to adapt the general representations to the specific task. This step is crucial for aligning the model with the task-specific objectives [citation:txt3].\n\n3. **Distillation with Unlabeled Data:** Finally, the model is further refined by using unlabeled data to generate pseudo-labels and train a smaller student model. This step leverages the knowledge from the pre-trained and fine-tuned teacher model to improve the performance of the student model without the need for additional labeled data [citation:txt14].\n\nThis procedure is illustrated in Figure 3, where unlabeled data is used in two distinct ways: first for task-agnostic pre-training and second for task-specific distillation [citation:txt1]. The effectiveness of this approach is further supported by the fact that larger models are more label-efficient. For example, with 10% of the labeled data, a ResNet-50 model trained using this method achieved 77.5% top-1 accuracy, outperforming standard supervised training with the full labeled dataset [citation:txt8].\n\n## Empirical Results on Model Size and Distillation\n\nEmpirical studies have consistently shown that model size plays a crucial role in the success of semi-supervised learning. Larger models are better at capturing the complexity of the data and are more robust to noisy pseudo-labels. Additionally, distillation using unlabeled data has been shown to improve performance by transferring knowledge from a larger teacher model to a smaller student model. This not only enhances the student model's accuracy but also makes it more compact and efficient [citation:txt11].\n\nFor instance, in the AS3L framework, distillation with unlabeled data significantly improved the performance of the model while also reducing the training time by about two-thirds [citation:txt6]. Similarly, in the ImageNet experiments, distillation helped refine the task-specific knowledge, leading to a substantial improvement in classification accuracy [citation:txt8]. These findings underscore the additive benefits of combining pre-training, fine-tuning, and distillation in semi-supervised learning.\n\n![](citation:img1)\n\nThis structured approach to semi-supervised learning demonstrates the potential of integrating self-supervised pre-training with task-specific fine-tuning and distillation. By leveraging both labeled and unlabeled data effectively, these methods can significantly enhance model performance in scenarios where labeled data is limited.",
+      "text_citations": [
+        "txt1",
+        "txt11",
+        "txt12",
+        "txt14",
+        "txt3",
+        "txt4",
+        "txt6",
+        "txt8"
+      ],
+      "image_citations": [
+        "img1"
+      ],
+      "text_citations_count": 8,
+      "image_citations_count": 1,
+      "total_citations": 9,
+      "text_sources": [
+        {
+          "citation_id": "txt14",
+          "uid": "e446b3f94d7eeed286f9cc6379f2b173",
+          "score": 0.7461978197097778,
+          "content_preview": "Self-training / knowledge distillation via unlabeled examples. To further improve the network for the target task, here we leverage the unlabeled data directly for the target task. Inspired by [23, 11",
+          "source": ""
+        },
+        {
+          "citation_id": "txt1",
+          "uid": "8959ade2f8aefabc308f8db2360abbea",
+          "score": 0.7747716307640076,
+          "content_preview": "![](images/a149fb0887397aa3be8c3cca321db0af386d90f6c42b0d4c53235fe09f2ee4ac.jpg)\nFigure 3: The proposed semi-supervised learning framework leverages unlabeled data in two ways: (1) task-agnostic use i",
+          "source": ""
+        },
+        {
+          "citation_id": "txt11",
+          "uid": "1afb30cffa90c45c57b951fcc2d79308",
+          "score": 0.7513549327850342,
+          "content_preview": "Although big models are important for pretraining and fine-tuning, given a specific task, such as classifying images into 1000 ImageNet classes, we demonstrate that task-agnostically learned general r",
+          "source": ""
+        },
+        {
+          "citation_id": "txt8",
+          "uid": "5eab219c5163e62e24cf3a9e0ee8e1b6",
+          "score": 0.7591571807861328,
+          "content_preview": "One paradigm for learning from few labeled examples while making best use of a large amount of unlabeled data is unsupervised pretraining followed by supervised fine-tuning. Although this paradigm use",
+          "source": ""
+        },
+        {
+          "citation_id": "txt4",
+          "uid": "450875f8ee1475668366d303107fdcf8",
+          "score": 0.7702853083610535,
+          "content_preview": "In summary, the proposed semi-supervised learning framework comprises three steps as shown in Figure 3: (1) unsupervised or self-supervised pretraining, (2) supervised fine-tuning, and (3) distillatio",
+          "source": ""
+        },
+        {
+          "citation_id": "txt3",
+          "uid": "5c2154c0d012ba5e2e97a62bf6aedb23",
+          "score": 0.7711338996887207,
+          "content_preview": "Inspired by the recent successes of learning from unlabeled data [19, 20, 1, 11, 24, 12], the proposed semi-supervised learning framework leverages unlabeled data in both task-agnostic and task-specif",
+          "source": ""
+        },
+        {
+          "citation_id": "txt12",
+          "uid": "f1c289d584e1e226b056cb963d292ddf",
+          "score": 0.7507483959197998,
+          "content_preview": "In this paper, we present a simple and efficient method for training deep neural networks in a semi-supervised setting where only a small portion of training data is labeled. We introduce self-ensembl",
+          "source": ""
+        },
+        {
+          "citation_id": "txt6",
+          "uid": "ed6b5598f0f480c88db5e9cca4e27c17",
+          "score": 0.7632641792297363,
+          "content_preview": "Training deep models with limited annotations poses a significant challenge when applied to diverse practical domains. Employing semi-supervised learning alongside the self-supervised model offers the",
+          "source": ""
+        }
+      ],
+      "image_sources": [
+        {
+          "citation_id": "img1",
+          "uid": "4be726bec4a5d6a7725c61b0f4c58cac",
+          "score": 0.7248985767364502,
+          "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_29158.png",
+          "description": "Coarse-grained Description:\n- The image illustrates a semi-supervised learning framework, showing how unlabeled data is utilized in two distinct phases: unsupervised pretraining and task-specific self"
+        }
+      ],
+      "timestamp": "2026-11-22T20:16:19.413853"
+    },
+    {
+      "section_index": 6,
+      "section_description": "This section provides a concise summary of common themes and best practices in recent semi-supervised learning methods, emphasizing strategies to reduce confirmation bias and improve performance. It lists actionable recommendations such as applying advanced data augmentation, using MixUp, discarding low-confidence pseudo labels, ensuring a minimum number of labeled samples per batch, and sharpening pseudo label distributions.",
+      "content_length": 3956,
+      "content": "# Best Practices and Practical Recommendations for Semi-Supervised Learning\n\nRecent advances in semi-supervised learning have emphasized the importance of practical strategies to maximize performance while minimizing the risk of confirmation bias and model overfitting. A key takeaway from the literature is the critical role of data augmentation and label manipulation in improving generalization and robustness. Advanced data augmentation techniques, such as those used in ReMixMatch, encourage the model to learn from diverse transformations of the input data, thereby reducing overfitting and enhancing decision boundaries [citation:txt9]. For instance, strong augmentations combined with weak ones help ensure that the model produces consistent predictions across different versions of the same input [citation:txt15]. This consistency is further reinforced through methods like augmentation anchoring, which aligns predictions from weak and strong augmentations [citation:txt7].\n\nMixUp, a technique that interpolates labeled and unlabeled data, has also emerged as a powerful tool in semi-supervised learning [citation:txt16]. However, it is not without its challenges. While MixUp can improve generalization in supervised settings, it may reduce the confidence of model predictions in semi-supervised scenarios, leading to noisy pseudo-labels [citation:txt8]. To mitigate this, researchers have proposed label sharpening, which reduces the entropy of the pseudo-label distribution, ensuring that the model retains high confidence in its predictions [citation:txt11]. This is typically achieved by adjusting the temperature parameter of the softmax function, effectively making the predicted distribution more deterministic [citation:txt18].\n\nAnother critical aspect of effective semi-supervised learning is the careful selection and filtering of pseudo-labels. Pseudo-labeling methods often rely on confidence thresholds to discard low-confidence predictions, as these are more likely to be incorrect and introduce noise [citation:txt12]. However, setting the threshold is a delicate balance—too low, and the model is exposed to noisy pseudo-labels; too high, and the model loses access to potentially useful data. Adaptive or class-conditional thresholds have been proposed to address this issue, allowing the model to leverage more data while still minimizing the risk of confirmation bias [citation:txt10].\n\nBatch composition also plays a crucial role in training dynamics. As shown in several studies, maintaining a balanced ratio of labeled to unlabeled examples within each mini-batch is essential for stable and efficient training. For example, using 1 labeled example for every 99 unlabeled examples has been found to accelerate training and improve model performance when labeled data is limited [citation:txt1]. This strategy ensures that the model is constantly exposed to labeled data while benefiting from the large volume of unlabeled samples.\n\nFinally, the integration of consistency regularization and pseudo-labeling with pre-training has demonstrated significant improvements in performance across a range of tasks [citation:txt4]. Techniques like FixMatch and its variants emphasize high-confidence pseudo-labels and consistency between weakly and strongly augmented inputs, leading to more accurate and reliable predictions [citation:txt14]. Moreover, newer methods such as Semi-Supervised RegMixup (SRM) combine pseudo-labeling with consistency regularization in a way that effectively utilizes both high- and low-confidence samples [citation:txt8].\n\nIn summary, successful semi-supervised learning hinges on a combination of well-designed data augmentation, careful pseudo-label filtering, strategic batch composition, and techniques like MixUp and label sharpening. These strategies, when implemented thoughtfully, can significantly enhance model performance in low-data regimes while mitigating the risk of confirmation bias.",
+      "text_citations": [
+        "txt1",
+        "txt10",
+        "txt11",
+        "txt12",
+        "txt14",
+        "txt15",
+        "txt16",
+        "txt18",
+        "txt4",
+        "txt7",
+        "txt8",
+        "txt9"
+      ],
+      "image_citations": [],
+      "text_citations_count": 12,
+      "image_citations_count": 0,
+      "total_citations": 12,
+      "text_sources": [
+        {
+          "citation_id": "txt14",
+          "uid": "376b375d8e10807120ee419300505dcb",
+          "score": 0.7311682105064392,
+          "content_preview": "Semi-supervised learning (SSL) aims to leverage a small amount of labeled data to enable the model to extract useful information from a large volume of unlabeled data during training. FixMatch (Sohn e",
+          "source": ""
+        },
+        {
+          "citation_id": "txt1",
+          "uid": "2c6bd847fc3483f34bca38ac79a8436f",
+          "score": 0.7835626602172852,
+          "content_preview": "When doing semi-supervised training, we used 1 labeled example and 99 unlabeled examples in each mini-batch. This was important to speed up training when using extra unlabeled data. After all labeled ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt11",
+          "uid": "5a3633bf74e8d459beab45022306054a",
+          "score": 0.7316602468490601,
+          "content_preview": "Sharpening. In generating a label guess, we perform one additional step inspired by the success of entropy minimization in semi-supervised learning (discussed in section 2.2). Given the average predic",
+          "source": ""
+        },
+        {
+          "citation_id": "txt8",
+          "uid": "b7d6440534ac052498658fd94b09760b",
+          "score": 0.7361106276512146,
+          "content_preview": "Mixup, which generates augmented samples by interpolating between randomly shuffled data, has been introduced into SSL (Berthelot et al. 2019b,a) to enhance model generalization, yielding significant ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt16",
+          "uid": "12abd52a5a99584d09369038bf9ad9be",
+          "score": 0.7299215793609619,
+          "content_preview": "Our exposition has argued so far that interpolations between random unlabeled samples are likely to fall in low-density regions. Thus, such interpolations are good locations where consistency-based re",
+          "source": ""
+        },
+        {
+          "citation_id": "txt18",
+          "uid": "c7c39d9b6e40938443746ee812073627",
+          "score": 0.7281370162963867,
+          "content_preview": "According to their ablation studies, it is critical to have MixUp especially on the unlabeled data. Removing temperature sharpening on the pseudo label distribution hurts the performance quite a lot. ",
+          "source": ""
+        },
+        {
+          "citation_id": "txt9",
+          "uid": "8eea04b57bce2e8731be840a9732cde3",
+          "score": 0.7358064651489258,
+          "content_preview": "> Abstract:We improve the recently-proposed \"MixMatch\" semi-supervised learning algorithm by introducing two new techniques: distribution alignment and augmentation anchoring. Distribution alignment e",
+          "source": ""
+        },
+        {
+          "citation_id": "txt12",
+          "uid": "0e4dec1ea7340a42272cd23a65840d3f",
+          "score": 0.731446385383606,
+          "content_preview": "### Pseudo-Labeling and Confidence Thresholds\nHere, the model labels its own data, but only keeps predictions above a certain confidence level. Threshold tuning is critical.\nSet it too low, and you in",
+          "source": ""
+        },
+        {
+          "citation_id": "txt10",
+          "uid": "bb8800a3e36ec9846df2c4b9c51a3e0d",
+          "score": 0.7341634035110474,
+          "content_preview": "Pseudo-labeling methods rely on thresholding to filter out low-confidence predictions and retain only high-confidence predictions. This process assumes that higher-confidence predictions are more like",
+          "source": ""
+        },
+        {
+          "citation_id": "txt7",
+          "uid": "9c76031eafd43d094aa068a2a0c4fa5b",
+          "score": 0.7367083430290222,
+          "content_preview": "We improve the recently-proposed “MixMatch” semi-supervised learning algorithm by introducing two new techniques: distribution alignment and augmentation anchoring. Distribution alignment encourages t",
+          "source": ""
+        },
+        {
+          "citation_id": "txt15",
+          "uid": "151fcce0fe3a36c9367327b77a8c2d4f",
+          "score": 0.7309482097625732,
+          "content_preview": "**Abstract :** We improve the recently-proposed ``MixMatch semi-supervised learning algorithm by introducing two new techniques: distribution alignment and augmentation anchoring. - Distribution align",
+          "source": ""
+        },
+        {
+          "citation_id": "txt4",
+          "uid": "8ae6273d98dfb5b40b695193f9aa16cf",
+          "score": 0.7423604726791382,
+          "content_preview": "Semi-supervised learning has proven to be a powerful paradigm for leveraging unlabeled data to mitigate the reliance on large labeled datasets. In this work, we unify the current dominant approaches f",
+          "source": ""
+        }
+      ],
+      "image_sources": [],
+      "timestamp": "2026-11-22T20:18:24.534522"
+    }
+  ],
+  "references": [],
+  "unresolved": []
+}

@@ -1,0 +1,632 @@
+[
+  {
+    "section_index": 0,
+    "requirement": "This section introduces the concept of the U.S.-Canada border as the world's longest peaceful land boundary, contrasting it with the existence of five unresolved maritime and territorial disputes. It sets the stage for the article by highlighting the potential for conflict in these areas if relations sour.",
+    "checklist": [
+      "The U.S.-Canada land border is largely peaceful and undefended, but several maritime locations are disputed.",
+      "There are five key areas where Canada and the U.S. disagree over ownership."
+    ],
+    "images": [
+      {
+        "index": "img1",
+        "uid": "66e27604e3c48b5a7e334cd2ef76d4ee",
+        "score": 0.8090148568153381,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55255.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map depicting a historical territorial dispute between the United States and the United Kingdom over a region known as the \"Disputed Territory.\"\n- It illustrates the boundaries claimed by each country and the eventual resolution via the Webster-Ashburton Treaty of 1842.\n- The map highlights geographic features and the agreed border lines.\n\nFine-grained Description:\n- **Territorial Claims**:\n  - The map shows the area marked in pink as the disputed territory between the U.S. and the U.K.\n  - The green line represents the border defined by the Webster-Ashburton Treaty of 1842.\n  \n- **Boundaries**:\n  - The dashed purple line indicates the border defined by the treaty.\n  - The black line labeled \"Border claimed by the United States\" shows the U.S. claim.\n  - The red dashed line indicates the border claimed by the United Kingdom.\n\n- **Geographic Features**:\n  - Major rivers such as the St. Lawrence River and the Saint John River are labeled.\n  - The map includes parts of present-day states and provinces like Quebec, New Brunswick, and Vermont.\n\n- **Labels and Annotations**:\n  - \"Disputed Territory\" is labeled within the pink shaded area.\n  - Arrows point to the disputed area and the agreed border, indicating the claims and resolution.\n  - Latitude lines (45° and 46°) and longitude lines are marked for reference.\n\n- **Regions**:\n  - The map covers parts of the northeastern United States and southeastern Canada, showing the complexity of the border dispute in this region."
+      },
+      {
+        "index": "img2",
+        "uid": "57055165f6fcc4639a8823720d41e148",
+        "score": 0.7904949188232422,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestRefImages/refimg_07354.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map illustrating the territorial claims over the Beaufort Sea between the United States and Canada.\n- It shows the geographical boundaries and overlapping claims in the Arctic region.\n- The map highlights the disputed areas and the lines demarcating U.S. and Canadian claims.\n\nFine-grained Description:\n- The map shows the Beaufort Sea with labeled claims from both the U.S. and Canada.\n- The U.S. claim is indicated with a dashed line labeled \"U.S. line.\"\n- The Canadian claim is marked with a solid line labeled \"Canadian line.\"\n- The overlapping area is shaded, indicating a potential dispute or shared interest.\n- The map includes latitude and longitude lines, with degrees marked along the top edge.\n- The Alaskan coast is labeled on the left, while the Canadian Northwest Territories and Yukon are labeled on the right.\n- Nearby islands such as Banks Island and Prince Patrick Island are also labeled.\n- The map is credited to © 2010 Cesium by Sensing Geospatial, Inc."
+      },
+      {
+        "index": "img3",
+        "uid": "73cda97da2aa71910b1d414429b2f0b4",
+        "score": 0.7889726161956787,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55333.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map depicting the disputed territorial claims over the Beaufort Sea between the United States and Canada.\n- It shows the geographical boundaries and areas claimed by both countries.\n- The map highlights the Beaufort Sea and its surrounding regions, including Alaska and the Canadian provinces of Yukon and Northwest Territories.\n\nFine-grained Description:\n- The map features the Beaufort Sea with dashed lines indicating the U.S. and Canadian claims.\n- The U.S. claim is shown with a solid line extending from the Alaskan coast.\n- The Canadian claim is marked by a dashed line extending from the Yukon and Northwest Territories.\n- Labels indicate \"ALASKA\" and \"YUKON\" on the left side, and \"NORTHWEST TERRITORIES\" on the right.\n- The map includes longitude lines, with markings at 150°W, 140°W, and 130°W.\n- The arrow labeled \"Canadian line\" points to the Canadian claim, and the arrow labeled \"U.S. line\" points to the U.S. claim.\n- The map is credited to © 2010 Coviello, Geographics, Inc., with a reference to www.coveliogeographic.com.\n- The map provides a visual representation of the territorial dispute in the Beaufort Sea region."
+      },
+      {
+        "index": "img4",
+        "uid": "57055165f6fcc4639a8823720d41e148",
+        "score": 0.7741826772689819,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestRefImages/refimg_07354.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map illustrating the territorial claims over the Beaufort Sea between the United States and Canada.\n- It shows the geographical boundaries and overlapping claims in the Arctic region.\n- The map highlights the disputed areas and the lines demarcating U.S. and Canadian claims.\n\nFine-grained Description:\n- The map shows the Beaufort Sea with labeled claims from both the U.S. and Canada.\n- The U.S. claim is indicated with a dashed line labeled \"U.S. line.\"\n- The Canadian claim is marked with a solid line labeled \"Canadian line.\"\n- The overlapping area is shaded, indicating a potential dispute or shared interest.\n- The map includes latitude and longitude lines, with degrees marked along the top edge.\n- The Alaskan coast is labeled on the left, while the Canadian Northwest Territories and Yukon are labeled on the right.\n- Nearby islands such as Banks Island and Prince Patrick Island are also labeled.\n- The map is credited to © 2010 Cesium by Sensing Geospatial, Inc."
+      },
+      {
+        "index": "img5",
+        "uid": "73cda97da2aa71910b1d414429b2f0b4",
+        "score": 0.7733300924301147,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55333.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map depicting the disputed territorial claims over the Beaufort Sea between the United States and Canada.\n- It shows the geographical boundaries and areas claimed by both countries.\n- The map highlights the Beaufort Sea and its surrounding regions, including Alaska and the Canadian provinces of Yukon and Northwest Territories.\n\nFine-grained Description:\n- The map features the Beaufort Sea with dashed lines indicating the U.S. and Canadian claims.\n- The U.S. claim is shown with a solid line extending from the Alaskan coast.\n- The Canadian claim is marked by a dashed line extending from the Yukon and Northwest Territories.\n- Labels indicate \"ALASKA\" and \"YUKON\" on the left side, and \"NORTHWEST TERRITORIES\" on the right.\n- The map includes longitude lines, with markings at 150°W, 140°W, and 130°W.\n- The arrow labeled \"Canadian line\" points to the Canadian claim, and the arrow labeled \"U.S. line\" points to the U.S. claim.\n- The map is credited to © 2010 Coviello, Geographics, Inc., with a reference to www.coveliogeographic.com.\n- The map provides a visual representation of the territorial dispute in the Beaufort Sea region."
+      },
+      {
+        "index": "img6",
+        "uid": "66e27604e3c48b5a7e334cd2ef76d4ee",
+        "score": 0.7688653469085693,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55255.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map depicting a historical territorial dispute between the United States and the United Kingdom over a region known as the \"Disputed Territory.\"\n- It illustrates the boundaries claimed by each country and the eventual resolution via the Webster-Ashburton Treaty of 1842.\n- The map highlights geographic features and the agreed border lines.\n\nFine-grained Description:\n- **Territorial Claims**:\n  - The map shows the area marked in pink as the disputed territory between the U.S. and the U.K.\n  - The green line represents the border defined by the Webster-Ashburton Treaty of 1842.\n  \n- **Boundaries**:\n  - The dashed purple line indicates the border defined by the treaty.\n  - The black line labeled \"Border claimed by the United States\" shows the U.S. claim.\n  - The red dashed line indicates the border claimed by the United Kingdom.\n\n- **Geographic Features**:\n  - Major rivers such as the St. Lawrence River and the Saint John River are labeled.\n  - The map includes parts of present-day states and provinces like Quebec, New Brunswick, and Vermont.\n\n- **Labels and Annotations**:\n  - \"Disputed Territory\" is labeled within the pink shaded area.\n  - Arrows point to the disputed area and the agreed border, indicating the claims and resolution.\n  - Latitude lines (45° and 46°) and longitude lines are marked for reference.\n\n- **Regions**:\n  - The map covers parts of the northeastern United States and southeastern Canada, showing the complexity of the border dispute in this region."
+      },
+      {
+        "index": "img7",
+        "uid": "c6e3404e5bff6348be1e3137d9141dc8",
+        "score": 0.7572474479675293,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55317.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map illustrating five territorial disputes between the United States and Canada.\n- It highlights the geographical locations of these disputes, showing the areas of contention along the border and in adjacent waters.\n- The main message is to depict areas where the U.S. and Canada have unresolved territorial disagreements.\n\nFine-grained Description:\n- The map is color-coded with the United States in green and Canada in orange.\n- Five red dots mark the specific locations of territorial disputes:\n  - Strait of Juan de Fuca\n  - Dixon Entrance\n  - Beaufort Sea\n  - Northwest Passage\n  - Machias Seal Island\n- The map includes labels for each disputed area, indicating their geographical context.\n- The Northwest Passage is highlighted with a red line, suggesting its significance in the dispute.\n- The image provides a visual representation of the disputed areas along the northern and western borders between the two countries."
+      },
+      {
+        "index": "img8",
+        "uid": "b4ac9b466306bb686c9d3128c41665d1",
+        "score": 0.7572474479675293,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestRefImages/refimg_07286.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map illustrating five territorial disputes between the United States and Canada.\n- It highlights key geographic locations and disputed areas along the border.\n- The map uses color coding to differentiate between the two countries and mark disputed regions.\n\nFine-grained Description:\n- The map shows the United States in green and Canada in orange.\n- Five red dots indicate specific points of territorial disputes:\n  - Strait of Juan de Fuca\n  - Dixon Entrance\n  - Beaufort Sea\n  - Northwest Passage\n  - Machias Seal Island\n- The Northwest Passage is highlighted with a red line, indicating its significance in the disputes.\n- The map includes labels for each disputed area and major geographic features.\n- The title \"Five territorial disputes between the U.S. and Canada\" is prominently displayed, summarizing the map's focus."
+      },
+      {
+        "index": "img9",
+        "uid": "4d5f9e6df1301e9528e028a9937d712b",
+        "score": 0.7547556161880493,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55309.jpg",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map illustrating territorial claims and boundaries in the Arctic Ocean.\n- It shows the agreed borders, equidistance lines, 200-mile lines, and Canadian claims in the region.\n- The map highlights the geopolitical interests of Canada, the USA, Russia, and Greenland in the Arctic.\n\nFine-grained Description:\n- **Map Elements:**\n  - **Agreed Borders:** Shown in solid blue lines.\n  - **Equidistance Line:** Indicated by a blue dashed line.\n  - **200-Mile Line:** Represented by a red dashed line.\n  - **Canadian Claim:** Marked in orange.\n  - The map notes all locations are approximate.\n  \n- **Geographical Labels:**\n  - Countries/Regions labeled: USA, Canada, Russia, Greenland.\n  - Arctic Ocean is centrally located with the North Pole marked.\n\n- **Claims and Boundaries:**\n  - Canada's claim extends from its northern coast into the Arctic Ocean.\n  - The equidistance line runs from the North Pole towards Canada and Russia.\n  - The 200-mile line encircles the North Pole, showing potential extended economic zones.\n\n- **Source:**\n  - The map is sourced from the University of Durham, UN, and Marum.\n\n- **Purpose:**\n  - The map serves to illustrate the complex territorial and maritime boundaries in the Arctic, reflecting international claims and agreements."
+      },
+      {
+        "index": "img10",
+        "uid": "468e2c161b2bc03bdc43b10d559aac54",
+        "score": 0.751211941242218,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55256.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a historical map depicting the territorial claims and disputes in the Pacific Northwest region of North America during the period 1818-1846.\n- The map shows the boundaries and claims of various entities, including the United States, British territories, and disputed areas.\n- The main focus is on the Oregon Country/Columbia District, highlighting the geopolitical tensions between the U.S. and British claims in the region.\n\nFine-grained Description:\n- The map is labeled with the title \"Oregon Country / Columbia District 1818-1846,\" indicating the historical context.\n- The map features different color-coded areas:\n  - Green represents Rupert's Land (British).\n  - Yellow represents the United States.\n  - The \"Disputed Area\" is shown in a lighter color between the U.S. and British territories.\n- Notable locations marked on the map include:\n  - Cities and forts such as Astoria, Oregon City, Fort Vancouver, and many others.\n  - Latitude lines are marked at 42° and 46°, with annotations for \"extreme U.S. claim\" and \"extreme British claim.\"\n- The map shows geographical features such as rivers and mountains, with names like the Columbia River and the Rocky Mountains.\n- The boundaries of Alaska (Russia) are shown to the northwest, and Mexico is indicated to the south.\n- Annotations provide context for the disputed area and the specific time frame of the territorial claims."
+      }
+    ]
+  },
+  {
+    "section_index": 1,
+    "requirement": "This section explores the Strait of Juan de Fuca dispute, detailing its historical origins, the principle of equidistance, and the involvement of British Columbia. It explains how differing interpretations of base points and boundary principles have led to overlapping claims, and the complications introduced by provincial interests. Key sub-topics include: 1. Historical background of Juan de Fuca, 2. The principle of equidistance and base point disagreements, 3. British Columbia's alternative claim based on natural prolongation.",
+    "checklist": [
+      "Both the U.S. and Canada agree on using equidistance for the border, but differ on the base points, resulting in small disputed areas.",
+      "British Columbia rejects both federal claims and argues for a boundary based on the submarine canyon (natural prolongation)."
+    ],
+    "images": [
+      {
+        "index": "img1",
+        "uid": "57055165f6fcc4639a8823720d41e148",
+        "score": 0.779090404510498,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestRefImages/refimg_07354.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map illustrating the territorial claims over the Beaufort Sea between the United States and Canada.\n- It shows the geographical boundaries and overlapping claims in the Arctic region.\n- The map highlights the disputed areas and the lines demarcating U.S. and Canadian claims.\n\nFine-grained Description:\n- The map shows the Beaufort Sea with labeled claims from both the U.S. and Canada.\n- The U.S. claim is indicated with a dashed line labeled \"U.S. line.\"\n- The Canadian claim is marked with a solid line labeled \"Canadian line.\"\n- The overlapping area is shaded, indicating a potential dispute or shared interest.\n- The map includes latitude and longitude lines, with degrees marked along the top edge.\n- The Alaskan coast is labeled on the left, while the Canadian Northwest Territories and Yukon are labeled on the right.\n- Nearby islands such as Banks Island and Prince Patrick Island are also labeled.\n- The map is credited to © 2010 Cesium by Sensing Geospatial, Inc."
+      },
+      {
+        "index": "img2",
+        "uid": "73cda97da2aa71910b1d414429b2f0b4",
+        "score": 0.7781792283058167,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55333.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map depicting the disputed territorial claims over the Beaufort Sea between the United States and Canada.\n- It shows the geographical boundaries and areas claimed by both countries.\n- The map highlights the Beaufort Sea and its surrounding regions, including Alaska and the Canadian provinces of Yukon and Northwest Territories.\n\nFine-grained Description:\n- The map features the Beaufort Sea with dashed lines indicating the U.S. and Canadian claims.\n- The U.S. claim is shown with a solid line extending from the Alaskan coast.\n- The Canadian claim is marked by a dashed line extending from the Yukon and Northwest Territories.\n- Labels indicate \"ALASKA\" and \"YUKON\" on the left side, and \"NORTHWEST TERRITORIES\" on the right.\n- The map includes longitude lines, with markings at 150°W, 140°W, and 130°W.\n- The arrow labeled \"Canadian line\" points to the Canadian claim, and the arrow labeled \"U.S. line\" points to the U.S. claim.\n- The map is credited to © 2010 Coviello, Geographics, Inc., with a reference to www.coveliogeographic.com.\n- The map provides a visual representation of the territorial dispute in the Beaufort Sea region."
+      },
+      {
+        "index": "img3",
+        "uid": "23b8050a2d9d890ef165277eaec79f83",
+        "score": 0.7730526924133301,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestRefImages/refimg_07281.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map showing maritime boundaries between Canada and the United States in the Pacific Ocean near Vancouver Island and Washington State.\n- It highlights the territorial sea, exclusive economic zones (EEZ), and disputed areas.\n- The map focuses on the international maritime boundary and the continental shelf limits, emphasizing the Juan de Fuca Strait and related geographic features.\n\nFine-grained Description:\n- The map includes lines indicating different maritime zones:\n  - Dotted line: Continental shelf limit\n  - Dashed line: International maritime boundary\n  - Solid line: Fishing zone limit\n  - Crosshatched area: Disputed zone\n- Key locations are labeled, including:\n  - Vancouver Island (Canada)\n  - Washington (United States)\n  - Juan de Fuca Strait\n  - Bonilla Point\n  - Swiftsure Bank\n  - Cape Flattery\n- The Juan de Fuca Canyon is marked, indicating a significant underwater feature.\n- A 15 square nautical mile disputed zone is noted near the boundary.\n- Latitude lines at 48° and 49°N and longitude lines at 124°, 125°, and 126°W provide geographic context.\n- The map shows the amphitrite point and Barkley Sound on Vancouver Island, and Pachena Point as notable locations.\n- The territorial sea of Canada is outlined, showing its extent into the Pacific Ocean."
+      },
+      {
+        "index": "img4",
+        "uid": "21b060fba77062419daf12237e0c5693",
+        "score": 0.7730526924133301,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55312.png",
+        "caption": "",
+        "description": "### Coarse-grained Description:\nThe image is a map showing maritime boundaries and zones between Canada and the United States in the Pacific Ocean, specifically around Vancouver Island and the adjacent waters. The map highlights the continental shelf limit, international maritime boundary, fishing zone limit, and a disputed zone. The purpose of the map is to illustrate the delineation of these zones, particularly focusing on the Juan de Fuca Strait and surrounding areas.\n\n### Fine-grained Description:\n- **Regions and Labels:**\n  - **Vancouver Island (Canada)** and **Washington (United States)** are labeled, indicating the geographical areas involved.\n  - Key points such as **Amphitrite Point**, **Pachena Point**, **Bonilla Point**, and **Cape Flattery** are marked.\n  - **Juan de Fuca Canyon** and **Swiftsure Bank** are also labeled, showing underwater geographical features.\n\n- **Boundaries and Zones:**\n  - **Continental Shelf Limit**: Indicated by a dotted line, showing the extent of the continental shelf.\n  - **International Maritime Boundary**: Represented by a dashed line, marking the official boundary between Canadian and U.S. waters.\n  - **Fishing Zone Limit**: Shown with a solid line, indicating the limit of the fishing zone.\n  - **Disputed Zone**: Illustrated with a hatched area, highlighting the area of contention between the two nations.\n\n- **Additional Features:**\n  - **15 sq. n.m.** is marked, possibly indicating a specific maritime regulation or boundary distance.\n  - The map includes latitude and longitude lines, with coordinates such as **49°N** and **126°W** to **124°W**.\n  - The **Baselines of Sea** are noted, showing the reference lines for measuring territorial waters.\n\nThis map serves as a visual representation of the complex maritime agreements and disputes between Canada and the United States, emphasizing the importance of geographical features in defining these boundaries."
+      },
+      {
+        "index": "img5",
+        "uid": "3c5be13507ad2443dea07746fff37c31",
+        "score": 0.7413962483406067,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55433.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map showing a portion of the Pacific Northwest, including coastal regions of Canada and the United States.\n- The map highlights specific geographic areas and notable locations within this region.\n- The purpose of the map is to provide a visual representation of the geography and important sites in this part of North America.\n\nFine-grained Description:\n- The map covers parts of the coastal areas of British Columbia, Canada, and the Pacific Northwest of the United States.\n- Several islands and regions are labeled, including:\n  - Haida Gwaii\n  - Princess of Wales Island\n  - Prince of Wales Island\n  - Douglas Channel\n  - Dau Group Heritage Site Conservancy\n- The map outlines the boundaries of Canada and the United States, with clear demarcation lines.\n- Notable bodies of water include the Pacific Ocean and smaller surrounding waterways.\n- The map uses different shades of blue to represent water and light green for land areas.\n- Various smaller islands and geographic features are marked, indicating their names and locations relative to the larger landmasses.\n- The map provides a general overview rather than detailed topographic information."
+      },
+      {
+        "index": "img6",
+        "uid": "4a6d70380621ea7a9cc1803720986e74",
+        "score": 0.7410746216773987,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55311.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map showing the geographical locations of the United States and Canada, with specific emphasis on maritime boundaries and notable locations.\n- The map highlights key areas such as the Dixon Entrance, the Strait of Juan de Fuca, Machias Seal Island, and the Northwest Passage.\n- The purpose of the map is to illustrate the territorial waters and significant maritime routes between the two countries.\n\nFine-grained Description:\n- The map uses color coding to differentiate between the United States (green) and Canada (orange).\n- The United States is labeled on the west side, while Canada occupies the central and northern areas.\n- Notable locations are marked with red dots and labeled:\n  - Dixon Entrance in the northeastern part of the map.\n  - Strait of Juan de Fuca, separating the U.S. and Canadian territories on the west coast.\n  - Machias Seal Island, located near the southeastern boundary.\n  - The Northwest Passage is shown as a red line through the Canadian Arctic archipelago.\n- The map includes parts of the Pacific Ocean, the Beaufort Sea, and the Atlantic Ocean.\n- The map also shows the geographical proximity of Alaska (part of the United States) to Canada.\n- Labels include \"United States\" and \"Canada\" for easy identification of the countries.\n- The map is oriented with the north at the top, and features latitude and longitude lines for geographical reference."
+      },
+      {
+        "index": "img7",
+        "uid": "66e27604e3c48b5a7e334cd2ef76d4ee",
+        "score": 0.7226824760437012,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55255.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map depicting a historical territorial dispute between the United States and the United Kingdom over a region known as the \"Disputed Territory.\"\n- It illustrates the boundaries claimed by each country and the eventual resolution via the Webster-Ashburton Treaty of 1842.\n- The map highlights geographic features and the agreed border lines.\n\nFine-grained Description:\n- **Territorial Claims**:\n  - The map shows the area marked in pink as the disputed territory between the U.S. and the U.K.\n  - The green line represents the border defined by the Webster-Ashburton Treaty of 1842.\n  \n- **Boundaries**:\n  - The dashed purple line indicates the border defined by the treaty.\n  - The black line labeled \"Border claimed by the United States\" shows the U.S. claim.\n  - The red dashed line indicates the border claimed by the United Kingdom.\n\n- **Geographic Features**:\n  - Major rivers such as the St. Lawrence River and the Saint John River are labeled.\n  - The map includes parts of present-day states and provinces like Quebec, New Brunswick, and Vermont.\n\n- **Labels and Annotations**:\n  - \"Disputed Territory\" is labeled within the pink shaded area.\n  - Arrows point to the disputed area and the agreed border, indicating the claims and resolution.\n  - Latitude lines (45° and 46°) and longitude lines are marked for reference.\n\n- **Regions**:\n  - The map covers parts of the northeastern United States and southeastern Canada, showing the complexity of the border dispute in this region."
+      },
+      {
+        "index": "img8",
+        "uid": "29d978cfcec1ebfb33e58e529bda5142",
+        "score": 0.7148386836051941,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55358.jpg",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map depicting maritime boundaries and currents between the USA and Canada, focusing on the relevant coastal frontages and Exclusive Economic Zones (EEZ).\n- It illustrates the USA and Canada's normal baselines, the 200-mile EEZ, and ocean current directions.\n- The map conveys information about maritime zones and oceanographic features influencing the region.\n\nFine-grained Description:\n- The map shows the USA and Canada's coastal areas with labels indicating \"USA Normal Baselines\" and \"CANADA Strait & Normal Baselines.\"\n- The arrow symbols represent ocean current directions, with thicker arrows likely indicating stronger currents.\n- A dotted line marks the 200-mile Exclusive Economic Zone (EEZ) boundary extending from the coast.\n- The location labeled \"LTP\" (presumably a specific point of interest) is marked with a star symbol.\n- The scale at the bottom indicates the map covers a distance of 3,750,000 units.\n- The map highlights the geographical proximity and maritime boundaries relevant to both countries, emphasizing the interaction of ocean currents in the region."
+      },
+      {
+        "index": "img9",
+        "uid": "bfd24b9e88c2e3071f359afba933dc4d",
+        "score": 0.7127504348754883,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55352.jpg",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map illustrating the maritime boundaries between the USA and Canada, specifically focusing on the delineation of territorial waters and Exclusive Economic Zones (EEZ).\n- The map shows various lines indicating different types of boundaries, including normal baselines, unilateral lines, and the 200-meter depth contour (EEZ).\n- The main topic is the geographical and legal demarcation of maritime zones between the two countries, including the Area of Cooperation (AOC).\n\nFine-grained Description:\n- The map highlights several key areas and lines:\n  - **USA and Canada Normal Baselines**: Dotted lines marking the standard baselines for each country.\n  - **USA Unilateral Line**: A dashed line indicating a boundary claimed unilaterally by the USA.\n  - **Canada Unilateral Line**: A solid line indicating a boundary claimed unilaterally by Canada.\n  - **Canada Straight & Normal Baselines**: Lines showing Canada's defined baselines.\n  - **200M (EEZ)**: The 200-meter depth contour line marking the outer limit of the Exclusive Economic Zone.\n  - **AOC (Area of Cooperation)**: A shaded area labeled as the Area of Cooperation between the countries.\n- The map includes annotations for specific locations:\n  - **LTP**: A marked point, possibly a landmark or treaty point.\n  - **Geodetic and Planimetric Measurements**: Boxes showing calculated areas in square kilometers and nautical miles for the demarcated zones.\n- The scale of the map is noted as 3,750,000, providing context for the distances shown.\n- The map visually represents the complex interplay between geographical features and legal maritime boundaries, emphasizing areas of cooperation and contention between the USA and Canada."
+      },
+      {
+        "index": "img10",
+        "uid": "2b22a929eca9efcf6eb436fe153c23d4",
+        "score": 0.711581289768219,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestRefImages/refimg_07282.png",
+        "caption": "",
+        "description": "### Coarse-grained Description\nThe image is a map depicting the maritime boundary dispute between Canada and the United States in the Dixon Entrance area. It shows the international maritime boundary, fishing zone limits, and disputed zones, highlighting the areas claimed by both countries. The map focuses on the geographical features and the extent of each nation's claims in this region.\n\n### Fine-grained Description\n- **Geographical Features:**\n  - The map includes several islands such as Prince of Wales Island, Forrester Island, Queen Charlotte Islands (including Graham Island), and others.\n  - Key locations like Dixon Entrance, Hecate Strait, and Cape Muzon are labeled.\n\n- **Boundary Lines:**\n  - **Dashed Line:** Represents the international maritime boundary.\n  - **Solid Line:** Indicates the fishing zone limit.\n  - **Shaded Area:** Marks the disputed zone, covering 806 square nautical miles.\n\n- **Claims:**\n  - The \"Canadian Claim\" is shown extending from point 'A' to point 'B' along the dashed line.\n  - The \"United States Claim\" is indicated by the shaded disputed zone.\n  \n- **Coordinates and Labels:**\n  - The map is marked with latitudinal lines at 54° and 55°N and longitudinal lines at 131°, 132°, and 133°W.\n  - Specific points such as Nunsez Rocks and Ketchinan are marked with a black dot.\n\n- **Additional Features:**\n  - The map highlights the Leamouth Bank and the location of Ketchikan for reference.\n  - The disputed zone includes specific geographical references like Nunsez Rocks and extends to the area near Dundas Island.\n\nThis map provides a visual representation of the maritime boundary dispute, illustrating the overlapping claims and the geographical context of the area in question."
+      }
+    ]
+  },
+  {
+    "section_index": 2,
+    "requirement": "This section analyzes the Dixon Entrance dispute, tracing its roots to the 1825 Treaty of St Petersburg and subsequent Alaska Boundary Dispute. It describes the conflicting interpretations of the A-B Line, the division of the Dixon Entrance, and the practical impact on fishing rights and enforcement. The section also discusses the existence of a 'negative sovereignty' zone and past incidents such as the 'salmon wars.' Key sub-topics include: 1. Historical treaties and boundary arbitration, 2. Competing claims and the A-B Line, 3. Fishing conflicts and the gray zone.",
+    "checklist": [
+      "The Dixon Entrance dispute stems from differing interpretations of historical treaties and the A-B Line.",
+      "Fishing rights in the area have led to direct conflict, including arrests and blockades."
+    ],
+    "images": [
+      {
+        "index": "img1",
+        "uid": "2cfdf5fe130a8c38ea05c4d3d6f87080",
+        "score": 0.6989056468009949,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_58649.jpg",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image depicts a historical scene of people working on or around a large boat, likely engaging in construction or repair activities.\n- It appears to be a black-and-white photograph, suggesting it is from an earlier time period.\n- The setting is outdoors, with a natural landscape in the background, possibly near a river or lake.\n\nFine-grained Description:\n- The photograph shows several individuals, including men and women, near a large boat.\n- The boat is positioned on land, possibly on a makeshift platform or scaffolding.\n- The people are dressed in period attire, with hats and long garments, indicating an early 20th-century or late 19th-century setting.\n- The background features a hilly landscape with trees, suggesting a rural or wilderness area.\n- There are wooden structures nearby, likely related to the boat construction or maintenance.\n- Smoke or steam is visible, possibly from a nearby fire or industrial process.\n- No specific labels or annotations are present in the image."
+      },
+      {
+        "index": "img2",
+        "uid": "66e27604e3c48b5a7e334cd2ef76d4ee",
+        "score": 0.694127082824707,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55255.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map depicting a historical territorial dispute between the United States and the United Kingdom over a region known as the \"Disputed Territory.\"\n- It illustrates the boundaries claimed by each country and the eventual resolution via the Webster-Ashburton Treaty of 1842.\n- The map highlights geographic features and the agreed border lines.\n\nFine-grained Description:\n- **Territorial Claims**:\n  - The map shows the area marked in pink as the disputed territory between the U.S. and the U.K.\n  - The green line represents the border defined by the Webster-Ashburton Treaty of 1842.\n  \n- **Boundaries**:\n  - The dashed purple line indicates the border defined by the treaty.\n  - The black line labeled \"Border claimed by the United States\" shows the U.S. claim.\n  - The red dashed line indicates the border claimed by the United Kingdom.\n\n- **Geographic Features**:\n  - Major rivers such as the St. Lawrence River and the Saint John River are labeled.\n  - The map includes parts of present-day states and provinces like Quebec, New Brunswick, and Vermont.\n\n- **Labels and Annotations**:\n  - \"Disputed Territory\" is labeled within the pink shaded area.\n  - Arrows point to the disputed area and the agreed border, indicating the claims and resolution.\n  - Latitude lines (45° and 46°) and longitude lines are marked for reference.\n\n- **Regions**:\n  - The map covers parts of the northeastern United States and southeastern Canada, showing the complexity of the border dispute in this region."
+      },
+      {
+        "index": "img3",
+        "uid": "888e8753c1356184a2299d243370d4ea",
+        "score": 0.6918973922729492,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_58655.jpg",
+        "caption": "",
+        "description": "### Coarse-grained Description:\n- The image depicts two individuals in traditional attire, standing by a body of water with a canoe. \n- It conveys a historical or cultural scene, likely illustrating traditional practices or daily life in a natural setting.\n- The focus is on the interaction with the canoe, suggesting themes of travel, fishing, or transportation.\n\n### Fine-grained Description:\n- The image shows two people dressed in what appears to be woven or animal-skin garments, standing on the edge of a calm lake or river.\n- One person is inside a traditional canoe, holding a long pole or paddle, while the other stands on the shore, carrying baskets or bundles on their back.\n- The background is a dense forest of tall trees, indicating a remote or wilderness area.\n- The canoe is narrow and pointed at both ends, typical of indigenous watercraft.\n- The scene is monochromatic, suggesting it is an old photograph, potentially from the late 19th or early 20th century.\n- No text or captions are present to provide context, leaving the specific cultural or historical background open to interpretation."
+      },
+      {
+        "index": "img4",
+        "uid": "236e28ee6fedb2ebd93240bfb4f2cc00",
+        "score": 0.6728098392486572,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_58657.jpg",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image depicts two traditional canoes on calm water, likely used for historical or cultural purposes.\n- It captures a scene of people paddling, emphasizing the cultural significance and traditional craftsmanship of the canoes.\n- The focus is on the cultural heritage and maritime practices associated with these canoes.\n\nFine-grained Description:\n- There are two canoes in the image, both adorned with intricate designs and carvings.\n- The canoes have a distinctive, upward-curving prow, typical of traditional indigenous designs.\n- Several individuals are visible, sitting in the canoes and paddling, suggesting a group activity or journey.\n- The background shows a rocky shoreline, indicating a natural, possibly coastal environment.\n- The image is in black and white, which may suggest it is historical or intended to evoke a sense of tradition.\n- The water is calm, reflecting the canoes and emphasizing the serene setting.\n- The canoes are likely made from wood, showcasing traditional boat-building techniques."
+      },
+      {
+        "index": "img5",
+        "uid": "452ba7f5acae189cfdd777a28ee6d3b9",
+        "score": 0.6642200946807861,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_59149.gif",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image depicts a river scene with remnants of a historical structure, likely a dam or mill.\n- The image shows a flowing river with visible water movement and surrounding natural landscape.\n- The main focus is on the partially submerged stone structures, suggesting historical significance or remnants of past human activity.\n\nFine-grained Description:\n- The image is black and white, capturing a river with a moderate current.\n- In the foreground, there are three stone pillars or remnants of a structure partially submerged in the river, indicated by arrows.\n- The surrounding area is rocky with vegetation, and the riverbanks are lined with trees.\n- An inset in the bottom left shows a person operating a device, possibly related to water flow measurement or research.\n- The arrows point to the stone structures, highlighting their significance in the scene.\n- The overall setting appears to be a forested area with natural rock formations along the river."
+      },
+      {
+        "index": "img6",
+        "uid": "b1adb6aaceb497eb8066379bbd2af819",
+        "score": 0.6594894528388977,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_53740.jpg",
+        "caption": "",
+        "description": "### Coarse-grained Description:\nThe image contains two black and white photographs depicting scenes related to land reclamation or dredging processes. The top photograph shows a dredging vessel actively working on a construction site, while the bottom photograph shows a large expanse of reclaimed land. The main topic is the transformation of land through human intervention for agricultural or developmental purposes.\n\n### Fine-grained Description:\n\n**Top Photograph:**\n- **Content:** A dredging vessel is actively engaged in land reclamation.\n- **Details:**\n  - The vessel is equipped with a crane or similar machinery, likely for moving and depositing materials.\n  - There is a visible pile of sand or soil, indicating the material being moved.\n  - The background shows a flat, expansive area, possibly part of a water body or marshland being reclaimed.\n- **Caption:** \"Dredge 'Contractor' working the Everglades.\"\n\n**Bottom Photograph:**\n- **Content:** An expansive area of reclaimed land.\n- **Details:**\n  - The land is flat and appears to be covered with grass, suggesting it has been prepared for agricultural use.\n  - There are no visible structures or people, emphasizing the vastness and emptiness of the area.\n- **Caption:** \"Reclaimed Everglade land, largely as pasture.\"\n\n**General Observations:**\n- Both images emphasize the industrial process of transforming natural landscapes for human use.\n- The contrast between the active machinery in the top image and the completed landscape in the bottom image highlights the before-and-after scenario of land reclamation projects."
+      },
+      {
+        "index": "img7",
+        "uid": "762f2ba62ad2c8e2ae52fe21a6964510",
+        "score": 0.6516740918159485,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestRefImages/refimg_11427.jpg",
+        "caption": "",
+        "description": "### Coarse-grained Description:\nThe image depicts two individuals standing behind a detailed model of a ship. The model is mounted on barrels or supports, suggesting it might be a display or a craft project. The setting appears to be outdoors, possibly in a rural or historical context, given the style of the photograph and the attire of the individuals.\n\n### Fine-grained Description:\n- **Setting**: The photo seems to be taken in an outdoor area with a structure in the background, possibly a workshop or a shed.\n- **Subjects**: \n  - Two individuals are standing behind the ship model. \n  - The person on the left is wearing a dark shirt and appears to be smiling.\n  - The person on the right is wearing a patterned dress and a head covering, also smiling.\n- **Ship Model**:\n  - The model is detailed, featuring masts, sails, and other ship components.\n  - The ship is mounted on barrels, indicating it may be a static display.\n  - The model is large, almost as tall as the individuals standing behind it.\n- **Photographic Style**: The image has a sepia tone, suggesting it is an old photograph.\n- **Background**: The background includes a building with vertical slats, possibly made of wood, and some foliage is visible, indicating a natural setting.\n\nThe image captures a moment of pride or presentation, highlighting the craftsmanship of the ship model."
+      },
+      {
+        "index": "img8",
+        "uid": "bfd24b9e88c2e3071f359afba933dc4d",
+        "score": 0.650388240814209,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55352.jpg",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map illustrating the maritime boundaries between the USA and Canada, specifically focusing on the delineation of territorial waters and Exclusive Economic Zones (EEZ).\n- The map shows various lines indicating different types of boundaries, including normal baselines, unilateral lines, and the 200-meter depth contour (EEZ).\n- The main topic is the geographical and legal demarcation of maritime zones between the two countries, including the Area of Cooperation (AOC).\n\nFine-grained Description:\n- The map highlights several key areas and lines:\n  - **USA and Canada Normal Baselines**: Dotted lines marking the standard baselines for each country.\n  - **USA Unilateral Line**: A dashed line indicating a boundary claimed unilaterally by the USA.\n  - **Canada Unilateral Line**: A solid line indicating a boundary claimed unilaterally by Canada.\n  - **Canada Straight & Normal Baselines**: Lines showing Canada's defined baselines.\n  - **200M (EEZ)**: The 200-meter depth contour line marking the outer limit of the Exclusive Economic Zone.\n  - **AOC (Area of Cooperation)**: A shaded area labeled as the Area of Cooperation between the countries.\n- The map includes annotations for specific locations:\n  - **LTP**: A marked point, possibly a landmark or treaty point.\n  - **Geodetic and Planimetric Measurements**: Boxes showing calculated areas in square kilometers and nautical miles for the demarcated zones.\n- The scale of the map is noted as 3,750,000, providing context for the distances shown.\n- The map visually represents the complex interplay between geographical features and legal maritime boundaries, emphasizing areas of cooperation and contention between the USA and Canada."
+      },
+      {
+        "index": "img9",
+        "uid": "545a7e8daac0c5d45cc1bdfe04586c55",
+        "score": 0.6484526991844177,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55165.jpg",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image consists of two maps showing parts of a coastal area, likely focused on marine navigation.\n- The maps depict depth contours and possibly currents or bathymetric features.\n- The main topic involves the entrance and surrounding areas labeled \"Dixon Entrance\" and nearby geographic regions like Queen Charlotte Islands.\n\nFine-grained Description:\n- **Left Map:**\n  - Displays a light blue area representing water with depth contours.\n  - Labeled areas include \"Dixon\" and \"Entrance.\"\n  - Surrounding landmasses are shown, including the Queen Charlotte Islands.\n  - Contour lines suggest varying depths, though specific values are not labeled.\n\n- **Right Map:**\n  - Shows a more detailed view with red contour lines indicating specific depth measurements.\n  - Numbers along the contour lines represent depth in fathoms (e.g., 200, 300, 400).\n  - The map includes a compass rose indicating direction, with \"Dixon\" and \"Entrance\" labeled.\n  - Depth values range from shallow areas near the entrance to deeper waters further out.\n  - The map provides a clearer view of the bathymetric changes near Dixon Entrance.\n\n- **Annotations:**\n  - Both maps emphasize the importance of understanding depth for navigation.\n  - The maps highlight the geographic context of Dixon Entrance in relation to nearby landforms."
+      },
+      {
+        "index": "img10",
+        "uid": "66f3672f1d669508f194ad4b275c119f",
+        "score": 0.645228922367096,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55353.jpg",
+        "caption": "",
+        "description": "### Coarse-grained Description:\n\nThe image is a map depicting the maritime boundary and resource management areas between the USA and Canada, focusing on the offshore regions. It shows various lines and zones related to boundaries, resource blocks, and equidistance calculations. The map highlights the Exclusive Economic Zone (EEZ) and illustrates the distribution of blocks managed by the USA BOEM and Canadian NRCAN.\n\n### Fine-grained Description:\n\n- **Geographical Context**:\n  - The map covers the coastal areas of the USA and Canada, with a focus on maritime boundaries.\n  - The scale is 1:3,750,000.\n\n- **Key Features**:\n  - **LOE-DTS Strict Equidistance Line**: This line shows results using new normal baselines, indicating an equidistant boundary between the USA and Canada.\n  - **USA BOEM Blocks**: \n    - Light grey areas represent open blocks.\n    - Black areas indicate issued blocks.\n  - **Canadian NRCAN Blocks**: \n    - Black areas represent issued blocks.\n  - **Canada Strait & Normal Baselines**: Marked lines indicate the baselines used for boundary calculations.\n  - **AOC (Area of Cooperation)**: Labeled on the map, likely indicating a cooperative area between the two countries.\n  - **LTP (Landside Territorial Point)**: Marked with a star, indicating a specific reference point.\n  \n- **Zones and Distances**:\n  - The 200M (EEZ) line marks the limit of the Exclusive Economic Zone.\n  - Results are shown up to 400M from the coast.\n  \n- **Labels and Annotations**:\n  - The map includes directional arrows and lines pointing to specific features such as the Canada Strait and baselines.\n  - Annotations clarify the status of blocks and boundary lines.\n\n- **Purpose**:\n  - The map is likely used for understanding maritime jurisdiction, resource allocation, and boundary demarcations between the USA and Canada."
+      }
+    ]
+  },
+  {
+    "section_index": 3,
+    "requirement": "This section covers the Beaufort Sea dispute, focusing on the wedge-shaped area north of the Alaska-Yukon border. It explains the conflicting methods for extending the land border into the sea (meridian vs. perpendicular), the concept of 'equitable' boundaries, and the significance of oil and gas reserves in the disputed region. The section also notes the impact of climate change on accessibility and resource extraction.",
+    "checklist": [
+      "Canada favors extending the 141st meridian into the sea, while the U.S. prefers a perpendicular line, creating a disputed wedge.",
+      "The area is believed to contain significant oil and gas reserves, increasing the stakes of the dispute."
+    ],
+    "images": [
+      {
+        "index": "img1",
+        "uid": "57055165f6fcc4639a8823720d41e148",
+        "score": 0.8395266532897949,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestRefImages/refimg_07354.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map illustrating the territorial claims over the Beaufort Sea between the United States and Canada.\n- It shows the geographical boundaries and overlapping claims in the Arctic region.\n- The map highlights the disputed areas and the lines demarcating U.S. and Canadian claims.\n\nFine-grained Description:\n- The map shows the Beaufort Sea with labeled claims from both the U.S. and Canada.\n- The U.S. claim is indicated with a dashed line labeled \"U.S. line.\"\n- The Canadian claim is marked with a solid line labeled \"Canadian line.\"\n- The overlapping area is shaded, indicating a potential dispute or shared interest.\n- The map includes latitude and longitude lines, with degrees marked along the top edge.\n- The Alaskan coast is labeled on the left, while the Canadian Northwest Territories and Yukon are labeled on the right.\n- Nearby islands such as Banks Island and Prince Patrick Island are also labeled.\n- The map is credited to © 2010 Cesium by Sensing Geospatial, Inc."
+      },
+      {
+        "index": "img2",
+        "uid": "73cda97da2aa71910b1d414429b2f0b4",
+        "score": 0.8385880589485168,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55333.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map depicting the disputed territorial claims over the Beaufort Sea between the United States and Canada.\n- It shows the geographical boundaries and areas claimed by both countries.\n- The map highlights the Beaufort Sea and its surrounding regions, including Alaska and the Canadian provinces of Yukon and Northwest Territories.\n\nFine-grained Description:\n- The map features the Beaufort Sea with dashed lines indicating the U.S. and Canadian claims.\n- The U.S. claim is shown with a solid line extending from the Alaskan coast.\n- The Canadian claim is marked by a dashed line extending from the Yukon and Northwest Territories.\n- Labels indicate \"ALASKA\" and \"YUKON\" on the left side, and \"NORTHWEST TERRITORIES\" on the right.\n- The map includes longitude lines, with markings at 150°W, 140°W, and 130°W.\n- The arrow labeled \"Canadian line\" points to the Canadian claim, and the arrow labeled \"U.S. line\" points to the U.S. claim.\n- The map is credited to © 2010 Coviello, Geographics, Inc., with a reference to www.coveliogeographic.com.\n- The map provides a visual representation of the territorial dispute in the Beaufort Sea region."
+      },
+      {
+        "index": "img3",
+        "uid": "7ccc9601b9b8e50fbc3fbf57cb784a18",
+        "score": 0.7484217286109924,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55314.png",
+        "caption": "",
+        "description": "### Coarse-grained Description\n\n- **Overall Content and Purpose**: The image is a map illustrating the disputed maritime boundary between the United States and Canada in the Beaufort Sea area. It highlights the fishing zone limits, US limits, international boundaries, and the disputed zone.\n- **Type of Data**: The map presents geographical and political boundary information, showing the extent of territorial claims.\n- **Main Topic**: The map focuses on the demarcation and disputed zones between Canadian and US claims in the Arctic region, specifically in the Beaufort Sea.\n\n### Fine-grained Description\n\n- **Geographical Features**:\n  - The map shows the Arctic Ocean and the Beaufort Sea.\n  - Key locations include Alaska, Yukon Territory, North West Territories, Banks Island, and Tuktoyaktuk.\n  - Coordinates are marked with latitude (68°N to 72°N) and longitude (116°W to 148°W).\n\n- **Boundary Lines**:\n  - **Fishing Zone Limit**: Indicated by a solid black line.\n  - **US Limit**: Represented by a dashed black line.\n  - **International Boundary on Land**: Shown as a dotted line.\n  - **Disputed Zone**: Marked with diagonal lines, spanning approximately 6250 square nautical miles.\n\n- **Claims**:\n  - **Canadian Claim**: Extends from the Demarcation Point along the dashed line.\n  - **United States Claim**: Runs parallel to the Canadian claim within the disputed zone.\n\n- **Labels and Annotations**:\n  - \"Demarcation Point\" is labeled where the US and Canadian claims begin.\n  - The disputed zone is explicitly labeled and shaded.\n  - The map includes the McClure Strait and Amundsen Gulf as notable water bodies.\n\n- **Noteworthy Details**:\n  - The map emphasizes the complexity of Arctic territorial claims, highlighting the overlap and disputes between nations.\n  - The inclusion of latitude and longitude provides precise geographical context for the boundary dispute."
+      },
+      {
+        "index": "img4",
+        "uid": "ec11f6f47847fd3e7aad2a2bd858dc90",
+        "score": 0.7484217286109924,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestRefImages/refimg_07283.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map illustrating the disputed maritime boundary between Canada and the United States in the Beaufort Sea region.\n- It shows the fishing zone limits, international boundaries, and the disputed zone.\n- The map highlights the demarcation point and the claims made by both countries, indicating areas of contention in the Arctic Ocean.\n\nFine-grained Description:\n- **Map Elements:**\n  - **Fishing Zone Limit:** Indicated by a solid line.\n  - **US Limit:** Represented by a dashed line.\n  - **International Boundary on Land:** Shown with a dotted line.\n  - **Disputed Zone:** Marked by a shaded area between the Canadian and United States claims.\n  \n- **Claims:**\n  - **Canadian Claim:** Extends from the demarcation point and includes an area labeled as 6250 nautical miles².\n  - **United States Claim:** Also starts from the demarcation point, overlapping with the Canadian claim in the disputed zone.\n\n- **Geographical Features:**\n  - The map includes the Arctic Ocean, Beaufort Sea, and locations such as Banks Island, Tuktoyaktuk, and the Yukon Territory.\n  - Latitude and longitude lines are marked, with demarcation at approximately 72°N latitude.\n\n- **Labels and Annotations:**\n  - The demarcation point is clearly labeled.\n  - The map shows the McClure Strait and Amundsen Gulf.\n  - The disputed area is highlighted to emphasize the contention between the two nations.\n\n- **Areas:**\n  - The map covers regions of Alaska, the Yukon Territory, and the North West Territories.\n\nThis map visually represents the geopolitical tension and territorial disputes in the Arctic region between Canada and the United States."
+      },
+      {
+        "index": "img5",
+        "uid": "23b8050a2d9d890ef165277eaec79f83",
+        "score": 0.7462365627288818,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestRefImages/refimg_07281.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map showing maritime boundaries between Canada and the United States in the Pacific Ocean near Vancouver Island and Washington State.\n- It highlights the territorial sea, exclusive economic zones (EEZ), and disputed areas.\n- The map focuses on the international maritime boundary and the continental shelf limits, emphasizing the Juan de Fuca Strait and related geographic features.\n\nFine-grained Description:\n- The map includes lines indicating different maritime zones:\n  - Dotted line: Continental shelf limit\n  - Dashed line: International maritime boundary\n  - Solid line: Fishing zone limit\n  - Crosshatched area: Disputed zone\n- Key locations are labeled, including:\n  - Vancouver Island (Canada)\n  - Washington (United States)\n  - Juan de Fuca Strait\n  - Bonilla Point\n  - Swiftsure Bank\n  - Cape Flattery\n- The Juan de Fuca Canyon is marked, indicating a significant underwater feature.\n- A 15 square nautical mile disputed zone is noted near the boundary.\n- Latitude lines at 48° and 49°N and longitude lines at 124°, 125°, and 126°W provide geographic context.\n- The map shows the amphitrite point and Barkley Sound on Vancouver Island, and Pachena Point as notable locations.\n- The territorial sea of Canada is outlined, showing its extent into the Pacific Ocean."
+      },
+      {
+        "index": "img6",
+        "uid": "21b060fba77062419daf12237e0c5693",
+        "score": 0.7462365627288818,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55312.png",
+        "caption": "",
+        "description": "### Coarse-grained Description:\nThe image is a map showing maritime boundaries and zones between Canada and the United States in the Pacific Ocean, specifically around Vancouver Island and the adjacent waters. The map highlights the continental shelf limit, international maritime boundary, fishing zone limit, and a disputed zone. The purpose of the map is to illustrate the delineation of these zones, particularly focusing on the Juan de Fuca Strait and surrounding areas.\n\n### Fine-grained Description:\n- **Regions and Labels:**\n  - **Vancouver Island (Canada)** and **Washington (United States)** are labeled, indicating the geographical areas involved.\n  - Key points such as **Amphitrite Point**, **Pachena Point**, **Bonilla Point**, and **Cape Flattery** are marked.\n  - **Juan de Fuca Canyon** and **Swiftsure Bank** are also labeled, showing underwater geographical features.\n\n- **Boundaries and Zones:**\n  - **Continental Shelf Limit**: Indicated by a dotted line, showing the extent of the continental shelf.\n  - **International Maritime Boundary**: Represented by a dashed line, marking the official boundary between Canadian and U.S. waters.\n  - **Fishing Zone Limit**: Shown with a solid line, indicating the limit of the fishing zone.\n  - **Disputed Zone**: Illustrated with a hatched area, highlighting the area of contention between the two nations.\n\n- **Additional Features:**\n  - **15 sq. n.m.** is marked, possibly indicating a specific maritime regulation or boundary distance.\n  - The map includes latitude and longitude lines, with coordinates such as **49°N** and **126°W** to **124°W**.\n  - The **Baselines of Sea** are noted, showing the reference lines for measuring territorial waters.\n\nThis map serves as a visual representation of the complex maritime agreements and disputes between Canada and the United States, emphasizing the importance of geographical features in defining these boundaries."
+      },
+      {
+        "index": "img7",
+        "uid": "3c5be13507ad2443dea07746fff37c31",
+        "score": 0.7458050847053528,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55433.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map showing a portion of the Pacific Northwest, including coastal regions of Canada and the United States.\n- The map highlights specific geographic areas and notable locations within this region.\n- The purpose of the map is to provide a visual representation of the geography and important sites in this part of North America.\n\nFine-grained Description:\n- The map covers parts of the coastal areas of British Columbia, Canada, and the Pacific Northwest of the United States.\n- Several islands and regions are labeled, including:\n  - Haida Gwaii\n  - Princess of Wales Island\n  - Prince of Wales Island\n  - Douglas Channel\n  - Dau Group Heritage Site Conservancy\n- The map outlines the boundaries of Canada and the United States, with clear demarcation lines.\n- Notable bodies of water include the Pacific Ocean and smaller surrounding waterways.\n- The map uses different shades of blue to represent water and light green for land areas.\n- Various smaller islands and geographic features are marked, indicating their names and locations relative to the larger landmasses.\n- The map provides a general overview rather than detailed topographic information."
+      },
+      {
+        "index": "img8",
+        "uid": "66e27604e3c48b5a7e334cd2ef76d4ee",
+        "score": 0.7438517808914185,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55255.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map depicting a historical territorial dispute between the United States and the United Kingdom over a region known as the \"Disputed Territory.\"\n- It illustrates the boundaries claimed by each country and the eventual resolution via the Webster-Ashburton Treaty of 1842.\n- The map highlights geographic features and the agreed border lines.\n\nFine-grained Description:\n- **Territorial Claims**:\n  - The map shows the area marked in pink as the disputed territory between the U.S. and the U.K.\n  - The green line represents the border defined by the Webster-Ashburton Treaty of 1842.\n  \n- **Boundaries**:\n  - The dashed purple line indicates the border defined by the treaty.\n  - The black line labeled \"Border claimed by the United States\" shows the U.S. claim.\n  - The red dashed line indicates the border claimed by the United Kingdom.\n\n- **Geographic Features**:\n  - Major rivers such as the St. Lawrence River and the Saint John River are labeled.\n  - The map includes parts of present-day states and provinces like Quebec, New Brunswick, and Vermont.\n\n- **Labels and Annotations**:\n  - \"Disputed Territory\" is labeled within the pink shaded area.\n  - Arrows point to the disputed area and the agreed border, indicating the claims and resolution.\n  - Latitude lines (45° and 46°) and longitude lines are marked for reference.\n\n- **Regions**:\n  - The map covers parts of the northeastern United States and southeastern Canada, showing the complexity of the border dispute in this region."
+      },
+      {
+        "index": "img9",
+        "uid": "b7702584485fc9ac442476208c087f27",
+        "score": 0.7415733337402344,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55533.jpg",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map illustrating maritime boundaries and claims in the Arctic region, specifically focusing on the Beaufort Sea area.\n- It shows the 200 nautical mile limits, Canada's sector line claim, and the U.S. equidistance line claim.\n- The map highlights the geopolitical considerations between the U.S. and Canada regarding their maritime boundaries.\n\nFine-grained Description:\n- The map includes the Beaufort Sea, with Alaska on the left and the Northwest Territories and Yukon on the right.\n- Key geographic features such as Banks Island, Prince Patrick Island, and the 141° W meridian are labeled.\n- The U.S.-Russia boundary is indicated, along with various maritime lines:\n  - The solid line represents the 200 nautical mile limits.\n  - The dashed line indicates Canada's sector line claim.\n  - The dotted line shows the equidistance line claim by the U.S.\n- The map includes a scale bar for distance measurement, marked in nautical miles, and longitudinal lines (160° W, 147° W, 120° W) are noted.\n- The map provides a clear visual representation of the competing claims and existing boundaries in the region."
+      },
+      {
+        "index": "img10",
+        "uid": "4d5f9e6df1301e9528e028a9937d712b",
+        "score": 0.7337867617607117,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55309.jpg",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map illustrating territorial claims and boundaries in the Arctic Ocean.\n- It shows the agreed borders, equidistance lines, 200-mile lines, and Canadian claims in the region.\n- The map highlights the geopolitical interests of Canada, the USA, Russia, and Greenland in the Arctic.\n\nFine-grained Description:\n- **Map Elements:**\n  - **Agreed Borders:** Shown in solid blue lines.\n  - **Equidistance Line:** Indicated by a blue dashed line.\n  - **200-Mile Line:** Represented by a red dashed line.\n  - **Canadian Claim:** Marked in orange.\n  - The map notes all locations are approximate.\n  \n- **Geographical Labels:**\n  - Countries/Regions labeled: USA, Canada, Russia, Greenland.\n  - Arctic Ocean is centrally located with the North Pole marked.\n\n- **Claims and Boundaries:**\n  - Canada's claim extends from its northern coast into the Arctic Ocean.\n  - The equidistance line runs from the North Pole towards Canada and Russia.\n  - The 200-mile line encircles the North Pole, showing potential extended economic zones.\n\n- **Source:**\n  - The map is sourced from the University of Durham, UN, and Marum.\n\n- **Purpose:**\n  - The map serves to illustrate the complex territorial and maritime boundaries in the Arctic, reflecting international claims and agreements."
+      }
+    ]
+  },
+  {
+    "section_index": 4,
+    "requirement": "This section examines the Northwest Passage dispute, detailing its historical significance, the impact of climate change on navigability, and the legal disagreement over whether the passage constitutes Canadian internal waters or an international strait. It recounts notable incidents involving U.S. vessels, the 1988 Arctic Cooperation agreement, and ongoing diplomatic tensions as the passage becomes more accessible. Key sub-topics include: 1. Historical exploration and search for the passage, 2. Climate change and increased navigability, 3. Legal and diplomatic disputes over sovereignty and transit rights.",
+    "checklist": [
+      "Canada claims full sovereignty over the Northwest Passage, while the U.S. and others consider it an international strait.",
+      "Climate change is making the passage more navigable, increasing the potential for conflict."
+    ],
+    "images": [
+      {
+        "index": "img1",
+        "uid": "57055165f6fcc4639a8823720d41e148",
+        "score": 0.8507168889045715,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestRefImages/refimg_07354.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map illustrating the territorial claims over the Beaufort Sea between the United States and Canada.\n- It shows the geographical boundaries and overlapping claims in the Arctic region.\n- The map highlights the disputed areas and the lines demarcating U.S. and Canadian claims.\n\nFine-grained Description:\n- The map shows the Beaufort Sea with labeled claims from both the U.S. and Canada.\n- The U.S. claim is indicated with a dashed line labeled \"U.S. line.\"\n- The Canadian claim is marked with a solid line labeled \"Canadian line.\"\n- The overlapping area is shaded, indicating a potential dispute or shared interest.\n- The map includes latitude and longitude lines, with degrees marked along the top edge.\n- The Alaskan coast is labeled on the left, while the Canadian Northwest Territories and Yukon are labeled on the right.\n- Nearby islands such as Banks Island and Prince Patrick Island are also labeled.\n- The map is credited to © 2010 Cesium by Sensing Geospatial, Inc."
+      },
+      {
+        "index": "img2",
+        "uid": "73cda97da2aa71910b1d414429b2f0b4",
+        "score": 0.8493301272392273,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55333.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map depicting the disputed territorial claims over the Beaufort Sea between the United States and Canada.\n- It shows the geographical boundaries and areas claimed by both countries.\n- The map highlights the Beaufort Sea and its surrounding regions, including Alaska and the Canadian provinces of Yukon and Northwest Territories.\n\nFine-grained Description:\n- The map features the Beaufort Sea with dashed lines indicating the U.S. and Canadian claims.\n- The U.S. claim is shown with a solid line extending from the Alaskan coast.\n- The Canadian claim is marked by a dashed line extending from the Yukon and Northwest Territories.\n- Labels indicate \"ALASKA\" and \"YUKON\" on the left side, and \"NORTHWEST TERRITORIES\" on the right.\n- The map includes longitude lines, with markings at 150°W, 140°W, and 130°W.\n- The arrow labeled \"Canadian line\" points to the Canadian claim, and the arrow labeled \"U.S. line\" points to the U.S. claim.\n- The map is credited to © 2010 Coviello, Geographics, Inc., with a reference to www.coveliogeographic.com.\n- The map provides a visual representation of the territorial dispute in the Beaufort Sea region."
+      },
+      {
+        "index": "img3",
+        "uid": "36e994fcc71f1c8f6e07fb8606d6fb52",
+        "score": 0.794143795967102,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestRefImages/refimg_07252.jpg",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map showing a geographical region with marked boundaries.\n- It highlights a route or area of interest outlined in red lines.\n- The map represents a portion of northern Europe, including parts of Scandinavia and the surrounding regions.\n\nFine-grained Description:\n- The map outlines a specific area or route in red lines across several countries.\n- The red lines trace a path through Norway, Sweden, and parts of the surrounding waters.\n- The map shows varied topography, including mountainous regions and coastal areas.\n- The bodies of water, such as the Norwegian Sea and the Baltic Sea, are visible.\n- The map includes parts of the Arctic Circle, indicated by the presence of snow and ice in the northern areas.\n- The landmasses are depicted with varying shades of green and brown, indicating different elevations and vegetation.\n- No specific labels or place names are visible on the map, focusing instead on the outlined route."
+      },
+      {
+        "index": "img4",
+        "uid": "3c5be13507ad2443dea07746fff37c31",
+        "score": 0.7910904884338379,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55433.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map showing a portion of the Pacific Northwest, including coastal regions of Canada and the United States.\n- The map highlights specific geographic areas and notable locations within this region.\n- The purpose of the map is to provide a visual representation of the geography and important sites in this part of North America.\n\nFine-grained Description:\n- The map covers parts of the coastal areas of British Columbia, Canada, and the Pacific Northwest of the United States.\n- Several islands and regions are labeled, including:\n  - Haida Gwaii\n  - Princess of Wales Island\n  - Prince of Wales Island\n  - Douglas Channel\n  - Dau Group Heritage Site Conservancy\n- The map outlines the boundaries of Canada and the United States, with clear demarcation lines.\n- Notable bodies of water include the Pacific Ocean and smaller surrounding waterways.\n- The map uses different shades of blue to represent water and light green for land areas.\n- Various smaller islands and geographic features are marked, indicating their names and locations relative to the larger landmasses.\n- The map provides a general overview rather than detailed topographic information."
+      },
+      {
+        "index": "img5",
+        "uid": "963e14eb86d8e4f41bfebf012d10f394",
+        "score": 0.7868995666503906,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestRefImages/refimg_07255.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map showing part of the northwestern coast of North America, focusing on Alaska and its surrounding areas.\n- It depicts geographical regions with different colors, indicating various territories or features.\n- The map highlights the Prince of Wales Strait and the location of a significant geographical feature, potentially related to natural or political boundaries.\n\nFine-grained Description:\n- The map shows the northwestern part of North America with Alaska prominently displayed.\n- Alaska is divided into several regions, each marked with different colors: yellow, pink, and peach.\n- The Prince of Wales Strait is labeled and marked with an arrow indicating its location.\n- Key locations such as Yakutat and Yakutat Bay are labeled on the map.\n- The map appears to focus on geographic demarcations, possibly showing territorial divisions within Alaska or highlighting specific regions of interest.\n- The surrounding bodies of water are colored in blue, contrasting with the land areas.\n- The map likely serves to illustrate geographical boundaries or features relevant to the area, such as natural regions or navigational routes."
+      },
+      {
+        "index": "img6",
+        "uid": "4a6d70380621ea7a9cc1803720986e74",
+        "score": 0.784490168094635,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55311.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map showing the geographical locations of the United States and Canada, with specific emphasis on maritime boundaries and notable locations.\n- The map highlights key areas such as the Dixon Entrance, the Strait of Juan de Fuca, Machias Seal Island, and the Northwest Passage.\n- The purpose of the map is to illustrate the territorial waters and significant maritime routes between the two countries.\n\nFine-grained Description:\n- The map uses color coding to differentiate between the United States (green) and Canada (orange).\n- The United States is labeled on the west side, while Canada occupies the central and northern areas.\n- Notable locations are marked with red dots and labeled:\n  - Dixon Entrance in the northeastern part of the map.\n  - Strait of Juan de Fuca, separating the U.S. and Canadian territories on the west coast.\n  - Machias Seal Island, located near the southeastern boundary.\n  - The Northwest Passage is shown as a red line through the Canadian Arctic archipelago.\n- The map includes parts of the Pacific Ocean, the Beaufort Sea, and the Atlantic Ocean.\n- The map also shows the geographical proximity of Alaska (part of the United States) to Canada.\n- Labels include \"United States\" and \"Canada\" for easy identification of the countries.\n- The map is oriented with the north at the top, and features latitude and longitude lines for geographical reference."
+      },
+      {
+        "index": "img7",
+        "uid": "678eea3da581e05e1a5c097ceb2df605",
+        "score": 0.781166672706604,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_61061.jpg",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map showing parts of northeastern North America and the surrounding bodies of water.\n- It highlights geographical regions, specifically focusing on water bodies and landmasses.\n- The map indicates the locations of Hudson Bay and the Labrador Sea, providing a context for their geographical positions relative to each other.\n\nFine-grained Description:\n- The map features:\n  - **Landmasses**: The northeastern part of Canada is prominently displayed.\n  - **Bodies of Water**: \n    - **Hudson Bay**: Located to the west, appearing as a large, light blue area.\n    - **Labrador Sea**: Positioned to the east, shown in a similar light blue color.\n  - **Labels**: The names \"Hudson Bay\" and \"Labrador Sea\" are clearly marked on the map.\n  - **Boundaries**: The map outlines the coastlines and the separation between land and sea.\n  - **Scale and Orientation**: The map does not include a scale bar or compass rose, but the orientation suggests north is at the top.\n- The map is simplistic, focusing on the geographical layout without detailed topographical features or political boundaries."
+      },
+      {
+        "index": "img8",
+        "uid": "839c664830d4392085d91a6ad15b24d1",
+        "score": 0.780519425868988,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55363.jpg",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map showing Arctic shipping routes, highlighting the Northern Sea Route (NSR) and the Northwest Passage (NWP).\n- It presents geographical data related to the Arctic region, illustrating potential navigable paths for maritime travel.\n- The main focus is on the routes connecting different regions, emphasizing the shortest paths between locations in the Arctic.\n\nFine-grained Description:\n- The map includes the Arctic Circle and outlines various Arctic countries such as Canada, United States, Russia, Denmark, Norway, and Sweden.\n- **Northern Sea Route (NSR):** Marked with a red line, connecting points from the Barents Sea to the Bering Strait along the northern coast of Russia.\n- **Northwest Passage (NWP):** Marked with a black line, connecting Baffin Bay to the Beaufort Sea through the Canadian Arctic Archipelago.\n- Distance markers in nautical miles are provided along both routes, indicating travel distances between key points.\n- The map shows latitude and longitude lines, providing geographical context.\n- Notable locations and regions are labeled, including the Bering Strait, Baffin Bay, and the Bering Sea.\n- The map is credited to \"The Arctic Institute\" and includes a logo in the bottom left corner.\n- The routes are highlighted to show potential shipping paths, emphasizing shorter travel distances compared to traditional routes."
+      },
+      {
+        "index": "img9",
+        "uid": "5ef5d3e15425b2549d1241871496432b",
+        "score": 0.7784368395805359,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55377.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map showing regions of dispute between the United States and Canada.\n- It highlights areas where boundary disputes exist, specifically in the Arctic and along the northern border.\n- The map focuses on geographical regions like the Beaufort Sea and the Northwest Passage, emphasizing the disputed territories.\n\nFine-grained Description:\n- **Map Details:**\n  - The map features Canada, the United States, Alaska, and Greenland.\n  - The Arctic Ocean, Pacific Ocean, and Atlantic Ocean are labeled.\n  - Regions of dispute are marked with red lines and labeled.\n\n- **Disputed Regions:**\n  - **The Beaufort Sea:** Located between Alaska and the northernmost part of Canada.\n  - **The Northwest Passage:** A sea route through the Canadian Arctic Archipelago.\n  - **The Dixon Entrance:** Near the coast of British Columbia, marking the boundary between the Pacific Ocean and the disputed area.\n  - **The Strait of Juan de Fuca:** Located between the southern tip of Vancouver Island and the Olympic Peninsula in Washington, USA.\n  - **The Machias Sea Island:** Located in the Atlantic Ocean near the U.S.-Canada border.\n\n- **Additional Labels:**\n  - The map includes a scale (300 miles and 300 kilometers) for size reference.\n  - The north direction is indicated with an arrow.\n  \n- **Geographical Context:**\n  - Alaska is shown to the northwest, adjacent to the Beaufort Sea.\n  - The map highlights the northern border between the U.S. and Canada, emphasizing areas of contention."
+      },
+      {
+        "index": "img10",
+        "uid": "4d5f9e6df1301e9528e028a9937d712b",
+        "score": 0.7776142358779907,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55309.jpg",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map illustrating territorial claims and boundaries in the Arctic Ocean.\n- It shows the agreed borders, equidistance lines, 200-mile lines, and Canadian claims in the region.\n- The map highlights the geopolitical interests of Canada, the USA, Russia, and Greenland in the Arctic.\n\nFine-grained Description:\n- **Map Elements:**\n  - **Agreed Borders:** Shown in solid blue lines.\n  - **Equidistance Line:** Indicated by a blue dashed line.\n  - **200-Mile Line:** Represented by a red dashed line.\n  - **Canadian Claim:** Marked in orange.\n  - The map notes all locations are approximate.\n  \n- **Geographical Labels:**\n  - Countries/Regions labeled: USA, Canada, Russia, Greenland.\n  - Arctic Ocean is centrally located with the North Pole marked.\n\n- **Claims and Boundaries:**\n  - Canada's claim extends from its northern coast into the Arctic Ocean.\n  - The equidistance line runs from the North Pole towards Canada and Russia.\n  - The 200-mile line encircles the North Pole, showing potential extended economic zones.\n\n- **Source:**\n  - The map is sourced from the University of Durham, UN, and Marum.\n\n- **Purpose:**\n  - The map serves to illustrate the complex territorial and maritime boundaries in the Arctic, reflecting international claims and agreements."
+      }
+    ]
+  },
+  {
+    "section_index": 5,
+    "requirement": "This section discusses the Machias Seal Island dispute, the only dry land contested between the U.S. and Canada. It recounts the colorful history of individual claimants, the ambiguous wording of historical land grants and treaties, and the ongoing Canadian presence via lighthouse keepers. The section also addresses the associated fishing grounds, the exclusion of the island from previous boundary settlements, and recent tensions over lobster fishing. Key sub-topics include: 1. Historical claims and local figures, 2. Treaty ambiguities and sovereignty assertions, 3. Fishing rights and recent conflicts.",
+    "checklist": [
+      "Machias Seal Island is claimed by both countries due to ambiguous historical grants and treaties.",
+      "Fishing grounds around the island are highly contested, leading to physical altercations between fishermen."
+    ],
+    "images": [
+      {
+        "index": "img1",
+        "uid": "51dfdb64e7b8bdebec7b878bf05ac15d",
+        "score": 0.8042331337928772,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55761.webp",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map showing a portion of the northeastern United States and southeastern Canada, focusing on the maritime border between the two countries.\n- The map highlights a specific area of interest near the border, indicating a \"grey zone\" which represents an area of disputed jurisdiction or overlap.\n- The main topic is the geographical location of this grey zone in relation to the maritime border, featuring notable locations like Cutler and Machias Seal Island.\n\nFine-grained Description:\n- The map includes parts of the U.S. state of Maine and Canadian provinces of New Brunswick and Nova Scotia.\n- The maritime border is marked by a solid line separating the U.S. and Canada.\n- A zoomed-in inset map focuses on the area around Machias Seal Island, showing the grey zone outlined by a dashed line.\n- Notable locations marked on the map are Cutler (in the U.S.) and Machias Seal Island (in the grey zone).\n- The grey zone is highlighted to indicate an area where jurisdiction is disputed or undefined.\n- A scale is provided showing distances in kilometers (20 km) and miles (10 miles).\n- The map is labeled with the North Atlantic Ocean, and a small globe inset shows the location relative to the world map.\n- BBC watermark is present at the bottom right of the map."
+      },
+      {
+        "index": "img2",
+        "uid": "3c5be13507ad2443dea07746fff37c31",
+        "score": 0.7351548075675964,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55433.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map showing a portion of the Pacific Northwest, including coastal regions of Canada and the United States.\n- The map highlights specific geographic areas and notable locations within this region.\n- The purpose of the map is to provide a visual representation of the geography and important sites in this part of North America.\n\nFine-grained Description:\n- The map covers parts of the coastal areas of British Columbia, Canada, and the Pacific Northwest of the United States.\n- Several islands and regions are labeled, including:\n  - Haida Gwaii\n  - Princess of Wales Island\n  - Prince of Wales Island\n  - Douglas Channel\n  - Dau Group Heritage Site Conservancy\n- The map outlines the boundaries of Canada and the United States, with clear demarcation lines.\n- Notable bodies of water include the Pacific Ocean and smaller surrounding waterways.\n- The map uses different shades of blue to represent water and light green for land areas.\n- Various smaller islands and geographic features are marked, indicating their names and locations relative to the larger landmasses.\n- The map provides a general overview rather than detailed topographic information."
+      },
+      {
+        "index": "img3",
+        "uid": "4a6d70380621ea7a9cc1803720986e74",
+        "score": 0.7347688674926758,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55311.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map showing the geographical locations of the United States and Canada, with specific emphasis on maritime boundaries and notable locations.\n- The map highlights key areas such as the Dixon Entrance, the Strait of Juan de Fuca, Machias Seal Island, and the Northwest Passage.\n- The purpose of the map is to illustrate the territorial waters and significant maritime routes between the two countries.\n\nFine-grained Description:\n- The map uses color coding to differentiate between the United States (green) and Canada (orange).\n- The United States is labeled on the west side, while Canada occupies the central and northern areas.\n- Notable locations are marked with red dots and labeled:\n  - Dixon Entrance in the northeastern part of the map.\n  - Strait of Juan de Fuca, separating the U.S. and Canadian territories on the west coast.\n  - Machias Seal Island, located near the southeastern boundary.\n  - The Northwest Passage is shown as a red line through the Canadian Arctic archipelago.\n- The map includes parts of the Pacific Ocean, the Beaufort Sea, and the Atlantic Ocean.\n- The map also shows the geographical proximity of Alaska (part of the United States) to Canada.\n- Labels include \"United States\" and \"Canada\" for easy identification of the countries.\n- The map is oriented with the north at the top, and features latitude and longitude lines for geographical reference."
+      },
+      {
+        "index": "img4",
+        "uid": "57055165f6fcc4639a8823720d41e148",
+        "score": 0.7263212203979492,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestRefImages/refimg_07354.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map illustrating the territorial claims over the Beaufort Sea between the United States and Canada.\n- It shows the geographical boundaries and overlapping claims in the Arctic region.\n- The map highlights the disputed areas and the lines demarcating U.S. and Canadian claims.\n\nFine-grained Description:\n- The map shows the Beaufort Sea with labeled claims from both the U.S. and Canada.\n- The U.S. claim is indicated with a dashed line labeled \"U.S. line.\"\n- The Canadian claim is marked with a solid line labeled \"Canadian line.\"\n- The overlapping area is shaded, indicating a potential dispute or shared interest.\n- The map includes latitude and longitude lines, with degrees marked along the top edge.\n- The Alaskan coast is labeled on the left, while the Canadian Northwest Territories and Yukon are labeled on the right.\n- Nearby islands such as Banks Island and Prince Patrick Island are also labeled.\n- The map is credited to © 2010 Cesium by Sensing Geospatial, Inc."
+      },
+      {
+        "index": "img5",
+        "uid": "73cda97da2aa71910b1d414429b2f0b4",
+        "score": 0.7254982590675354,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55333.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map depicting the disputed territorial claims over the Beaufort Sea between the United States and Canada.\n- It shows the geographical boundaries and areas claimed by both countries.\n- The map highlights the Beaufort Sea and its surrounding regions, including Alaska and the Canadian provinces of Yukon and Northwest Territories.\n\nFine-grained Description:\n- The map features the Beaufort Sea with dashed lines indicating the U.S. and Canadian claims.\n- The U.S. claim is shown with a solid line extending from the Alaskan coast.\n- The Canadian claim is marked by a dashed line extending from the Yukon and Northwest Territories.\n- Labels indicate \"ALASKA\" and \"YUKON\" on the left side, and \"NORTHWEST TERRITORIES\" on the right.\n- The map includes longitude lines, with markings at 150°W, 140°W, and 130°W.\n- The arrow labeled \"Canadian line\" points to the Canadian claim, and the arrow labeled \"U.S. line\" points to the U.S. claim.\n- The map is credited to © 2010 Coviello, Geographics, Inc., with a reference to www.coveliogeographic.com.\n- The map provides a visual representation of the territorial dispute in the Beaufort Sea region."
+      },
+      {
+        "index": "img6",
+        "uid": "04038481a74687f7336179342eddcd59",
+        "score": 0.714917778968811,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55316.png",
+        "caption": "",
+        "description": "### Coarse-grained Description:\nThe image is a map illustrating the maritime boundary dispute between the United States and Canada in the Bay of Fundy region. It highlights the international boundary, fishing zone limits, and the disputed zone. The map focuses on the area around the Canadian Claim and the United States' position, showing geographical features and significant locations such as islands and rocks.\n\n### Fine-grained Description:\n- **Geographical Features**:\n  - The map shows parts of New Brunswick and Maine, with notable islands like Deer Island, Campobello Island, Grand Manan Island, Machias Seal Island, and Long Island.\n  - Gannet Rock is marked as a notable point within the disputed area.\n\n- **Boundaries and Zones**:\n  - **International Boundary**: Dashed line delineating the recognized border between the U.S. and Canada.\n  - **Fishing Zone Limit**: Solid line indicating the extent of fishing rights for each country.\n  - **Disputed Zone**: Shaded area labeled as the \"Canadian Claim\" and \"United States\" showing the contested maritime area.\n\n- **Annotations**:\n  - The \"ICJ Decision\" is marked with an 'A', indicating a significant legal decision related to the boundary dispute.\n  - The map is oriented with latitude (45°N) and longitude (67°W to 66°W) for geographical reference.\n\n- **Key Locations**:\n  - Major locations such as Saint John (New Brunswick) and Cape St. Mary's (part of the U.S. claim) are labeled.\n  - The Bay of Fundy is prominently displayed, indicating the water body central to the dispute.\n\n- **Purpose**:\n  - The map serves to illustrate the complexities of the maritime boundary dispute, showcasing the differing claims and legal considerations between the two countries."
+      },
+      {
+        "index": "img7",
+        "uid": "b6ea43a79c4c87e24d82ecd23e2dee93",
+        "score": 0.714917778968811,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestRefImages/refimg_07285.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map depicting maritime boundaries and zones between the United States and Canada in the Gulf of Maine region.\n- It highlights the international boundary, fishing zone limits, and a disputed zone.\n- The map shows various islands and geographic features in the Bay of Fundy area, illustrating territorial and fishing rights.\n\nFine-grained Description:\n- The map outlines the international boundary between the U.S. and Canada, marked by a dashed line.\n- A solid line represents the fishing zone limit, while a shaded area indicates the disputed zone.\n- Key geographic features include Campobello Island, Deer Island, Machias Seal Island, and Long Island.\n- The map notes the \"Canadian Claim\" area within the disputed zone.\n- The International Court of Justice (ICJ) Decision point is labeled as 'A', influencing the boundary line.\n- The Bay of Fundy is prominently displayed, with Gannet Rock marked as a notable point.\n- Latitudes and longitudes are indicated, with lines at 45°N and between 66°W and 67°W.\n- The map includes labels for New Brunswick, Maine, and locations like Saint John and Cape St. Mary's."
+      },
+      {
+        "index": "img8",
+        "uid": "04038481a74687f7336179342eddcd59",
+        "score": 0.7133245468139648,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55316.png",
+        "caption": "",
+        "description": "### Coarse-grained Description:\nThe image is a map illustrating the maritime boundary dispute between the United States and Canada in the Bay of Fundy region. It highlights the international boundary, fishing zone limits, and the disputed zone. The map focuses on the area around the Canadian Claim and the United States' position, showing geographical features and significant locations such as islands and rocks.\n\n### Fine-grained Description:\n- **Geographical Features**:\n  - The map shows parts of New Brunswick and Maine, with notable islands like Deer Island, Campobello Island, Grand Manan Island, Machias Seal Island, and Long Island.\n  - Gannet Rock is marked as a notable point within the disputed area.\n\n- **Boundaries and Zones**:\n  - **International Boundary**: Dashed line delineating the recognized border between the U.S. and Canada.\n  - **Fishing Zone Limit**: Solid line indicating the extent of fishing rights for each country.\n  - **Disputed Zone**: Shaded area labeled as the \"Canadian Claim\" and \"United States\" showing the contested maritime area.\n\n- **Annotations**:\n  - The \"ICJ Decision\" is marked with an 'A', indicating a significant legal decision related to the boundary dispute.\n  - The map is oriented with latitude (45°N) and longitude (67°W to 66°W) for geographical reference.\n\n- **Key Locations**:\n  - Major locations such as Saint John (New Brunswick) and Cape St. Mary's (part of the U.S. claim) are labeled.\n  - The Bay of Fundy is prominently displayed, indicating the water body central to the dispute.\n\n- **Purpose**:\n  - The map serves to illustrate the complexities of the maritime boundary dispute, showcasing the differing claims and legal considerations between the two countries."
+      },
+      {
+        "index": "img9",
+        "uid": "b6ea43a79c4c87e24d82ecd23e2dee93",
+        "score": 0.7133245468139648,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestRefImages/refimg_07285.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map depicting maritime boundaries and zones between the United States and Canada in the Gulf of Maine region.\n- It highlights the international boundary, fishing zone limits, and a disputed zone.\n- The map shows various islands and geographic features in the Bay of Fundy area, illustrating territorial and fishing rights.\n\nFine-grained Description:\n- The map outlines the international boundary between the U.S. and Canada, marked by a dashed line.\n- A solid line represents the fishing zone limit, while a shaded area indicates the disputed zone.\n- Key geographic features include Campobello Island, Deer Island, Machias Seal Island, and Long Island.\n- The map notes the \"Canadian Claim\" area within the disputed zone.\n- The International Court of Justice (ICJ) Decision point is labeled as 'A', influencing the boundary line.\n- The Bay of Fundy is prominently displayed, with Gannet Rock marked as a notable point.\n- Latitudes and longitudes are indicated, with lines at 45°N and between 66°W and 67°W.\n- The map includes labels for New Brunswick, Maine, and locations like Saint John and Cape St. Mary's."
+      },
+      {
+        "index": "img10",
+        "uid": "66e27604e3c48b5a7e334cd2ef76d4ee",
+        "score": 0.7118303775787354,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55255.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map depicting a historical territorial dispute between the United States and the United Kingdom over a region known as the \"Disputed Territory.\"\n- It illustrates the boundaries claimed by each country and the eventual resolution via the Webster-Ashburton Treaty of 1842.\n- The map highlights geographic features and the agreed border lines.\n\nFine-grained Description:\n- **Territorial Claims**:\n  - The map shows the area marked in pink as the disputed territory between the U.S. and the U.K.\n  - The green line represents the border defined by the Webster-Ashburton Treaty of 1842.\n  \n- **Boundaries**:\n  - The dashed purple line indicates the border defined by the treaty.\n  - The black line labeled \"Border claimed by the United States\" shows the U.S. claim.\n  - The red dashed line indicates the border claimed by the United Kingdom.\n\n- **Geographic Features**:\n  - Major rivers such as the St. Lawrence River and the Saint John River are labeled.\n  - The map includes parts of present-day states and provinces like Quebec, New Brunswick, and Vermont.\n\n- **Labels and Annotations**:\n  - \"Disputed Territory\" is labeled within the pink shaded area.\n  - Arrows point to the disputed area and the agreed border, indicating the claims and resolution.\n  - Latitude lines (45° and 46°) and longitude lines are marked for reference.\n\n- **Regions**:\n  - The map covers parts of the northeastern United States and southeastern Canada, showing the complexity of the border dispute in this region."
+      }
+    ]
+  },
+  {
+    "section_index": 6,
+    "requirement": "This section provides references for further reading and credits for images and data sources used throughout the article. It points readers to additional resources on each dispute and acknowledges the work of David H. Gray and the International Boundaries Research Unit.",
+    "checklist": [
+      "The article cites multiple external sources for deeper exploration of each dispute.",
+      "Most images and data are credited to David H. Gray and the IBRU at Durham University."
+    ],
+    "images": [
+      {
+        "index": "img1",
+        "uid": "57055165f6fcc4639a8823720d41e148",
+        "score": 0.7157900333404541,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestRefImages/refimg_07354.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map illustrating the territorial claims over the Beaufort Sea between the United States and Canada.\n- It shows the geographical boundaries and overlapping claims in the Arctic region.\n- The map highlights the disputed areas and the lines demarcating U.S. and Canadian claims.\n\nFine-grained Description:\n- The map shows the Beaufort Sea with labeled claims from both the U.S. and Canada.\n- The U.S. claim is indicated with a dashed line labeled \"U.S. line.\"\n- The Canadian claim is marked with a solid line labeled \"Canadian line.\"\n- The overlapping area is shaded, indicating a potential dispute or shared interest.\n- The map includes latitude and longitude lines, with degrees marked along the top edge.\n- The Alaskan coast is labeled on the left, while the Canadian Northwest Territories and Yukon are labeled on the right.\n- Nearby islands such as Banks Island and Prince Patrick Island are also labeled.\n- The map is credited to © 2010 Cesium by Sensing Geospatial, Inc."
+      },
+      {
+        "index": "img2",
+        "uid": "73cda97da2aa71910b1d414429b2f0b4",
+        "score": 0.7140953540802002,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55333.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map depicting the disputed territorial claims over the Beaufort Sea between the United States and Canada.\n- It shows the geographical boundaries and areas claimed by both countries.\n- The map highlights the Beaufort Sea and its surrounding regions, including Alaska and the Canadian provinces of Yukon and Northwest Territories.\n\nFine-grained Description:\n- The map features the Beaufort Sea with dashed lines indicating the U.S. and Canadian claims.\n- The U.S. claim is shown with a solid line extending from the Alaskan coast.\n- The Canadian claim is marked by a dashed line extending from the Yukon and Northwest Territories.\n- Labels indicate \"ALASKA\" and \"YUKON\" on the left side, and \"NORTHWEST TERRITORIES\" on the right.\n- The map includes longitude lines, with markings at 150°W, 140°W, and 130°W.\n- The arrow labeled \"Canadian line\" points to the Canadian claim, and the arrow labeled \"U.S. line\" points to the U.S. claim.\n- The map is credited to © 2010 Coviello, Geographics, Inc., with a reference to www.coveliogeographic.com.\n- The map provides a visual representation of the territorial dispute in the Beaufort Sea region."
+      },
+      {
+        "index": "img3",
+        "uid": "3c5be13507ad2443dea07746fff37c31",
+        "score": 0.7011973857879639,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55433.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map showing a portion of the Pacific Northwest, including coastal regions of Canada and the United States.\n- The map highlights specific geographic areas and notable locations within this region.\n- The purpose of the map is to provide a visual representation of the geography and important sites in this part of North America.\n\nFine-grained Description:\n- The map covers parts of the coastal areas of British Columbia, Canada, and the Pacific Northwest of the United States.\n- Several islands and regions are labeled, including:\n  - Haida Gwaii\n  - Princess of Wales Island\n  - Prince of Wales Island\n  - Douglas Channel\n  - Dau Group Heritage Site Conservancy\n- The map outlines the boundaries of Canada and the United States, with clear demarcation lines.\n- Notable bodies of water include the Pacific Ocean and smaller surrounding waterways.\n- The map uses different shades of blue to represent water and light green for land areas.\n- Various smaller islands and geographic features are marked, indicating their names and locations relative to the larger landmasses.\n- The map provides a general overview rather than detailed topographic information."
+      },
+      {
+        "index": "img4",
+        "uid": "891ea9dd441c610b6776c0eb4fac07da",
+        "score": 0.6870063543319702,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55350.jpg",
+        "caption": "",
+        "description": "### Coarse-grained Description:\n- The image presents detailed information about coastlines, territorial sea baselines, legal limits, and maritime boundaries for the United States and Canada.\n- It includes data on positional accuracy, baseline types, legal distance limits, and international treaties affecting maritime boundaries.\n- The main focus is on geographic and legal definitions pertaining to coastal and maritime zones.\n\n### Fine-grained Description:\n\n#### A. Coastlines\n- **World Vector Shorelines (WVS) (1994)**: \n  - Positional accuracy is ±1,000 meters, worse in the Arctic.\n- **WVS II (2004)**:\n  - Positional accuracy is ±100 meters, worse in the Arctic.\n\n#### B. Territorial Sea Baseline Model (TSBM) for Coastal States\n- **United States**:\n  - TSBM not published (gazetted).\n  - Uses 'normal baselines' based on LOS (Line of Sight) mathematical measurements from NOAA nautical charts.\n- **Canada**:\n  - TSBM published (gazetted).\n  - Uses combinations of 'straight baselines' and 'normal baselines'.\n\n#### C. LOS 'Legal Limits'\n- **United States**:\n  - 0–3 nautical miles (M): State limit\n  - 3–12 M: Federal territorial sea\n  - 12–24 M: Federal contiguous zone\n  - 24–200 M: Federal EEZ (Exclusive Economic Zone)\n- **Canada**:\n  - 0–12 M: Territorial sea\n  - 12–24 M: Contiguous zone\n  - 24–200 M: EEZ\n\n#### D. Maritime Boundaries\n- **United States and Russia**:\n  - West of LOS-DTS AOI: Treaty of 1 June 1990.\n  - Follows 'meridian line' principle.\n- **Canada and Denmark (Greenland)**:\n  - East of LOS-DTS AOI: Treaty of 17 December 1973.\n  - Follows 'strict equidistance line' principle.\n- **United States and Canada**:\n  - Analysis for this LOS-DTS unresolved (US unilateral line).\n  - Follows 'strict equidistance line' principle.\n\nThe table provides a comprehensive overview of the geographical and legal frameworks governing coastal and maritime areas for the United States and Canada, highlighting the differences in baseline usage and legal maritime zones."
+      },
+      {
+        "index": "img5",
+        "uid": "29d978cfcec1ebfb33e58e529bda5142",
+        "score": 0.6869550943374634,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55358.jpg",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map depicting maritime boundaries and currents between the USA and Canada, focusing on the relevant coastal frontages and Exclusive Economic Zones (EEZ).\n- It illustrates the USA and Canada's normal baselines, the 200-mile EEZ, and ocean current directions.\n- The map conveys information about maritime zones and oceanographic features influencing the region.\n\nFine-grained Description:\n- The map shows the USA and Canada's coastal areas with labels indicating \"USA Normal Baselines\" and \"CANADA Strait & Normal Baselines.\"\n- The arrow symbols represent ocean current directions, with thicker arrows likely indicating stronger currents.\n- A dotted line marks the 200-mile Exclusive Economic Zone (EEZ) boundary extending from the coast.\n- The location labeled \"LTP\" (presumably a specific point of interest) is marked with a star symbol.\n- The scale at the bottom indicates the map covers a distance of 3,750,000 units.\n- The map highlights the geographical proximity and maritime boundaries relevant to both countries, emphasizing the interaction of ocean currents in the region."
+      },
+      {
+        "index": "img6",
+        "uid": "942a7b163acf80c637d310b52ee39248",
+        "score": 0.6839000582695007,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_60651.jpg",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a vintage map depicting the coastal region of California, including parts of the surrounding areas and nearby islands.\n- The map shows geographical details such as coastlines, mountain ranges, and possibly settlement locations, providing a historical perspective of the area.\n- The main focus is on the topography and geographic layout of the region, useful for understanding historical exploration or settlement patterns.\n\nFine-grained Description:\n- The map illustrates the western coastline of what appears to be California, with detailed contour lines indicating mountain ranges and elevation changes.\n- The coastline is prominently featured, with the Pacific Ocean marked in blue.\n- Several islands are depicted off the southern coast, likely representing the Channel Islands.\n- The map includes latitude and longitude lines, aiding in geographical orientation.\n- There are various place names and possibly mission or settlement markers along the coast, indicating historical locations.\n- The map has a grid overlay, which might be used for navigation or reference purposes.\n- There are annotations and possibly a legend or scale at the bottom, though the text is not legible in the image.\n- The overall color scheme is muted, with earthy tones for land and blue for water, typical of historical maps."
+      },
+      {
+        "index": "img7",
+        "uid": "bfd24b9e88c2e3071f359afba933dc4d",
+        "score": 0.6836705207824707,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55352.jpg",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map illustrating the maritime boundaries between the USA and Canada, specifically focusing on the delineation of territorial waters and Exclusive Economic Zones (EEZ).\n- The map shows various lines indicating different types of boundaries, including normal baselines, unilateral lines, and the 200-meter depth contour (EEZ).\n- The main topic is the geographical and legal demarcation of maritime zones between the two countries, including the Area of Cooperation (AOC).\n\nFine-grained Description:\n- The map highlights several key areas and lines:\n  - **USA and Canada Normal Baselines**: Dotted lines marking the standard baselines for each country.\n  - **USA Unilateral Line**: A dashed line indicating a boundary claimed unilaterally by the USA.\n  - **Canada Unilateral Line**: A solid line indicating a boundary claimed unilaterally by Canada.\n  - **Canada Straight & Normal Baselines**: Lines showing Canada's defined baselines.\n  - **200M (EEZ)**: The 200-meter depth contour line marking the outer limit of the Exclusive Economic Zone.\n  - **AOC (Area of Cooperation)**: A shaded area labeled as the Area of Cooperation between the countries.\n- The map includes annotations for specific locations:\n  - **LTP**: A marked point, possibly a landmark or treaty point.\n  - **Geodetic and Planimetric Measurements**: Boxes showing calculated areas in square kilometers and nautical miles for the demarcated zones.\n- The scale of the map is noted as 3,750,000, providing context for the distances shown.\n- The map visually represents the complex interplay between geographical features and legal maritime boundaries, emphasizing areas of cooperation and contention between the USA and Canada."
+      },
+      {
+        "index": "img8",
+        "uid": "66e27604e3c48b5a7e334cd2ef76d4ee",
+        "score": 0.6823606491088867,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55255.png",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map depicting a historical territorial dispute between the United States and the United Kingdom over a region known as the \"Disputed Territory.\"\n- It illustrates the boundaries claimed by each country and the eventual resolution via the Webster-Ashburton Treaty of 1842.\n- The map highlights geographic features and the agreed border lines.\n\nFine-grained Description:\n- **Territorial Claims**:\n  - The map shows the area marked in pink as the disputed territory between the U.S. and the U.K.\n  - The green line represents the border defined by the Webster-Ashburton Treaty of 1842.\n  \n- **Boundaries**:\n  - The dashed purple line indicates the border defined by the treaty.\n  - The black line labeled \"Border claimed by the United States\" shows the U.S. claim.\n  - The red dashed line indicates the border claimed by the United Kingdom.\n\n- **Geographic Features**:\n  - Major rivers such as the St. Lawrence River and the Saint John River are labeled.\n  - The map includes parts of present-day states and provinces like Quebec, New Brunswick, and Vermont.\n\n- **Labels and Annotations**:\n  - \"Disputed Territory\" is labeled within the pink shaded area.\n  - Arrows point to the disputed area and the agreed border, indicating the claims and resolution.\n  - Latitude lines (45° and 46°) and longitude lines are marked for reference.\n\n- **Regions**:\n  - The map covers parts of the northeastern United States and southeastern Canada, showing the complexity of the border dispute in this region."
+      },
+      {
+        "index": "img9",
+        "uid": "3777ae7cc7c257f48ce7d389a061fa1f",
+        "score": 0.675879716873169,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_53734.jpg",
+        "caption": "",
+        "description": "### Coarse-grained Description:\n- The image is a map illustrating ocean currents in the North Atlantic Ocean, focusing on the Gulf Stream system.\n- The map shows the distribution and direction of currents, emphasizing the movement of water in this region.\n- The primary purpose is to highlight the path and behavior of the Gulf Stream as it flows from the Gulf of Mexico towards the North Atlantic.\n\n### Fine-grained Description:\n- The map depicts the North Atlantic Ocean with a specific focus on the Gulf Stream.\n- **Ocean Currents**: \n  - Numerous arrows indicate the direction and flow of ocean currents, predominantly showing the Gulf Stream moving northeastward.\n  - The arrows are densely packed along the path of the current, suggesting strong and consistent flow.\n- **Geographical Features**:\n  - The map includes parts of North America on the left, with Lake Okeechobee labeled, and Europe on the right, labeled as \"Atlantic Ocean.\"\n  - Shaded areas represent landmasses, and lighter areas indicate open water where currents are depicted.\n- **Current Path**:\n  - The Gulf Stream is shown originating in the Gulf of Mexico, moving along the eastern coast of the United States, and then curving towards Europe.\n- **Notable Features**:\n  - The map includes a compass rose for orientation, indicating north direction.\n  - The density and alignment of arrows illustrate the strength and direction of the currents, with variations indicating possible eddies or changes in current strength.\n\nThis map effectively communicates the major pathways of the Gulf Stream and its influence in the North Atlantic."
+      },
+      {
+        "index": "img10",
+        "uid": "51dfdb64e7b8bdebec7b878bf05ac15d",
+        "score": 0.6733517646789551,
+        "img_path": "/root/autodl-tmp/Deep-Report/data/sandbox/images/TestAugImages/augimg_55761.webp",
+        "caption": "",
+        "description": "Coarse-grained Description:\n- The image is a map showing a portion of the northeastern United States and southeastern Canada, focusing on the maritime border between the two countries.\n- The map highlights a specific area of interest near the border, indicating a \"grey zone\" which represents an area of disputed jurisdiction or overlap.\n- The main topic is the geographical location of this grey zone in relation to the maritime border, featuring notable locations like Cutler and Machias Seal Island.\n\nFine-grained Description:\n- The map includes parts of the U.S. state of Maine and Canadian provinces of New Brunswick and Nova Scotia.\n- The maritime border is marked by a solid line separating the U.S. and Canada.\n- A zoomed-in inset map focuses on the area around Machias Seal Island, showing the grey zone outlined by a dashed line.\n- Notable locations marked on the map are Cutler (in the U.S.) and Machias Seal Island (in the grey zone).\n- The grey zone is highlighted to indicate an area where jurisdiction is disputed or undefined.\n- A scale is provided showing distances in kilometers (20 km) and miles (10 miles).\n- The map is labeled with the North Atlantic Ocean, and a small globe inset shows the location relative to the world map.\n- BBC watermark is present at the bottom right of the map."
+      }
+    ]
+  }
+]
